@@ -1,0 +1,576 @@
+# CAMPUS2CONNECT — FINAL BALANCED MASTER IMPLEMENTATION PROMPT
+## Version 4.0 | One Ecosystem • Six Complete Modules • One Identity • One Admin • One Data Architecture
+
+> **AUTHORITATIVE WORK INSTRUCTION — BUILD ONE CAMPUS2CONNECT ECOSYSTEM.** This is a **self-contained final development prompt**: read ALL of it before implementing. If Master Blueprint v2.1.2, the owner-supplied earlier prompts or a logo asset are also attached, use them as supplementary evidence to verify original requirements, never to override the latest explicit decisions here. Audit all three real GitHub codebases before asserting what is already implemented. This version resolves conflicts and restores **balanced depth across ALL six modules**. It is NOT an IELTS-only specification. The Passport Band v2.1.4 is MODULE 02 inside this same website, not a separate product or domain.
+
+**Product:** Campus2Connect (public text: Campus2Connect; where needed, human-readable Campus To Connect is acceptable only if approved).  
+**Type:** International education discovery, preparation and applicant lifecycle management platform.  
+**Goal:** Functional, tested full-stack implementation and authorized private staging, not merely a homepage, design or plan.  
+**Baseline incorporated into this self-contained prompt:** Master Blueprint v2.1.2, Campus ecosystem v3.1, integrated v3.2, and IELTS requirements v2.1.4 interpreted solely as a nested module.  
+**Architecture:** Domain-driven modular monolith + clean architecture + selective event-driven jobs.  
+**Process:** Iterative/incremental development, Scrumban, Git checkpoints, automated and manual testing.  
+**Initial budget:** ৳0, no debit/credit card, no paid services, no surprise billing.  
+**Initial design capacity:** about 500 monthly active users; **active document quota** 10 MB per registered applicant.  
+**Proposed target:** 1 November 2026 for an **honestly scoped and validated integrated MVP**, not a promise of complete global coverage.  
+**Brand:** Use the owner's exact approved logo image unmodified, even if wording inside the image differs. Do not regenerate/retype/crop/recolor the logo.  
+**Private owner data:** Never preload the owner's name, email, academic/financial records, personal credentials, or “ChatGPT” attribution into public UI, repository samples, URLs or metadata.  
+**Production safety:** No live production cutover, public publication, live payment activation, irreversible deletion or paid provisioning without explicit approval.
+
+---
+
+# SECTION A — OBJECTIVE, NON-NEGOTIABLE RULES AND GOVERNANCE
+
+## A1. Engineering team and output standard
+Act as principal architect, full-stack engineer, Next.js specialist, PostgreSQL architect, product manager, designer, education-domain analyst, visa-information architect, security engineer, DevOps engineer and QA lead. Design AND implement a coherent, responsive, maintainable product. The result must contain real route behavior, validated forms, persistence, authorization, tests, reproducible configuration and documentation. Do not treat an empty dashboard, dummy button, mocked provider response or planned feature as complete.
+
+## A2. Parent/submodule rule — never split the product
+A single public parent site, **Campus2Connect**, has six primary modules:
+
+| Module | Brand and location | Relationship |
+|---|---|---|
+| M01 | Global Countries, `/countries`, `/universities`, `/programmes` | Italy Journey becomes `/countries/italy` |
+| M02 | The Passport Band, `/ielts/*` | Full IELTS v2.1.4 nested section, freshly designed UI |
+| M03 | Visa Application, `/visa/*` | Country visas, embassies and updates |
+| M04 | VisaFund, `/visafund/*` | Existing fund tracker reused and secured |
+| M05 | Paid Counseling, `/counseling/*` | Paid-only catalogue, booking, payment adapter |
+| M06 | Applicant Workspace, `/applicant/*` | Shared profile, shortlists, applications, documents, 24-hour planner |
+
+Shared infrastructure: `/admin/*`, `/login`, `/register`, `/account`, `/api/v1/*`, global search, CMS, recommendations, official-source verification, notifications, backups and reporting. **One applicant identity, one admin identity system, one PostgreSQL-backed source of truth, one schedule service and one primary codebase/monorepo.** Submodule landing pages and distinct UI navigation are allowed; independent deployments and duplicated user registries are not.
+
+## A3. Latest approved design and login conflict resolution
+- **Logo:** preserve the exact provided file. The product name displayed in HTML is Campus2Connect. If the logo image contains Campus to Country, DO NOT edit it or silently overlay text; flag the discrepancy for a later optional separate logo decision. Do not delay platform development.
+- **IELTS design:** create a completely NEW premium IELTS internal UI rather than copying the old The Passport Band UI. Reuse useful old source, lesson text, question logic and media with lawful rights and verification.
+- **Login:** Campus2Connect centrally supports Register/Login to safeguard cross-module applicant data. Guest users can browse verified public country/IELTS content and eligible free IELTS practice without creating a second account. Guest practice progress may remain locally in IndexedDB, then import with explicit consent and deduplication to the main account. **No duplicate IELTS-specific login.**
+- **Premium:** content gated through server authorization; sale and live collection disabled initially. Counseling is paid-only in product policy, with mock/sandbox workflow until an approved merchant account exists.
+- **Old repositories:** the owner says ALL THREE were pushed to GitHub. Discover actual repositories through authorized connections, inspect and preserve them; if any are inaccessible, mark a specific blocker, continue unrelated work and do not falsely claim a successful migration.
+
+## A4. Change-control and source hierarchy
+Use: (1) latest owner instructions; (2) attached authoritative blueprint and current master spec; (3) verified behavior of three original codebases; (4) official external-source facts. Existing completed features must not disappear. Resolve contradictions explicitly in a decision log, without silently choosing the easiest implementation. Maintain a requirements traceability matrix: requirement ID → module → route → DB/API → test → implementation status → Git commit.
+
+## A5. Privacy and zero-spend invariants
+No public owner personal identifiers; no login, banking or merchant secrets checked into source; no real sensitive data in seed records. No card-required service or billable upgrade without owner confirmation. Select actual current Free-tier options by checking present terms, rates, commercial-use limitations, inactivity policies and signup conditions at implementation time. **Free-first is an architectural constraint, not a claim that any vendor guarantees perpetual free operation.**
+
+---
+
+# SECTION B — SOURCE-CODE AUDIT, PRESERVATION AND INTEGRATION
+
+## B1. Audit first, but do not block independent implementation
+Locate and inspect all three original GitHub projects: **The Passport Band**, **VisaFund**, and **Italy MSc Journey / Italy University Portal**. Determine repository URL/visibility, access scope, default branch, commit SHA, stack/framework, package and lock files, environment variable names (not secret values), dependency versions, complete route and component list, existing backend/DB/auth, media and question content, tests and deployment. Map data persistence across browser storage, database and APIs. Do not assume repository names or complete GitHub pushes.
+
+## B2. Feature-level preservation matrix
+For EACH codebase produce tables containing: original route and behavior; related files/components; user inputs/outputs; data model; side effects; constraints; authorization; candidate shared UI component; target Campus2Connect route; needed adapters; migration and regression test; owner-approved visual redesign scope; status. Status values: **Preserved**, **Adapted**, **Migrated Tested**, **In Progress**, **Blocked**, **Needs Approval**. Include old input validations, calculations, export formats, timers, recorded results, bespoke workflows and configuration, not only visible navigation links.
+
+## B3. Safe migration protocol
+- Record three original commit hashes; create immutable backups/tags; never force-push or delete original default branches.
+- Create a new authorized central repository or protected integration branch. Keep historical copies or traceable Git references (not blindly nested duplicate installations).
+- Use route mapping, schema mapping, content migration, user mapping and test fixtures. Preserve media license metadata.
+- Implement adapters for incompatible stacks. Existing code may need conversion from HTML/CSS/JS or other languages into TypeScript components; preserve behavior, not necessarily old layout.
+- Maintain legacy access until integration is verified and owner approves cutover. Set up rollback, DB backup, restore rehearsal and a final data sync plan.
+- Check whether any services continue accepting new writes during migration; avoid split-brain data.
+- Re-test after EVERY migration, including data isolation, forms, calculations, exports, navigation and mobile behavior.
+- When a repo is incomplete, do not wait to build independent parts, especially central shell, countries, visa, counseling and applicant foundation.
+
+## B4. Demonstrable cross-module migrations
+User must be able to move from an imported Italian programme to the common shortlist, application record and linked visa checklist; see VisaFund records in their applicant finance view; see IELTS results and study session minutes in the same account and global calendar. None of these should link to an unrelated offsite login.
+
+---
+
+# SECTION C — GLOBAL BRAND, NAVIGATION, DESIGN AND PUBLIC CONTENT
+
+## C1. Product-level UX
+Create a visually coherent international education platform: premium, clean, neutral, navy/teal/muted-gold cues drawn from uploaded logo, not excessive gradients or gimmicky 3D. Suggested **UI-only** colors: navy `#102B52`, deep navy `#071C3B`, teal `#087F8C`, muted gold `#C9A45E`, off-white `#F8FAFC`. The logo pixels are immutable. Use a consistent open font (Inter, Manrope or Plus Jakarta Sans), accessible contrast, clear typography, generous layout and meaningful whitespace. Responsive for mobile/tablet/laptop/desktop; keyboard access, labels, focus, semantic structure and reduced-motion support.
+
+## C2. Homepage and information architecture
+Public shell: logo, Home, Countries, The Passport Band, Visa Application, VisaFund, Paid Counseling, Applicant Workspace, Login/Account, verified updates, Contact. Use compact grouped mega menus and mobile navigation rather than an enormous one-row header. Homepage includes hero, global university/programme search, featured verified countries/programmes, public and private universities, scholarships, deadlines, six interconnected services, latest verified university/visa notices, platform explanation, FAQ and footer. Use honest empty states when there is no source-backed data. No fabricated testimonials, institutional partnerships or success counters.
+
+## C3. Motion and interaction
+Implement purposeful Motion or CSS transitions for card hover, navigation, hero entrance, progress, modals, calendars and responsive panels. Optimize performance, prefer lightweight SVG/icons to heavy animations, honor `prefers-reduced-motion`, do not compromise slow phones or educational reading tasks. Design to accommodate long country pages, source links and complex tables. Never render nonfunctional display-only actions.
+
+## C4. Shared user journeys
+Visitor: open destination → filter universities → verify source → read IELTS guide → try free practice. Registered applicant: complete profile → shortlist programme → track application → schedule tasks → practice IELTS → record actual study time → manage fund preparation → upload private documents → track visa → book counseling. Admin: correct source → publish country/programme → add IELTS question → update visa notice → manage counseling package → audit backup. All use the same visual system and shared route conventions.
+
+---
+
+# SECTION D — M01 GLOBAL COUNTRIES, INSTITUTIONS, PROGRAMMES AND SCHOLARSHIPS
+
+## D1. Full geographic and academic scope
+Cover **all European countries (EU and non-EU) except Russia initially**, plus **China, Japan, South Korea, USA, Canada, Australia and New Zealand**. Expand by CMS config; do not limit to the owner's personal shortlist. Include public/private universities, universities of applied sciences and other recognized institutions. Degrees: Bachelor's, Master's, PhD/Doctoral, foundation, diploma, certificate, short courses and supported alternatives. Programmes in all recognized subjects, not only AI/CSE. Each programme must have appropriate language of instruction; distinguish English-only, bilingual/mixed, local-language and unspecified, with filters.
+
+## D2. Navigable information hierarchy
+`Continent/Region → Country → Institution → Campus → Programme → Intake`. Admin may create nested country/subject/degree pages and custom content blocks. Example hierarchy:
+- Country overview: education system, degree structures, application routes, recognized university types, admission stages, study costs, scholarship categories, general documentation, official visa authority links and sources.
+- Institution: official and alternate names, location, campus, public/private status, institutional recognition, university site, admissions site, faculty, languages, international contact, available programmes.
+- Programme: canonical degree/title, subject, specializations, admission category, campus, duration, ECTS/credits where applicable, teaching language, mode, intake, prerequisites, GPA/percentage/rank language (only where official), entrance test/interview, required files, eligibility conditions, application process, fees, scholarship pathways, specific deadline and source.
+- Intake: academic year, opening/closing dates, intended student group (international, EU, non-EU), availability and application portal. Never mix the deadlines or fees for two separate intakes.
+
+## D3. Comprehensive programme page
+Show concise essential facts and expandable detail: Overview; Who Can Apply; Academic Prerequisites; Language Requirements; Recognized Qualifications; University Fees; Application Fee; Estimated Living Costs if adequately sourced; Scholarships and funding; Required Documents; Recognition/translation/legalization notes; Selection and interview; Step-by-Step Application; Important Dates; Direct Official Links; Verified Sources and Last Updated; Student Notes/Saved status. For missing data, show **Not verified** rather than zeros or guessed thresholds.
+
+## D4. Official links are core functionality
+Each institution/programme should have targeted link records: university home; programme detail; admissions; academic requirements; language criteria; fees; scholarship office; call/notice; intake deadline; online application system; international admissions contact. Check broken links, record redirects where appropriate, last tested and source type; open appropriately. Do not replace known deep links with Google search or non-official aggregator landing pages. Make external source provenance visible in UI.
+
+## D5. Search, filtering and comparison
+Fast text search across name, institution, country, city, academic subject and programme keywords. Filters: region, country, city, recognition/type, Bachelor/Master/Doctoral, field, language (English-only), study mode, on-site/online, duration, tuition annual/semester clarity, application fee, scholarship, intake, application deadline and relevant criteria. Sorting, paginated results, empty/loading states, URL-shareable filters, bookmark/shortlist, saved searches and side-by-side programme comparison with sources. Distinguish missing fee from a free programme.
+
+## D6. Scholarships and admissions paths
+Separate scholarships into university-specific, government/national, regional need-based, merit-based, joint programme and external opportunities. Data: name, eligibility, eligible nationality, eligible degree, provider, award amount/coverage if verified, tuition-waiver scope, application method (automatic/separate/after admission), dates, official link, source and update time. Never claim scholarship guaranteed or available before arrival unless verified. Show prerequisite sequencing and costs where sourced, clearly separate **university admission** from **funding decision**.
+
+## D7. Reuse the existing Italy Journey repository
+Map Italy legacy content into `/countries/italy/*`: universities, institutional types, academic programmes, scholarship schemes, pre-enrolment, application fees, deadlines, admissions notes, official links, filters, existing calculators and assessment logic. Preserve all source-backed Italy details and bespoke user workflows. Convert Italy-specific hardcoding into extensible common structures without losing special conditions. Audit actual records before asserting completeness. Italy can become the first migration/pilot but must not be the only country supported.
+
+## D8. End-to-end success criteria
+An admin can add an institution, campus, programme and intake without a code release. A student can filter English-only Master's programmes, compare real records with source dates, save one to the cross-module shortlist, open the official application URL and schedule its actual deadline in the central calendar. Unit tests for tuition units, academic-year deadlines, data isolation and not-verified statuses; browser tests for search, pagination and deep links.
+
+---
+
+# SECTION E — M01 DATA DISCOVERY, VERIFICATION AND PROGRAMME RECOMMENDATIONS
+
+## E1. Authorized source policy
+Priority: official university and programme pages; official admissions/registries/governments; permitted public datasets and APIs. Secondary discovery: Studyportals/Bachelorsportal/Mastersportal/PhDportal/Shortcoursesportal/Distancelearningportal and other authorized directories, plus permitted search providers. Respect licensing, robots, rate limits and copyright. Do not invent an always-free Google scraping/API entitlement, bypass CAPTCHA or wholesale copy paid databases. Use official deep links even when a record originated from a discovery directory.
+
+## E2. Provider pipeline and review
+`Discover → Fetch (permitted) → Extract → Normalize → Associate country/institution/programme/intake → Validate → Deduplicate → Compare with existing → Flag conflicts → Admin review → Publish → Recheck`. Implement source adapters (HTTP/API/structured data/manual imports), scheduled jobs, backoff, retry, log, review queue, source disablement, dry-run before destructive overwrite, provenance and rollback. Auto discovery is not an excuse to auto publish ambiguous fees or deadlines.
+
+## E3. Record integrity
+Keep `source_url`, `source_title`, `source_type`, `programme_id`, `intake_id`, `academic_year`, `verified_at`, `checked_at`, `change_detected_at`, `verification_status`, `reviewed_by`, and optionally change diff and confidence rationale. Statuses: Verified, Changed, Needs Review, Stale, Link Broken, Source Unavailable, Not Found. Different fields may have different source dates. Use canonical IDs and history tables to avoid duplicates and protect previously corrected records.
+
+## E4. Update monitoring and notifications
+Check allowed sources for programme status, language, costs, scholarship conditions, application fees, deadlines and application URLs; notify subscribed users only for meaningful verified changes. Admin can inspect job failures, links, change diffs, conflicts and unsupported providers, then approve/publish corrections. Do not pretend every university worldwide is synced every day or that a source page was checked when it was not.
+
+## E5. Transparent recommendation engine
+Input profile: academic qualification, grade and grading scale, prerequisite courses/credits, language qualification, intended level, countries, field, tuition budget, scholarship requirement, programme language and intake. For each result show **requirements met / possible conditional match / explicit conflict / insufficient published data**. Attach the actual criteria and official links; never assign fabricated “100% chance,” safe admission guarantees, visa success rates or invented percentage equivalents. Explain that eligibility is not an admission decision. Allow shortlisting and comparison. Tests must verify handling of missing GPA thresholds, unmatched language, grading scale uncertainty and conditional qualifications.
+
+---
+# SECTION F — M02 THE PASSPORT BAND: COMPLETE IELTS v2.1.4 **INSIDE** CAMPUS2CONNECT
+
+**Critical:** The Passport Band is one complete, redesigned nested educational area: `/ielts/*`. DO NOT create a separate public IELTS website, repo, login, domain, database, admin panel or independent planner. Source lessons, questions, resources and useful functionality may be imported from the existing GitHub repository. Build a distinct premium learning interface within the common global design system; link all authenticated attempts and schedules to the single applicant identity. Guests may take accessible free lessons and practice with local IndexedDB records; only signed-in users receive cloud progress and cross-device sync. Guest-to-account import must be explicit and safe.
+
+## F1. IA and learning pathway
+Nested navigation: `/ielts` landing/dashboard, `/ielts/guide`, `/ielts/reading`, `/ielts/listening`, `/ielts/writing`, `/ielts/speaking`, `/ielts/practice-hub`, `/ielts/mock-tests`, `/ielts/question-bank`, `/ielts/custom-questions`, `/ielts/typing`, `/ielts/study-tracker`, `/ielts/daily-routine`, `/ielts/calendar`, `/ielts/study-history`, `/ielts/milestones`, `/ielts/progress`, `/ielts/premium`, `/ielts/resources`, `/ielts/settings`. Use a subnav rather than crowding global navigation. Every route must contain appropriate real content and interactions. Home shows four skill cards, lesson progression, recent attempts, next milestone, six-hour focused goal and resources; guest home shows local progress honestly.
+
+## F2. Accurate IELTS examination guide
+Guide should distinguish Academic from General Training and focus on Academic. Official-format reference: Listening 4 parts / 40 questions / ~30-min audio with applicable delivery-mode timing guidance; Academic Reading 3 sections / 40 questions / 60 min; Writing 2 tasks / 60 min, Task 1 minimum 150 words, Task 2 minimum 250 and weighted twice Task 1; Speaking 3 parts / about 11–14 min, assessed equally on Fluency & Coherence, Lexical Resource, Grammatical Range & Accuracy, Pronunciation. Writing criteria: Task Achievement (Task 1) or Task Response (Task 2), Coherence/Cohesion, Lexical Resource, Grammatical Range/Accuracy. Explain band 0–9, raw marks, Academic vs General Reading differences, approximate raw-to-band conversions with source/date and variability; exam day guidance, computer-delivered test practicalities and honest score limitations. Verify current rules using IELTS.org, British Council and IDP sources before publishing. No fabricated official band scores for Writing or Speaking.
+
+## F3. Reading — lessons, practice and full mocks
+Guide lessons: comprehension, skimming/scanning, finding keywords, synonyms, paraphrasing, understanding sentences/clauses, text evidence, distinguishing stated vs inferred, timing and answer-word limits. Practice EACH relevant question type: MCQ, True/False/Not Given, Yes/No/Not Given, Matching Headings/Information/Features/Sentence Endings, Sentence/Summary/Note/Table/Flow-chart Completion, Diagram Label, Short Answer. Each lesson includes concept, strategy, worked examples, original exercise, explanations, common errors and review. Levels Beginner → Intermediate → Advanced → Exam Level. Support passage/questions split view, selectable/highlighted evidence, notes, navigation, timed/untimed mode, autosave, submission, raw accuracy and mistake categories. Full Academic Reading simulation: 3 passages/40 questions/60 minutes, genuine answer and timing logic, attempt history and properly qualified band estimate.
+
+## F4. Listening — lessons, audio and full mocks
+Lessons: accents, prediction, key phrases, paraphrase/distractors, names, spelling, dates, addresses, numbers, map/plan interpretation and note-taking. Practice MCQ, Matching, Form/Note/Table/Summary/Sentence/Flowchart Completion, Map/Plan/Diagram Label and short-answer tasks. Working licensed audio with play/pause/volume/progress and permission-aware behavior; learning mode may replay, exam mode follows intended timing/replay constraints. Provide section-specific practice and a complete 4-section/40-question mock; navigate and autosave, enforce word limits, objective marking, explanations, attempt history and question-type analysis. Do not package unlicensed Cambridge or other commercial audio.
+
+## F5. Writing — teaching, editor and review
+Task 1: bar/line/pie/table, mixed graphs, process diagrams and maps; teach identifying trends, overview, comparisons, grammar, vocabulary and structure. Task 2: opinion, discussion, advantages/disadvantages, problem–solution, two-part questions; teach planning, thesis, coherence, examples and conclusion. Implement responsive editing with distinct question display, word counter, timed and untimed mode, draft autosave, intentional submission, revision and history. Full Writing simulation includes both tasks and a 60-minute session. Provide the official four-criterion rubric explanations, self-check and optionally human-feedback intake where configured; do not claim automated examiner-grade band evaluation without validated assessment.
+
+## F6. Speaking — cue cards and safe recording
+Part 1 familiar topics; Part 2 cue cards with preparation timer and speaking prompt; Part 3 follow-up abstract discussions. Original questions with prompts and explanations; microphone permission, recording, stop, replay, retry and deletion. Do not upload audio silently. Show recording storage implications, quota and supported browser states; handle denied mic or unsupported device. Full 3-part speaking simulation with realistic timers and self-review using the four official criteria, clearly not an official score. Connect recordings and self-assessment to history only with user consent.
+
+## F7. Unified Practice Hub, Question Bank and Custom Questions
+A question is a typed domain object (`skill`, `question_type`, `topic`, `difficulty`, `instructions`, `passage/audio`, `answer_schema`, `accepted_answers`, `marking_rule`, `explanation`, `source/license`, `publication_status`). Support variations: single/multi-choice, yes/no/not-given, true/false/not-given, heading matches, multi-matches, limited-word completion, text, essays and recorded prompts. Practice modes Learn / Timed / Untimed / Mistake Review, filter by skill/type/topic/difficulty/duration, record results. Permit user-authored private custom questions with choices, correct answer where relevant, explanation and tags; Admin can build, preview, edit, version, categorize and publish original question banks, sections, mocks and answer keys. Validate multiple accepted spellings, answer word-limit and subjective vs objective responses. Avoid repetitive filler and copyrighted full test reproduction.
+
+## F8. Four skill Mock Test Center
+Listening and Academic Reading have 40 objective items; Writing two tasks; Speaking three parts. Clear exam instructions, timer, progress indicators, autosave, resume policy, submit confirmation, result screens and analysis. Listening/Reading: calculate raw score and label band conversion as estimated/reference, noting version differences. Writing/Speaking: rubric-based review or an authorized assessor, never fake scores. History shows question/answer, actual duration, lesson links, mistakes, improvement and per-skill breakdown. Separate Exam Simulation from untimed learning; do not allow practice hints inside the simulation.
+
+## F9. Typing Academy
+Independent `/ielts/typing`: home-row/finger position, letters, words, sentences, paragraphs, keyboard speed and error review, 1/3/5-minute and configurable timing, WPM, accuracy and test history. Show calculation definitions and avoid counting correction keys as text. A learning tool, NOT part of an IELTS official band score. Offer accessible keyboard use and mobile-friendly fallback.
+
+## F10. Six-hour DAILY focused-study tracker, routine and milestones
+Default focused target 360 minutes/day **excluding breaks**. Timer start/pause/resume/stop, session type Reading/Listening/Writing/Speaking/Grammar/Vocabulary/Pronunciation/Typing, actual start/end, elapsed focused time, interruption recovery, tab/sleep tolerance, single active timer guard, no double counting across routes/devices. Editable suggested routine: Reading 90, Listening 60, Writing 75, Speaking 60, Foundation 45, Typing 30 minutes; only logged actual focused minutes count as progress. Show today vs target, remaining time, per-skill breakdown, daily and weekly history, previous tests, month summaries. Study plan presets: **4 weeks = 28 days, 8 weeks = 56 days, 1 calendar month and 2 calendar months** (correct date arithmetic). Weekly goals, exercise/checklist, milestones, completion evidence, pending tasks, editable start dates and review cycles. Do not convert a plan into an automatic record of achieved study hours.
+
+## F11. One shared calendar rather than two conflicting schedulers
+`/ielts/calendar` is an IELTS-filtered view of the `/applicant/calendar` event service. An IELTS practice task, timer session or completed mock may link to one canonical calendar event and one study session record. Planned vs actual time stay distinct. Display editable weekly routine, practice history, milestones and upcoming study sessions; reflecting updates in Applicant Workspace. For guests, store unsynced local events and warn they are device-local; after sign-in offer explicit import. No independent incompatible IELTS-only calendar database.
+
+## F12. Premium English foundation, resource library and settings
+Premium academy: Beginner/Foundation, CEFR-aligned A1, A2, B1, B2; grammar (tenses, agreement, clauses, articles, prepositions, modals, passive, conditionals, academic sentences), vocabulary (A2 to academic, collocations, word families, usage, examples, synonyms), pronunciation (vowels, consonants, stress, intonation, connected speech), foundational Reading/Listening/Writing/Speaking, exercises, worksheets, review and assessments. Premium requires authenticated server-side entitlement when activated; public can see catalogue, but protected lesson bodies must NOT ship in unauthenticated bundles. Live purchase remains OFF. Resource library: links to official IELTS, British Council, IDP, Cambridge authorized samples, BBC Learning English, IELTS Liz/Advantage and other permitted resources, with source, free/paid label, topic, description and last verified URL. Settings: daily target, skill allocation, reminders, theme, accessibility, timezone, local-data export/import/delete, progress preferences. No duplicate student login inside `/ielts`.
+
+## F13. IELTS authoring and measurable acceptance
+`/admin/ielts` can edit guides, lessons, question taxonomy, answer keys, mocks, premium units, level assessments, study plan templates, resources and their publication states **without code deploy**. Real original examples required for each published unit; unfinished units remain Draft or Coming Soon, not fake ready. Test full mocks, autosave, scoring, correct/incorrect explanations, microphone denial, word counts, timer interruptions, keyboard calculations, milestone arithmetic, guest-to-account migration, premium authorization and applicant data isolation. Real cross-module test: complete reading mock → saved result in `/ielts/progress` AND `/applicant/dashboard`; finish 45 focused minutes → exactly 45 once in daily tracker AND applicant calendar, not 90.
+
+---
+
+# SECTION G — M03 STUDENT VISA, CONSULAR DIRECTORY, DOCUMENTS AND VERIFIED NOTICES
+
+## G1. Nationwide scope and visa types
+Under `/visa`, support destination-specific student visas and related permits for EVERY supported Country module destination, without implying one universal visa process. Structure content per destination, applicant nationality/residence (jurisdiction), visa/permit category, study level, intake, and official validity date. A country page must separate confirmed requirements, informational preparation tips, conditional rules and unknown/unverified fields.
+
+## G2. Country visa guide content
+Provide detailed editable sections for: visa/permit classification; eligibility; admission/offer requirements; passport/identity; academic certificates and translations; qualification recognition (including country-specific equivalence services where officially needed); legalization/apostille and embassy attestation; language evidence; finance requirements, bank statements and maintenance period; sponsor relationship/proof of income/tax documents if relevant; tuition/payment evidence; health coverage/insurance; accommodation where needed; biometrics, medical or police documents where relevant; submission sequence; online account/forms; application fee and service fee; appointment; interview; timing and published processing guidance. Each rule needs official source, jurisdiction/eligibility qualifier, verified date and whether it is mandatory or optional. **Do not invent financial minima, tax years, visa chances or appointment availability.**
+
+## G3. Embassy and immigration directory
+Maintain official mission, consulate and authority records including location, country served, applicant residence jurisdiction, official visa page, immigration authority, outsourced visa center, authorized appointment link, official tracking link, source and last verification. Recognize that the relevant embassy may be in another country and procedures may change; do not hardcode “all Bangladesh applicants submit in Dhaka.” Provide fallback official link when a complete deep link is unavailable. Separate generic visa guide from the user's actual applicant-specific checklist.
+
+## G4. Stepwise preparation workspace and case states
+Registered applicant opens a visa case linked to country, university admission/application and expected travel date. Add checklist items with states Required, Optional, In Progress, Ready, Submitted, Not Applicable, Expired, Needs Review; document references, expiry, owner notes and date; appointment fields; embassy interview prep; applicant-entered statuses Draft, Preparing, Submitted, Decision Recorded, Closed. Never show applicant-entered status as verified immigration authority status. Only sync external tracking if official permitted integration and identity authorization exist. Protect sensitive submissions and document uploads.
+
+## G5. Official update monitoring and notification
+Source registry for missions, immigration departments, permit authorities and official visa centers. Monitor supported RSS, structured notices, permitted pages or APIs for new rules: funding, insurance, required files, procedure, appointment announcement, policy effective date and submission jurisdiction. Deduplicate and version changes, require human review for ambiguous rule changes, notify subscribed applicants through shared system with direct official source and relevant jurisdiction; do not imply that updates are live when checks are unavailable. Follow a country, not an unofficial rumor.
+
+## G6. Administrative editor and evidence
+`/admin/visa` offers jurisdiction matrix, visa types, required document categories, verified official sources, funding-rule notes, announcement queue, correction history, due dates, broken links, applicant-safe templates and content publication workflow. Prevent an admin typo from silently overriding historic source-verified rules; keep audit and restore. Warn users that this tool assists preparation and official authorities decide visa outcomes.
+
+## G7. Visa-module acceptance tests
+A student selects a country and residence jurisdiction, sees accurate source-qualified checklist and direct official appointment/visa URL, links a required document from the vault, saves appointment in shared calendar, receives a verified policy change alert and updates their personal case without another user seeing it. Test stale source, different jurisdiction, expired document, duplicate notice, missing embassy URL, authorization and redaction.
+
+---
+
+
+## G8. Visa content lifecycle, country differences and financial rule clarity
+Implement country-specific versioning as real structured data rather than a single rich-text essay: `destination`, `residence_jurisdiction`, `visa_route`, `requirement_id`, `effective_date`, `published_date`, `expiry_or_superseded_date`, `applicant_scope`, `source_url`, `rule_text`, `financial_currency`, `official_amount_if_verified`, `time_window`, `supporting_documents` and `editorial_review_status`. Allow changes to bank maintenance periods or proof-of-sponsor rules without accidentally updating unrelated countries or intakes. Country-specific fiscal and bank-document conventions are not interchangeable: support effective date and distinguish education admission proof from immigration finance. When official authorities have multiple pathways, display a decision tree labeled with source-backed qualifiers; do not claim automated legal eligibility.
+
+## G9. Country visa content editor and applicant usability
+Each public visa page should have a clear summary with source freshness banner, then expandable sections: Eligibility, Documents, Funds, Procedures, Embassy/Authority, Appointments, Deadlines/Processing Guidance, FAQs, Official Downloads and Related Universities. User interactions: follow country, bookmark a verified notice, download a user-generated checklist (not official forms), import applicable checklist to their own visa case, assign tasks to calendar, attach existing documents and mark personal completion; no forced account to merely read public rules. Offer searchable country and visa-type directory, saved filters and most recently updated sources. Admin can publish a notice and audit that it targets relevant followers rather than indiscriminately sending to everyone. Email failures must not automatically mark updates delivered.
+
+## G10. Errors, disclosures and multi-jurisdiction tests
+Provide informative errors for unavailable official appointment links and distinguish the official institution's external availability from Campus2Connect's uptime. Use plain-language disclaimers, not discouraging generic refusals: this is preparation information, current official government guidance takes precedence. Test nationality/residence combinations, multiple visa routes, date supersession, unavailable source, broken tracking URLs, different monetary units, document expiry, cached outdated guidance and subscription alert targeting. The user must be able to verify the authoritative page without a search-engine detour.
+
+---
+
+# SECTION H — M04 VISAFUND: FINANCIAL PREPARATION AND SOURCE-OF-FUNDS RECORDKEEPING
+
+## H1. Reuse all existing business logic
+Use audited VisaFund GitHub implementation and preserve completed elements, not simply the page names: user dashboard, fund profiles, deposit and withdrawal flows, amounts, dates, opening/closing balances, transaction reasons/descriptions, sources of funds, sponsor fields where existing and applicable, notes, historical edits, sorting, calculations, report views, print and download/export. Preserve existing rounding and calculations by regression tests, but correct proven bugs with documented migration. Distinguish manual records from external bank data.
+
+## H2. Financial workspace model
+Per authenticated applicant: one or more self-managed fund profiles (as permitted by old code and privacy policy), currency, transaction ledger, source-of-funds type, owner-entered descriptions, optional sponsor relation, user-owned evidence document references, personal financial planning notes, target amounts and preparation dates. Ledger uses precise decimal arithmetic, stable transaction IDs, credit/debit direction, chronological recomputation, no silent negative balances unless business rule permits it, and original-currency vs converted-currency clarity. Allow backdated entries and controlled edit/delete with recalculation and audit; do not silently rewrite previously downloaded reports.
+
+## H3. Transaction operations
+CRUD deposits, withdrawals, corrections and source-of-funds references; validate amount, currency, date, required reason and sign. Prevent accidental double submission and duplicate ledger entries. Show total inflow/outflow, current recorded balance, running balance chart/timeline, recent activity, search, filter by date and type, export and printer-friendly formatted reports. Provide accessibility for currency formatting and locale. Do not require real bank credentials or bank account numbers. If account reference fields exist in old code, make them optional, minimized or redact appropriately after security review.
+
+## H4. Source-of-funds and sponsor planning
+Allow user-defined categories such as salary, business income, savings transfer, gift, education loan and other supported categories. Store self-declared source, explanation, amount, transaction linkage, optional supporting-document pointer and notes. Let student prepare a chronological “fund origin explanation” and compare recorded fund availability to a sourced destination-specific visa requirement if available; currency conversions should be dated and sourced or clearly user-entered, NEVER presented as live rates without a live verified provider. Make sponsor/finance forms adaptable per country rather than assuming a single national law. Do not automatically pronounce a statement “visa approved” or “financially accepted.”
+
+## H5. Report generation and audit
+Reports may show timeline, totals, breakdown by origin, balance history, configured comparison/target, and optional selected attachments list; PDF/print/CSV where the legacy product supports and authorized providers are available. Clearly label **User-maintained financial planning report — NOT an official bank statement or proof issued by a financial institution.** Preserve print/download/export behavior with tests, avoid leaking sensitive records into third-party analytics or public URLs. Track edited records and report generation time without storing excessive personal data.
+
+## H6. Cross-module and privacy requirements
+VisaFund belongs under `/visafund`, and the Applicant Workspace finances tab is a contextual view of the same ledger. Link selected fund targets to country-specific Visa requirements **as guidance only**; link applicant-selected evidence from secure document vault; allow calendar tasks for funds or statement preparation. Enforce RLS/object ownership and consent-based counselor access. No bank PIN/OTP/password, no direct bank login, no impersonation of bank-issued reports. If the legacy UI is outdated, redesign within Campus2Connect without dropping any functionality.
+
+## H7. Admin and acceptance tests
+`/admin/visafund` controls non-sensitive content, feature flags, report templates, supported currencies and system-wide storage policies, not unrestricted access to students' financial transactions. Test multi-currency handling, decimal precision, backdated adjustment, source mapping, report recreation, redaction, ledger consistency, simultaneous submissions, a student's balance isolation and links to visa case/Applicant Dashboard. Distinguish locally generated report from official bank documents at all times.
+
+---
+
+
+## H8. Detailed entry form, timeline and country fund planner
+Give students a clear fund dashboard with a transaction entry form that supports date, transaction type, amount, currency, declared source, optional note, beneficiary/sponsor relation if relevant, optional linked document and confirmation summary. Offer running balance and period comparison views, editable opening balance with explicit recorded reason, transaction timeline, sortable ledger table, and printable period statement of the platform's own calculations. Allow a student to select one of their saved destinations, open a related officially sourced target as a planning reference and enter their own target amount and target date. Show gap-to-target and time remaining as calculations, not as government acceptance judgments. A fund may be affected by exchange rates; display original currency and dated manually chosen or verified conversion separately so users do not mistake converted estimates for bank holdings.
+
+## H9. Data validation and record changes
+Use precise decimal representation, avoid JavaScript floating-point accumulation errors in monetary sums; define transaction ordering for equal timestamps and display edited/corrected entry history for clarity. Prevent accidental negatives or zero-value invalid entries under defined ledger rules; allow transaction reversals or corrected entries with clear audit where needed. Require confirmation for destructive edits, support account-level export and secure delete, and ensure app navigation/back/refresh cannot double-submit. For previous legacy user records, verify import completeness by comparing total transaction counts and calculated balance before/after. Any migrated account-name mismatch must be resolved by verified mapping, not string similarity.
+
+## H10. Cross-module finance/visa-specific acceptance
+End-to-end: applicant chooses programme and destination; official Visa guide states a sourced maintenance requirement; applicant records current savings, source categories and deposits; planner estimates gap and surfaces relevant due date; user exports a report clearly marked unofficial; authorized counselor receives ONLY consented finance evidence, not the full ledger; changing a saved destination never deletes fund history. Add tests for Bangladeshi Taka/Euro and other currency precision as generic cases (not as a hardcoded user profile), same-day multiple transactions, year-end date range, CSV escaping, report download and browser print layout. Admin should not be able to silently change a user's ledger.
+
+---
+
+# SECTION I — M05 PAID COUNSELING, APPOINTMENTS AND SSLCOMMERZ ADAPTER
+
+## I1. Paid-only service policy
+The counseling module `/counseling` is paid-only: NO free counseling package, fake “free trial counseling,” complimentary booking disguised as paid, or automatic booking before valid payment/approved manual administrative exception. A public consultation description and package catalogue can be visible at no charge. Admin may set package title, clearly defined deliverables, eligible countries/services, duration, modality (remote/in-person if supported), booking policy, fees/currency, cancellation/rescheduling, refund rules and status. Show prices only when configured; do not invent package amounts.
+
+## I2. Package, checkout and booking data
+Services catalogue → package view → authenticated applicant selects package → chooses available real staff/time window → enters relevant (minimized) intake information → order created in Pending state → payment attempt → authenticated/verified result → booking Confirmed → shared-calendar event and notifications. If live payment is disabled, show **Live booking/payment unavailable** and permit a clearly labeled sandbox/demo workflow only in a test environment; do not issue real confirmations for mock payments. Avoid double booking with server-side slot reservation/transactions and timezone handling. Allow counselor/admin availability blocks, holidays, buffer times, booking lead time and capacity.
+
+## I3. Booking and service lifecycle
+States may include Draft, Payment Pending, Paid, Scheduled, Reschedule Requested, Confirmed, Completed, Canceled, Refund Requested, Refunded, Failed; keep explicit events and timestamps. Registered users can view booking history, package detail, status, receipts (only if legitimately issued), cancellations, notes and permitted document-sharing controls. Counselor view is role-restricted to assigned sessions. Applicant may share selected documents temporarily with a revocable grant. No global admin access to applicant's private vault by default.
+
+## I4. SSLCOMMERZ payment adapter
+Implement typed provider interface for checkout initiation, transaction reference/order ID, callback success/failure/cancel, asynchronous notification/IPN, server-side transaction validation, idempotent fulfillment, replay protection, ledger status and refunds if supported. Never trust a frontend “success” callback alone; verify server-side and match amount, order, currency and merchant environment. Do not capture/store raw card credentials. Keep secret merchant identifiers and keys only in secured environment. Separate sandbox/mock from production completely, and do not invoke live APIs without approved account activation.
+
+## I5. Scheduling, reminders and operational admin
+A confirmed appointment links to applicant's one shared calendar and notification subsystem. Reschedules/cancellations update that canonical event, with notification audit and access restrictions. `/admin/counseling` can create/edit packages, configure availability, assign authorized counselors, inspect bookings and payment verification status, apply approved cancellation/refund rules and generate appropriate operational reports. Show staff assignment and timezones, conflict detection and calendar collision warnings. Maintain a consumer-facing contact/support route, preferably configurable contact email through admin rather than exposing the owner's personal address.
+
+## I6. Integration and QA acceptance
+A user can view priced packages, attempt a safe test booking, receive accurate unconfirmed/confirmed status based on actual verified mock/sandbox state, see a scheduled event only when booking is confirmed, request rescheduling and revoke counselor document access. Test duplicate webhook, mismatched amount, canceled payment, timezone, overlapping slots, callback replay, authentication, no accidental free booking, live-disabled banner and refunds. No actual money is charged in the no-card first release.
+
+---
+
+## I7. Counseling intake, informed scope and case workflow
+Every service should explain exactly what it covers and excludes: targeted country/degree, review scope, session length, deliverables, whether document reviews are involved, price/currency/taxes if applicable, remote access details, cancellation window and response expectations. The booking form collects minimal educational context and the selected application/university where relevant, but should not ask for banking credentials or automatically upload private documents. Applicants can view a service agreement summary before payment, mark that they accept configured terms, and later download a plain transaction/booking record that does not pretend to be an invoice unless properly issued. Staff can create structured post-session notes scoped to the applicant and assigned counselor, with restricted sharing and revisions.
+
+## I8. Appointment engine details and authorization
+Implement selectable session windows backed by provider availability, instructor/consultant assignment, timezone preference, travel/holiday exclusion, buffer time and booking expiration. Reserve slots atomically to prevent double booking. When payment fails or order expires, release reservations after a documented safe timeout. In the initial no-money mode, tests can simulate paid verification in an isolated sandbox tenant; users must see an unmistakable demo-only label and should never receive a production invitation suggesting a paid booking is final. Provide cancellation and reschedule policies as editable package-linked rules with audit trails. Confirmed sessions can create a calendar event with just enough public display information; internal counselor notes stay private.
+
+## I9. Payment correctness and failure handling
+Use states `created → payment_pending → verified_paid → confirmed_service` with explicit `failed/canceled/refund_pending/refunded` branches. A provider notification must be authenticated/validated, matched to a specific unique order and expected currency/amount, and processed once even if retried. Webhook payloads should be stored minimally and redacted from logs, with safe observability for reconciliation. An admin “mark payment successful” must not be equivalent to provider verification unless a separately approved manual payment method/workflow exists. Simulate success, cancellation, failure, partial/duplicate callback and refund requests in integration tests.
+
+## I10. Counseling reporting and operational transparency
+Separate package sales from appointment completion and refunds: admin metrics must count real verified transactions only, while sandbox metrics are clearly tagged test. Staff access should honor assigned booking, expiration and data minimization; help/contact inquiries are a separate support channel, not secret free counseling sessions. Build booking status emails only after a tested provider is configured, otherwise rely on in-app state without claiming delivery. A user can filter history by upcoming/completed/canceled and find the linked paid service in Applicant Workspace; no separate counseling account is necessary.
+
+---
+
+# SECTION J — M06 PERSONAL APPLICANT WORKSPACE AND COMPLETE STUDY-ABROAD JOURNEY
+
+## J1. Unified private user portal
+All registered students receive `/applicant/*` under the single Campus2Connect account. This is the canonical view of their study abroad journey, not an isolated static dashboard. Show contextual widgets: profile completion, selected countries, followed programmes, upcoming deadlines, application states, IELTS session completion, visa case progress, VisaFund recorded balance and targets, active counseling bookings, private documents, pending reminders and today's calendar. Keep cards clickable with correct route and data. Support multiple simultaneous destination programmes, applications and visa planning cases.
+
+## J2. Configurable applicant academic profile
+User-controlled fields: identity and contact (minimize and protect), nationality/residence, qualification level, institution, study dates, major, grading scheme, GPA/percentage as entered without fabricated conversion, transcripts/coursework and credit distribution where relevant, degree status, IELTS/other language results (component scores, date, expiry), research, publications, projects, achievements, intended field/level/intake, country preference, study language, funding/scholarship priorities and estimated budget. Let user edit every field, add multiple qualifications, mark uncertain values and optionally hide nonessential fields. Use robust normalization, dates and validation; differentiate user-entered claims from institution-verifiable credentials. Never prefill the owner's previous personal profile or email.
+
+## J3. Shortlisting and programme comparisons
+Saved country/university/programme records reference canonical M01 IDs, intakes and source snapshots. Show user-defined tags (Interested, Researching, Applied, Not Suitable, Archived), notes, priority, links, fee estimates and deadline with timezone/context. Compare 2–5 programmes on verified tuition, admission language, requirements, duration, scholarship process and application URL. Missing values must not be conflated with zero tuition or no requirement. Provide explicit remove/archive/restore, sorting and filters. Linked changes in M01 may trigger an update notice, without silently overwriting personal notes.
+
+## J4. Application tracker and document checklist
+Each application binds a specific programme/intake, submitted destination, deadline, portal URL, applicant-created checklist, application fee, paid/not-paid (self-reported unless verified), submission date, decision, scholarship outcome, relevant documents, attachments, comments and date history. Suggested statuses: Interested, Preparing, Ready, Submitted, Under Review (self-reported unless provider integration), Offer, Conditional Offer, Rejected, Withdrawn, Closed. Include separate country-specific steps where relevant (e.g. pre-enrolment or qualification recognition), not a universal hardcoded form. Allow multiple applications, status history, timeline and user notification of upcoming deadlines. Do not imply the platform submitted applications to a university unless a real authorized action occurred.
+
+## J5. Central document vault
+Private categories: passport/identity, SSC/HSC or other school records, Bachelor's/other degrees, transcripts, language tests, CV, SOP, letters of recommendation, research, admissions/offer letters, financial and sponsor materials, visa, insurance, appointments and other supporting files. Upload, view, download, replace/version, rename, categorize, mark expiry, link to multiple applications or visa checklists, revoke access, delete, export where appropriate. Enforce **10 MB combined active-file quota per applicant**, not per file. Quota checks are server-side and atomic across concurrent uploads. Display used/remaining, allowed file types/sizes, actual backup verification state and storage errors; never expose public buckets.
+
+## J6. Permissioned sharing and case safety
+A student may explicitly share a selected document with an assigned paid counselor, with purpose, expiry and revoke action; avoid blanket disclosure of all documents. Admin can manage accounts and troubleshoot metadata with least privilege, but does not get automatic private file, IELTS recording, calendar, application or finance reading access. Access grants and downloads must be logged and tested against object-level authorization. Secure deletion and export apply to all user-owned records according to approved policies.
+
+## J7. Applicant workflow timeline
+Visualize lifecycle: Build academic profile → Study IELTS/English → Explore countries → Shortlist programmes → Prepare documents → Apply → Await decision → Scholarship → Finance/VisaFund → Visa checklist → Embassy appointment → Visa submission/decision → Travel preparation. These are editable milestones, not a forced single order; multiple institutions may be at different stages. Users can create their own notes and custom tasks; mark completed only from explicit action or genuine linked event. Support long-term planning across intakes and multiple target years.
+
+## J8. Settings, privacy and accessibility
+Applicant settings: profile, security, preferences, notification and followed countries, timezones, account recovery, local and cloud progress import/export, authorized shares, document storage meter, language/display preferences and privacy controls. Account deletion request must be explicit and not confused with inactivity housekeeping. Show honest privacy copy and safe error messages. Support keyboard navigation, semantic forms and responsive tables without leaking private data to analytics.
+
+## J9. M06 acceptance flow
+A new applicant signs up, verifies email, completes profile, saves an Italian programme, sees official admissions page, adds checklist and deadline, uploads a private transcript within quota, schedules a 6-hour IELTS study plan, records a fund transaction, tracks a visa requirement and books a sandbox counseling session. All data persist for that account only; a second account sees none. Browser E2E tests must cover this entire flow and access-denied cases.
+
+---
+
+# SECTION K — SINGLE 24-HOUR APPLICANT CALENDAR, STUDY TRACKING AND NOTIFICATIONS
+
+## K1. One global calendar source of truth
+`/applicant/calendar` is the canonical planner spanning **00:00 through 24:00 every day**, including midnight/night hours. Views: Day (all 24 hour rows), Week, Month, Agenda. Every slot supports minute-level start/end, optional 15/30-minute visual grid, click/touch/keyboard creation, editable descriptions, category, color, priority, notes, location/link, recurrence, status, reminders and associated module object. Preserve timezone identity and wall-clock semantics; default `Asia/Dhaka`, configurable per account, test international DST. Display current-time line and distinguish planned vs actual hours.
+
+## K2. Event types and operations
+Events: IELTS focused study, university research, SOP, scholarship deadline, admission steps, visa checklist, appointment, VisaFund preparation, paid counseling appointment, academic classes, research, personal, exercise, rest/sleep or custom. User can add/edit/duplicate/delete/move/resize/mark completed/partial/skipped/canceled; repeating daily/weekly/specific weekdays/monthly/custom by rule; edit one occurrence/this and following/entire series. Support overlap warnings, not automatic destructive relocation. Calendar entries must persist server-side for authenticated users with RLS; guest IELTS practice events may be device-local and importable. No other student's calendar is visible by default.
+
+## K3. Link across modules without double counting
+One global `calendar_event` may link to zero/multiple domain objects through typed references: programme application, IELTS lesson, mock attempt, visa appointment, funding reminder or counseling booking. A focused `study_session` records actual elapsed minutes separately from planned duration; a session belongs once to a user and may reference the calendar event. The global calendar displays all; `/ielts/calendar` filters IELTS-related records. Changes made in either UI update the same canonical record. Group statistics must calculate from unique session IDs, excluding breaks, not from the sum of two UI views. Confirm completed activity vs scheduled activity separately.
+
+## K4. Timer technical correctness
+Allow timer start/pause/resume/stop with durable session checkpoints; account for page refresh, tab suspension, offline gaps and laptop sleep, prompting reconciliation if actual focus duration is uncertain. Prevent competing concurrent timers through transactions/leases, and never silently assume the whole time between browser closing and reopening was focused study. Daily 360-minute IELTS goal uses verified actual focused minutes only, breaks excluded. Provide daily, weekly, monthly summary by skill and milestone with transparent calculations, no inflated gamification counters.
+
+## K5. Reminders and central notification inbox
+Use a shared notification service for calendar reminders, university scholarship/application deadline, verified embassy changes, expired documents, 6-hour IELTS routine, upcoming counselor bookings, backups/storage problems (admin only) and account inactivity. Reminder lead times (at event, 5/15/30/60 min, one day, custom), user opt-in preferences, in-app history, email if configured, browser push only if working/authorized. Event/job state, deduplication and delivery attempts must be tracked. Do not claim background delivery when the browser is closed unless a tested server/provider job actually delivers it. Mark read/unread, mute categories, follow countries/programmes and link every external fact to its source.
+
+## K6. UX and acceptance
+Calendar desktop: sticky day/period controls, mini calendar, horizontal day/week switch, 24-hour scrollable canvas with readable event labels, upcoming panel and summary. Mobile: accessible compact list/day view, touch editing and quick-add; reduced-motion preference. Tests: 23:30→00:30, recurring across DST, monthly recurrence on end-of-month, overlapping jobs, single occurrence edit, cross-module event sync, deletion behavior, study session idempotency, email failure and user isolation. A session recorded through IELTS must show same exact duration in Workspace—not duplicate totals.
+
+---
+
+# SECTION L — CENTRAL ADMIN, DYNAMIC CMS AND EDITABILITY A–Z
+
+## L1. One role-based administrator cockpit
+All management under `/admin`, no separate IELTS/VisaFund administrative system. Permission groupings: Super Admin, Content Editor, Academic Data Reviewer, IELTS Editor, Visa Content Reviewer, Finance Module Administrator (configuration only), Counselor, Support Operator, Operations/Backup Admin, Applicant. Admin MFAs required when supported. Enforce permissions server-side, not merely by hiding menus. Keep auditable role grants and deny-by-default. Support delegated editors without granting private student document access.
+
+## L2. Global Admin navigation
+Overview/KPIs (only real system data), Brand/Site Settings, Homepage Sections, Navigation/Menu Builder, Countries, Institutions, Campuses, Programmes, Intakes, Scholarships, Admissions, Official Links, Source Jobs/Conflicts, Recommendations, IELTS Guides, IELTS Practice Bank, Mocks, Foundation/Premium, Typing, Resource Library, Visa Guides, Embassies, Announcement Queue, VisaFund Templates/Settings, Counseling Catalogue, Counselor Availability, Bookings, Payment Status, Applicants/Roles, Documents/Storage Policies, Calendar/Routine Templates, Notifications, Inactivity/Retention, Security/Audit, Backup/Restore, Features/Deployment. Each section must have real CRUD or explicitly disabled status when incomplete.
+
+## L3. Fully editable nested CMS
+Owner's requirement: edit any letter, word, heading, paragraph, link, text label, image/media reference, list item, navigation label, feature description, page sequence and nested section through appropriate secure editors. Build parent/child page and content-block tree, reorder via accessible controls, create sections and subsections at country/university/programme level, draft/preview/publish/unpublish, scheduled publication where implemented, localization-ready fields and role-specific revision history. Content in database or CMS backend, NOT hardcoded into components except structural/default system text. Provide safe rich text, URL validation, preview diff, version rollback and semantic accessibility. The CMS may change text/content without deployment; changes to core executable functionality still require code and testing.
+
+## L4. Content safety and operational controls
+Admin review queues for unverified official facts, stale university/embassy links, automated source conflicts and reported broken URLs; search/filter bulk operations with selection confirmation, dry-run, per-row audit and rollback for supported changes. Show actual background job status; editable premium visibility and entitlements; editable counseling pricing, currencies, restrictions, policy pages and resource links. Keep payment live toggle hard-disabled unless an explicit owner-approved operational process confirms provider/legal readiness. Sensitive system secrets must never appear in general admin content fields.
+
+## L5. Audit and testing
+For every content update record user/time, entity ID, changed fields and old/new version metadata. Test admin can edit a nested university section and an IELTS question and see it published after preview; ordinary applicant cannot access admin route or modify content; counselor can only review consented case. Verify role downgrade revokes prior access immediately and source publication errors do not lose the last verified version.
+
+---
+
+# SECTION M — CENTRAL AUTHENTICATION, PERSONAL DATA PRIVACY AND ACCOUNT LIFECYCLE
+
+## M1. Authentication model
+Central `/register`, `/login`, `/logout`, `/recover`, `/account` shared across all six modules. Candidates include Supabase Auth Free subject to current signup/quota/terms. Secure email verification, session rotation/expiry, password recovery, MFA for administrators, logout everywhere when supported, rate limits and account status. Passport Band public/guest practice remains accessible without a separate login, yet authenticated progress persists under the SAME applicant ID. Plan explicit, consent-based guest-IndexedDB-to-account import with conflict/deduplication strategy.
+
+## M2. Data authorization and restricted sharing
+PostgreSQL RLS for owned rows, server-side object checks and documented policies for documents, recordings, timer sessions, university shortlists, applications, VisaFund, personal calendars and counseling. Avoid using service-role secrets in browser code. Prevent IDOR, cross-tenant search leaks and insecure signed URLs. Logged admin view of operational metadata is not authorization to read all content. File downloads need signed short TTL and audit.
+
+## M3. User inactivity policy (proposed, configurable)
+180 days after last meaningful owner activity: first warning; day 203 final reminder; day 210 consider suspension only after required verified notice; day 240 review eligibility for deletion. A successful user login or explicit “Keep My Account Active” cancels the countdown. Background jobs, page crawlers and automated emails must not reset user activity. Notify through configured, tested channels with clear dates, retention explanation, data export link and contact route. Exceptions: active paid bookings/entitlements, verified application/case holds, retention law, open support or export request, unresolved notice delivery, unsafe backup/deletion state. NO irreversible automated deletion without separately approved retention, grace, recovery and restore plan; launch with dry-run/review workflow. Deleting sensitive primary data must also respect backups/retention and auditable restore procedures.
+
+## M4. Legal/privacy operational design
+Prepare clear Terms/Privacy/Contact placeholders for owner review; don't fabricate regulatory compliance certifications. Minimize data, define purposes and retention, encrypt sensitive storage/backup as appropriate, support self-export and delete requests. Never populate owner-specific email, bank account, university profile, social identity or personal records in public fixtures or site metadata. Keep GitHub installation access private and least-privilege.
+
+---
+
+# SECTION N — DOCUMENT STORAGE, INDEPENDENT BACKUPS AND DISASTER RECOVERY
+
+## N1. 10 MB/applicant + capacity plan
+Store **total active object bytes per registered applicant ≤10 MB**, enforced server-side atomically. 500 MAU is NOT equivalent to exactly 500 accounts; demonstrate scenarios: 500 registered × 10 MB = 5 GB of raw active uploaded objects BEFORE backups/versions/metadata; real capacity needs headroom and may exceed free tiers. Enforce global reserve and admin alerts, public display used/remaining quota. Handle file replacement, version retention, deleted objects and interrupted uploads deterministically.
+
+## N2. Adapter architecture
+`DocumentService` coordinates `QuotaService`, `PermissionService`, `FileValidationService`, `StorageProvider`, `Encryption/KeyManagement`, `BackupProvider`, `RestoreVerification` and metadata repository. Preferred candidates if actually free/no-card at setup: Backblaze B2 private primary, encrypted Google Drive independent backup, controlled encrypted local copy; **Cloudflare R2 adapter retained but initially OFF** if billing method/card requirement applies. Provider choices are conditional and must be validated against today's policies. Do not assume 15 GB Google Drive is dedicated entirely to this system; it may be shared with user services.
+
+## N3. Secure upload, download, sharing
+Authenticate/authorize → type/size validation → reserve quota → upload private object → verify checksum → commit metadata → queue independent backup. Limit extension/MIME spoofing, path traversal, harmful file types and active content; apply malware risk controls where available, accurately mark unconfigured scanning. Downloads: object ownership or explicit temporary share grant → short-lived URL/proxy → access audit; never public buckets for identity/bank/transcripts. Protect PDF browser previews appropriately. Optionally report file expiry and link to visa/application case.
+
+## N4. Independent data recovery
+Backup encrypted objects and **PostgreSQL records**, not files alone. Ensure backup credentials/key recovery separate from primary compromise. Track Pending/Verified/Failed/Retrying, checksums, completed time and restore point. Implement realistic restoration test for a representative encrypted document and corresponding DB metadata, plus scheduled verification. Provide operator runbook, documented RPO/RTO targets once feasible, provider outage playbook and deletion/retention rules. Never show a successful backup until checksum and restore criteria pass.
+
+## N5. No-cost exhaustion behavior
+On quota or vendor free-limit approach: notify admin, pause optional ingestion/audio processing, block new oversized uploads with actionable text, retain existing docs, avoid paid upgrades, preserve case data and backups. Do not quietly fall back to an unencrypted public store or attach credentials to URLs.
+
+---
+# SECTION O — TECH STACK, ARCHITECTURE, DATABASE AND API CONTRACTS
+
+## O1. Practical stack selection
+Use a maintainable TypeScript pnpm monorepo, React + Next.js App Router, Tailwind CSS + shadcn/ui, Motion, Zod, PostgreSQL (Supabase Free candidate with RLS/Auth) and typed domain services, with Docker for local dev and GitHub Actions for CI/CD. Prefer a **modular monolith** over microservices, Kubernetes and independent module deployments. Choose the fewest providers capable of all required functionality under no-card constraints. Separate public/visitor pages, authenticated applicant endpoints, protected admin actions and background jobs. Provider adapters must allow future migration without rewriting domain logic.
+
+## O2. Core engineering architecture
+Each substantive domain (`countries`, `university-data`, `ielts`, `visa`, `visafund`, `counseling`, `applicants`, `calendar`, `documents`, `notifications`, `cms`, `retention`) defines Domain entities/value objects/rules/events; Application use cases and ports; Infrastructure implementations/repositories/provider adapters; Presentation API/UI and Tests. Shared packages: `ui`, `auth`, `database`, `security`, `types`, `utils`, `config`. Apply Factory for provider construction, Strategy for country/visa/recommendation rules, Observer for notifications, Repository for persistence, Adapter for external provider and legacy integration. Use selective persisted outbox/domain-event processing for change notifications, appointment confirmations and backups; do not add Kafka by default.
+
+## O3. Baseline database model (migrate schemas after repo audit)
+- **Auth/Accounts:** profiles, roles, permissions, user_roles, account_activity, sessions (auth-provider-managed if appropriate), notices, retention_holds, audit_logs.
+- **Country/Academic:** regions, countries, institutions, campuses, academic_levels, programmes, specializations, intakes, admission_requirements, programme_languages, fees, scholarships, deadlines, verified_external_links, applicant_saved_programmes.
+- **Source pipeline:** sources, crawler/provider configs, source_records, extraction_jobs, source_verifications, source_change_events, review_queue, publication_revisions.
+- **IELTS:** guide_sections, courses, levels, units, lessons, practice_sets, questions, answer_keys, marking_rules, mocks, mock_sections, attempts, responses, writing_drafts, speaking_recording_metadata, typing_attempts, study_sessions, milestone_templates, user_milestones, question_bookmarks, premium_entitlements.
+- **Visa:** visa_types, jurisdictions, missions, visa_rules, document_categories, embassy_notices, user_visa_cases, checklists, checklist_items, official_tracking_links.
+- **VisaFund:** fund_profiles, fund_transactions, source_categories, fund_evidence_links, fund_report_revisions.
+- **Counseling:** packages, counselors, counselor_availability, booking_slots, bookings, booking_events, orders, payment_attempts, payment_provider_events, refund_records, sharing_grants.
+- **Applicant:** academic_records, language_tests, qualifications, applicant_preferences, applications, application_checklists, application_events, applicant_notes, personal_milestones.
+- **Calendar:** calendar_events, recurrence_rules, recurrence_exceptions, session_event_links, reminders, notification_deliveries, calendar_preferences.
+- **Documents:** file_metadata, file_versions, storage_objects, quota_reservations, file_access_grants, backup_tasks, backup_verifications, restore_tests.
+- **CMS/System:** cms_pages, cms_sections, blocks, navigation, translations (optional), revision_history, settings, feature_flags, system_jobs, audit_events, notifications, provider_quotas.
+
+These are design candidates, not a command to duplicate equivalent legacy tables. Specify stable keys, foreign keys, uniqueness, indexes for search/date and ownership, state machines, optimistic concurrency, decimal monetary types, immutability of audit/payment events and RLS. Store UTC instants plus appropriate local timezone/recurrence semantics. Create migration scripts and test safe rollback.
+
+## O4. API contract and versioning
+Version `/api/v1`. Examples:
+- Public academic: `GET /countries`, `/institutions`, `/programmes`, `/scholarships`, `/programmes/:id/sources` with validated filters.
+- My account: `GET/PATCH /me/profile`, `/me/shortlists`, `/me/applications`, `/me/visa-cases`, `/me/funds`, `/me/documents`, `/me/calendar`, `/me/notifications`.
+- IELTS: `/ielts/guides`, `/ielts/lessons`, `/ielts/question-sets`, `/ielts/mock-tests`, `/ielts/attempts`, `/me/ielts/progress`, `/me/ielts/study-sessions`, `/me/ielts/custom-questions`.
+- Funding: `/me/funds/transactions`, `/me/funds/reports`.
+- Counseling: `/counseling/packages`, `/me/bookings`, `/payments/orders`, `/payments/provider-events` (authenticated provider callback).
+- Documents: `/me/documents/upload-intent`, `/me/documents/:id/access`, `/me/documents/:id/shares`, quota information.
+- Calendar: `/me/calendar/events`, `/me/calendar/summary`, `/me/calendar/settings`.
+- Admin: `/admin/cms/*`, `/admin/countries/*`, `/admin/ielts/*`, `/admin/visa/*`, `/admin/visafund/*`, `/admin/counseling/*`, `/admin/storage/*`, `/admin/audit/*`.
+
+Endpoints are example namespaces, not literal route implementation constraints. Validate all payloads with Zod or equivalent, handle cursor pagination, return consistent errors, require server-side RBAC/RLS, and never trust front-end IDs or status updates to authorize access. Document OpenAPI or clear typed contracts for main routes.
+
+## O5. Suggested clean monorepo
+```text
+campus2connect/
+├── apps/
+│   ├── platform/
+│   │   ├── src/app/(public)/
+│   │   │   ├── page.tsx
+│   │   │   ├── countries/ institutions/ programmes/ scholarships/
+│   │   │   ├── ielts/{guide,reading,listening,writing,speaking,practice-hub,mock-tests,question-bank,custom-questions,typing,study-tracker,daily-routine,calendar,study-history,milestones,progress,premium,resources,settings}/
+│   │   │   ├── visa/ visafund/ counseling/ contact/
+│   │   ├── src/app/(auth)/{login,register,recover}/
+│   │   ├── src/app/applicant/{dashboard,profile,shortlists,applications,documents,ielts-progress,visa-cases,funds,calendar,timeline,bookings,notifications,settings}/
+│   │   ├── src/app/admin/{dashboard,cms,countries,universities,programmes,sources,ielts,visa,visafund,counseling,payments,applicants,documents,calendar,notifications,retention,audit,monitoring}/
+│   │   ├── src/app/api/v1/
+│   │   ├── src/components/{ui,layout,forms,tables,charts,calendar}/
+│   │   └── public/branding/  # exact approved logo copied as supplied
+│   └── portfolio/            # optional separate frontend sharing approved infrastructure; NOT a seventh main module
+├── modules/
+│   ├── identity/ countries/ university-data/ programmes/ scholarships/
+│   ├── recommendations/ data-ingestion/ ielts/ visa/ visafund/
+│   ├── counseling/ payments/ applicants/ calendar/ documents/
+│   └── notifications/ cms/ retention/
+├── packages/{ui,auth,database,security,shared-types,config,utils}/
+├── integrations/{university-sources,embassy-sources,storage-b2,storage-r2,google-drive-backup,local-backup,email,sslcommerz}/
+├── jobs/{university-sync,embassy-notices,deadlines,calendar-reminders,document-backup,backup-verification,inactivity}/
+├── legacy/{passport-band,visafund,italy-journey}/
+├── database/{migrations,policies,seeds,schemas}/
+├── tests/{unit,component,integration,e2e,regression,security,performance,backup,uat}/
+├── docs/{srs,architecture,uml,erd,api,migration,design,security,testing,deployment,decisions}/
+├── infrastructure/{netlify,cloudflare,supabase,docker,monitoring,backups}/
+├── .github/workflows/
+├── package.json
+├── pnpm-workspace.yaml
+├── docker-compose.yml
+├── .env.example
+└── README.md
+```
+Keep one Campus2Connect runtime and public web identity. Existing repos are SOURCES for migration, not final disconnected products. Adjust specific directories if the existing source makes a different but equivalent organization more reliable.
+
+---
+
+# SECTION P — FREE-FIRST INFRASTRUCTURE, SECURITY, OBSERVABILITY AND PORTFOLIO
+
+## P1. Realistic no-card hosting setup
+Evaluate Netlify Free (main Next.js candidate), Cloudflare Pages/Workers Free (static/light compatible tasks), Supabase Free (PostgreSQL/Auth), GitHub Free/Actions, Backblaze B2 Free (private object candidate), encrypted Google Drive and local independent backup, suitable free email transaction provider such as Brevo where allowed. Check commercial permissions, onboarding/payment method, enforced hard caps, quotas, database inactivity/suspension, retention and regional availability before configuring. **No guarantee that any of these remain card-free or sufficient.** If provider fails requirement, choose a safe approved alternative and record ADR; keep mock adapters for unprovisioned services. R2 adapter exists but R2 provisioning is disabled until owner authorizes any required billing method.
+
+## P2. Capacity, performance and resilience
+500 MAU is a planning target, not 500 concurrent requests and not necessarily 500 total users. Model database size, search query load, file storage, egress, audio question assets, backups, email delivery and background checks independently. Use SSR/static rendering where suitable, indexed search, caching with invalidation, pagination, image optimization, optimized font loading and lazy media. Load-test representative workloads: programme discovery, 50-row admin editing, IELTS mock autosave, document upload, calendar data and webhook calls; avoid expensive global crawling. Design graceful degradation and admin alerts as free-tier caps approach.
+
+## P3. Security and safe development baseline
+- Threat model: applicant identity/docs, financial ledger, application/visa personal records, IELTS recordings, admin CMS, payments and external content ingestion.
+- Authentication: secure server-managed session, verified email, secure password recovery, admin MFA, rate limit and CSRF defense as applicable.
+- Authorization: role/object/row-level rules, no publicly accessible private storage, short-lived signed URLs, revocable grants and audit.
+- Input and content: Zod validation, safe Markdown/HTML, XSS, SQLi, SSRF, malicious URL and webhook checks, safe media/document types, escaping, no hardcoded secrets.
+- Dependencies/CI: pinned versions, dependency scanning, secret scanning, protected environments, branch review.
+- Monitoring: structured logs with PII redaction, error rates, failed login/upload/sync/payment/backup events, slow queries and storage capacity. Use OpenTelemetry/Grafana OSS where useful, not as unnecessary heavy infrastructure.
+- Privacy: owner identity not in public source/metadata; applicant sensitive content only with consent; security and privacy review before any public release.
+
+## P4. Contact and personal portfolio
+Provide a platform Contact page with configurable support email via admin; do not default to a real personal email, invented address, chat DM or user personal data. For an optional separate owner portfolio frontend, share auth/UI/data adapters only where authorized; sections may include About, Projects, Research, Publications, Certificates, Achievements, CV, Updates, Contact and Paid Counseling. Portfolio content must come from approved user-supplied sources, not silently populated from previous chats. The portfolio frontend is NOT another Campus2Connect core business module.
+
+## P5. Future AI and automation boundaries
+Keep interfaces for future: applicant-to-programme matching, scholarship matching, IELTS Writing/Speaking coaching, reading assistance, support Q&A, document organization and deadline prioritization. Do not require paid models in MVP or ship private documents to unapproved AI services. An AI-generated outcome is not an official admissions/visa decision. Additional external resources/tools may be used only if legally permitted, free/no-card, and needed for an approved module; do not invent extra business modules.
+
+---
+
+# SECTION Q — IMPLEMENTATION PROCESS, TESTING, ACCEPTANCE, CHECKPOINTS
+
+## Q1. Engineering execution stages (stay in ONE project)
+**0. Access/repo audit:** discover all three GitHub projects, read code, record refs, feature matrix, risks, backups; inspect Master Blueprint, owner supplied prompts and exact logo. Do not rename or delete legacy projects.
+
+**1. Requirements + traceability:** consolidate into SRS; explicit module stories, permissions, validation, data retention, nonfunctional targets, missing source/data dependencies, acceptance per route. Create Kanban backlog and risk register.
+
+**2. Architecture + DB + UX:** complete HLD/LLD, UML, ERD, API contracts, ACL/RLS boundary, responsive design system and full navigational sitemap. Establish migration plan, no-card provider choices and decision records.
+
+**3. Core product scaffolding:** authorized monorepo, Next.js/TypeScript/shadcn UI, content routing, public shell, auth, central schema/migrations, applicant profile, shared CMS admin, job and audit framework, GitHub CI.
+
+**4. Global Countries and Italy pilot:** verified country registry, institutions/programmes/intakes, deep source links, filters, compare, scholarship data, source verifications; incrementally migrate Italy Journey and validate against original.
+
+**5. Visa + VisaFund:** jurisdiction-aware country guides and embassy source registry, personal case tracker; migrate fund ledger/calc/export into central account and build only source-backed visa-fund comparisons.
+
+**6. Nested IELTS v2.1.4:** new internal professional UI, lessons/guides/four skill practice, mock system, question bank, typing, premium, six-hour tracker, milestones, study history, IELTS-filtered calendar; reuse old repo source/resources and verify feature matrix.
+
+**7. Applicant Workspace + shared planner:** end-to-end shortlist → application → calendar → document → IELTS progress → fund/visa tracker, 24h timeline/day/week/month/agenda, reminders; implement private quotas/backup and consent-based shares.
+
+**8. Paid Counseling:** catalogue, staff availability, bookings, mock/sandbox gateway, payment validation, calendar/notification updates, restricted counselor permissions; live charging OFF.
+
+**9. QA + staging:** automated tests, cross-module real-flow browser tests, security/RLS tests, data migration regression, backup restore rehearsal, load/accessibility, source freshness checks, deployment hard-limit controls, staging URL verification.
+
+**10. Go/no-go:** only validated integrated MVP features may be proposed for release. Any incomplete country coverage or disabled live integrations remain clearly labeled. Public launch only after owner permission and safe release checklist.
+
+These stages are implementation ordering, not a request to launch six separate sites or to postpone all code until documents are polished. Reconcile ability with actual execution time and dependencies.
+
+## Q2. Automated testing pyramid and release matrix
+- **Unit:** grading rules, IELTS correct-answer normalization, fees/decimal ledger math, due-date/calendar recurrence/DST, daily session aggregate and no double count, quotas, matching rules.
+- **Component:** university filter, complex admin forms, passage split view, writing editor autosave, audio player, speaking permission, typing WPM, transaction entry, booking selection, calendar editing.
+- **Integration:** Postgres/RLS, storage adapters, email delivery, payment webhook idempotency, migration, official-source update review, backup verification and guest progress import.
+- **E2E:** complete user journeys across all six modules and admin CMS: register → search/shortlist → IELTS attempt/timer → application → VisaFund transaction → visa checklist → secure upload → booking → calendar/notifications; second user cannot read first user's data.
+- **Security:** forbidden role access, IDOR, CSRF/XSS/SSRF, malicious upload, quota race, payment spoof/replay, private media/doc leak, secrets scanning.
+- **Accessibility:** keyboard navigation, touch targets, reduced motion, WCAG-oriented labels/contrast, calendar/timer accessibility, form errors.
+- **Performance:** free-tier workload/capacity trials, high-frequency autosave behavior, retry/backoff, mobile loading; protect quota.
+- **Recovery:** source rollback, data migration reversal or safe forward fix, encrypted file restore and DB restore with verification.
+- **UAT:** each original feature and each new requirement checked with expected behavior; no “done” statuses before evidence.
+
+## Q3. Critical user acceptance journeys (MUST RUN)
+1. **M01:** Admin publishes real programme under a country and intake; visitor filters by public, English and cost, sees official source; signed-in applicant compares/saves and adds actual deadline to shared calendar.
+2. **M02:** Guest attempts free Reading; logs in using central Campus2Connect account (not a Passport Band login), explicitly imports guest record, completes Listening or Reading mock, practices typing, tracks 360-minute/day focused target with breaks excluded and views identical session in central calendar.
+3. **M03:** User selects relevant destination and consular jurisdiction, opens official embassy/appointment URL, adds documents and reminders to a personal visa case, receives sourced updated policy notice; external visa status is not invented.
+4. **M04:** Applicant enters two deposits and a withdrawal, edits a backdated transaction, sees mathematically correct new balance and origin breakdown, prints a clearly *unofficial user-managed* report; second applicant cannot see it.
+5. **M05:** Authorized admin sets package price and availability; logged-in student attempts mock checkout; service refuses real paid confirmation before validated payment, handles duplicate callback, and only confirmed appointment appears on shared calendar.
+6. **M06:** Student creates two destination applications, uploads a private academic file under 10-MB total quota, shares one file temporarily with assigned counselor and revokes it, sets midnight calendar event, records IELTS timer and sees no duplicate minutes; cross-user isolation passes.
+7. **ADMIN:** Editor modifies a country page, embassy link, VisaFund informational template and IELTS question through CMS; correct published pages update without source deploy, and unauthorized ordinary user fails to modify any.
+8. **MIGRATION/OPS:** Three legacy original codebases and data remain safe, regression matrix audited, two restore procedures tested, storage/quota/job failures reported without incurring charges.
+
+## Q4. Definition of Done (per feature, not per page)
+Feature works for authenticated/guest roles as intended; persistence/correct logic; safe validation; loading/empty/error states; responsive and accessible; authenticated ownership and security; acceptable performance; original feature regression covered; relevant unit/integration/E2E checks pass; documentation and source link/provenance where needed; deployment environment and provider status honest. Mocked, unavailable, draft or externally blocked functionality must be clearly labeled and must NOT appear in the completed count.
+
+## Q5. Deliverable package
+- Functional central monorepo (not separate six products), exact logo copied without modification, Next.js public/applicant/admin sections, modules M01–M06.
+- Code and domain schema, versioned DB migrations/RLS, API docs, provider adapters, unit/integration/E2E tests, feature flags, secure staging config and GitHub workflow.
+- `docs/` containing Master SRS, functional + nonfunctional requirements, user stories, HLD/LLD, UML component/sequence/activity diagrams, ERD, provider threat model, CMS editorial procedures, source provenance rules, data import/rollback, architecture decisions, backup/restore runbooks, UAT test matrix and deployment/quota notes.
+- Legacy audit matrix for all three GitHub repositories with original commit SHAs, route/feature migration map and verification results.
+- Actual staging URL if deployed and verified, exact repo/branch/commit, coverage per module, tested outcomes, limitations, blocked integrations, estimated provider utilization and owner's explicit pending approvals.
+- A prioritized continuation checklist with exact next code changes if the execution session must end before full delivery.
+
+## Q6. Progress and continuation behavior
+Do not generate one enormous status update and stop. Work in small testable Git commits with a current checklist and meaningful progress reports; if tool/runtime/context limits occur, checkpoint **source changes, branch, last SHA, migrations applied, tests passed/failed, what is not deployed, blockers and exact resumption command**. Next session starts from the checkpoint, not from a fresh starter template. Request only required authorizations; never demand passwords or tokens in chat. No promise of background work without a real scheduled mechanism.
+
+## Q7. Approval boundaries
+Safe work authorized: inspect connected repos, create non-destructive local/staging code, run tests, produce docs and previews, prepare changes in authorized branch, perform non-destructive migrations on test data. Require explicit permission for: publishing a public site, updating production domain/cutover, destructive live migrations, deleting original repositories, revealing private info, activating live SSLCOMMERZ, sharing real documents with third parties, purchasing services, entering card details or irreversible account deletions.
+
+---
+
+# FINAL EXECUTION INSTRUCTION — START THE ACTUAL BUILD
+
+You are implementing **one integrated Campus2Connect ecosystem**. Do not split The Passport Band into an independent public website. Audit the real GitHub codebases for Passport Band, VisaFund and Italy Journey; keep originals safe. Preserve the supplied final logo image EXACTLY. Begin building the central shell, common data/auth, modules and professional responsive interface immediately after the initial necessary audit. Give **comparable engineering attention to ALL six modules**, not an IELTS-heavy rewrite with vague one-paragraph coverage elsewhere. Every module must have functional interface, data model, CRUD, security, official-source or transaction integrity as relevant, admin behavior, tests and cross-module user journey. Implement the approved full IELTS v2.1.4 inside `/ielts/*` without a second login, calendar or independent domain. Include the applicant's full 24-hour planner, 6-hour IELTS tracker, original legacy code preservation, paid-only counseling, official-source university and visa data, secure documents, independent backups, no-card infrastructure and one dynamic Admin CMS. Do not prefill any owner personal details or ChatGPT branding. No paid activation or public launch without approval. Save Git checkpoints and accurately disclose unmet dependencies and unfinished features. **Deliver a working, verified integrated project, not just a design.**

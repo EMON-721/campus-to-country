@@ -1,0 +1,10 @@
+import {env} from "cloudflare:workers";
+import {provider,admin,sameOrigin,failure,APIError} from "@/lib/backend";
+export const dynamic="force-dynamic";
+export async function GET(req:Request){try{const edit=new URL(req.url).searchParams.get("admin")==="1";const token=edit?(await admin()).token:undefined;const rows=await provider("/rest/v1/ctc_content?order=updated_at.desc"+(edit?"":"&published=eq.true&premium=eq.false"),"GET",undefined,token);return Response.json({rows},{headers:{"Cache-Control":edit?"no-store":"public, max-age=30"}})}catch(e){return failure(e)}}
+export async function POST(req:Request){try{sameOrigin(req);const {user,token}=await admin();const b:any=await req.json();if(typeof b.title!=="string"||!b.title.trim()||b.title.length>200||typeof b.body!=="string"||b.body.length>20000||typeof b.section!=="string"||b.section.length>100||b.url&&!/^https:\/\//.test(b.url))throw new APIError(400,"Invalid content");
+if(b.section.startsWith('@links')&&!/^(https:\/\/|mailto:|\/(?!\/)|#)/.test(b.body))throw new APIError(400,'Use an HTTPS, mailto, internal or section link');
+const payload={section:b.section,title:b.title.trim(),body:b.body,url:b.url||null,published:!!b.published,premium:!!b.premium,updated_at:new Date().toISOString()};
+if(b.id&&!/^[a-f0-9-]{36}$/.test(b.id))throw new APIError(400,"Invalid content ID");
+const prior=await provider("/rest/v1/ctc_content?"+(b.id?"id=eq."+b.id:"section=eq."+encodeURIComponent(b.section)+"&title=eq."+encodeURIComponent(b.title)),"GET",undefined,token);if(!b.id&&prior.length)b.id=prior[0].id;
+const rows=await provider("/rest/v1/ctc_content"+(b.id?"?id=eq."+b.id:""),b.id?"PATCH":"POST",payload,token);if(env.DB)await env.DB.prepare("INSERT INTO platform_audit(id,actor,target,action,reason,created) VALUES(?,?,?,?,?,?)").bind(crypto.randomUUID(),user.id,rows[0]?.id||b.section,"content.update",JSON.stringify({before:prior[0]||null,after:rows[0]}),new Date().toISOString()).run();return Response.json({record:rows[0]})}catch(e){return failure(e)}}

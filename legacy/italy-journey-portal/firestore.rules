@@ -1,0 +1,97 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper functions for authorization
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    function isAdmin() {
+      return isAuthenticated() && (
+        request.auth.token.role == 'admin' ||
+        get(/databases/database/documents/users/$(request.auth.uid)).data.role == 'admin'
+      );
+    }
+
+    // Public University & Scholarship directories (Read-only for all, write for Admin)
+    match /public_universities/{uniId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    match /public_scholarships/{scholarshipId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    match /cimea_steps/{stepId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // User accounts collection
+    match /users/{userId} {
+      // User can read and update only their own profile; admins can list/read
+      allow read: if isOwner(userId) || isAdmin();
+      allow create: if isAuthenticated() && request.auth.uid == userId && request.resource.data.role != 'admin';
+      allow update: if (isOwner(userId) && request.resource.data.role == resource.data.role) || isAdmin();
+      allow delete: if isAdmin();
+
+      // Private User Sub-collections (Strictly isolated to user owner)
+      match /applications/{appId} {
+        allow read, write: if isOwner(userId);
+      }
+
+      match /tasks/{taskId} {
+        allow read, write: if isOwner(userId);
+      }
+
+      match /documents/{docId} {
+        allow read, write: if isOwner(userId);
+      }
+
+      match /expenses/{expenseId} {
+        allow read, write: if isOwner(userId);
+      }
+
+      match /notes/{noteId} {
+        allow read, write: if isOwner(userId);
+      }
+
+      match /visa_checklist/{checkId} {
+        allow read, write: if isOwner(userId);
+      }
+
+      match /accommodations/{accId} {
+        allow read, write: if isOwner(userId);
+      }
+
+      match /flights/{flightId} {
+        allow read, write: if isOwner(userId);
+      }
+
+      match /sponsor_records/{recordId} {
+        allow read, write: if isOwner(userId);
+      }
+
+      match /embassy_record/{recordId} {
+        allow read, write: if isOwner(userId);
+      }
+
+      match /dsu_application/{dsuId} {
+        allow read, write: if isOwner(userId);
+      }
+    }
+
+    // Administrator internal vault & system settings
+    match /admin_vault/{docId} {
+      allow read, write: if isAdmin();
+    }
+  }
+}
+

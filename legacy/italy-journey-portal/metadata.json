@@ -1,0 +1,7 @@
+{
+  "name": "Italy Journey Portal",
+  "description": "Comprehensive Italy Study Abroad Management Platform for Bachelor's, Master's, and PhD degrees with regional scholarship guides and admission checklists.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

@@ -1,0 +1,1277 @@
+[
+  {
+    "path": "legacy/The-Passport-Band/README.md",
+    "sha256": "621a1eb42175ee2db607bbb2e02593e34e4bb1b50af26786ed8f82447a8682b5",
+    "bytes": 6352
+  },
+  {
+    "path": "legacy/italy-journey-portal/.env.example",
+    "sha256": "f8c129a5e8149fd9aea48a79c4ef02ca8ca585ad17e584d41ad7ff8c1b84dc93",
+    "bytes": 446
+  },
+  {
+    "path": "legacy/italy-journey-portal/.gitignore",
+    "sha256": "149215ef30ae889537cb601c7b10c5d2e90aec2e28f2d3a1b72f05c8375d7268",
+    "bytes": 74
+  },
+  {
+    "path": "legacy/italy-journey-portal/firestore.rules",
+    "sha256": "184a286b69449dbbc050da10bd8335625611f4f5e42c09817a4ecb358ccda2b4",
+    "bytes": 2610
+  },
+  {
+    "path": "legacy/italy-journey-portal/index.html",
+    "sha256": "8fe5976cddd22dd6e25f71a93b215dd259c4e516a5b2e9eb77e3b89ef48aa2c5",
+    "bytes": 1427
+  },
+  {
+    "path": "legacy/italy-journey-portal/metadata.json",
+    "sha256": "55653a6a1575eca96058c89e5ee4ca7622e7df2c2481488caabec7d56c9d95c6",
+    "bytes": 313
+  },
+  {
+    "path": "legacy/italy-journey-portal/package.json",
+    "sha256": "1784ce7ae879421157628bbc476e531e1bb03cf078b9e3d10d5757d660fa61fd",
+    "bytes": 901
+  },
+  {
+    "path": "legacy/italy-journey-portal/server.ts",
+    "sha256": "297894cb617252f288430cfceb592b56c49ab505345143e204d7fef35bd39679",
+    "bytes": 12494
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/App.tsx",
+    "sha256": "64be202acc8b8254378423a5ae340a5ca82c08a787848d772c9f38952c4987f7",
+    "bytes": 23304
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/auth/AdminDashboardView.tsx",
+    "sha256": "44dbab15460edaf8e3a514b7794270bf75c060abb449c8b33fe8066a078ecbcc",
+    "bytes": 13944
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/auth/AdminLoginView.tsx",
+    "sha256": "fda8788b6ae4fbbbc55de23a27e400a9b8f4606a223fade1d74a92f3116495de",
+    "bytes": 7062
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/auth/UserLoginView.tsx",
+    "sha256": "b7cb0003482f3d23b4791726cf4d6f4eade63b5093f06ce2ba9c29e4da6d29a7",
+    "bytes": 17466
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/auth/UserRegisterView.tsx",
+    "sha256": "4379d62e177fe880b459f67677137e7c43846c68146f7c2acc812e41b19a794f",
+    "bytes": 18603
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/common/Badge.tsx",
+    "sha256": "0357bc47056b88e66de4da28296b0232826392cb82200e298a7221e4d3d14101",
+    "bytes": 1560
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/common/Button.tsx",
+    "sha256": "8d3c2f3db3a186de5796144c386a52ef65f6126e8e4620537267d9f169e0e24d",
+    "bytes": 2266
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/common/EmptyState.tsx",
+    "sha256": "85a7c331cb03d0a9c414af6b8b1e4551a2ef0a20550e78dd93580519721740aa",
+    "bytes": 1214
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/common/Modal.tsx",
+    "sha256": "3304411d724521b8365889d3651127cf636620c1816979e8c76a048b912dd8bd",
+    "bytes": 1923
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/common/StatCard.tsx",
+    "sha256": "25bd8951c0120364ceb2780ee1543c57f81248136fd294252908a8e8d8b48047",
+    "bytes": 3451
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/layout/Header.tsx",
+    "sha256": "1b550b110d0338e9467bd2dbb978eb2bc44d4a07dca8889f100803f8ba2d6216",
+    "bytes": 31549
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/layout/Sidebar.tsx",
+    "sha256": "4a0ee6520b9ff148053484a1cccb9b150aad5ae79f736294e8f2f2c8ef33a590",
+    "bytes": 20362
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/modules/AcademicProfileView.tsx",
+    "sha256": "e18784413f4208c7ad06ccc8c5bca6feed4d6d34d38d9661c925f30415697ed7",
+    "bytes": 30260
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/modules/AccommodationTravelView.tsx",
+    "sha256": "a4baa837a478c555097a3f30d9352075839ab73487d2f300aba709ce2ba112b3",
+    "bytes": 14443
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/modules/AdminControlCenterView.tsx",
+    "sha256": "f3b6a5b5b9b2eaa8c6b873955cadd16afc6c85dc556f91d6fdbed1d435081971",
+    "bytes": 95050
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/modules/AppearanceSettingsView.tsx",
+    "sha256": "f54289fde7cd53e31ecf31b5a915f948acd5d991ca8c110f00b9408936b60446",
+    "bytes": 38613
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/modules/ApplicationManagementView.tsx",
+    "sha256": "4c462572eb81ef48641e00f4b917b128d85695f301afd5979eda30ca92e8e915",
+    "bytes": 39173
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/modules/CalendarDeadlinesView.tsx",
+    "sha256": "2f0d24a8abbf76a99dbda061e51b173f0117f81593dbd9285371a064cbc28fc7",
+    "bytes": 7425
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/modules/CimeaDovView.tsx",
+    "sha256": "e112c1c92d4c659e7ad74d2908834532c20e4dea7e59b023307c1a21068c7900",
+    "bytes": 15879
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/modules/CustomModuleBuilderView.tsx",
+    "sha256": "0cdcca4e64272444a7a6d5fcb9d6ef95673d4e0b3b962c93ebf676bb195f66f1",
+    "bytes": 48734
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/modules/DashboardView.tsx",
+    "sha256": "36637ec79a88a82ecdaac342fb9f90fa5fd32afa5491a587b45a3d2312d87f22",
+    "bytes": 56323
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/modules/DocumentManagerView.tsx",
+    "sha256": "6098e01753aa49b109bf71fca311e02633c67eaf383a5423fff6d01bf4fb7625",
+    "bytes": 56808
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/modules/EmbassyVisaView.tsx",
+    "sha256": "f82936b8fc87077c108c1050a3b5412056659db34374932c51ea99e549202f39",
+    "bytes": 17109
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/modules/FinancialBudgetView.tsx",
+    "sha256": "f0fab9d8f0fe8c84ad0102689c3e0b78c045b58cced62bfd437664066dcd36f0",
+    "bytes": 14997
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/modules/ItalianRegionsView.tsx",
+    "sha256": "a238847804fbdf194bbcb3c959391037c3bb6436f54bd6bb2f5ef68a6a7c1805",
+    "bytes": 29360
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/modules/NotesLinksView.tsx",
+    "sha256": "7ead922140d7753b98e2521226f3f0564f7ec7d3a99d4624275db8c5d14d2580",
+    "bytes": 16234
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/modules/ProgrammeTrackerView.tsx",
+    "sha256": "4e73382ff3751fb54b39f65216afa08e1732b781aa6e9517be049348643f886d",
+    "bytes": 21832
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/modules/PublicLandingView.tsx",
+    "sha256": "6087a527251bf366265f580a0bf4f3113f10e967ba3164e9c122d3f2d2fbaf9c",
+    "bytes": 32053
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/modules/ReportsAnalyticsView.tsx",
+    "sha256": "2249b18c42cec2dd64797c8df6781ac3aa0fab8f65c75047161d6e4ce6b0881e",
+    "bytes": 9239
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/modules/ResidencePermitLifeView.tsx",
+    "sha256": "9775a72a70aaa1b9edadd64fa1603d4521ec2fa6ddee5bc5b9db56f07fef3a0d",
+    "bytes": 12696
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/modules/ScholarshipDsuView.tsx",
+    "sha256": "21d0b6c3ca3cbbc2e8860608231a7c5a1beeb5875908821598b42ca70a32f7b7",
+    "bytes": 24034
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/modules/SponsorBankView.tsx",
+    "sha256": "e3e7cc8306f40a93db22f4d4de1125e9cd9c7deba4ab7a476cebd2752a14d9af",
+    "bytes": 16092
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/modules/TaskManagerView.tsx",
+    "sha256": "bf17419f5c075dcebda8f0e9a6d304c81f6fd4f0b6ba99ec506852999b171bdc",
+    "bytes": 30174
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/modules/UniversitalyView.tsx",
+    "sha256": "3217e5beae675d9c8daf2c43c0902dae16848b9aae96114a15d1568c4024ceff",
+    "bytes": 15112
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/modules/UniversityExplorerView.tsx",
+    "sha256": "a6232038ef8ccf3c914b878665f4faf02813833f0f63302e67c09fe14d1e8714",
+    "bytes": 18165
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/components/modules/VisaChecklistView.tsx",
+    "sha256": "bf969216dc44136d1ce1cc5ec29fd939bc9e41d982f6b6da27e637514186c696",
+    "bytes": 25130
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/data/adminInitialData.ts",
+    "sha256": "ad9a78b3d33a49a1ccf8eb27b0ce2dc3f3dc442fb183d0828d3244bf2955db60",
+    "bytes": 29823
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/data/mockData.ts",
+    "sha256": "e7ab88b15e8eda4d78dfd13de71e7fcaa9ccfc9770b6debb43dfc67c46ac1b15",
+    "bytes": 44965
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/data/regionsData.ts",
+    "sha256": "f4043edda2184ea9b9cf2fd28938e6fc5862183d98e40adb7b83d5ee0cd68062",
+    "bytes": 66786
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/index.css",
+    "sha256": "1ab989086d7c383d7db3c1d9ac12d7165c26af02781ad6b0a3bf899ccd837cc4",
+    "bytes": 723
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/main.tsx",
+    "sha256": "d01f2c7638fb7015596091981b12d56cf6d156d0c4a15dd2c9c288e7acebc676",
+    "bytes": 160
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/services/storage.ts",
+    "sha256": "df4be34313f70d296fb065922bcf169820127ba6668c251888ef270bf74c1385",
+    "bytes": 55096
+  },
+  {
+    "path": "legacy/italy-journey-portal/src/types/index.ts",
+    "sha256": "109fb5e802e044a501dbc483f719abdad1c2e7a8779323041b3cac5741846407",
+    "bytes": 15897
+  },
+  {
+    "path": "legacy/italy-journey-portal/tsconfig.json",
+    "sha256": "1da95765f1b23be05b2835192257256edc751bda8f0d9afeb5a5deda5afdabe9",
+    "bytes": 539
+  },
+  {
+    "path": "legacy/italy-journey-portal/vite.config.ts",
+    "sha256": "c81d731f7f1165cbb4310312bd63e5ac4393532319bd95bc4bd240a7cbe3dccd",
+    "bytes": 706
+  },
+  {
+    "path": "legacy/visafund/.env.example",
+    "sha256": "ede4a17ef914a808c52c9722215a9a11ff11cb5d246a08cbbe084ec4a3cda1a2",
+    "bytes": 843
+  },
+  {
+    "path": "legacy/visafund/.gitignore",
+    "sha256": "6a718e00e2e50dd02b5bcd84cfaadb58aa0f6a28a7a5a4c7ef006fed27d85137",
+    "bytes": 614
+  },
+  {
+    "path": "legacy/visafund/.npmrc",
+    "sha256": "463d3ee458fba54bcdd06b2a6260bb70ecbfd781725bf9820c8282b4517d43a6",
+    "bytes": 46
+  },
+  {
+    "path": "legacy/visafund/.openai/hosting.json",
+    "sha256": "ca5853ea4ec5db521eb3a6e86ee9606be63fa232b882862f99fc852a223ef32a",
+    "bytes": 95
+  },
+  {
+    "path": "legacy/visafund/ACCOUNT-ADMIN-FIX-2026-10-11.md",
+    "sha256": "444a15b038a60a5a891de7dc6fa6b7c61042e41ff60837f9d8d63cc73efe0a95",
+    "bytes": 2171
+  },
+  {
+    "path": "legacy/visafund/AUTH-INTEGRATION.md",
+    "sha256": "8f5db5f774c6dad040014298d6582c4242f62cf26c21479d2a8b9ddbe56af45c",
+    "bytes": 8711
+  },
+  {
+    "path": "legacy/visafund/AUTH-PAGES-REVIEW.md",
+    "sha256": "154a89bed60fc7a7f931397489d29cf11c234ed3f554e4908eecb6884a83aecc",
+    "bytes": 7130
+  },
+  {
+    "path": "legacy/visafund/BUILD-MFA-TEST-2026-10-11.md",
+    "sha256": "25b91f814ff1f3a4659173ffd19fb3346056e9ca6b661d0e3984c02f5029c5e1",
+    "bytes": 2550
+  },
+  {
+    "path": "legacy/visafund/CLOUDFLARE-MIGRATION.md",
+    "sha256": "c519a94213d215c5ca383e8dce6559518498747d64045da80e6c87a040d233d7",
+    "bytes": 5658
+  },
+  {
+    "path": "legacy/visafund/DEMO-PRACTICE-REPORT.md",
+    "sha256": "2109fa3266bfb7219e503fe9e40f53245b2fd97a1bcb975a9586ccee6f0f4ac4",
+    "bytes": 5471
+  },
+  {
+    "path": "legacy/visafund/PREDEPLOYMENT-REVIEW.md",
+    "sha256": "6c1de930a36b3950382d7c22b9234aa10b00debf01b15ea7a5c8529f58926099",
+    "bytes": 11231
+  },
+  {
+    "path": "legacy/visafund/PRIVATE-STORAGE.md",
+    "sha256": "7fcbe3647430130f06fba04b33fd129adfbde28ad730656cb2c66812b38b40a2",
+    "bytes": 3742
+  },
+  {
+    "path": "legacy/visafund/README.md",
+    "sha256": "cabb2f049a31d33eef042fc64b1a349eb97c05108121db320261817f3a260564",
+    "bytes": 7066
+  },
+  {
+    "path": "legacy/visafund/V2-READINESS.md",
+    "sha256": "606ba271ffb154d2d7451e6f42cf6e16e97414c2636fa161e6fcb25145e8f127",
+    "bytes": 6092
+  },
+  {
+    "path": "legacy/visafund/V2.1-READINESS.md",
+    "sha256": "dfe42d5cc549bb4299df8b4e69bcb09aa05d8056b4230f0e7a6ea3fbd4d2aaeb",
+    "bytes": 4842
+  },
+  {
+    "path": "legacy/visafund/V2.2-READINESS.md",
+    "sha256": "c6ccbcd0ef0b181d49224f661bce77564fd59ea4c19b323506e6a992fecd4897",
+    "bytes": 3436
+  },
+  {
+    "path": "legacy/visafund/V2.3-READINESS.md",
+    "sha256": "b417e00a607423baae2280eb56ae086be4ce19aa5d98f8b44a7ece66f90fc405",
+    "bytes": 9814
+  },
+  {
+    "path": "legacy/visafund/app/[[...slug]]/page.tsx",
+    "sha256": "c087baa9c599c780bcd5934139a4215e7fe6aa5a7db64cb12d881b18d52d9420",
+    "bytes": 4473
+  },
+  {
+    "path": "legacy/visafund/app/admin-console.tsx",
+    "sha256": "1661015614fb89e4fffc0ab13d9140a5c913d7f19c745cc92bfdd0da7e260263",
+    "bytes": 17866
+  },
+  {
+    "path": "legacy/visafund/app/admin-site.tsx",
+    "sha256": "89300328866779e4622ce684f64a93aab72c62a662c9ae524068ced9cf324e3e",
+    "bytes": 2058
+  },
+  {
+    "path": "legacy/visafund/app/api/auth/[operation]/route.ts",
+    "sha256": "4eae99cdd6b95ddc99104188584b3d7147af3646cdc77e445b924701ad4cc469",
+    "bytes": 11902
+  },
+  {
+    "path": "legacy/visafund/app/api/data/route.ts",
+    "sha256": "61e28aaa0219bf522864b2894c0a650771cece07d8f21b0f8326d6ec0079cfb9",
+    "bytes": 18658
+  },
+  {
+    "path": "legacy/visafund/app/api/documents/route.ts",
+    "sha256": "860fd57e8fa247f6d706bdbb42fe834347e60442f3d6ed2713e47c17c0cf86f5",
+    "bytes": 3149
+  },
+  {
+    "path": "legacy/visafund/app/api/exchange/route.ts",
+    "sha256": "7e442cc44ab04bbb0635d2d0d73b8828a6bbdb8044831a00b391623d3a907936",
+    "bytes": 3509
+  },
+  {
+    "path": "legacy/visafund/app/api/membership/route.ts",
+    "sha256": "8e8d5d32ccf49c0c8df539f9b5267ed0bbf9116ec8399d22a492617d73e7b271",
+    "bytes": 2416
+  },
+  {
+    "path": "legacy/visafund/app/api/platform/route.ts",
+    "sha256": "4dde8e99a667130f8cae0608486af71284aec5e6b3b72f9edea626f494ab2176",
+    "bytes": 3382
+  },
+  {
+    "path": "legacy/visafund/app/api/report/route.ts",
+    "sha256": "b0a953116c184cd9392984ea8d456a7cfe9c9e8bb47d8723176bda94c450704f",
+    "bytes": 2282
+  },
+  {
+    "path": "legacy/visafund/app/api/requirements/route.ts",
+    "sha256": "35fce4491f89120b918378b7e013fd521d5cd9ef74c819ac7a64eeff6a9aa2fe",
+    "bytes": 377
+  },
+  {
+    "path": "legacy/visafund/app/auth/callback/route.ts",
+    "sha256": "88057f089d18e4db9b1d4b92505183beaee304b71f4bfc19e89e7ca44d0895df",
+    "bytes": 979
+  },
+  {
+    "path": "legacy/visafund/app/auth/chatgpt-return/route.ts",
+    "sha256": "65c067796a2917b699b84d0fd2400e65a232a76329cc6f5bc83e03e2cb48a12f",
+    "bytes": 479
+  },
+  {
+    "path": "legacy/visafund/app/auth/confirm/route.ts",
+    "sha256": "be9da7de8c5a9b3281918e5af650ed8f0c3bfed821ca353d31b3fc0fa2f1ad51",
+    "bytes": 1250
+  },
+  {
+    "path": "legacy/visafund/app/auth-navigation.tsx",
+    "sha256": "674c2577e08e46bbb69ce42cf5cd360afac3f2f73082c1fb9a2dcbcf7d4dfe92",
+    "bytes": 584
+  },
+  {
+    "path": "legacy/visafund/app/chatgpt-auth.ts",
+    "sha256": "781c5e7ce457ce93bbc6c45316bec7c23b95fdce94dc4644bb0a559013f5f39f",
+    "bytes": 2677
+  },
+  {
+    "path": "legacy/visafund/app/currency-converter.tsx",
+    "sha256": "3b2b3c23c764e227367cd6689a564c1472ce45b3e0058b03b2d6043c73ada893",
+    "bytes": 4010
+  },
+  {
+    "path": "legacy/visafund/app/demo-guide.tsx",
+    "sha256": "0395ed8a0a37b012af267de40884a543460b12b1832414d2edc9ed6cab49082d",
+    "bytes": 13447
+  },
+  {
+    "path": "legacy/visafund/app/globals.css",
+    "sha256": "21cef7b9effa1f47eb7c3fc5f50e2d97e987fee71b07ebe2ba894eddee29db8e",
+    "bytes": 41286
+  },
+  {
+    "path": "legacy/visafund/app/layout.tsx",
+    "sha256": "c2cba9c715b566f2efc111c6a4c0b5fb5482a596d26c171446c3cf8fe80faf1b",
+    "bytes": 1180
+  },
+  {
+    "path": "legacy/visafund/app/logout-button.tsx",
+    "sha256": "280d546123a488df9154b789561091b50e3b0b378887ad1347715c66753996e3",
+    "bytes": 809
+  },
+  {
+    "path": "legacy/visafund/app/public-calculator.tsx",
+    "sha256": "cb3a9dd03bc15f30a908245d434969312f290cc4b28ee95b86f0ed34c77daebd",
+    "bytes": 1018
+  },
+  {
+    "path": "legacy/visafund/app/public-site.tsx",
+    "sha256": "8dcc138d4b7bb92613d09243e295055393159dd1542486e54017b2551aae8071",
+    "bytes": 7324
+  },
+  {
+    "path": "legacy/visafund/app/registration.tsx",
+    "sha256": "b7faa7f290a84066e51284af64962c3b2f39a4ffcbacb6f11120c71ed7ccf5f7",
+    "bytes": 18024
+  },
+  {
+    "path": "legacy/visafund/app/session-refresh.tsx",
+    "sha256": "f10ede87e5154a06f7ffe1b90e2cfc67b4ba2bdbe19a6a5714b2c2d1acb1cff1",
+    "bytes": 1572
+  },
+  {
+    "path": "legacy/visafund/app/support-contact.tsx",
+    "sha256": "9d563bb9b320103a8960d5392f174663c425508ea17d961cc630cc5d64802194",
+    "bytes": 1417
+  },
+  {
+    "path": "legacy/visafund/app/workspace.tsx",
+    "sha256": "a8842a2c81c31d79e74655bc1a9d71f5d3680fcb12c499fad084d363155891f7",
+    "bytes": 95757
+  },
+  {
+    "path": "legacy/visafund/build/cloudflare-worker.ts",
+    "sha256": "fefc762d5c38857abbcdf73e0ef2c93ebeed942387dd8f94e7392021347d63eb",
+    "bytes": 526
+  },
+  {
+    "path": "legacy/visafund/build/connector-preview-plugin.mjs",
+    "sha256": "50e1d84922fd2b4a193802b308179c181044e0a06f724da56eab9f31b05834c5",
+    "bytes": 7212
+  },
+  {
+    "path": "legacy/visafund/build/connector-preview-worker.mjs",
+    "sha256": "be3226a8e5f682275a4c92adc8667fca986c84df0d6d5a944a201bf8678a50f8",
+    "bytes": 595
+  },
+  {
+    "path": "legacy/visafund/build/sites-vite-plugin.LICENSE",
+    "sha256": "19d1a643a9ad2600e131cf1a1e19ed02dd56dc97a2f14fb0f95de3071219889a",
+    "bytes": 1064
+  },
+  {
+    "path": "legacy/visafund/build/sites-vite-plugin.ts",
+    "sha256": "709e275f5ceed7ff70172af8ad2dc04bf1227acaf27ab771d7f484f524e31c1e",
+    "bytes": 7186
+  },
+  {
+    "path": "legacy/visafund/build/sites-worker.ts",
+    "sha256": "9e26de4bc9ef59beccc716007295096786736803fc03f1b77e0cb8a774d9bf28",
+    "bytes": 1280
+  },
+  {
+    "path": "legacy/visafund/cloudflare-env.d.ts",
+    "sha256": "b40243b9c2fadf293c1e112a9b652a835d8c90690b0696dcacbe4abf7a8b5abd",
+    "bytes": 100
+  },
+  {
+    "path": "legacy/visafund/components/connector-error.tsx",
+    "sha256": "622e0e41731d2816637ab2d5392fc1c73f00619beed80d8a86b735db10a52796",
+    "bytes": 1083
+  },
+  {
+    "path": "legacy/visafund/components/fund-chart.tsx",
+    "sha256": "a35c4cef578419a73ba80e28b63cb6a5880edbdb5baa041d97bf9c1d6eccd66c",
+    "bytes": 2144
+  },
+  {
+    "path": "legacy/visafund/components/ui/accordion.tsx",
+    "sha256": "8f644f3614212295d24902e66e127abca2e3373f2877fe03fdd497f3ff7bed71",
+    "bytes": 2049
+  },
+  {
+    "path": "legacy/visafund/components/ui/alert-dialog.tsx",
+    "sha256": "6187fd8e712949c4b8324b95e29416a045dc38f417cd89df9965f82c764f7844",
+    "bytes": 5440
+  },
+  {
+    "path": "legacy/visafund/components/ui/alert.tsx",
+    "sha256": "0966c890bfd309dd05e08c4a217509df8311ccf6f4f36e25769d18abbbe2071f",
+    "bytes": 1615
+  },
+  {
+    "path": "legacy/visafund/components/ui/aspect-ratio.tsx",
+    "sha256": "89f87f44d1abc692c90bc34c33acade5c70d7de0d760f5332f46bd2c50a479a3",
+    "bytes": 275
+  },
+  {
+    "path": "legacy/visafund/components/ui/attachment.tsx",
+    "sha256": "a72f1c25b7df1c814932ada5d80aa51e0cbdd0c4196e1feed383eaa422ce713a",
+    "bytes": 6003
+  },
+  {
+    "path": "legacy/visafund/components/ui/avatar.tsx",
+    "sha256": "78752c0cb38246492a199bc1b5e9cbf4cf23e33e864839785648b64975e0d7d2",
+    "bytes": 2917
+  },
+  {
+    "path": "legacy/visafund/components/ui/badge.tsx",
+    "sha256": "6bf5021a21ac1801505a3f220ddd73708fa3a0f36eb44f8e3837308cc6c764a9",
+    "bytes": 1777
+  },
+  {
+    "path": "legacy/visafund/components/ui/breadcrumb.tsx",
+    "sha256": "528d290a788fc5d8f8a819179ee58c553ffe60e253c587a7e48f4ee7035ceebc",
+    "bytes": 2351
+  },
+  {
+    "path": "legacy/visafund/components/ui/bubble.tsx",
+    "sha256": "e977d66fe70da1d8edcbd0ff3333caa0c37ab6c9b273bdaa6f9822bf1a01bcbc",
+    "bytes": 4700
+  },
+  {
+    "path": "legacy/visafund/components/ui/button-group.tsx",
+    "sha256": "8f1db9da6df6b1ffc76693b661065fbcb638a0a04be6de3ee86bfb18d0595e3c",
+    "bytes": 2203
+  },
+  {
+    "path": "legacy/visafund/components/ui/button.tsx",
+    "sha256": "37a778f36963283146397659b935f73e724ed4ac6ba2e657fe23f24dae97d330",
+    "bytes": 2393
+  },
+  {
+    "path": "legacy/visafund/components/ui/calendar.tsx",
+    "sha256": "3ce5bd52be93f9ad78e00dc08506fe1a4efbb560ed30a9c8198895664041c61b",
+    "bytes": 7833
+  },
+  {
+    "path": "legacy/visafund/components/ui/card.tsx",
+    "sha256": "4807949e02e7ec8749c3ab9ea2ccd7b9a21cbf3cecabee911b59ce8b3680e387",
+    "bytes": 1988
+  },
+  {
+    "path": "legacy/visafund/components/ui/carousel.tsx",
+    "sha256": "76e17e305dcfccd4b402c88b9b1ea4fb90a228bf9e6f3d2668bb36014922987c",
+    "bytes": 5557
+  },
+  {
+    "path": "legacy/visafund/components/ui/chart.tsx",
+    "sha256": "7bdccc0553ceaad6df3f74550f5bbbd31ea45f5fb67f089be49d24748434f0e3",
+    "bytes": 10615
+  },
+  {
+    "path": "legacy/visafund/components/ui/checkbox.tsx",
+    "sha256": "69425d76195840e1efb1c27080b3297e88d619f1e8ebec92571ee69bf78240ce",
+    "bytes": 1215
+  },
+  {
+    "path": "legacy/visafund/components/ui/collapsible.tsx",
+    "sha256": "f9d34bb60ea09a48b7fdc4c33fab153eebd829973f4919258fbb10066a18aa22",
+    "bytes": 796
+  },
+  {
+    "path": "legacy/visafund/components/ui/combobox.tsx",
+    "sha256": "a48c9fd9742cf7ffdfca0485c26fcaf891dbc38cfad84b045d576582fdbf4230",
+    "bytes": 9159
+  },
+  {
+    "path": "legacy/visafund/components/ui/command.tsx",
+    "sha256": "ef190a5111e7b9863bd4cf7f65fc7ac8da88480486953c88eb05ddf677130a2b",
+    "bytes": 4819
+  },
+  {
+    "path": "legacy/visafund/components/ui/context-menu.tsx",
+    "sha256": "7da31769089ed73ca57c1045687361444fe6a134cf51357df98f8c44247839d6",
+    "bytes": 8269
+  },
+  {
+    "path": "legacy/visafund/components/ui/dialog.tsx",
+    "sha256": "58608543ab4e368797e32919c897be0003bad60b567d218e970a35c0d3ee1638",
+    "bytes": 4304
+  },
+  {
+    "path": "legacy/visafund/components/ui/direction.tsx",
+    "sha256": "8df869955b11ad49c9897efae4221fd717482d9e215ab22f9eeb7324bb84c160",
+    "bytes": 507
+  },
+  {
+    "path": "legacy/visafund/components/ui/drawer.tsx",
+    "sha256": "6cd53a4db62236e3776f1f28d8ebff0d5b3425f245df7f44366649c9ca3577b5",
+    "bytes": 4256
+  },
+  {
+    "path": "legacy/visafund/components/ui/dropdown-menu.tsx",
+    "sha256": "eeea6ce040e423a6d48db2f81b73ac059b254ffb6b9fefc00c2140aa58a6a668",
+    "bytes": 8419
+  },
+  {
+    "path": "legacy/visafund/components/ui/empty.tsx",
+    "sha256": "0374626f38ef2a7e3d74e5d9a1773f89a330cc10671614be5c09aa3ad4f93eb8",
+    "bytes": 2397
+  },
+  {
+    "path": "legacy/visafund/components/ui/field.tsx",
+    "sha256": "cbb477c5c54b277d0dd8622b561020d8bea4f3e05996b0d72c1db8615620f8cb",
+    "bytes": 6160
+  },
+  {
+    "path": "legacy/visafund/components/ui/form.tsx",
+    "sha256": "a1cc0608f6729f6fdf6b83afc6164afc13621095f5f3354f0d035caf844ed886",
+    "bytes": 3758
+  },
+  {
+    "path": "legacy/visafund/components/ui/hover-card.tsx",
+    "sha256": "6045deb78d09a935fe574aa25aae0ac9e652eb2663e347170d36449be27b18a8",
+    "bytes": 1527
+  },
+  {
+    "path": "legacy/visafund/components/ui/input-group.tsx",
+    "sha256": "006e8ea541143c6639d9496282f6656f839f6276dfb16c025375b5dde1b38474",
+    "bytes": 5066
+  },
+  {
+    "path": "legacy/visafund/components/ui/input-otp.tsx",
+    "sha256": "16e0d9698450ad0bc4913401c1f020ffd143d7a72fb170dc97b2286252ce18b3",
+    "bytes": 2255
+  },
+  {
+    "path": "legacy/visafund/components/ui/input.tsx",
+    "sha256": "66f7c3be5a736d7ae5070bd619f4a9d5419cf6b1ff5a05dd4a3df2062496df4a",
+    "bytes": 963
+  },
+  {
+    "path": "legacy/visafund/components/ui/item.tsx",
+    "sha256": "828b8625bb61ff4af413a7f32c20aac6e2a187cc9adcded60b5d47dd087af01a",
+    "bytes": 4487
+  },
+  {
+    "path": "legacy/visafund/components/ui/kbd.tsx",
+    "sha256": "62e92b0ca8fbef7aafdada45a08b9d18aafb0e571cd393aeb087fc7b5bb68447",
+    "bytes": 863
+  },
+  {
+    "path": "legacy/visafund/components/ui/label.tsx",
+    "sha256": "e98c15bfe4cece31139bc850444e4eeef7d11bde490e30ea6c4cfa5b70d6b589",
+    "bytes": 607
+  },
+  {
+    "path": "legacy/visafund/components/ui/marker.tsx",
+    "sha256": "021afe9cf25f9d85c074795cf12d50a55f2a8ee96243c5318589886858fccd96",
+    "bytes": 1865
+  },
+  {
+    "path": "legacy/visafund/components/ui/menubar.tsx",
+    "sha256": "a57ab0f616975dabf452e4c86322af62aeee107060c875033144a6906c3a2688",
+    "bytes": 8390
+  },
+  {
+    "path": "legacy/visafund/components/ui/message-scroller.tsx",
+    "sha256": "15afe86ce42766b200dab4c725d78fdc737e61729a9b49e2db40ea9bf52b4538",
+    "bytes": 3993
+  },
+  {
+    "path": "legacy/visafund/components/ui/message.tsx",
+    "sha256": "592488f1f790b81bc3b24b4c4f5e1f2de773c8512324e1b8861b811929650370",
+    "bytes": 2233
+  },
+  {
+    "path": "legacy/visafund/components/ui/native-select.tsx",
+    "sha256": "b0093d07526a99b407c14bba6809e6bf208dfddc99012841a74d79843eafdf10",
+    "bytes": 1996
+  },
+  {
+    "path": "legacy/visafund/components/ui/navigation-menu.tsx",
+    "sha256": "fc23d6a54c69a0775804157610713c4495bc688dc3ac0dcab4706b152ee424cb",
+    "bytes": 6659
+  },
+  {
+    "path": "legacy/visafund/components/ui/pagination.tsx",
+    "sha256": "e3562c5ff2be2bdf29b0f1f3983fd5587272bb87ef6f2b43fd41800ed15a7b67",
+    "bytes": 2718
+  },
+  {
+    "path": "legacy/visafund/components/ui/popover.tsx",
+    "sha256": "ebdc5e312b08e35cbe2629a6baf044f96508340a14bef3198133e2bc27ab074d",
+    "bytes": 2358
+  },
+  {
+    "path": "legacy/visafund/components/ui/progress.tsx",
+    "sha256": "a81dec0b793cbbcb2a8a8e5705bbcbff0570cbd85b3ce5ba2f8acc0d20b1f00a",
+    "bytes": 756
+  },
+  {
+    "path": "legacy/visafund/components/ui/radio-group.tsx",
+    "sha256": "9e50f0641f4904b9271abe7785b2929967534bc55f6f71ad8558433bd5b1fe9c",
+    "bytes": 1461
+  },
+  {
+    "path": "legacy/visafund/components/ui/resizable.tsx",
+    "sha256": "ba6dbf4c3b0f59bf23f9c25c658d6d4ffd63c3951e46a9465732da93d12a703a",
+    "bytes": 1816
+  },
+  {
+    "path": "legacy/visafund/components/ui/scroll-area.tsx",
+    "sha256": "ca33ed5c21a21350b825ac2215db45e3b7e34f7530d25902fbfcb8f573640c98",
+    "bytes": 1640
+  },
+  {
+    "path": "legacy/visafund/components/ui/select.tsx",
+    "sha256": "603a6b3def91515612f1ff4f27fa5607d99b5690df785b738318a2850916f0d6",
+    "bytes": 6354
+  },
+  {
+    "path": "legacy/visafund/components/ui/separator.tsx",
+    "sha256": "20d601f95626e812a89a8d1bee1e4a6dfadd5a0e60a627ed3a849096ba01dd6b",
+    "bytes": 695
+  },
+  {
+    "path": "legacy/visafund/components/ui/sheet.tsx",
+    "sha256": "ec5d4beabd7d68edc11bf649f292870b67e993f103d0b17f1e4abd11b21e2206",
+    "bytes": 4189
+  },
+  {
+    "path": "legacy/visafund/components/ui/sidebar.tsx",
+    "sha256": "7b0b4b928f8aae8298991a04becd80a04ddc55597df4803159ce9f5581e317d1",
+    "bytes": 21527
+  },
+  {
+    "path": "legacy/visafund/components/ui/skeleton.tsx",
+    "sha256": "433858b2eac08616db86cb5f12b72118549c1e7822c00efd1a9d93330149e575",
+    "bytes": 277
+  },
+  {
+    "path": "legacy/visafund/components/ui/slider.tsx",
+    "sha256": "2619ab09f29d076c4416ece70466d4600349b9553d08075132f15ff4672ed13f",
+    "bytes": 1992
+  },
+  {
+    "path": "legacy/visafund/components/ui/sonner.tsx",
+    "sha256": "a71e4894a9219605fc82289c32c727c533ac46a4d98cfa6bfe5e4a1b471ad3da",
+    "bytes": 1035
+  },
+  {
+    "path": "legacy/visafund/components/ui/spinner.tsx",
+    "sha256": "9ba7991637ad5d95b9f476f838bde571f376ad8368c8984393defa81baa704f8",
+    "bytes": 332
+  },
+  {
+    "path": "legacy/visafund/components/ui/switch.tsx",
+    "sha256": "6593d632377879f0a6dc6b9ca449e7e27b4403d873360e7b4e2b2298aac70c88",
+    "bytes": 1409
+  },
+  {
+    "path": "legacy/visafund/components/ui/table.tsx",
+    "sha256": "70bd50bfdf122c25c3d451b961223ffc4f26058a54d059400288ba4930db8af4",
+    "bytes": 2479
+  },
+  {
+    "path": "legacy/visafund/components/ui/tabs.tsx",
+    "sha256": "3eac277ad77c7f037479432b6571a8a05f9f02962d3acb7cd8baa97779381a9e",
+    "bytes": 3783
+  },
+  {
+    "path": "legacy/visafund/components/ui/textarea.tsx",
+    "sha256": "155fb56c55d1fb70ff47a9ad103e69511eccc1b58cc0e043a24293ec0ff24da6",
+    "bytes": 760
+  },
+  {
+    "path": "legacy/visafund/components/ui/toggle-group.tsx",
+    "sha256": "b8f6e5b041b86611a073c2e8fda4019104e7b0a12183d6b733f3588462712157",
+    "bytes": 2309
+  },
+  {
+    "path": "legacy/visafund/components/ui/toggle.tsx",
+    "sha256": "993535df0a2b5326b433f9d71ffac1297a2f6ff53b5c262362bde871311c811d",
+    "bytes": 1566
+  },
+  {
+    "path": "legacy/visafund/components/ui/tooltip.tsx",
+    "sha256": "b1d3ba668dc27e66bcc54fbde9c5f3c29fb1fbcaf126a4cdb65a85c9ddd03708",
+    "bytes": 1831
+  },
+  {
+    "path": "legacy/visafund/components.json",
+    "sha256": "8c54eff6f321f8e24f56d532edfb2db8f1b1253301fd464a98541fc96c8d9184",
+    "bytes": 421
+  },
+  {
+    "path": "legacy/visafund/db/index.ts",
+    "sha256": "2c291ce89207d2ff853de261c096749b622cc18ccb780da18697b776d332832a",
+    "bytes": 424
+  },
+  {
+    "path": "legacy/visafund/db/schema.ts",
+    "sha256": "495662ac1520e1aa0dc7b031335f28959f77bd64663b0b8e1242210f07115f62",
+    "bytes": 5603
+  },
+  {
+    "path": "legacy/visafund/drizzle/0000_public_mastermind.sql",
+    "sha256": "15c923ec4bc9c2fb4a1277368042245c8c6bc9001a958ff2c291f9bed0e63d67",
+    "bytes": 2417
+  },
+  {
+    "path": "legacy/visafund/drizzle/0001_luxuriant_the_hood.sql",
+    "sha256": "4b6eca2780fda034803cfbe4da884319c4783df5c7fc5433205bab934db3c5e1",
+    "bytes": 114
+  },
+  {
+    "path": "legacy/visafund/drizzle/0002_fresh_tag.sql",
+    "sha256": "076e146f49e6a08b62bd3669a72734287bb098ffc5f7e734c954c2d714aa1610",
+    "bytes": 1031
+  },
+  {
+    "path": "legacy/visafund/drizzle/0003_clever_the_anarchist.sql",
+    "sha256": "c1c16d87b736b761d146162f15feca6215290b89b1cce26a8e09aea43241a3e8",
+    "bytes": 375
+  },
+  {
+    "path": "legacy/visafund/drizzle/0004_optimal_puff_adder.sql",
+    "sha256": "46749800d10ba6739d6d06233697e4438e61fb83f4e4fccaa0ed4b9f891fefe5",
+    "bytes": 638
+  },
+  {
+    "path": "legacy/visafund/drizzle/0005_new_gideon.sql",
+    "sha256": "2c0cfcdc1baa1f5b932183af9043cc2a947bc9212066ca155e7ed7f302ac829f",
+    "bytes": 134
+  },
+  {
+    "path": "legacy/visafund/drizzle/0006_robust_wallflower.sql",
+    "sha256": "3cd15b7f201640fbf457a9d92677e66371c0b698cbc01561903967ebd164ff80",
+    "bytes": 770
+  },
+  {
+    "path": "legacy/visafund/drizzle.config.ts",
+    "sha256": "4aeb9d03aaed7801de6e7e9d820816d217f5aa1607c6de8a063f11a3c04a0790",
+    "bytes": 149
+  },
+  {
+    "path": "legacy/visafund/eslint.config.mjs",
+    "sha256": "5b95c4ff6106108f9f9bbedcd00b1bb35044ffb5677156244fe140cc5bb053c1",
+    "bytes": 1232
+  },
+  {
+    "path": "legacy/visafund/examples/d1/app/api/notes/route.ts",
+    "sha256": "764b0abf0656bf2391cede646456a037e585ab6e0fb46804a5ddec3e20f0bec0",
+    "bytes": 1701
+  },
+  {
+    "path": "legacy/visafund/examples/d1/db/schema.ts",
+    "sha256": "497f1c356fb52d3296e3cab506b260212c6bc3db979c8cad14dba9b7d6bd034d",
+    "bytes": 371
+  },
+  {
+    "path": "legacy/visafund/hooks/use-mobile.ts",
+    "sha256": "d3346c87893649701e9e2705cbfde8c98c4a49a07f5adc206ce4a42304b82fd4",
+    "bytes": 566
+  },
+  {
+    "path": "legacy/visafund/lib/admin-service.ts",
+    "sha256": "49e7e09ca6629a4b79baf68d19067df4cf51b338c4fa46553c9e85630ab588ff",
+    "bytes": 13600
+  },
+  {
+    "path": "legacy/visafund/lib/auth-actions.ts",
+    "sha256": "d48b48fc778359ecff8310aee33b7ffe703520d56e20dbbfce216c6534db3248",
+    "bytes": 2880
+  },
+  {
+    "path": "legacy/visafund/lib/auth-policy.ts",
+    "sha256": "817633d474f04e1a743ee8efdad5e923c54d8cfb00ed1d3aedb3db8526e68066",
+    "bytes": 3700
+  },
+  {
+    "path": "legacy/visafund/lib/connector-context.ts",
+    "sha256": "b267de6b1f6e53ae87d780caae8539828959876ea8208a3f176fd58562b1fcd5",
+    "bytes": 613
+  },
+  {
+    "path": "legacy/visafund/lib/connector-contract.mts",
+    "sha256": "102ba5469af920563c39314c4785ada5a12376e44cc8edb7557998d1ec9440bb",
+    "bytes": 5363
+  },
+  {
+    "path": "legacy/visafund/lib/connector-errors.mts",
+    "sha256": "78a0533d8377e4356923b5c043f6b319b7c8d2659e862d930152160536b448ba",
+    "bytes": 2718
+  },
+  {
+    "path": "legacy/visafund/lib/connector-preview.d.ts",
+    "sha256": "119973148eb27abf0837dccf70b3e7d60ecec33b59390c55ecb41e4752ad9425",
+    "bytes": 434
+  },
+  {
+    "path": "legacy/visafund/lib/connectors.ts",
+    "sha256": "4265a12bd14b820b1b7962462160b8cc3629c8e7777345c9a8f6fb0788b590b4",
+    "bytes": 417
+  },
+  {
+    "path": "legacy/visafund/lib/countries.ts",
+    "sha256": "d42f4531a690d848e6b7375781cf20a48baf840fb68d29c5eda5a936ebbd3239",
+    "bytes": 1596
+  },
+  {
+    "path": "legacy/visafund/lib/demo-state.ts",
+    "sha256": "fa6362f76c33d4feccf048a5e869c479c00619607569801e12f5384b04c2caef",
+    "bytes": 9228
+  },
+  {
+    "path": "legacy/visafund/lib/demo.ts",
+    "sha256": "d786622c872937b96b186b2ab4d4e0160663e0b18dbf01b57d07dfbb97585513",
+    "bytes": 6630
+  },
+  {
+    "path": "legacy/visafund/lib/exchange.ts",
+    "sha256": "6eb7430c47e975ba2e2e62d31cbcf41bea7c0f65f668b05b3662f77f7b9ac2fb",
+    "bytes": 2233
+  },
+  {
+    "path": "legacy/visafund/lib/finance.ts",
+    "sha256": "6a5b3622b5dde47c040fd0073aa65e376484051a02b1971a0290f409dd3597da",
+    "bytes": 2597
+  },
+  {
+    "path": "legacy/visafund/lib/models.ts",
+    "sha256": "42b33eeaae5cd38b44d648f0e34a5827eab1c24cb0423c6fbe053a090a2ed038",
+    "bytes": 777
+  },
+  {
+    "path": "legacy/visafund/lib/module-policy.ts",
+    "sha256": "d88e524e0ac2ab09771c97d242f5e45e8ca74d52fb922889f730d75f70c44264",
+    "bytes": 2719
+  },
+  {
+    "path": "legacy/visafund/lib/module-service.ts",
+    "sha256": "c8fbb9f87b345dfab5a76903c8827513576b5e4cd3f7ec651cdf94d1da18ca05",
+    "bytes": 1079
+  },
+  {
+    "path": "legacy/visafund/lib/platform-catalog.ts",
+    "sha256": "a9019d13fed2d88895ccbb3e80e2c873bb016a602cec8395dd4d2075e5f59f56",
+    "bytes": 1045
+  },
+  {
+    "path": "legacy/visafund/lib/platform.ts",
+    "sha256": "2c62a3a530c900c2ce59a53e09058b01dc45392717d22bf2e3f5ad59d99e10e8",
+    "bytes": 2672
+  },
+  {
+    "path": "legacy/visafund/lib/private-storage.ts",
+    "sha256": "c34370922d23dbdde57fc4854d95e9d474b9066f39656b900f1617d00608d5bb",
+    "bytes": 3558
+  },
+  {
+    "path": "legacy/visafund/lib/public-rules.ts",
+    "sha256": "3b4eda8cefe9b48b1b3fe51c548593a9ccb3e51a11374191be6bb3c5167ea1dc",
+    "bytes": 588
+  },
+  {
+    "path": "legacy/visafund/lib/rule-selection.ts",
+    "sha256": "5ed5d916be8fe40dd7025007206bca3f6f781f9b0fbb8c6d66ab35ec9f13d898",
+    "bytes": 716
+  },
+  {
+    "path": "legacy/visafund/lib/server.ts",
+    "sha256": "3a50a86a3ab9d55276a9f533276ee92376623243ec8da89ab5e7b2ba4d4ec370",
+    "bytes": 4334
+  },
+  {
+    "path": "legacy/visafund/lib/supabase-auth.ts",
+    "sha256": "79a4c208a1971d82c7cd878d6e8e989806d6b0fae4e9619f28b162bbe519ae4f",
+    "bytes": 4708
+  },
+  {
+    "path": "legacy/visafund/lib/system-health.ts",
+    "sha256": "2f67db4ea7a0bbda4b94ee1d019fec43d398105e3dc05c6b547d3343553b9d3c",
+    "bytes": 1369
+  },
+  {
+    "path": "legacy/visafund/lib/theme.ts",
+    "sha256": "8a12d4c7f28a039f1b4059f7d7b93e015773b3639773b546ea6f30b4d5fee432",
+    "bytes": 247
+  },
+  {
+    "path": "legacy/visafund/lib/utils.ts",
+    "sha256": "c050546b2aa8551f0bcf180163421271c90bce4d2378799fa05a0e8b24a4e6e9",
+    "bytes": 178
+  },
+  {
+    "path": "legacy/visafund/lib/view-model.ts",
+    "sha256": "949a8b1db1352a6f9266c7c0a1fd787571d9a906248746faa13fbfb0d1644480",
+    "bytes": 2563
+  },
+  {
+    "path": "legacy/visafund/next.config.ts",
+    "sha256": "ea9270d3192365952685d01d3ea093631ff5042576b4940959167f7c8d4e60ad",
+    "bytes": 134
+  },
+  {
+    "path": "legacy/visafund/package.json",
+    "sha256": "17427743fcbf78acd7035f204840573d4a7e8bc2d1642f8b1beee6535a6e0798",
+    "bytes": 2498
+  },
+  {
+    "path": "legacy/visafund/pnpm-workspace.yaml",
+    "sha256": "824b0e61b59e5c9366c1df44224d36011cbaa2ebda51360a41ad0fba5931743f",
+    "bytes": 1276
+  },
+  {
+    "path": "legacy/visafund/postcss.config.mjs",
+    "sha256": "316c0cdb85b16b32476fbaa8f20df8825c6979bf6ada743f9f1c5a66ac096164",
+    "bytes": 95
+  },
+  {
+    "path": "legacy/visafund/proxy.ts",
+    "sha256": "5adab3c3b771379ada7def4c098d7e282547f1dedd3f57e7c1ce8119d84aa38e",
+    "bytes": 787
+  },
+  {
+    "path": "legacy/visafund/public/favicon.svg",
+    "sha256": "b76f1cb76a72a64394ee2db91cbd20a5064acddf02336e0e14c58003315f2719",
+    "bytes": 228
+  },
+  {
+    "path": "legacy/visafund/public/file.svg",
+    "sha256": "7dd1990ba2c4b5c0f57de9a8ed990153468eda35fd101d80b87ed8f71066325f",
+    "bytes": 393
+  },
+  {
+    "path": "legacy/visafund/public/globe.svg",
+    "sha256": "f4588526a9dadcdb519d689d4fe073f00fd3f53ebe322db6ea65b71c710fc068",
+    "bytes": 1037
+  },
+  {
+    "path": "legacy/visafund/public/visafund-logo.svg",
+    "sha256": "b76f1cb76a72a64394ee2db91cbd20a5064acddf02336e0e14c58003315f2719",
+    "bytes": 228
+  },
+  {
+    "path": "legacy/visafund/public/window.svg",
+    "sha256": "1cbe67609e298b28649475f926e1581afea0b80c2aa5b8a3b9831cba0e5f2631",
+    "bytes": 387
+  },
+  {
+    "path": "legacy/visafund/scripts/build-verified.sh",
+    "sha256": "c63ca2f40bc11adab70a79dbe2f705be715c7edde5a480045d538e39ba945c36",
+    "bytes": 662
+  },
+  {
+    "path": "legacy/visafund/scripts/connector-preview/connector-preview-session.mjs",
+    "sha256": "8fb1cfb5aae899e22bd82a59a7d0e0455e3ba011942fa01709f6029fd18c152c",
+    "bytes": 6843
+  },
+  {
+    "path": "legacy/visafund/scripts/connector-preview/host-binding.mjs",
+    "sha256": "c3fa53de72c37adad72bee051662106c315215825abffe114e663696a880ae82",
+    "bytes": 7794
+  },
+  {
+    "path": "legacy/visafund/scripts/connector-preview/protocol.mjs",
+    "sha256": "c332ac0891021cdfb4266023bb6555f06e788d43142f5ac7fdbe20abc754669e",
+    "bytes": 1782
+  },
+  {
+    "path": "legacy/visafund/scripts/execution-profile.mjs",
+    "sha256": "009c0f050ba27a0fabb8911e4b4581c4c39875e90d3fc494218ed24e3ebafd4d",
+    "bytes": 625
+  },
+  {
+    "path": "legacy/visafund/scripts/install-ci.mjs",
+    "sha256": "06f32b587f0f7d079d604bd0a903037f04e6ef59c453290b98740dde736b0a12",
+    "bytes": 1686
+  },
+  {
+    "path": "legacy/visafund/scripts/install-ci.sh",
+    "sha256": "5eb6e54352727b685388994d0d91b898651e0300a97b7e6e63d911f2ca3e22dc",
+    "bytes": 6784
+  },
+  {
+    "path": "legacy/visafund/scripts/install-pnpm.sh",
+    "sha256": "ba9c3173dcd7e745a7fa53f749ccf02d19bb7036fb0d2c62b1e9a7219b0ffb0d",
+    "bytes": 9016
+  },
+  {
+    "path": "legacy/visafund/scripts/npm-install.mjs",
+    "sha256": "e225a9d727cb31971794cb41545555db91fec4578e3e8e52abccfcd369ec5460",
+    "bytes": 7026
+  },
+  {
+    "path": "legacy/visafund/scripts/pnpm-install.mjs",
+    "sha256": "155d55fff685abb392ab4bd2127e046d66aa64d9794077ea2ace8d9367e9b7f4",
+    "bytes": 10634
+  },
+  {
+    "path": "legacy/visafund/scripts/provision-admin.mjs",
+    "sha256": "f820141a9aaabaec24cef1cca559744c71d6391a7a3229a29e16422f4f828ff7",
+    "bytes": 2246
+  },
+  {
+    "path": "legacy/visafund/scripts/provision-verified-owner.sql",
+    "sha256": "bbd62b454caae812f98b3d9c098e536aec38c596c559b8dd0f2d09b80ad1fc01",
+    "bytes": 1272
+  },
+  {
+    "path": "legacy/visafund/scripts/run-framework.mjs",
+    "sha256": "5895f5cd4b5d20701b4f550f35b4090adf204ccab0a8a863f8ee6aab3d3c901f",
+    "bytes": 994
+  },
+  {
+    "path": "legacy/visafund/scripts/sites-env.mjs",
+    "sha256": "9d03f45f0679edf7cc5af364df9604a05c9b335386a1fad4ae806089053fc4b6",
+    "bytes": 907
+  },
+  {
+    "path": "legacy/visafund/scripts/sites-env.sh",
+    "sha256": "412d25623063401b39ccf33b7fd24005ddc27dafe31d2f407439cd339db4ff97",
+    "bytes": 1531
+  },
+  {
+    "path": "legacy/visafund/scripts/visafund-staging-bootstrap.sql",
+    "sha256": "dfc37436638adddd96058c7166c6f07b176bb0ae0e117bc7258046c44a7d52ba",
+    "bytes": 5404
+  },
+  {
+    "path": "legacy/visafund/supabase/migrations/20261010143904_visafund_private_documents_backend_only.sql",
+    "sha256": "a7799c30151a3f63bf52db1e47c3d1f240115a4f2794d58c74cdbd2d48f7795c",
+    "bytes": 368
+  },
+  {
+    "path": "legacy/visafund/tests/module-policy.mjs",
+    "sha256": "0afa39f4917e0dd10d02de237192fac827b45d12f0a701cb8a02696fe85415ce",
+    "bytes": 3080
+  },
+  {
+    "path": "legacy/visafund/tests/rule-selection.mjs",
+    "sha256": "ade725da93291dfb8fef8087677a311e2fb1b8a4fd255d9b7eb53f46ae1459a1",
+    "bytes": 1366
+  },
+  {
+    "path": "legacy/visafund/tests-admin.ts",
+    "sha256": "f15765197b67f0ca689d507dc6f455a166f527dc1bbe5fb70361caab1dbbea9e",
+    "bytes": 7827
+  },
+  {
+    "path": "legacy/visafund/tests-api.mjs",
+    "sha256": "ac88d1d4dfb5008686ef8acf8dcec435384ed13174e9a100bc7fa682cff774bf",
+    "bytes": 20265
+  },
+  {
+    "path": "legacy/visafund/tests-auth-api.mjs",
+    "sha256": "057881a5d0bc4a71b0a2f909019b2ad1ad1c1ded882e1dafdadcba93d5de9d8c",
+    "bytes": 11446
+  },
+  {
+    "path": "legacy/visafund/tests-auth.ts",
+    "sha256": "ca57228481f8a794b97710071314c96d358768f295a9ee4d0534ebe2e8729f11",
+    "bytes": 4466
+  },
+  {
+    "path": "legacy/visafund/tests-cloudflare-auth.mjs",
+    "sha256": "cfcbf344464eb3f381c4ddb675f733195bf3b69535caa47c3b724bde27e120bd",
+    "bytes": 16280
+  },
+  {
+    "path": "legacy/visafund/tests-demo-practice.ts",
+    "sha256": "9c62c717a7c401617ac20d2c480b29bed657f0b0e23516d9d632b54464314eee",
+    "bytes": 5394
+  },
+  {
+    "path": "legacy/visafund/tests-finance.ts",
+    "sha256": "1adf79bf66b7f981538e30895ef8506e5c0d320110d48f08fff65bef12b4f654",
+    "bytes": 2435
+  },
+  {
+    "path": "legacy/visafund/tests-private-storage.ts",
+    "sha256": "76b2e4bbd91f8ec7e2325386bff982f47e0126e8fc01d8963991550c48d105ff",
+    "bytes": 2602
+  },
+  {
+    "path": "legacy/visafund/tests-v23-api.mjs",
+    "sha256": "e538efa11d33733c353662d4f211940432b78c14728ce155a310e34b2ab1202e",
+    "bytes": 7267
+  },
+  {
+    "path": "legacy/visafund/tests-v23.ts",
+    "sha256": "17b6c2ea3564d66e2737da5f67cd9239834001a8cd94a857b7d1dd827ea2c2dd",
+    "bytes": 3284
+  },
+  {
+    "path": "legacy/visafund/tests-view-model.ts",
+    "sha256": "ed6ce5d6bfcf2068cc7c056779ce8d23e7d97ef3795b8739916fb3704bda8692",
+    "bytes": 1195
+  },
+  {
+    "path": "legacy/visafund/tsconfig.json",
+    "sha256": "edfaad4fe7997d45624f3ddafd881f54fd7c7fa2e45df58be48adb56243ac0b9",
+    "bytes": 840
+  },
+  {
+    "path": "legacy/visafund/vendor/shadcn-tailwind-4.13.0.LICENSE.md",
+    "sha256": "cbe191a94b1484349d68d02b943bdeae08f3a9a34cc19cbaa7746bee50dd69ac",
+    "bytes": 1064
+  },
+  {
+    "path": "legacy/visafund/vendor/shadcn-tailwind-4.13.0.css",
+    "sha256": "166b1e8fb54893093b705fb96075f7180f687abdefbf8d91a8b441c4a470b49a",
+    "bytes": 16042
+  },
+  {
+    "path": "legacy/visafund/vite.cloudflare.config.ts",
+    "sha256": "066f79b243793a308268812ca34ed5a87d50f47c5483f54d71e8a60225aa5f20",
+    "bytes": 296
+  },
+  {
+    "path": "legacy/visafund/vite.config.ts",
+    "sha256": "2c746aa2142def640fe9e073270f1dfc36a463ecf4fb94fd8da1bc46c0cc68e5",
+    "bytes": 3116
+  },
+  {
+    "path": "legacy/visafund/wrangler.cloudflare.jsonc",
+    "sha256": "64acfc247f6620d198881231dad41dccd7a968d74ffa6a96ce8e289c31f20cd4",
+    "bytes": 662
+  }
+]

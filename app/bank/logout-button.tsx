@@ -1,0 +1,4 @@
+'use client';
+import {useState} from 'react';
+export default function LogoutButton(){const [busy,setBusy]=useState(false),[error,setError]=useState('');return <><button className="secondary" disabled={busy} onClick={async()=>{setBusy(true);setError('');try{const r=await fetch('/api/v1/auth/logout',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}'});if(!r.ok)throw Error('Logout failed. Try again.');await r.json();const result={redirect:"/login"};document.body.style.visibility='hidden';const a=document.createElement('a');a.href=new URL(result.redirect,window.location.origin).href;a.target='_top';document.body.appendChild(a);a.click();a.remove()}catch(e){setError((e as Error).message);setBusy(false)}}}>{busy?'Signing out…':'Logout'}</button>{error&&<p role="alert">{error}</p>}</>}
+
