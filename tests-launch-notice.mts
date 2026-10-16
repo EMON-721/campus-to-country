@@ -1,0 +1,10 @@
+import {strict as assert} from 'node:assert';
+import {defaultNotice,noticeSchema,demoBlocksRequest} from './lib/site-notice.ts';
+assert.equal(noticeSchema.parse(undefined).demoOnly,true);
+assert.equal(defaultNotice.enabled,true);
+for(const path of ['/api/v1/records','/api/v1/workspace/documents','/api/v1/contact','/api/v1/auth/register','/api/v1/bank/transactions','/api/v1/mentorship','/api/v1/assistant'])assert.equal(demoBlocksRequest(path,'POST'),true,path);
+for(const path of ['/api/v1/auth/login','/api/v1/auth/mfa-verify','/api/v1/auth/logout'])assert.equal(demoBlocksRequest(path,'POST'),false,path);
+assert.equal(demoBlocksRequest('/api/v1/catalogue','GET'),false);
+assert.equal(noticeSchema.safeParse({...defaultNotice,imageUrl:'javascript:alert(1)'}).success,false);
+assert.equal(noticeSchema.safeParse({...defaultNotice,imageUrl:'/api/v1/notice-image?id=11111111-1111-1111-1111-111111111111'}).success,true);
+console.log('Launch notice and demo request policy: 15 checks passed');

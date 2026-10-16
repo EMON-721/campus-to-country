@@ -1,0 +1,3548 @@
+[
+  [
+    "Germany",
+    "Technical University of Munich",
+    "https://www.tum.de",
+    ""
+  ],
+  [
+    "Germany",
+    "Ludwig Maximilian University of Munich",
+    "https://www.lmu.de",
+    ""
+  ],
+  [
+    "Germany",
+    "Heidelberg University",
+    "https://www.uni-heidelberg.de",
+    ""
+  ],
+  [
+    "Germany",
+    "Humboldt University of Berlin",
+    "https://www.hu-berlin.de",
+    ""
+  ],
+  [
+    "Germany",
+    "Free University of Berlin",
+    "https://www.fu-berlin.de",
+    ""
+  ],
+  [
+    "Germany",
+    "Technical University of Berlin",
+    "https://www.tu.berlin",
+    ""
+  ],
+  [
+    "Germany",
+    "RWTH Aachen University",
+    "https://www.rwth-aachen.de",
+    ""
+  ],
+  [
+    "Germany",
+    "Karlsruhe Institute of Technology",
+    "https://www.kit.edu",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Bonn",
+    "https://www.uni-bonn.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Tübingen",
+    "https://www.uni-tuebingen.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Freiburg",
+    "https://www.uni-freiburg.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Göttingen",
+    "https://www.uni-goettingen.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Hamburg",
+    "https://www.uni-hamburg.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Cologne",
+    "https://www.uni-koeln.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Stuttgart",
+    "https://www.uni-stuttgart.de",
+    ""
+  ],
+  [
+    "Germany",
+    "TU Dresden",
+    "https://www.tu-dresden.de",
+    ""
+  ],
+  [
+    "Germany",
+    "Technical University of Darmstadt",
+    "https://www.tu-darmstadt.de",
+    ""
+  ],
+  [
+    "Germany",
+    "Goethe University Frankfurt",
+    "https://www.uni-frankfurt.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Münster",
+    "https://www.uni-muenster.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Erlangen-Nuremberg",
+    "https://www.fau.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Würzburg",
+    "https://www.uni-wuerzburg.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Leipzig",
+    "https://www.uni-leipzig.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Mainz",
+    "https://www.uni-mainz.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Jena",
+    "https://www.uni-jena.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Potsdam",
+    "https://www.uni-potsdam.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Kiel",
+    "https://www.uni-kiel.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Konstanz",
+    "https://www.uni-konstanz.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Ulm",
+    "https://www.uni-ulm.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Bremen",
+    "https://www.uni-bremen.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Bayreuth",
+    "https://www.uni-bayreuth.de",
+    ""
+  ],
+  [
+    "Germany",
+    "Leibniz University Hannover",
+    "https://www.uni-hannover.de",
+    ""
+  ],
+  [
+    "Germany",
+    "TU Braunschweig",
+    "https://www.tu-braunschweig.de",
+    ""
+  ],
+  [
+    "Germany",
+    "TU Dortmund University",
+    "https://www.tu-dortmund.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Duisburg-Essen",
+    "https://www.uni-due.de",
+    ""
+  ],
+  [
+    "Germany",
+    "Ruhr University Bochum",
+    "https://www.ruhr-uni-bochum.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Düsseldorf",
+    "https://www.hhu.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Regensburg",
+    "https://www.uni-regensburg.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Augsburg",
+    "https://www.uni-augsburg.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Passau",
+    "https://www.uni-passau.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Bamberg",
+    "https://www.uni-bamberg.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Mannheim",
+    "https://www.uni-mannheim.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Hohenheim",
+    "https://www.uni-hohenheim.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Marburg",
+    "https://www.uni-marburg.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Giessen",
+    "https://www.uni-giessen.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Kassel",
+    "https://www.uni-kassel.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Halle-Wittenberg",
+    "https://www.uni-halle.de",
+    ""
+  ],
+  [
+    "Germany",
+    "Otto von Guericke University Magdeburg",
+    "https://www.ovgu.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Rostock",
+    "https://www.uni-rostock.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Greifswald",
+    "https://www.uni-greifswald.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Osnabrück",
+    "https://www.uni-osnabrueck.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Oldenburg",
+    "https://www.uol.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Hildesheim",
+    "https://www.uni-hildesheim.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Vechta",
+    "https://www.uni-vechta.de",
+    ""
+  ],
+  [
+    "Germany",
+    "Clausthal University of Technology",
+    "https://www.tu-clausthal.de",
+    ""
+  ],
+  [
+    "Germany",
+    "Hamburg University of Technology",
+    "https://www.tuhh.de",
+    ""
+  ],
+  [
+    "Germany",
+    "HafenCity University Hamburg",
+    "https://www.hcu-hamburg.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Lübeck",
+    "https://www.uni-luebeck.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Flensburg",
+    "https://www.uni-flensburg.de",
+    ""
+  ],
+  [
+    "Germany",
+    "Bielefeld University",
+    "https://www.uni-bielefeld.de",
+    ""
+  ],
+  [
+    "Germany",
+    "Paderborn University",
+    "https://www.uni-paderborn.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Siegen",
+    "https://www.uni-siegen.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Wuppertal",
+    "https://www.uni-wuppertal.de",
+    ""
+  ],
+  [
+    "Germany",
+    "FernUniversität in Hagen",
+    "https://www.fernuni-hagen.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Trier",
+    "https://www.uni-trier.de",
+    ""
+  ],
+  [
+    "Germany",
+    "RPTU Kaiserslautern-Landau",
+    "https://www.rptu.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Koblenz",
+    "https://www.uni-koblenz.de",
+    ""
+  ],
+  [
+    "Germany",
+    "Saarland University",
+    "https://www.uni-saarland.de",
+    ""
+  ],
+  [
+    "Germany",
+    "Chemnitz University of Technology",
+    "https://www.tu-chemnitz.de",
+    ""
+  ],
+  [
+    "Germany",
+    "TU Bergakademie Freiberg",
+    "https://www.tu-freiberg.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Erfurt",
+    "https://www.uni-erfurt.de",
+    ""
+  ],
+  [
+    "Germany",
+    "Ilmenau University of Technology",
+    "https://www.tu-ilmenau.de",
+    ""
+  ],
+  [
+    "Germany",
+    "Brandenburg University of Technology Cottbus-Senftenberg",
+    "https://www.b-tu.de",
+    ""
+  ],
+  [
+    "Germany",
+    "University of Europe for Applied Sciences Public Equivalent (Darmstadt UAS)",
+    "https://www.h-da.de",
+    ""
+  ],
+  [
+    "Germany",
+    "Frankfurt University of Applied Sciences",
+    "https://www.frankfurt-university.de",
+    ""
+  ],
+  [
+    "Germany",
+    "Cologne University of Applied Sciences (TH Köln)",
+    "https://www.th-koeln.de",
+    ""
+  ],
+  [
+    "Germany",
+    "Munich University of Applied Sciences",
+    "https://www.hm.edu",
+    ""
+  ],
+  [
+    "Germany",
+    "Berlin University of Applied Sciences and Technology (BHT)",
+    "https://www.bht-berlin.de",
+    ""
+  ],
+  [
+    "Germany",
+    "HTW Berlin",
+    "https://www.htw-berlin.de",
+    ""
+  ],
+  [
+    "Germany",
+    "Nuremberg Institute of Technology",
+    "https://www.th-nuernberg.de",
+    ""
+  ],
+  [
+    "France",
+    "Sorbonne University",
+    "https://www.sorbonne-universite.fr",
+    ""
+  ],
+  [
+    "France",
+    "Paris-Saclay University",
+    "https://www.universite-paris-saclay.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Paris Cité",
+    "https://www.u-paris.fr",
+    ""
+  ],
+  [
+    "France",
+    "PSL Research University",
+    "https://www.psl.eu",
+    ""
+  ],
+  [
+    "France",
+    "École Polytechnique",
+    "https://www.polytechnique.edu",
+    ""
+  ],
+  [
+    "France",
+    "Aix-Marseille University",
+    "https://www.univ-amu.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Bordeaux",
+    "https://www.u-bordeaux.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Strasbourg",
+    "https://www.unistra.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Montpellier",
+    "https://www.umontpellier.fr",
+    ""
+  ],
+  [
+    "France",
+    "Claude Bernard University Lyon 1",
+    "https://www.univ-lyon1.fr",
+    ""
+  ],
+  [
+    "France",
+    "Lumière University Lyon 2",
+    "https://www.univ-lyon2.fr",
+    ""
+  ],
+  [
+    "France",
+    "Jean Moulin University Lyon 3",
+    "https://www.univ-lyon3.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Lille",
+    "https://www.univ-lille.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Lorraine",
+    "https://www.univ-lorraine.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Rennes",
+    "https://www.univ-rennes.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Rennes 2",
+    "https://www.univ-rennes2.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Nantes",
+    "https://www.univ-nantes.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Grenoble Alpes",
+    "https://www.univ-grenoble-alpes.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Toulouse Capitole",
+    "https://www.ut-capitole.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Toulouse - Jean Jaurès",
+    "https://www.univ-tlse2.fr",
+    ""
+  ],
+  [
+    "France",
+    "Paul Sabatier University (Toulouse 3)",
+    "https://www.univ-tlse3.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Côte d'Azur",
+    "https://www.univ-cotedazur.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Poitiers",
+    "https://www.univ-poitiers.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Tours",
+    "https://www.univ-tours.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Rouen Normandy",
+    "https://www.univ-rouen.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Caen Normandy",
+    "https://www.unicaen.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Angers",
+    "https://www.univ-angers.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Brest (UBO)",
+    "https://www.univ-brest.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of South Brittany (UBS)",
+    "https://www.univ-ubs.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Limoges",
+    "https://www.unilim.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Pau and the Adour Region",
+    "https://www.univ-pau.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Perpignan",
+    "https://www.univ-perp.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Nîmes",
+    "https://www.unimes.fr",
+    ""
+  ],
+  [
+    "France",
+    "Avignon University",
+    "https://www.univ-avignon.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Toulon",
+    "https://www.univ-tln.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Corsica Pasquale Paoli",
+    "https://www.universita.corsica",
+    ""
+  ],
+  [
+    "France",
+    "University of Franche-Comté",
+    "https://www.univ-fcomte.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Burgundy",
+    "https://www.u-bourgogne.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Reims Champagne-Ardenne",
+    "https://www.univ-reims.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Picardie Jules Verne",
+    "https://www.u-picardie.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Artois",
+    "https://www.univ-artois.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of the Littoral Opal Coast",
+    "https://www.univ-littoral.fr",
+    ""
+  ],
+  [
+    "France",
+    "Polytechnic University of Hauts-de-France",
+    "https://www.uphf.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Le Mans",
+    "https://www.univ-lemans.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Orléans",
+    "https://www.univ-orleans.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of La Rochelle",
+    "https://www.univ-larochelle.fr",
+    ""
+  ],
+  [
+    "France",
+    "Gustave Eiffel University",
+    "https://www.univ-gustave-eiffel.fr",
+    ""
+  ],
+  [
+    "France",
+    "Paris Nanterre University",
+    "https://www.parisnanterre.fr",
+    ""
+  ],
+  [
+    "France",
+    "Paris 8 University Vincennes-Saint-Denis",
+    "https://www.univ-paris8.fr",
+    ""
+  ],
+  [
+    "France",
+    "Sorbonne Paris North University",
+    "https://www.univ-paris13.fr",
+    ""
+  ],
+  [
+    "France",
+    "Panthéon-Assas University",
+    "https://www.u-assas.fr",
+    ""
+  ],
+  [
+    "France",
+    "Panthéon-Sorbonne University",
+    "https://www.pantheonsorbonne.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Évry Val d'Essonne",
+    "https://www.univ-evry.fr",
+    ""
+  ],
+  [
+    "France",
+    "Versailles Saint-Quentin-en-Yvelines University",
+    "https://www.uvsq.fr",
+    ""
+  ],
+  [
+    "France",
+    "CY Cergy Paris University",
+    "https://www.cyu.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Savoy Mont Blanc",
+    "https://www.univ-smb.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Clermont Auvergne",
+    "https://www.uca.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of French Guiana",
+    "https://www.univ-guyane.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of the Antilles",
+    "https://www.univ-ag.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Reunion Island",
+    "https://www.univ-reunion.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of French Polynesia",
+    "https://www.upf.pf",
+    ""
+  ],
+  [
+    "France",
+    "University of New Caledonia",
+    "https://www.unc.nc",
+    ""
+  ],
+  [
+    "Spain",
+    "University of Barcelona",
+    "https://www.ub.edu",
+    ""
+  ],
+  [
+    "Spain",
+    "Autonomous University of Barcelona",
+    "https://www.uab.cat",
+    ""
+  ],
+  [
+    "Spain",
+    "Complutense University of Madrid",
+    "https://www.ucm.es",
+    ""
+  ],
+  [
+    "Spain",
+    "Autonomous University of Madrid",
+    "https://www.uam.es",
+    ""
+  ],
+  [
+    "Spain",
+    "Polytechnic University of Catalonia",
+    "https://www.upc.edu",
+    ""
+  ],
+  [
+    "Spain",
+    "Technical University of Madrid",
+    "https://www.upm.es",
+    ""
+  ],
+  [
+    "Spain",
+    "Charles III University of Madrid",
+    "https://www.uc3m.es",
+    ""
+  ],
+  [
+    "Spain",
+    "University of Valencia",
+    "https://www.uv.es",
+    ""
+  ],
+  [
+    "Spain",
+    "Polytechnic University of Valencia",
+    "https://www.upv.es",
+    ""
+  ],
+  [
+    "Spain",
+    "University of Seville",
+    "https://www.us.es",
+    ""
+  ],
+  [
+    "Spain",
+    "University of Granada",
+    "https://www.ugr.es",
+    ""
+  ],
+  [
+    "Spain",
+    "Pompeu Fabra University",
+    "https://www.upf.edu",
+    ""
+  ],
+  [
+    "Spain",
+    "University of Salamanca",
+    "https://www.usal.es",
+    ""
+  ],
+  [
+    "Spain",
+    "University of Santiago de Compostela",
+    "https://www.usc.gal",
+    ""
+  ],
+  [
+    "Spain",
+    "University of the Basque Country",
+    "https://www.ehu.eus",
+    ""
+  ],
+  [
+    "Spain",
+    "University of Zaragoza",
+    "https://www.unizar.es",
+    ""
+  ],
+  [
+    "Spain",
+    "University of Alcalá",
+    "https://www.uah.es",
+    ""
+  ],
+  [
+    "Spain",
+    "Rey Juan Carlos University",
+    "https://www.urjc.es",
+    ""
+  ],
+  [
+    "Spain",
+    "University of Málaga",
+    "https://www.uma.es",
+    ""
+  ],
+  [
+    "Spain",
+    "University of Murcia",
+    "https://www.um.es",
+    ""
+  ],
+  [
+    "Spain",
+    "University of Alicante",
+    "https://www.ua.es",
+    ""
+  ],
+  [
+    "Spain",
+    "University of Oviedo",
+    "https://www.uniovi.es",
+    ""
+  ],
+  [
+    "Spain",
+    "University of Valladolid",
+    "https://www.uva.es",
+    ""
+  ],
+  [
+    "Spain",
+    "University of Castilla-La Mancha",
+    "https://www.uclm.es",
+    ""
+  ],
+  [
+    "Spain",
+    "University of Córdoba",
+    "https://www.uco.es",
+    ""
+  ],
+  [
+    "Spain",
+    "University of Cádiz",
+    "https://www.uca.es",
+    ""
+  ],
+  [
+    "Spain",
+    "University of Jaén",
+    "https://www.ujaen.es",
+    ""
+  ],
+  [
+    "Spain",
+    "University of Almería",
+    "https://www.ual.es",
+    ""
+  ],
+  [
+    "Spain",
+    "University of Huelva",
+    "https://www.uhu.es",
+    ""
+  ],
+  [
+    "Spain",
+    "Pablo de Olavide University",
+    "https://www.upo.es",
+    ""
+  ],
+  [
+    "Spain",
+    "University of A Coruña",
+    "https://www.udc.es",
+    ""
+  ],
+  [
+    "Spain",
+    "University of Vigo",
+    "https://www.uvigo.gal",
+    ""
+  ],
+  [
+    "Spain",
+    "University of Cantabria",
+    "https://www.unican.es",
+    ""
+  ],
+  [
+    "Spain",
+    "University of La Rioja",
+    "https://www.unirioja.es",
+    ""
+  ],
+  [
+    "Spain",
+    "Public University of Navarre",
+    "https://www.unavarra.es",
+    ""
+  ],
+  [
+    "Spain",
+    "University of the Balearic Islands",
+    "https://www.uib.cat",
+    ""
+  ],
+  [
+    "Spain",
+    "University of La Laguna",
+    "https://www.ull.es",
+    ""
+  ],
+  [
+    "Spain",
+    "University of Las Palmas de Gran Canaria",
+    "https://www.ulpgc.es",
+    ""
+  ],
+  [
+    "Spain",
+    "University of Extremadura",
+    "https://www.unex.es",
+    ""
+  ],
+  [
+    "Spain",
+    "University of León",
+    "https://www.unileon.es",
+    ""
+  ],
+  [
+    "Spain",
+    "University of Burgos",
+    "https://www.ubu.es",
+    ""
+  ],
+  [
+    "Spain",
+    "Jaume I University",
+    "https://www.uji.es",
+    ""
+  ],
+  [
+    "Spain",
+    "Miguel Hernández University of Elche",
+    "https://www.umh.es",
+    ""
+  ],
+  [
+    "Spain",
+    "Polytechnic University of Cartagena",
+    "https://www.upct.es",
+    ""
+  ],
+  [
+    "Spain",
+    "University of Girona",
+    "https://www.udg.edu",
+    ""
+  ],
+  [
+    "Spain",
+    "University of Lleida",
+    "https://www.udl.cat",
+    ""
+  ],
+  [
+    "Spain",
+    "Rovira i Virgili University",
+    "https://www.urv.cat",
+    ""
+  ],
+  [
+    "Spain",
+    "International University of Andalusia",
+    "https://www.unia.es",
+    ""
+  ],
+  [
+    "Spain",
+    "Menéndez Pelayo International University",
+    "https://www.uimp.es",
+    ""
+  ],
+  [
+    "Spain",
+    "National University of Distance Education (UNED)",
+    "https://www.uned.es",
+    ""
+  ],
+  [
+    "Sweden",
+    "Karolinska Institute",
+    "https://ki.se",
+    ""
+  ],
+  [
+    "Sweden",
+    "Lund University",
+    "https://www.lu.se",
+    ""
+  ],
+  [
+    "Sweden",
+    "Uppsala University",
+    "https://www.uu.se",
+    ""
+  ],
+  [
+    "Sweden",
+    "Stockholm University",
+    "https://www.su.se",
+    ""
+  ],
+  [
+    "Sweden",
+    "KTH Royal Institute of Technology",
+    "https://www.kth.se",
+    ""
+  ],
+  [
+    "Sweden",
+    "University of Gothenburg",
+    "https://www.gu.se",
+    ""
+  ],
+  [
+    "Sweden",
+    "Umeå University",
+    "https://www.umu.se",
+    ""
+  ],
+  [
+    "Sweden",
+    "Linköping University",
+    "https://www.liu.se",
+    ""
+  ],
+  [
+    "Sweden",
+    "Swedish University of Agricultural Sciences",
+    "https://www.slu.se",
+    ""
+  ],
+  [
+    "Sweden",
+    "Örebro University",
+    "https://www.oru.se",
+    ""
+  ],
+  [
+    "Sweden",
+    "Karlstad University",
+    "https://www.kau.se",
+    ""
+  ],
+  [
+    "Sweden",
+    "Linnaeus University",
+    "https://lnu.se",
+    ""
+  ],
+  [
+    "Sweden",
+    "Mid Sweden University",
+    "https://www.miun.se",
+    ""
+  ],
+  [
+    "Sweden",
+    "Luleå University of Technology",
+    "https://www.ltu.se",
+    ""
+  ],
+  [
+    "Sweden",
+    "Malmö University",
+    "https://mau.se",
+    ""
+  ],
+  [
+    "Sweden",
+    "Mälardalen University",
+    "https://www.mdu.se",
+    ""
+  ],
+  [
+    "Sweden",
+    "Blekinge Institute of Technology",
+    "https://www.bth.se",
+    ""
+  ],
+  [
+    "Sweden",
+    "Swedish Defence University",
+    "https://www.fhs.se",
+    ""
+  ],
+  [
+    "Sweden",
+    "University of Borås",
+    "https://www.hb.se",
+    ""
+  ],
+  [
+    "Sweden",
+    "University of Gävle",
+    "https://www.hig.se",
+    ""
+  ],
+  [
+    "Sweden",
+    "Halmstad University",
+    "https://www.hh.se",
+    ""
+  ],
+  [
+    "Sweden",
+    "University of Skövde",
+    "https://www.his.se",
+    ""
+  ],
+  [
+    "Sweden",
+    "Kristianstad University",
+    "https://www.hkr.se",
+    ""
+  ],
+  [
+    "Sweden",
+    "University West",
+    "https://www.hv.se",
+    ""
+  ],
+  [
+    "Sweden",
+    "Södertörn University",
+    "https://www.sh.se",
+    ""
+  ],
+  [
+    "Sweden",
+    "Dalarna University",
+    "https://www.du.se",
+    ""
+  ],
+  [
+    "Sweden",
+    "Royal Institute of Art",
+    "https://kkh.se",
+    ""
+  ],
+  [
+    "Sweden",
+    "Royal College of Music in Stockholm",
+    "https://www.kmh.se",
+    ""
+  ],
+  [
+    "Sweden",
+    "Konstfack",
+    "https://www.konstfack.se",
+    ""
+  ],
+  [
+    "Sweden",
+    "Stockholm University of the Arts",
+    "https://www.uniarts.se",
+    ""
+  ],
+  [
+    "Poland",
+    "University of Warsaw",
+    "https://www.uw.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Jagiellonian University",
+    "https://www.uj.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Warsaw University of Technology",
+    "https://www.pw.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "AGH University of Krakow",
+    "https://www.agh.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Adam Mickiewicz University, Poznań",
+    "https://amu.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Wrocław University of Science and Technology",
+    "https://pwr.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "University of Wrocław",
+    "https://uwr.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "University of Gdańsk",
+    "https://ug.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Gdańsk University of Technology",
+    "https://pg.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "University of Lodz",
+    "https://www.uni.lodz.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Lodz University of Technology",
+    "https://p.lodz.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "University of Silesia in Katowice",
+    "https://us.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Silesian University of Technology",
+    "https://www.polsl.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Nicolaus Copernicus University in Toruń",
+    "https://www.umk.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Poznań University of Technology",
+    "https://www.put.poznan.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Maria Curie-Skłodowska University",
+    "https://www.umcs.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Lublin University of Technology",
+    "https://pollub.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "University of Białystok",
+    "https://uwb.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Bialystok University of Technology",
+    "https://pb.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "University of Opole",
+    "https://www.uni.opole.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Opole University of Technology",
+    "https://po.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "University of Rzeszów",
+    "https://www.ur.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Rzeszów University of Technology",
+    "https://prz.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "University of Szczecin",
+    "https://usz.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "West Pomeranian University of Technology",
+    "https://www.zut.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "University of Warmia and Mazury in Olsztyn",
+    "https://uwm.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "University of Zielona Góra",
+    "https://uz.zgora.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Kazimierz Wielki University in Bydgoszcz",
+    "https://www.ukw.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Bydgoszcz University of Science and Technology",
+    "https://pbs.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Kielce University of Technology",
+    "https://tu.kielce.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Jan Kochanowski University in Kielce",
+    "https://ujk.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Czestochowa University of Technology",
+    "https://pcz.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Jan Dlugosz University in Czestochowa",
+    "https://www.ujd.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Warsaw School of Economics (SGH)",
+    "https://www.sgh.waw.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Krakow University of Economics",
+    "https://uek.krakow.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Poznań University of Economics and Business",
+    "https://ue.poznan.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Wroclaw University of Economics and Business",
+    "https://www.ue.wroc.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "University of Economics in Katowice",
+    "https://www.ue.katowice.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Medical University of Warsaw",
+    "https://www.wum.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Medical University of Gdańsk",
+    "https://gumed.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Medical University of Lodz",
+    "https://umed.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Poznan University of Medical Sciences",
+    "https://www.ump.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Wroclaw Medical University",
+    "https://www.umw.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Medical University of Bialystok",
+    "https://www.umb.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Medical University of Lublin",
+    "https://umlub.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Medical University of Silesia",
+    "https://sum.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Pomeranian Medical University in Szczecin",
+    "https://www.pum.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Warsaw University of Life Sciences (SGGW)",
+    "https://www.sggw.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "University of Life Sciences in Poznań",
+    "https://puls.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "University of Life Sciences in Lublin",
+    "https://up.lublin.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Wrocław University of Environmental and Life Sciences",
+    "https://upwr.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Hugo Kołłątaj Agricultural University of Krakow",
+    "https://urk.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Cardinal Stefan Wyszyński University in Warsaw",
+    "https://uksw.edu.pl",
+    ""
+  ],
+  [
+    "Poland",
+    "Pedagogical University of Krakow",
+    "https://uken.krakow.pl",
+    ""
+  ],
+  [
+    "Czech Republic",
+    "Charles University",
+    "https://cuni.cz",
+    ""
+  ],
+  [
+    "Czech Republic",
+    "Masaryk University",
+    "https://www.muni.cz",
+    ""
+  ],
+  [
+    "Czech Republic",
+    "Czech Technical University in Prague",
+    "https://www.cvut.cz",
+    ""
+  ],
+  [
+    "Czech Republic",
+    "Brno University of Technology",
+    "https://www.vut.cz",
+    ""
+  ],
+  [
+    "Czech Republic",
+    "Palacký University Olomouc",
+    "https://www.upol.cz",
+    ""
+  ],
+  [
+    "Czech Republic",
+    "University of Chemistry and Technology, Prague",
+    "https://www.vscht.cz",
+    ""
+  ],
+  [
+    "Czech Republic",
+    "Prague University of Economics and Business (VŠE)",
+    "https://www.vse.cz",
+    ""
+  ],
+  [
+    "Czech Republic",
+    "Czech University of Life Sciences Prague",
+    "https://www.czu.cz",
+    ""
+  ],
+  [
+    "Czech Republic",
+    "Mendel University in Brno",
+    "https://mendelu.cz",
+    ""
+  ],
+  [
+    "Czech Republic",
+    "VSB - Technical University of Ostrava",
+    "https://www.vsb.cz",
+    ""
+  ],
+  [
+    "Czech Republic",
+    "University of Ostrava",
+    "https://www.osu.cz",
+    ""
+  ],
+  [
+    "Czech Republic",
+    "Technical University of Liberec",
+    "https://www.tul.cz",
+    ""
+  ],
+  [
+    "Czech Republic",
+    "University of Pardubice",
+    "https://www.upce.cz",
+    ""
+  ],
+  [
+    "Czech Republic",
+    "University of West Bohemia",
+    "https://www.zcu.cz",
+    ""
+  ],
+  [
+    "Czech Republic",
+    "University of Hradec Králové",
+    "https://www.uhk.cz",
+    ""
+  ],
+  [
+    "Czech Republic",
+    "Jan Evangelista Purkyně University in Ústí nad Labem",
+    "https://www.ujep.cz",
+    ""
+  ],
+  [
+    "Czech Republic",
+    "University of South Bohemia in České Budějovice",
+    "https://www.jcu.cz",
+    ""
+  ],
+  [
+    "Czech Republic",
+    "Tomas Bata University in Zlín",
+    "https://www.utb.cz",
+    ""
+  ],
+  [
+    "Czech Republic",
+    "Silesian University in Opava",
+    "https://www.slu.cz",
+    ""
+  ],
+  [
+    "Czech Republic",
+    "University of Veterinary Sciences Brno",
+    "https://www.vfu.cz",
+    ""
+  ],
+  [
+    "Czech Republic",
+    "Institute of Technology and Business in České Budějovice",
+    "https://www.vstecb.cz",
+    ""
+  ],
+  [
+    "Czech Republic",
+    "College of Polytechnics Jihlava",
+    "https://www.vspj.cz",
+    ""
+  ],
+  [
+    "Czech Republic",
+    "Academy of Performing Arts in Prague (AMU)",
+    "https://www.amu.cz",
+    ""
+  ],
+  [
+    "Czech Republic",
+    "Academy of Fine Arts in Prague (AVU)",
+    "https://www.avu.cz",
+    ""
+  ],
+  [
+    "Czech Republic",
+    "Academy of Arts, Architecture and Design in Prague (UMPRUM)",
+    "https://www.umprum.cz",
+    ""
+  ],
+  [
+    "Czech Republic",
+    "Janáček Academy of Performing Arts (JAMU)",
+    "https://www.jamu.cz",
+    ""
+  ],
+  [
+    "Hungary",
+    "Eötvös Loránd University (ELTE)",
+    "https://www.elte.hu",
+    ""
+  ],
+  [
+    "Hungary",
+    "University of Szeged",
+    "https://u-szeged.hu",
+    ""
+  ],
+  [
+    "Hungary",
+    "University of Debrecen",
+    "https://unideb.hu",
+    ""
+  ],
+  [
+    "Hungary",
+    "University of Pécs",
+    "https://pte.hu",
+    ""
+  ],
+  [
+    "Hungary",
+    "Budapest University of Technology and Economics (BME)",
+    "https://www.bme.hu",
+    ""
+  ],
+  [
+    "Hungary",
+    "Corvinus University of Budapest",
+    "https://www.uni-corvinus.hu",
+    ""
+  ],
+  [
+    "Hungary",
+    "Semmelweis University",
+    "https://semmelweis.hu",
+    ""
+  ],
+  [
+    "Hungary",
+    "Óbuda University",
+    "https://uni-obuda.hu",
+    ""
+  ],
+  [
+    "Hungary",
+    "Budapest Business University (BGE)",
+    "https://uni-bge.hu",
+    ""
+  ],
+  [
+    "Hungary",
+    "University of Miskolc",
+    "https://www.uni-miskolc.hu",
+    ""
+  ],
+  [
+    "Hungary",
+    "University of Pannonia",
+    "https://uni-pannon.hu",
+    ""
+  ],
+  [
+    "Hungary",
+    "Széchenyi István University",
+    "https://uni.sze.hu",
+    ""
+  ],
+  [
+    "Hungary",
+    "Hungarian University of Agriculture and Life Sciences (MATE)",
+    "https://mate.uni-mate.hu",
+    ""
+  ],
+  [
+    "Hungary",
+    "University of Sopron",
+    "https://uni-sopron.hu",
+    ""
+  ],
+  [
+    "Hungary",
+    "University of Nyíregyháza",
+    "https://www.nye.hu",
+    ""
+  ],
+  [
+    "Hungary",
+    "University of Dunaújváros",
+    "https://uniduna.hu",
+    ""
+  ],
+  [
+    "Hungary",
+    "National University of Public Service (Ludovika)",
+    "https://en.uni-nke.hu",
+    ""
+  ],
+  [
+    "Hungary",
+    "Liszt Ferenc Academy of Music",
+    "https://zeneakademia.hu",
+    ""
+  ],
+  [
+    "Hungary",
+    "Hungarian University of Fine Arts",
+    "https://www.mke.hu",
+    ""
+  ],
+  [
+    "Hungary",
+    "Moholy-Nagy University of Art and Design (MOME)",
+    "https://mome.hu",
+    ""
+  ],
+  [
+    "Hungary",
+    "University of Theatre and Film Arts (SZFE)",
+    "https://szfe.hu",
+    ""
+  ],
+  [
+    "Hungary",
+    "Hungarian Dance University",
+    "https://mktte.hu",
+    ""
+  ],
+  [
+    "Canada",
+    "University of Toronto",
+    "https://www.utoronto.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "University of British Columbia",
+    "https://www.ubc.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "McGill University",
+    "https://www.mcgill.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "University of Alberta",
+    "https://www.ualberta.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "University of Waterloo",
+    "https://uwaterloo.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "Western University",
+    "https://www.uwo.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "Université de Montréal",
+    "https://www.umontreal.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "University of Calgary",
+    "https://www.ucalgary.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "McMaster University",
+    "https://www.mcmaster.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "University of Ottawa",
+    "https://www.uottawa.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "Queen's University",
+    "https://www.queensu.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "Dalhousie University",
+    "https://www.dal.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "Simon Fraser University",
+    "https://www.sfu.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "University of Victoria",
+    "https://www.uvic.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "Université Laval",
+    "https://www.ulaval.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "University of Saskatchewan",
+    "https://www.usask.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "University of Manitoba",
+    "https://umanitoba.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "York University",
+    "https://www.yorku.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "Carleton University",
+    "https://carleton.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "University of Guelph",
+    "https://www.uoguelph.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "Memorial University of Newfoundland",
+    "https://www.mun.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "Concordia University",
+    "https://www.concordia.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "Université du Québec à Montréal (UQAM)",
+    "https://uqam.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "University of Windsor",
+    "https://www.uwindsor.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "Toronto Metropolitan University",
+    "https://www.torontomu.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "University of Regina",
+    "https://www.uregina.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "Brock University",
+    "https://brocku.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "Wilfrid Laurier University",
+    "https://www.wlu.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "University of New Brunswick",
+    "https://www.unb.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "Université de Sherbrooke",
+    "https://www.usherbrooke.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "Lakehead University",
+    "https://www.lakeheadu.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "Laurentian University",
+    "https://laurentian.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "Trent University",
+    "https://www.trentu.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "Ontario Tech University",
+    "https://ontariotechu.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "Nipissing University",
+    "https://www.nipissingu.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "Saint Mary's University",
+    "https://www.smu.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "St. Francis Xavier University",
+    "https://www.stfx.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "Acadia University",
+    "https://www2.acadiau.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "Cape Breton University",
+    "https://www.cbu.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "Mount Allison University",
+    "https://mta.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "Université de Moncton",
+    "https://www.umoncton.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "University of Prince Edward Island",
+    "https://www.upei.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "University of Northern British Columbia",
+    "https://www.unbc.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "Thompson Rivers University",
+    "https://www.tru.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "Vancouver Island University",
+    "https://www.viu.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "University of the Fraser Valley",
+    "https://www.ufv.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "University of Lethbridge",
+    "https://www.ulethbridge.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "Athabasca University",
+    "https://www.athabascau.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "Brandon University",
+    "https://www.brandonu.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "University of Winnipeg",
+    "https://www.uwinnipeg.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "École de technologie supérieure (ÉTS)",
+    "https://www.etsmtl.ca",
+    ""
+  ],
+  [
+    "Canada",
+    "Polytechnique Montréal",
+    "https://www.polymtl.ca",
+    ""
+  ],
+  [
+    "USA",
+    "University of California, Berkeley",
+    "https://www.berkeley.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of California, Los Angeles (UCLA)",
+    "https://www.ucla.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Michigan, Ann Arbor",
+    "https://umich.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Virginia",
+    "https://www.virginia.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of North Carolina at Chapel Hill",
+    "https://www.unc.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of California, San Diego",
+    "https://ucsd.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of California, Davis",
+    "https://www.ucdavis.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of California, Irvine",
+    "https://uci.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of California, Santa Barbara",
+    "https://www.ucsb.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Florida",
+    "https://www.ufl.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Texas at Austin",
+    "https://www.utexas.edu",
+    ""
+  ],
+  [
+    "USA",
+    "Georgia Institute of Technology",
+    "https://www.gatech.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Illinois Urbana-Champaign",
+    "https://illinois.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Wisconsin–Madison",
+    "https://www.wisc.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Washington",
+    "https://www.washington.edu",
+    ""
+  ],
+  [
+    "USA",
+    "Ohio State University",
+    "https://www.osu.edu",
+    ""
+  ],
+  [
+    "USA",
+    "Purdue University",
+    "https://www.purdue.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Maryland, College Park",
+    "https://umd.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Minnesota, Twin Cities",
+    "https://twin-cities.umn.edu",
+    ""
+  ],
+  [
+    "USA",
+    "Pennsylvania State University",
+    "https://www.psu.edu",
+    ""
+  ],
+  [
+    "USA",
+    "Rutgers University–New Brunswick",
+    "https://www.rutgers.edu",
+    ""
+  ],
+  [
+    "USA",
+    "Texas A&M University",
+    "https://www.tamu.edu",
+    ""
+  ],
+  [
+    "USA",
+    "Indiana University Bloomington",
+    "https://www.indiana.edu",
+    ""
+  ],
+  [
+    "USA",
+    "Michigan State University",
+    "https://msu.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Colorado Boulder",
+    "https://www.colorado.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Arizona",
+    "https://www.arizona.edu",
+    ""
+  ],
+  [
+    "USA",
+    "Arizona State University",
+    "https://www.asu.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Pittsburgh",
+    "https://www.pitt.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Georgia",
+    "https://www.uga.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Iowa",
+    "https://uiowa.edu",
+    ""
+  ],
+  [
+    "USA",
+    "Iowa State University",
+    "https://www.iastate.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Connecticut",
+    "https://uconn.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Massachusetts Amherst",
+    "https://www.umass.edu",
+    ""
+  ],
+  [
+    "USA",
+    "North Carolina State University",
+    "https://www.ncsu.edu",
+    ""
+  ],
+  [
+    "USA",
+    "Virginia Tech",
+    "https://www.vt.edu",
+    ""
+  ],
+  [
+    "USA",
+    "Florida State University",
+    "https://www.fsu.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of South Florida",
+    "https://www.usf.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Central Florida",
+    "https://www.ucf.edu",
+    ""
+  ],
+  [
+    "USA",
+    "Clemson University",
+    "https://www.clemson.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of South Carolina",
+    "https://sc.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Tennessee, Knoxville",
+    "https://www.utk.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Kentucky",
+    "https://www.uky.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Missouri",
+    "https://missouri.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Kansas",
+    "https://ku.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Nebraska–Lincoln",
+    "https://www.unl.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Oklahoma",
+    "https://www.ou.edu",
+    ""
+  ],
+  [
+    "USA",
+    "Oklahoma State University",
+    "https://go.okstate.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Oregon",
+    "https://www.uoregon.edu",
+    ""
+  ],
+  [
+    "USA",
+    "Oregon State University",
+    "https://oregonstate.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Utah",
+    "https://www.utah.edu",
+    ""
+  ],
+  [
+    "USA",
+    "Stony Brook University (SUNY)",
+    "https://www.stonybrook.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University at Buffalo (SUNY)",
+    "https://www.buffalo.edu",
+    ""
+  ],
+  [
+    "USA",
+    "Binghamton University (SUNY)",
+    "https://www.binghamton.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University at Albany (SUNY)",
+    "https://www.albany.edu",
+    ""
+  ],
+  [
+    "USA",
+    "City University of New York (City College)",
+    "https://www.ccny.cuny.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Delaware",
+    "https://www.udel.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Vermont",
+    "https://www.uvm.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of New Hampshire",
+    "https://www.unh.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Rhode Island",
+    "https://www.uri.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Maine",
+    "https://umaine.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Alabama",
+    "https://www.ua.edu",
+    ""
+  ],
+  [
+    "USA",
+    "Auburn University",
+    "https://www.auburn.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Mississippi",
+    "https://olemiss.edu",
+    ""
+  ],
+  [
+    "USA",
+    "Mississippi State University",
+    "https://www.msstate.edu",
+    ""
+  ],
+  [
+    "USA",
+    "Louisiana State University",
+    "https://www.lsu.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Arkansas",
+    "https://www.uark.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of New Mexico",
+    "https://www.unm.edu",
+    ""
+  ],
+  [
+    "USA",
+    "New Mexico State University",
+    "https://nmsu.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Nevada, Reno",
+    "https://www.unr.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Nevada, Las Vegas",
+    "https://www.unlv.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Idaho",
+    "https://www.uidaho.edu",
+    ""
+  ],
+  [
+    "USA",
+    "Montana State University",
+    "https://www.montana.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Montana",
+    "https://www.umt.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Wyoming",
+    "https://www.uwyo.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of North Dakota",
+    "https://und.edu",
+    ""
+  ],
+  [
+    "USA",
+    "North Dakota State University",
+    "https://www.ndsu.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of South Dakota",
+    "https://www.usd.edu",
+    ""
+  ],
+  [
+    "USA",
+    "South Dakota State University",
+    "https://www.sdstate.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Alaska Fairbanks",
+    "https://www.uaf.edu",
+    ""
+  ],
+  [
+    "USA",
+    "University of Hawaii at Manoa",
+    "https://manoa.hawaii.edu",
+    ""
+  ],
+  [
+    "Italy",
+    "University of Bologna",
+    "https://www.unibo.it",
+    "Alma Mater Studiorum Università di Bologna"
+  ],
+  [
+    "Italy",
+    "Polytechnic University of Milan",
+    "https://www.polimi.it",
+    "Politecnico di Milano"
+  ],
+  [
+    "Italy",
+    "Polytechnic University of Turin",
+    "https://www.polito.it",
+    "Politecnico di Torino"
+  ],
+  [
+    "Italy",
+    "Polytechnic University of Bari",
+    "https://www.poliba.it",
+    "Politecnico di Bari"
+  ],
+  [
+    "Italy",
+    "Sapienza University of Rome",
+    "https://www.uniroma1.it",
+    "Sapienza Università di Roma"
+  ],
+  [
+    "Italy",
+    "University of Rome Tor Vergata",
+    "https://www.uniroma2.it",
+    "Università degli Studi di Roma Tor Vergata"
+  ],
+  [
+    "Italy",
+    "Roma Tre University",
+    "https://www.uniroma3.it",
+    "Università degli Studi Roma Tre"
+  ],
+  [
+    "Italy",
+    "University of Rome Foro Italico",
+    "https://www.uniroma4.it",
+    "Università degli Studi di Roma Foro Italico"
+  ],
+  [
+    "Italy",
+    "University of Milan",
+    "https://www.unimi.it",
+    "Università degli Studi di Milano"
+  ],
+  [
+    "Italy",
+    "University of Milano-Bicocca",
+    "https://www.unimib.it",
+    "Università degli Studi di Milano-Bicocca"
+  ],
+  [
+    "Italy",
+    "University of Padua",
+    "https://www.unipd.it",
+    "Università degli Studi di Padova"
+  ],
+  [
+    "Italy",
+    "University of Florence",
+    "https://www.unifi.it",
+    "Università degli Studi di Firenze"
+  ],
+  [
+    "Italy",
+    "University of Naples Federico II",
+    "https://www.unina.it",
+    "Università degli Studi di Napoli Federico II"
+  ],
+  [
+    "Italy",
+    "University of Naples Parthenope",
+    "https://www.uniparthenope.it",
+    "Università degli Studi di Napoli Parthenope"
+  ],
+  [
+    "Italy",
+    "University of Naples L'Orientale",
+    "https://www.unior.it",
+    "Università degli Studi di Napoli L'Orientale"
+  ],
+  [
+    "Italy",
+    "University of Campania Luigi Vanvitelli",
+    "https://www.unicampania.it",
+    "Università degli Studi della Campania Luigi Vanvitelli"
+  ],
+  [
+    "Italy",
+    "University of Turin",
+    "https://www.unito.it",
+    "Università degli Studi di Torino"
+  ],
+  [
+    "Italy",
+    "University of Pisa",
+    "https://www.unipi.it",
+    "Università degli Studi di Pisa"
+  ],
+  [
+    "Italy",
+    "Scuola Normale Superiore of Pisa",
+    "https://www.sns.it",
+    "Scuola Normale Superiore di Pisa"
+  ],
+  [
+    "Italy",
+    "Sant'Anna School of Advanced Studies",
+    "https://www.santannapisa.it",
+    "Scuola Superiore Sant'Anna di Pisa"
+  ],
+  [
+    "Italy",
+    "University of Genoa",
+    "https://www.unige.it",
+    "Università degli Studi di Genova"
+  ],
+  [
+    "Italy",
+    "University of Trento",
+    "https://www.unitn.it",
+    "Università degli Studi di Trento"
+  ],
+  [
+    "Italy",
+    "Ca' Foscari University of Venice",
+    "https://www.unive.it",
+    "Università Ca' Foscari di Venezia"
+  ],
+  [
+    "Italy",
+    "Iuav University of Venice",
+    "https://www.iuav.it",
+    "Università Iuav di Venezia"
+  ],
+  [
+    "Italy",
+    "University of Trieste",
+    "https://www.units.it",
+    "Università degli Studi di Trieste"
+  ],
+  [
+    "Italy",
+    "International School for Advanced Studies",
+    "https://www.sissa.it",
+    "Scuola Internazionale Superiore di Studi Avanzati (SISSA)"
+  ],
+  [
+    "Italy",
+    "University of Udine",
+    "https://www.uniud.it",
+    "Università degli Studi di Udine"
+  ],
+  [
+    "Italy",
+    "University of Verona",
+    "https://www.univr.it",
+    "Università degli Studi di Verona"
+  ],
+  [
+    "Italy",
+    "University of Pavia",
+    "https://www.unipv.it",
+    "Università degli Studi di Pavia"
+  ],
+  [
+    "Italy",
+    "Institute for Advanced Study of Pavia",
+    "https://www.iusspavia.it",
+    "Istituto Universitario di Studi Superiori di Pavia (IUSS)"
+  ],
+  [
+    "Italy",
+    "University of Brescia",
+    "https://www.unibs.it",
+    "Università degli Studi di Brescia"
+  ],
+  [
+    "Italy",
+    "University of Bergamo",
+    "https://www.unibg.it",
+    "Università degli Studi di Bergamo"
+  ],
+  [
+    "Italy",
+    "University of Insubria",
+    "https://www.uninsubria.it",
+    "Università degli Studi dell'Insubria"
+  ],
+  [
+    "Italy",
+    "University of Eastern Piedmont",
+    "https://www.uniupo.it",
+    "Università degli Studi del Piemonte Orientale"
+  ],
+  [
+    "Italy",
+    "University of Parma",
+    "https://www.unipr.it",
+    "Università degli Studi di Parma"
+  ],
+  [
+    "Italy",
+    "University of Modena and Reggio Emilia",
+    "https://www.unimore.it",
+    "Università degli Studi di Modena e Reggio Emilia"
+  ],
+  [
+    "Italy",
+    "University of Ferrara",
+    "https://www.unife.it",
+    "Università degli Studi di Ferrara"
+  ],
+  [
+    "Italy",
+    "University of Siena",
+    "https://www.unisi.it",
+    "Università degli Studi di Siena"
+  ],
+  [
+    "Italy",
+    "University for Foreigners of Siena",
+    "https://www.unistrasi.it",
+    "Università per Stranieri di Siena"
+  ],
+  [
+    "Italy",
+    "University of Perugia",
+    "https://www.unipg.it",
+    "Università degli Studi di Perugia"
+  ],
+  [
+    "Italy",
+    "University for Foreigners of Perugia",
+    "https://www.unistrapg.it",
+    "Università per Stranieri di Perugia"
+  ],
+  [
+    "Italy",
+    "Marche Polytechnic University",
+    "https://www.univpm.it",
+    "Università Politecnica delle Marche"
+  ],
+  [
+    "Italy",
+    "University of Macerata",
+    "https://www.unimc.it",
+    "Università degli Studi di Macerata"
+  ],
+  [
+    "Italy",
+    "University of Camerino",
+    "https://www.unicam.it",
+    "Università degli Studi di Camerino"
+  ],
+  [
+    "Italy",
+    "University of Urbino Carlo Bo",
+    "https://www.uniurb.it",
+    "Università degli Studi di Urbino Carlo Bo"
+  ],
+  [
+    "Italy",
+    "University of L'Aquila",
+    "https://www.univaq.it",
+    "Università degli Studi dell'Aquila"
+  ],
+  [
+    "Italy",
+    "G. d'Annunzio University of Chieti-Pescara",
+    "https://www.unich.it",
+    "Università degli Studi Gabriele d'Annunzio Chieti-Pescara"
+  ],
+  [
+    "Italy",
+    "University of Teramo",
+    "https://www.unite.it",
+    "Università degli Studi di Teramo"
+  ],
+  [
+    "Italy",
+    "Gran Sasso Science Institute",
+    "https://www.gssi.it",
+    "Gran Sasso Science Institute (GSSI)"
+  ],
+  [
+    "Italy",
+    "IMT School for Advanced Studies Lucca",
+    "https://www.imtlucca.it",
+    "Scuola IMT Alti Studi Lucca"
+  ],
+  [
+    "Italy",
+    "University of Molise",
+    "https://www.unimol.it",
+    "Università degli Studi del Molise"
+  ],
+  [
+    "Italy",
+    "University of Cassino and Southern Lazio",
+    "https://www.unicas.it",
+    "Università degli Studi di Cassino e del Lazio Meridionale"
+  ],
+  [
+    "Italy",
+    "University of Tuscia",
+    "https://www.unitus.it",
+    "Università degli Studi della Tuscia"
+  ],
+  [
+    "Italy",
+    "University of Salerno",
+    "https://www.unisa.it",
+    "Università degli Studi di Salerno"
+  ],
+  [
+    "Italy",
+    "University of Sannio",
+    "https://www.unisannio.it",
+    "Università degli Studi del Sannio"
+  ],
+  [
+    "Italy",
+    "University of Bari Aldo Moro",
+    "https://www.uniba.it",
+    "Università degli Studi di Bari Aldo Moro"
+  ],
+  [
+    "Italy",
+    "University of Foggia",
+    "https://www.unifg.it",
+    "Università degli Studi di Foggia"
+  ],
+  [
+    "Italy",
+    "University of Salento",
+    "https://www.unisalento.it",
+    "Università del Salento"
+  ],
+  [
+    "Italy",
+    "University of Basilicata",
+    "https://www.unibas.it",
+    "Università degli Studi della Basilicata"
+  ],
+  [
+    "Italy",
+    "University of Calabria",
+    "https://www.unical.it",
+    "Università della Calabria"
+  ],
+  [
+    "Italy",
+    "Magna Graecia University of Catanzaro",
+    "https://www.unicz.it",
+    "Università degli Studi Magna Graecia di Catanzaro"
+  ],
+  [
+    "Italy",
+    "Mediterranean University of Reggio Calabria",
+    "https://www.unirc.it",
+    "Università degli Studi Mediterranea di Reggio Calabria"
+  ],
+  [
+    "Italy",
+    "Dante Alighieri University for Foreigners of Reggio Calabria",
+    "https://www.unistrada.it",
+    "Università per Stranieri Dante Alighieri di Reggio Calabria"
+  ],
+  [
+    "Italy",
+    "University of Palermo",
+    "https://www.unipa.it",
+    "Università degli Studi di Palermo"
+  ],
+  [
+    "Italy",
+    "University of Catania",
+    "https://www.unict.it",
+    "Università degli Studi di Catania"
+  ],
+  [
+    "Italy",
+    "University of Messina",
+    "https://www.unime.it",
+    "Università degli Studi di Messina"
+  ],
+  [
+    "Italy",
+    "University of Cagliari",
+    "https://www.unica.it",
+    "Università degli Studi di Cagliari"
+  ],
+  [
+    "Italy",
+    "University of Sassari",
+    "https://www.uniss.it",
+    "Università degli Studi di Sassari"
+  ],
+  [
+    "Italy",
+    "Brera Academy of Fine Arts (Milan)",
+    "https://www.accademiadibrera.milano.it",
+    "Accademia di Belle Arti di Brera (Milano)"
+  ],
+  [
+    "Italy",
+    "Florence Academy of Fine Arts",
+    "https://www.accademia.firenze.it",
+    "Accademia di Belle Arti di Firenze"
+  ],
+  [
+    "Italy",
+    "Rome Academy of Fine Arts",
+    "https://www.abaroma.it",
+    "Accademia di Belle Arti di Roma"
+  ],
+  [
+    "Italy",
+    "Bologna Academy of Fine Arts",
+    "https://www.ababo.it",
+    "Accademia di Belle Arti di Bologna"
+  ],
+  [
+    "Italy",
+    "Venice Academy of Fine Arts",
+    "https://www.accademiavenezia.it",
+    "Accademia di Belle Arti di Venezia"
+  ],
+  [
+    "Italy",
+    "Naples Academy of Fine Arts",
+    "https://www.abana.it",
+    "Accademia di Belle Arti di Napoli"
+  ],
+  [
+    "Italy",
+    "Albertina Academy of Fine Arts (Turin)",
+    "https://www.albertina.academy",
+    "Accademia di Belle Arti di Torino (Albertina)"
+  ],
+  [
+    "Italy",
+    "Palermo Academy of Fine Arts",
+    "https://www.accademiadipalermo.it",
+    "Accademia di Belle Arti di Palermo"
+  ],
+  [
+    "Italy",
+    "Catania Academy of Fine Arts",
+    "https://www.abacatania.it",
+    "Accademia di Belle Arti di Catania"
+  ],
+  [
+    "Italy",
+    "Bari Academy of Fine Arts",
+    "https://www.accademiabelleartiba.it",
+    "Accademia di Belle Arti di Bari"
+  ],
+  [
+    "Italy",
+    "Carrara Academy of Fine Arts",
+    "https://www.accademiacarrara.it",
+    "Accademia di Belle Arti di Carrara"
+  ],
+  [
+    "Italy",
+    "Macerata Academy of Fine Arts",
+    "https://www.abamc.it",
+    "Accademia di Belle Arti di Macerata"
+  ],
+  [
+    "Italy",
+    "Urbino Academy of Fine Arts",
+    "https://www.accademiadiurbino.it",
+    "Accademia di Belle Arti di Urbino"
+  ],
+  [
+    "Italy",
+    "L'Aquila Academy of Fine Arts",
+    "https://www.abaq.it",
+    "Accademia di Belle Arti dell'Aquila"
+  ],
+  [
+    "Italy",
+    "Foggia Academy of Fine Arts",
+    "https://www.abafg.it",
+    "Accademia di Belle Arti di Foggia"
+  ],
+  [
+    "Italy",
+    "Catanzaro Academy of Fine Arts",
+    "https://www.abacatanzaro.it",
+    "Accademia di Belle Arti di Catanzaro"
+  ],
+  [
+    "Italy",
+    "Reggio Calabria Academy of Fine Arts",
+    "https://www.accademiabelleartirc.it",
+    "Accademia di Belle Arti di Reggio Calabria"
+  ],
+  [
+    "Italy",
+    "Sassari Academy of Fine Arts",
+    "https://www.accademiadisassari.it",
+    "Accademia di Belle Arti di Sassari"
+  ],
+  [
+    "Italy",
+    "Giuseppe Verdi Conservatory of Milan",
+    "https://www.consmilano.it",
+    "Conservatorio di Musica Giuseppe Verdi di Milano"
+  ],
+  [
+    "Italy",
+    "Santa Cecilia Conservatory of Rome",
+    "https://www.conservatoriosantacecilia.it",
+    "Conservatorio di Musica Santa Cecilia di Roma"
+  ],
+  [
+    "Italy",
+    "Luigi Cherubini Conservatory of Florence",
+    "https://www.consfi.it",
+    "Conservatorio di Musica Luigi Cherubini di Firenze"
+  ],
+  [
+    "Italy",
+    "San Pietro a Majella Conservatory of Naples",
+    "https://www.sanpietroamajella.it",
+    "Conservatorio di Musica San Pietro a Majella di Napoli"
+  ],
+  [
+    "Italy",
+    "Giuseppe Verdi Conservatory of Turin",
+    "https://www.conservatoriotorino.eu",
+    "Conservatorio di Musica Giuseppe Verdi di Torino"
+  ],
+  [
+    "Italy",
+    "Giovan Battista Martini Conservatory of Bologna",
+    "https://www.consbo.it",
+    "Conservatorio di Musica Giovan Battista Martini di Bologna"
+  ],
+  [
+    "Italy",
+    "Benedetto Marcello Conservatory of Venice",
+    "https://www.conservatoriovenezia.eu",
+    "Conservatorio di Musica Benedetto Marcello di Venezia"
+  ],
+  [
+    "Italy",
+    "Arrigo Boito Conservatory of Parma",
+    "https://www.conservatorio.pr.it",
+    "Conservatorio di Musica Arrigo Boito di Parma"
+  ],
+  [
+    "Italy",
+    "Niccolò Paganini Conservatory of Genoa",
+    "https://www.conspaganini.it",
+    "Conservatorio di Musica Niccolò Paganini di Genoa"
+  ],
+  [
+    "Italy",
+    "Cesare Pollini Conservatory of Padua",
+    "https://www.conservatoriopollini.it",
+    "Conservatorio di Musica Cesare Pollini di Padova"
+  ],
+  [
+    "Italy",
+    "Vincenzo Bellini Conservatory of Catania",
+    "https://www.istitutobellini.it",
+    "Conservatorio di Musica Vincenzo Bellini di Catania"
+  ],
+  [
+    "Italy",
+    "Alessandro Scarlatti Conservatory of Palermo",
+    "https://www.conservatoriopalermo.it",
+    "Conservatorio di Musica Alessandro Scarlatti di Palermo"
+  ],
+  [
+    "Italy",
+    "Niccolò Piccinni Conservatory of Bari",
+    "https://www.conservatoriopiccinni.it",
+    "Conservatorio di Musica Niccolò Piccinni di Bari"
+  ],
+  [
+    "Italy",
+    "Pierluigi da Palestrina Conservatory of Cagliari",
+    "https://www.conservatoriocagliari.it",
+    "Conservatorio di Musica Pierluigi da Palestrina di Cagliari"
+  ],
+  [
+    "France",
+    "Sorbonne Nouvelle University (Paris 3)",
+    "https://www.sorbonne-nouvelle.fr",
+    ""
+  ],
+  [
+    "France",
+    "Paris-Est Créteil University (UPEC)",
+    "https://www.u-pec.fr",
+    ""
+  ],
+  [
+    "France",
+    "Paris Dauphine University (PSL)",
+    "https://dauphine.psl.eu",
+    ""
+  ],
+  [
+    "France",
+    "Bordeaux Montaigne University",
+    "https://www.u-bordeaux-montaigne.fr",
+    ""
+  ],
+  [
+    "France",
+    "Paul Valéry University Montpellier 3",
+    "https://www.univ-montp3.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Haute-Alsace",
+    "https://www.uha.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Le Havre Normandy",
+    "https://www.univ-lehavre.fr",
+    ""
+  ],
+  [
+    "France",
+    "Jean Monnet University (Saint-Étienne)",
+    "https://www.univ-st-etienne.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Technology of Compiègne (UTC)",
+    "https://www.utc.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Technology of Troyes (UTT)",
+    "https://www.utt.fr",
+    ""
+  ],
+  [
+    "France",
+    "University of Technology of Belfort-Montbéliard (UTBM)",
+    "https://www.utbm.fr",
+    ""
+  ],
+  [
+    "France",
+    "INSA Lyon",
+    "https://www.insa-lyon.fr",
+    ""
+  ],
+  [
+    "France",
+    "INSA Toulouse",
+    "https://www.insa-toulouse.fr",
+    ""
+  ],
+  [
+    "France",
+    "INSA Rennes",
+    "https://www.insa-rennes.fr",
+    ""
+  ],
+  [
+    "France",
+    "INSA Rouen Normandie",
+    "https://www.insa-rouen.fr",
+    ""
+  ],
+  [
+    "France",
+    "INSA Strasbourg",
+    "https://www.insa-strasbourg.fr",
+    ""
+  ],
+  [
+    "France",
+    "INSA Centre Val de Loire",
+    "https://www.insa-centrevaldeloire.fr",
+    ""
+  ],
+  [
+    "France",
+    "Toulouse INP (Institut National Polytechnique)",
+    "https://www.inp-toulouse.fr",
+    ""
+  ],
+  [
+    "France",
+    "Bordeaux INP (Institut Polytechnique de Bordeaux)",
+    "https://www.bordeaux-inp.fr",
+    ""
+  ],
+  [
+    "France",
+    "Grenoble INP (Institut d’Ingénierie et de Management)",
+    "https://www.grenoble-inp.fr",
+    ""
+  ],
+  [
+    "France",
+    "École Normale Supérieure (ENS Paris-Ulm)",
+    "https://www.ens.psl.eu",
+    ""
+  ],
+  [
+    "France",
+    "École Normale Supérieure Paris-Saclay",
+    "https://ens-paris-saclay.fr",
+    ""
+  ],
+  [
+    "France",
+    "École Normale Supérieure de Lyon",
+    "https://www.ens-lyon.fr",
+    ""
+  ],
+  [
+    "France",
+    "École Normale Supérieure de Rennes",
+    "https://www.ens-rennes.fr",
+    ""
+  ],
+  [
+    "France",
+    "Sciences Po Paris",
+    "https://www.sciencespo.fr",
+    ""
+  ],
+  [
+    "France",
+    "Conservatoire National des Arts et Métiers (CNAM)",
+    "https://www.cnam.fr",
+    ""
+  ],
+  [
+    "France",
+    "Arts et Métiers Institute of Technology (ENSAM)",
+    "https://artsetmetiers.fr",
+    ""
+  ],
+  [
+    "France",
+    "National Institute of Oriental Languages and Civilizations (INALCO)",
+    "https://www.inalco.fr",
+    ""
+  ],
+  [
+    "France",
+    "School for Advanced Studies in the Social Sciences (EHESS)",
+    "https://www.ehess.fr",
+    ""
+  ],
+  [
+    "France",
+    "École Pratique des Hautes Études (EPHE)",
+    "https://www.ephe.psl.eu",
+    ""
+  ],
+  [
+    "France",
+    "Institut National Universitaire Jean-François Champollion",
+    "https://www.univ-jfc.fr",
+    ""
+  ],
+  [
+    "Hungary",
+    "University of Veterinary Medicine Budapest",
+    "https://univet.hu",
+    ""
+  ],
+  [
+    "Hungary",
+    "Hungarian University of Sports Science",
+    "https://www.tf.hu/en",
+    ""
+  ],
+  [
+    "Hungary",
+    "John von Neumann University",
+    "https://nje.hu",
+    ""
+  ],
+  [
+    "Hungary",
+    "Tokaj-Hegyalja University",
+    "https://unithe.hu",
+    ""
+  ],
+  [
+    "Hungary",
+    "Wekerle Sándor Business School (WSUF)",
+    "https://wsuf.hu",
+    ""
+  ]
+]

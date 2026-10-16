@@ -1,0 +1,17 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import vm from 'node:vm';
+import ts from 'typescript';
+const code=ts.transpileModule(readFileSync('app/api/v1/auth/[operation]/route.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;
+function harness({factors=[],admin=true,signedIn=true}={}){
+ const calls=[],cookies=[];class APIError extends Error{constructor(status,message){super(message);this.status=status}}
+ const backend={APIError,identity:async()=>{if(!signedIn)throw new APIError(401,'Sign in');return {user:{id:'owner',factors},token:'session'}},sameOrigin:r=>{if(r.headers.get('origin')!=='https://campus.test')throw new APIError(403,'Origin')},failure:e=>Response.json({error:e.message},{status:e.status||400}),provider:async(path,method,body)=>{calls.push({path,method,body});if(path.startsWith('/rest/'))return admin?[{user_id:'owner'}]:[];if(path==='/auth/v1/factors'&&method==='POST')return {id:'new-factor',totp:{qr_code:'<svg/>',secret:'synthetic'}};if(path.endsWith('/challenge'))return {id:'challenge'};if(path.endsWith('/verify'))return {access_token:'new-session',refresh_token:'refresh',expires_in:3600};return {}}};
+ const exports={};vm.runInNewContext(code,{exports,require:n=>n==='next/headers'?{cookies:async()=>({set:(...args)=>cookies.push(args)})}:backend,Response,Error});
+ return {calls,cookies,run:(op,body={},origin='https://campus.test')=>exports.POST(new Request('https://campus.test/api/v1/auth/'+op,{method:'POST',headers:{origin,'Content-Type':'application/json'},body:JSON.stringify(body)}),{params:Promise.resolve({operation:op})})};
+}
+test('enrollment requires authenticated admin and same origin',async()=>{for(const options of [{signedIn:false},{admin:false}]){const h=harness(options);assert.ok((await h.run('mfa-enroll')).status>=400);assert.equal(h.calls.filter(c=>c.path==='/auth/v1/factors').length,0)}const h=harness();assert.equal((await h.run('mfa-enroll',{},'https://other.test')).status,403)});
+test('existing verified authenticator cannot be replaced at AAL1',async()=>{const h=harness({factors:[{id:'existing',status:'verified',factor_type:'totp'}]});assert.equal((await h.run('mfa-enroll')).status,409);assert.equal(h.calls.length,1)});
+test('enroll cleans only pending own TOTP and returns uncached setup',async()=>{const h=harness({factors:[{id:'pending',status:'unverified',factor_type:'totp'}]});const r=await h.run('mfa-enroll');assert.equal(r.status,200);assert.equal(r.headers.get('Cache-Control'),'no-store');assert.equal((await r.json()).factorId,'new-factor');assert.ok(h.calls.some(c=>c.path==='/auth/v1/factors/pending'&&c.method==='DELETE'))});
+test('verification rejects foreign factor and malformed code',async()=>{const h=harness({factors:[{id:'own',status:'unverified',factor_type:'totp'}]});assert.equal((await h.run('mfa-verify',{factorId:'other',code:'123456'})).status,400);assert.equal((await h.run('mfa-verify',{factorId:'own',code:'abc'})).status,400);assert.ok(!h.calls.some(c=>c.path.endsWith('/challenge')))});
+test('own pending factor is challenged and verified before session upgrade',async()=>{const h=harness({factors:[{id:'own',status:'unverified',factor_type:'totp'}]});assert.equal((await h.run('mfa-verify',{factorId:'own',code:'123456'})).status,200);assert.equal(h.calls.at(-1).body.challenge_id,'challenge');assert.ok(h.cookies.every(c=>c[2].httpOnly&&c[2].secure))});

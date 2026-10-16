@@ -1,0 +1,10 @@
+import {strict as assert} from 'node:assert';
+import {trustedRequest,quotaWindow,aiLimits} from './lib/ai-request-policy.ts';
+const url='https://campus.example/api/v1/assistant';
+const request=(headers:Record<string,string>)=>new Request(url,{method:'POST',headers});
+assert(trustedRequest(request({origin:'https://campus.example','sec-fetch-site':'same-origin'})));
+assert(trustedRequest(request({origin:'https://campus.example'})));
+for(const headers of [{},{origin:'https://evil.example'},{origin:'null'},{origin:'https://campus.example.evil.test'},{origin:'https://campus.example','sec-fetch-site':'cross-site'},{origin:'https://campus.example','sec-fetch-site':'same-site'}])assert.equal(trustedRequest(request(headers as Record<string,string>)),false);
+assert.equal(quotaWindow(119999,'minute'),60000);assert.equal(quotaWindow(120000,'minute'),120000);
+assert.equal(quotaWindow(86400001,'day'),86400000);assert(aiLimits.voice.minute<aiLimits.text.minute);
+console.log('AI security policy: 12 checks passed');

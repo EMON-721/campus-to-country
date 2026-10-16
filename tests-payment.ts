@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import {validationMatches,signOrder,readOrder,createSandboxSession,validateSandbox} from './lib/sslcommerz.ts';
+process.env.CTC_SSLCOMMERZ_STORE_ID='fixture';process.env.CTC_SSLCOMMERZ_STORE_PASSWORD='fixture-secret-never-a-real-credential';
+const order={reference:'CTCT'+'a'.repeat(24),amountMinor:10000,expires:Date.now()+60000};
+const good={status:'VALID',tran_id:order.reference,amount:'100.00',currency:'BDT',risk_level:'0'};
+assert.equal(validationMatches(good,order),true);
+for(const bad of [{amount:'1.00'},{currency:'USD'},{tran_id:'other'},{status:'FAILED'},{risk_level:'1'},{risk_level:undefined},{amount:'1e2'}])assert.equal(validationMatches({...good,...bad},order),false);
+const token=await signOrder(order);assert.deepEqual(await readOrder(token),order);await assert.rejects(()=>readOrder(token.slice(0,-1)+'!'));await assert.rejects(()=>signOrder({...order,expires:1}).then(readOrder));
+const original=globalThis.fetch;let calls=0;globalThis.fetch=async(input,init)=>{calls++;const url=String(input);assert.ok(url.startsWith('https://sandbox.sslcommerz.com/'));if(url.includes('/gwprocess/')){assert.equal(new URLSearchParams(String(init?.body)).get('total_amount'),'100.00');return Response.json({status:'SUCCESS',GatewayPageURL:'https://sandbox.sslcommerz.com/gwprocess/v4/gw.php?fixture=1'})}return Response.json(good)};
+const session=await createSandboxSession({name:'Fixture',email:'fixture@example.invalid',phone:'01700000000',origin:'https://campus-to-country.example'});assert.equal(session.sandbox,true);assert.equal((await validateSandbox('fixture',order)).verified,true);assert.equal(calls,2);globalThis.fetch=original;
+delete process.env.CTC_SSLCOMMERZ_STORE_PASSWORD;await assert.rejects(()=>createSandboxSession({name:'Fixture',email:'fixture@example.invalid',phone:'01700000000',origin:'https://example.invalid'}));
+console.log('Payment checks passed: forged/tampered/expired/mismatched/risky payments rejected; sandbox session and validation exercised with mocked gateway, no external calls.');

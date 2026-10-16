@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {enforceDocumentQuota,validateDocument,SSLCommerzSandbox,DisabledStorage} from './lib/service-adapters.ts';
+enforceDocumentQuota(0,10*1024*1024);
+assert.throws(()=>enforceDocumentQuota(1,10*1024*1024));
+assert.throws(()=>enforceDocumentQuota(-1,1));
+validateDocument({size:4,type:'application/pdf'},new Uint8Array([37,80,68,70]));
+assert.throws(()=>validateDocument({size:4,type:'image/png'},new Uint8Array([37,80,68,70])));
+const gateway=new SSLCommerzSandbox();
+assert.equal(await gateway.validatePayment(),false);
+assert.match((await gateway.createOrder({reference:'test',amountMinor:100,currency:'BDT'})).state,/no charge/);
+await assert.rejects(()=>gateway.createOrder({reference:'test',amountMinor:0,currency:'BDT'}));
+await assert.rejects(()=>new DisabledStorage('Backblaze B2').put());
+console.log('9 adapter safety checks passed; no provider calls or payments');

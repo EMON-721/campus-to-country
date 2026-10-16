@@ -1,0 +1,12 @@
+import {strict as assert} from 'node:assert';
+import worker,{upstreamRequest,publicRedirect} from './_worker.js';
+const own='https://campus-to-country.pages.dev';
+assert.equal(upstreamRequest(new Request(own+'/api/v1/messages',{method:'POST',headers:{Origin:'https://evil.example'}})),null);
+assert.equal(upstreamRequest(new Request(own+'/api/v1/messages',{method:'POST'})),null);
+const good=upstreamRequest(new Request(own+'/api/v1/messages',{method:'POST',headers:{Origin:own,'Sec-Fetch-Site':'same-origin','OAI-Sites-Authorization':'untrusted'},body:'test'}));
+assert.equal(good.headers.get('Origin'),'https://campus-to-country.emonhossain5081.chatgpt.site');assert.equal(good.headers.get('OAI-Sites-Authorization'),null);assert.equal(await good.text(),'test');
+assert.equal(new URL(upstreamRequest(new Request(own+'//evil.example/path')).url).origin,'https://campus-to-country.emonhossain5081.chatgpt.site');
+assert.equal(publicRedirect('/countries',own),own+'/countries');assert.equal(publicRedirect('https://other.example/page',own),'https://other.example/page');
+let hit=false;globalThis.fetch=async req=>{hit=true;assert.equal(new URL(req.url).pathname,'/countries');return new Response('Campus to Country',{headers:{'set-cookie':'ctc_access=synthetic; Secure; HttpOnly; Domain=old.example; Path=/'}})};
+const res=await worker.fetch(new Request(own+'/countries'));assert(hit);assert.equal(await res.text(),'Campus to Country');assert(!res.headers.get('set-cookie').includes('Domain='));assert.equal(res.headers.get('Cache-Control'),'no-store');
+console.log('Pages gateway: origin rejection, key-header stripping, body forwarding, redirects and host-only cookies passed');
