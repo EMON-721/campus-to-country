@@ -1,0 +1,26 @@
+{
+  "name": "visafund",
+  "main": "build/cloudflare-worker.ts",
+  "compatibility_date": "2026-05-15",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "workers_dev": true,
+  "preview_urls": false,
+  "vars": {
+    "EXTERNAL_HOSTING": "true",
+    "AUTH_PROVIDER_ENABLED": "true",
+    "SUPABASE_URL": "https://xtimiytiuyeetgnzlftg.supabase.co",
+    "APP_ORIGIN": "https://visafund.fundhub.workers.dev",
+    "SUPABASE_STORAGE_BUCKET": "visafund-documents"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "visafund-staging",
+      "database_id": "54006c53-74c4-47e8-b494-2726cf9cb8cd",
+      "migrations_dir": "drizzle"
+    }
+  ]
+}
+

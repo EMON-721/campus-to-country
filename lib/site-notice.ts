@@ -1,0 +1,4 @@
+import {z} from 'zod';
+export const defaultNotice={enabled:true,demoOnly:true,title:'Website preview — work in progress',message:'Campus to Country is still under development. Explore all six sections in demo mode. Please do not sign in or create an account yet. We will announce when the website is ready to use.',imageUrl:'',version:'launch-preview-1'};
+export const noticeSchema=z.object({enabled:z.boolean(),demoOnly:z.boolean(),title:z.string().min(1).max(160),message:z.string().max(4000),imageUrl:z.string().refine(v=>!v||/^\/api\/v1\/notice-image\?id=[a-f0-9-]{36}$/.test(v),'Upload a notice image'),version:z.string().min(1).max(100)}).default(defaultNotice);
+export function demoBlocksRequest(path:string,method:string){return path.startsWith('/api/v1/')&&!['GET','HEAD','OPTIONS'].includes(method)&&!/^\/api\/v1\/auth\/(login|logout|refresh|mfa-info|mfa-verify|mfa-enroll)$/.test(path)&&!path.includes('/payments/callback')}

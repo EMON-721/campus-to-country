@@ -1,0 +1,25 @@
+import {isVisibleCountry} from "./country-visibility";
+// Source links, not a copied visa-requirements database. Review date applies to portal discovery.
+export const visaSources=[
+ ['Italy','https://vistoperitalia.esteri.it/','https://ambdhaka.esteri.it/en/'],
+ ['France','https://france-visas.gouv.fr/en/','https://bd.ambafrance.org/'],
+ ['Sweden','https://www.migrationsverket.se/English.html','https://www.swedenabroad.se/en/embassies/bangladesh-dhaka/'],
+ ['Germany','https://dhaka.diplo.de/bd-en/service/2685884-2685884','https://dhaka.diplo.de/'],
+ ['Poland','https://www.gov.pl/web/india/d-type-national-visa---study2','https://www.gov.pl/web/india'],
+ ['Hungary','https://delhi.mfa.gov.hu/en','https://delhi.mfa.gov.hu/en/contact'],
+ ['Czech Republic','https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/index.mobi','https://mzv.gov.cz/newdelhi/en/'],
+ ['Spain','https://www.exteriores.gob.es/Embajadas/dhaka/en/Paginas/index.aspx','https://www.exteriores.gob.es/Embajadas/dhaka/en/Paginas/index.aspx'],
+ ['United Kingdom','https://www.gov.uk/student-visa','https://www.gov.uk/world/organisations/british-high-commission-dhaka'],
+ ['United States','https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html','https://bd.usembassy.gov/'],
+ ['Canada','https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/apply.html','https://www.international.gc.ca/country-pays/bangladesh/index.aspx?lang=eng'],
+ ['Ireland','https://www.irishimmigration.ie/coming-to-study-in-ireland/what-are-my-study-visa-options/how-to-apply-for-long-term-study-visa/','https://www.ireland.ie/en/india/newdelhi/'],
+ ['Netherlands','https://ind.nl/en/residence-permits/study/student-residence-permit-for-university-or-higher-professional-education','https://www.netherlandsandyou.nl/web/bangladesh'],
+ ['Finland','https://migri.fi/residence-permit-application-for-studies','https://finlandabroad.fi/web/ind/frontpage'],
+ ['Denmark','https://nyidanmark.dk/en-GB/You-want-to-apply/Study/Higher-education','https://bangladesh.um.dk/en'],
+ ['Belgium','https://dofi.ibz.be/en/themes/third-country-nationals/study','https://india.diplomatie.belgium.be/en'],
+ ['Luxembourg','https://newdelhi.mae.lu/en/service_citoyens/visa-immigration/long-term-national-visa.html','https://newdelhi.mae.lu/en.html'],
+ ['Australia','https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500','https://bangladesh.embassy.gov.au/'],
+ ['New Zealand','https://www.immigration.govt.nz/visas/fee-paying-student-visa/','https://www.mfat.govt.nz/en/countries-and-regions/asia/bangladesh'],
+ ['Japan','https://www.mofa.go.jp/j_info/visit/visa/long/visa6.html','https://www.bd.emb-japan.go.jp/'],
+ ['South Korea','https://www.mofa.go.kr/bd-en/brd/m_2124/view.do?seq=760105','https://www.mofa.go.kr/bd-en/index.do'],
+].filter(([country])=>isVisibleCountry(country)).map(([country,visa,mission])=>({country,visa,mission,reviewed:'11 October 2026'}));
