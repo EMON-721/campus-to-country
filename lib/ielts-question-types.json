@@ -105,7 +105,8 @@
     "steps": [
       "Find the entrance, compass direction and your starting point.",
       "Trace the route as you listen.",
-      "Separate left/right from north/south; use the given viewpoint."
+      "Separate left/right from north/south; use the given viewpoint.",
+      "In drag-and-drop practice, place the correct label in the answer box; selecting the label is the keyboard alternative."
     ],
     "commonMistakes": [
       "Changing viewpoint halfway through the route."
@@ -120,7 +121,12 @@
       ],
       "model": "",
       "explanation": "Use the entrance as the stated reference point. Accept cafe without the accent.",
-      "choices": []
+      "choices": [
+        "café",
+        "library",
+        "entrance"
+      ],
+      "interaction": "drag-drop"
     },
     "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening",
     "hidden": false
@@ -413,7 +419,8 @@
     "steps": [
       "Summarise the paragraph in a short phrase.",
       "Read the whole paragraph, not just one example.",
-      "Compare close headings by their overall scope."
+      "Compare close headings by their overall scope.",
+      "In drag-and-drop practice, place the correct label in the answer box; selecting the label is the keyboard alternative."
     ],
     "commonMistakes": [
       "Choosing a heading based on a single supporting detail."
@@ -430,7 +437,8 @@
       "choices": [
         "i",
         "ii"
-      ]
+      ],
+      "interaction": "drag-drop"
     },
     "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading",
     "hidden": false
@@ -1018,6 +1026,185 @@
       "choices": []
     },
     "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-speaking",
+    "hidden": false
+  },
+  {
+    "id": "listening-short-answer",
+    "title": "Short Answer",
+    "skill": "Listening",
+    "part": "Parts 1–4",
+    "description": "Answer a factual question from the recording with the number of words or numbers requested.",
+    "descriptionBn": "অডিও থেকে প্রশ্নের সংক্ষিপ্ত উত্তর দিতে হবে। যত শব্দ বা সংখ্যা চাওয়া হয়েছে ততটুকুই লেখো.",
+    "steps": [
+      "Read the question word and predict the answer type.",
+      "Listen for the relevant detail and any correction.",
+      "Write only the requested information and check the word limit."
+    ],
+    "commonMistakes": [
+      "Writing a full sentence when a short answer is required.",
+      "Adding an extra preposition that breaks the word limit."
+    ],
+    "sample": {
+      "mode": "objective",
+      "context": "Transcript: “The course starts on the third floor. Please use the stairs.”",
+      "question": "Write NO MORE THAN TWO WORDS: On which floor does the course start?",
+      "answers": [
+        "third floor"
+      ],
+      "model": "",
+      "explanation": "Third floor answers the location question and stays within two words.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening",
+    "hidden": false
+  },
+  {
+    "id": "listening-summary-notes",
+    "title": "Summary / Notes Completion",
+    "skill": "Listening",
+    "part": "Parts 1–4",
+    "description": "Fill gaps in a summary or notes by following the recording and its paraphrases.",
+    "descriptionBn": "অডিওর তথ্য দিয়ে summary বা notes-এর খালি জায়গা পূরণ করতে হবে।",
+    "steps": [
+      "Read the summary and predict the missing word class.",
+      "Follow paraphrases and corrections in the recording.",
+      "Check spelling, agreement and the word/number limit."
+    ],
+    "commonMistakes": [
+      "Keeping the first number after the speaker corrects it.",
+      "Writing more words than the instruction allows."
+    ],
+    "sample": {
+      "mode": "objective",
+      "context": "Transcript: “The workshop has moved from the library to the museum.”",
+      "question": "Write ONE WORD: The workshop will now take place at the ___.",
+      "answers": [
+        "museum"
+      ],
+      "model": "",
+      "explanation": "The final location is the museum; the library is the earlier, corrected location.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening",
+    "hidden": false
+  },
+  {
+    "id": "reading-notes",
+    "title": "Notes Completion",
+    "skill": "Reading",
+    "part": "Passages 1–3",
+    "description": "Complete the missing notes using the passage and the given word limit.",
+    "descriptionBn": "প্যাসেজের তথ্য ও word limit মেনে শূন্যস্থান পূরণ করো।",
+    "steps": [
+      "Read headings, arrows and the word-limit instruction.",
+      "Predict the grammatical form of the missing word.",
+      "Find the relevant passage section and check the completed structure."
+    ],
+    "commonMistakes": [
+      "Assuming all gaps must follow passage order.",
+      "Ignoring the supplied word list when one is required."
+    ],
+    "sample": {
+      "mode": "objective",
+      "context": "Passage: The survey interviewed local residents during April.\nNotes: Participants — local residents; Month — ___",
+      "question": "Write ONE WORD from the passage.",
+      "answers": [
+        "April"
+      ],
+      "model": "",
+      "explanation": "April is the month stated in the passage.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading",
+    "hidden": false
+  },
+  {
+    "id": "reading-table",
+    "title": "Table Completion",
+    "skill": "Reading",
+    "part": "Passages 1–3",
+    "description": "Complete the missing table cells using the passage and the given word limit.",
+    "descriptionBn": "প্যাসেজের তথ্য ও word limit মেনে শূন্যস্থান পূরণ করো।",
+    "steps": [
+      "Read headings, arrows and the word-limit instruction.",
+      "Predict the grammatical form of the missing word.",
+      "Find the relevant passage section and check the completed structure."
+    ],
+    "commonMistakes": [
+      "Assuming all gaps must follow passage order.",
+      "Ignoring the supplied word list when one is required."
+    ],
+    "sample": {
+      "mode": "objective",
+      "context": "Passage: The morning class has twenty students; the evening class has fifteen.\nTable: Morning | 20; Evening | ___",
+      "question": "Write ONE WORD from the passage for the evening total.",
+      "answers": [
+        "fifteen"
+      ],
+      "model": "",
+      "explanation": "Use the passage word fifteen, following the one-word instruction.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading",
+    "hidden": false
+  },
+  {
+    "id": "reading-flow-diagram",
+    "title": "Flow-chart / Diagram Completion",
+    "skill": "Reading",
+    "part": "Passages 1–3",
+    "description": "Complete the missing flow-chart or diagram labels using the passage and the given word limit.",
+    "descriptionBn": "প্যাসেজের তথ্য ও word limit মেনে শূন্যস্থান পূরণ করো।",
+    "steps": [
+      "Read headings, arrows and the word-limit instruction.",
+      "Predict the grammatical form of the missing word.",
+      "Find the relevant passage section and check the completed structure."
+    ],
+    "commonMistakes": [
+      "Assuming all gaps must follow passage order.",
+      "Ignoring the supplied word list when one is required."
+    ],
+    "sample": {
+      "mode": "objective",
+      "context": "Passage: First the clay is shaped, then it is heated, and finally it is cooled.\nFlow diagram: Shaped → ___ → Cooled",
+      "question": "Write ONE WORD from the passage for the middle stage.",
+      "answers": [
+        "heated"
+      ],
+      "model": "",
+      "explanation": "The passage identifies heated as the stage between shaping and cooling.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading",
+    "hidden": false
+  },
+  {
+    "id": "writing-problem-solution",
+    "title": "Problem / Solution",
+    "skill": "Writing",
+    "part": "Task 2",
+    "description": "Identify the problem or causes the question asks about, then explain practical, connected solutions.",
+    "descriptionBn": "প্রশ্নে চাওয়া সমস্যা বা কারণ চিহ্নিত করে তার সঙ্গে সম্পর্কিত কার্যকর সমাধান ব্যাখ্যা করো।",
+    "steps": [
+      "Underline whether the prompt asks for causes, problems, solutions or a combination.",
+      "Explain each requested problem with a clear consequence.",
+      "Connect each solution to the problem and explain how it helps.",
+      "Finish with a conclusion that addresses the complete task."
+    ],
+    "commonMistakes": [
+      "Listing solutions without explaining the problems requested.",
+      "Giving a solution that does not address the cause or problem."
+    ],
+    "sample": {
+      "mode": "manual",
+      "context": "Original practice topic: Traffic congestion is increasing in many cities.",
+      "question": "What problems does this cause, and what measures could reduce it? Plan two linked problem–solution points.",
+      "answers": [],
+      "model": "Problem: longer, less reliable journeys. Solution: frequent public transport can reduce dependence on private cars. Another problem is vehicle pollution; safer walking and cycling routes can support cleaner short journeys.",
+      "explanation": "This is an original outline, not a full essay or an IELTS band assessment. A full Task 2 answer needs at least 250 words.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing",
     "hidden": false
   }
 ]

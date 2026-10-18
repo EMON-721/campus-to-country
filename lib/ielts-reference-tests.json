@@ -1614,5 +1614,689 @@
     "referenceOnly": true,
     "partialTags": false,
     "hidden": false
+  },
+  {
+    "id": "speaking-cambridge-21-1",
+    "title": "Cambridge 21 — Speaking Test 1",
+    "skill": "Speaking",
+    "collection": "2026 Cambridge 21",
+    "typeIds": [
+      "speaking-part-1",
+      "speaking-part-2",
+      "speaking-part-3"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [
+          "Hairstyles"
+        ],
+        "typeIds": [
+          "speaking-part-1"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [
+          "Different types of holidays"
+        ],
+        "typeIds": [
+          "speaking-part-2"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [
+          "Tourist attractions"
+        ],
+        "typeIds": [
+          "speaking-part-3"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "speaking-cambridge-21-2",
+    "title": "Cambridge 21 — Speaking Test 2",
+    "skill": "Speaking",
+    "collection": "2026 Cambridge 21",
+    "typeIds": [
+      "speaking-part-1",
+      "speaking-part-2",
+      "speaking-part-3"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [
+          "Cities"
+        ],
+        "typeIds": [
+          "speaking-part-1"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [
+          "Honesty and children"
+        ],
+        "typeIds": [
+          "speaking-part-2"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [
+          "Honesty and advertising"
+        ],
+        "typeIds": [
+          "speaking-part-3"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "speaking-cambridge-21-3",
+    "title": "Cambridge 21 — Speaking Test 3",
+    "skill": "Speaking",
+    "collection": "2026 Cambridge 21",
+    "typeIds": [
+      "speaking-part-1",
+      "speaking-part-2",
+      "speaking-part-3"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [
+          "Spending and saving money"
+        ],
+        "typeIds": [
+          "speaking-part-1"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [
+          "Homes and gardens"
+        ],
+        "typeIds": [
+          "speaking-part-2"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [
+          "Gardening as a hobby"
+        ],
+        "typeIds": [
+          "speaking-part-3"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "speaking-cambridge-21-4",
+    "title": "Cambridge 21 — Speaking Test 4",
+    "skill": "Speaking",
+    "collection": "2026 Cambridge 21",
+    "typeIds": [
+      "speaking-part-1",
+      "speaking-part-2",
+      "speaking-part-3"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [
+          "Bread"
+        ],
+        "typeIds": [
+          "speaking-part-1"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [
+          "Competitions"
+        ],
+        "typeIds": [
+          "speaking-part-2"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [
+          "Being competitive in sports"
+        ],
+        "typeIds": [
+          "speaking-part-3"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "speaking-cambridge-20-1",
+    "title": "Cambridge 20 — Speaking Test 1",
+    "skill": "Speaking",
+    "collection": "2025 Cambridge 20",
+    "typeIds": [
+      "speaking-part-1",
+      "speaking-part-2",
+      "speaking-part-3"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [
+          "Walking"
+        ],
+        "typeIds": [
+          "speaking-part-1"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [
+          "Theatre"
+        ],
+        "typeIds": [
+          "speaking-part-2"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [],
+        "typeIds": [
+          "speaking-part-3"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": true,
+    "hidden": false
+  },
+  {
+    "id": "speaking-cambridge-20-2",
+    "title": "Cambridge 20 — Speaking Test 2",
+    "skill": "Speaking",
+    "collection": "2025 Cambridge 20",
+    "typeIds": [
+      "speaking-part-1",
+      "speaking-part-2",
+      "speaking-part-3"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [
+          "Fruit"
+        ],
+        "typeIds": [
+          "speaking-part-1"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [
+          "Making plans"
+        ],
+        "typeIds": [
+          "speaking-part-2"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [
+          "Careers"
+        ],
+        "typeIds": [
+          "speaking-part-3"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "speaking-cambridge-20-3",
+    "title": "Cambridge 20 — Speaking Test 3",
+    "skill": "Speaking",
+    "collection": "2025 Cambridge 20",
+    "typeIds": [
+      "speaking-part-1",
+      "speaking-part-2",
+      "speaking-part-3"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [
+          "Museums"
+        ],
+        "typeIds": [
+          "speaking-part-1"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [
+          "Job satisfaction"
+        ],
+        "typeIds": [
+          "speaking-part-2"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [],
+        "typeIds": [
+          "speaking-part-3"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": true,
+    "hidden": false
+  },
+  {
+    "id": "speaking-cambridge-20-4",
+    "title": "Cambridge 20 — Speaking Test 4",
+    "skill": "Speaking",
+    "collection": "2025 Cambridge 20",
+    "typeIds": [
+      "speaking-part-1",
+      "speaking-part-2",
+      "speaking-part-3"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [
+          "Personal qualities"
+        ],
+        "typeIds": [
+          "speaking-part-1"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [
+          "News and discussion programmes"
+        ],
+        "typeIds": [
+          "speaking-part-2"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [],
+        "typeIds": [
+          "speaking-part-3"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": true,
+    "hidden": false
+  },
+  {
+    "id": "speaking-cambridge-19-1",
+    "title": "Cambridge 19 — Speaking Test 1",
+    "skill": "Speaking",
+    "collection": "2024 Cambridge 19",
+    "typeIds": [
+      "speaking-part-1",
+      "speaking-part-2",
+      "speaking-part-3"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [
+          "International food"
+        ],
+        "typeIds": [
+          "speaking-part-1"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [
+          "School rules"
+        ],
+        "typeIds": [
+          "speaking-part-2"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [
+          "Working in the legal profession"
+        ],
+        "typeIds": [
+          "speaking-part-3"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "speaking-cambridge-19-2",
+    "title": "Cambridge 19 — Speaking Test 2",
+    "skill": "Speaking",
+    "collection": "2024 Cambridge 19",
+    "typeIds": [
+      "speaking-part-1",
+      "speaking-part-2",
+      "speaking-part-3"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [
+          "Travelling by plane"
+        ],
+        "typeIds": [
+          "speaking-part-1"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [
+          "Rewards for children at school"
+        ],
+        "typeIds": [
+          "speaking-part-2"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [
+          "Rewards for sportspeople"
+        ],
+        "typeIds": [
+          "speaking-part-3"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "speaking-cambridge-19-3",
+    "title": "Cambridge 19 — Speaking Test 3",
+    "skill": "Speaking",
+    "collection": "2024 Cambridge 19",
+    "typeIds": [
+      "speaking-part-1",
+      "speaking-part-2",
+      "speaking-part-3"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [
+          "Holidays"
+        ],
+        "typeIds": [
+          "speaking-part-1"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [
+          "Driving a car"
+        ],
+        "typeIds": [
+          "speaking-part-2"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [
+          "Electric cars"
+        ],
+        "typeIds": [
+          "speaking-part-3"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "speaking-cambridge-19-4",
+    "title": "Cambridge 19 — Speaking Test 4",
+    "skill": "Speaking",
+    "collection": "2024 Cambridge 19",
+    "typeIds": [
+      "speaking-part-1",
+      "speaking-part-2",
+      "speaking-part-3"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [
+          "Cafés"
+        ],
+        "typeIds": [
+          "speaking-part-1"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [
+          "The beauty industry"
+        ],
+        "typeIds": [
+          "speaking-part-2"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [
+          "Beauty and culture"
+        ],
+        "typeIds": [
+          "speaking-part-3"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "speaking-cambridge-18-1",
+    "title": "Cambridge 18 — Speaking Test 1",
+    "skill": "Speaking",
+    "collection": "2023 Cambridge 18",
+    "typeIds": [
+      "speaking-part-1",
+      "speaking-part-2",
+      "speaking-part-3"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [
+          "Paying bills"
+        ],
+        "typeIds": [
+          "speaking-part-1"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [
+          "Young people and cooking"
+        ],
+        "typeIds": [
+          "speaking-part-2"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [
+          "Working as a chef"
+        ],
+        "typeIds": [
+          "speaking-part-3"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "speaking-cambridge-18-2",
+    "title": "Cambridge 18 — Speaking Test 2",
+    "skill": "Speaking",
+    "collection": "2023 Cambridge 18",
+    "typeIds": [
+      "speaking-part-1",
+      "speaking-part-2",
+      "speaking-part-3"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [
+          "Science"
+        ],
+        "typeIds": [
+          "speaking-part-1"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [
+          "Museums and art galleries"
+        ],
+        "typeIds": [
+          "speaking-part-2"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [
+          "The holiday industry"
+        ],
+        "typeIds": [
+          "speaking-part-3"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "speaking-cambridge-18-3",
+    "title": "Cambridge 18 — Speaking Test 3",
+    "skill": "Speaking",
+    "collection": "2023 Cambridge 18",
+    "typeIds": [
+      "speaking-part-1",
+      "speaking-part-2",
+      "speaking-part-3"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [
+          "Online shopping"
+        ],
+        "typeIds": [
+          "speaking-part-1"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [
+          "Family occasions"
+        ],
+        "typeIds": [
+          "speaking-part-2"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [
+          "Everyday life in families"
+        ],
+        "typeIds": [
+          "speaking-part-3"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
   }
 ]

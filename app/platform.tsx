@@ -152,7 +152,7 @@ function IELTS({path,store,content}:{path:string;store:Store;content:any[]}){
  if(section==="pronunciation")return <Pronunciation store={store}/>;
  if(section==="question-types")return <IELTSQuestionTypes store={store}/>;
  if(section==="guide")return <IELTSGuide/>;
- if(section==="lessons")return <LearningLessons store={store}/>;
+ if(section==="lessons"||section==="skills")return <LearningLessons store={store}/>;
  if(section==="resources")return <ResourceLibrary/>;
  if(section==="custom-questions")return <><CustomQuestionEditor store={store}/><CustomPractice store={store}/></>;
  if(section==="milestones")return <Milestones store={store}/>;

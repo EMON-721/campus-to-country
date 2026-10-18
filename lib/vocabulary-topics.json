@@ -1,0 +1,318 @@
+[
+  {
+    "id": "education",
+    "title": "Education",
+    "titleBn": "শিক্ষা",
+    "description": "Classes, exams, institutions and learning.",
+    "skills": [
+      "Reading",
+      "Writing",
+      "Speaking"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "environment",
+    "title": "The environment",
+    "titleBn": "পরিবেশ",
+    "description": "Resources, pollution, energy and conservation.",
+    "skills": [
+      "Reading",
+      "Writing",
+      "Listening"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "healthcare",
+    "title": "Healthcare",
+    "titleBn": "স্বাস্থ্যসেবা",
+    "description": "The body, illness, treatment and wellbeing.",
+    "skills": [
+      "Listening",
+      "Speaking",
+      "Reading",
+      "Writing"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "work",
+    "title": "Work",
+    "titleBn": "কর্মজীবন",
+    "description": "Jobs, colleagues, skills and working life.",
+    "skills": [
+      "Speaking",
+      "Listening",
+      "Writing"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "travel",
+    "title": "Travel",
+    "titleBn": "ভ্রমণ",
+    "description": "Journeys, accommodation, tourism and destinations.",
+    "skills": [
+      "Listening",
+      "Speaking",
+      "Reading"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "science-technology",
+    "title": "Science & technology",
+    "titleBn": "বিজ্ঞান ও প্রযুক্তি",
+    "description": "Research, machines, computing and digital life.",
+    "skills": [
+      "Reading",
+      "Writing",
+      "Listening"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "crime-law",
+    "title": "Crime & the law",
+    "titleBn": "অপরাধ ও আইন",
+    "description": "Courts, rights, offences, policing and justice.",
+    "skills": [
+      "Reading",
+      "Writing",
+      "Speaking"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "food-diet",
+    "title": "Food & diet",
+    "titleBn": "খাবার ও খাদ্যাভ্যাস",
+    "description": "Food, ingredients, cooking and nutrition.",
+    "skills": [
+      "Listening",
+      "Speaking",
+      "Writing"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "media-news",
+    "title": "Media & the news",
+    "titleBn": "গণমাধ্যম ও সংবাদ",
+    "description": "Journalism, broadcasting, online content and news.",
+    "skills": [
+      "Reading",
+      "Writing",
+      "Listening"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "money-finance",
+    "title": "Money & finance",
+    "titleBn": "টাকা ও অর্থব্যবস্থা",
+    "description": "Banking, budgets, prices, savings and payments.",
+    "skills": [
+      "Listening",
+      "Speaking",
+      "Writing"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "sport-fitness",
+    "title": "Sport & fitness",
+    "titleBn": "খেলাধুলা ও ফিটনেস",
+    "description": "Exercise, games, training and competition.",
+    "skills": [
+      "Speaking",
+      "Listening",
+      "Reading"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "art-culture",
+    "title": "Art & culture",
+    "titleBn": "শিল্প ও সংস্কৃতি",
+    "description": "Art, music, performance, heritage and traditions.",
+    "skills": [
+      "Speaking",
+      "Writing",
+      "Reading"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "family-relationships",
+    "title": "Family & relationships",
+    "titleBn": "পরিবার ও সম্পর্ক",
+    "description": "Family, relationships, friendship and life stages.",
+    "skills": [
+      "Speaking",
+      "Listening",
+      "Writing"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "transport-traffic",
+    "title": "Transport & traffic",
+    "titleBn": "যানবাহন ও ট্রাফিক",
+    "description": "Roads, vehicles, public transport and commuting.",
+    "skills": [
+      "Listening",
+      "Speaking",
+      "Writing"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "housing-home",
+    "title": "Housing & home",
+    "titleBn": "বাড়ি ও বাসস্থান",
+    "description": "Homes, rooms, furniture and household life.",
+    "skills": [
+      "Listening",
+      "Speaking",
+      "Writing"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "business-economy",
+    "title": "Business & the economy",
+    "titleBn": "ব্যবসা ও অর্থনীতি",
+    "description": "Trade, employment, production and economic change.",
+    "skills": [
+      "Reading",
+      "Writing",
+      "Speaking"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "language-communication",
+    "title": "Language & communication",
+    "titleBn": "ভাষা ও যোগাযোগ",
+    "description": "Words, expression, conversation and understanding.",
+    "skills": [
+      "Listening",
+      "Reading",
+      "Writing",
+      "Speaking"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "weather-climate",
+    "title": "Weather & climate",
+    "titleBn": "আবহাওয়া ও জলবায়ু",
+    "description": "Weather, seasons, temperature and climate.",
+    "skills": [
+      "Listening",
+      "Speaking",
+      "Reading",
+      "Writing"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "society-government",
+    "title": "Society & government",
+    "titleBn": "সমাজ ও সরকার",
+    "description": "Society, institutions, citizenship and public affairs.",
+    "skills": [
+      "Reading",
+      "Writing",
+      "Speaking"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "shopping-consumerism",
+    "title": "Shopping & consumerism",
+    "titleBn": "কেনাকাটা ও ভোগ",
+    "description": "Buying habits, shops, consumer goods and services.",
+    "skills": [
+      "Listening",
+      "Speaking",
+      "Writing"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "nature-wildlife",
+    "title": "Nature & wildlife",
+    "titleBn": "প্রকৃতি ও বন্যপ্রাণী",
+    "description": "Animals, plants, habitats, landscapes and conservation.",
+    "skills": [
+      "Reading",
+      "Listening",
+      "Speaking",
+      "Writing"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "listening-spelling",
+    "title": "Spelling from listening",
+    "titleBn": "শুনে বানান শেখা",
+    "description": "Spelling practice using selected words from this collection. This is not a claim that these were taken from exam recordings.",
+    "skills": [
+      "Listening"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "academic-thinking",
+    "title": "Academic ideas & descriptions",
+    "titleBn": "একাডেমিক ধারণা",
+    "description": "Reasoning, evidence, comparison and data description across topics.",
+    "skills": [
+      "Reading",
+      "Writing"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "numbers-time",
+    "title": "Numbers, time & directions",
+    "titleBn": "সংখ্যা, সময় ও দিক",
+    "description": "Dates, quantities, frequency, position and directions.",
+    "skills": [
+      "Listening",
+      "Reading",
+      "Speaking",
+      "Writing"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "core-grammar",
+    "title": "Core grammar words",
+    "titleBn": "বাক্য তৈরির মূল শব্দ",
+    "description": "Articles, pronouns, prepositions, auxiliaries and linking expressions.",
+    "skills": [
+      "Listening",
+      "Reading",
+      "Writing",
+      "Speaking"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "general-everyday",
+    "title": "Everyday actions & descriptions",
+    "titleBn": "দৈনন্দিন কাজ ও বর্ণনা",
+    "description": "Cross-topic everyday verbs, descriptions, feelings and useful expressions.",
+    "skills": [
+      "Speaking",
+      "Listening",
+      "Reading",
+      "Writing"
+    ],
+    "hidden": false
+  }
+]
