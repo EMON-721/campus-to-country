@@ -1,0 +1,1023 @@
+[
+  {
+    "id": "listening-form-note",
+    "title": "Form / Note Completion",
+    "skill": "Listening",
+    "part": "Parts 1–4",
+    "description": "Complete missing details in a form or notes while listening. The instructions control the number of words or numbers.",
+    "descriptionBn": "অডিও শুনে ফর্ম বা নোটের খালি জায়গা পূরণ করতে হবে। আগে শব্দসংখ্যার নির্দেশনা দেখো।",
+    "steps": [
+      "Read the gaps before listening; predict a name, number or noun.",
+      "Listen for spelling, corrections and paraphrases.",
+      "Check the word limit, spelling and singular/plural form."
+    ],
+    "commonMistakes": [
+      "Keeping the first number after the speaker corrects it.",
+      "Writing more words than the instruction allows."
+    ],
+    "sample": {
+      "mode": "objective",
+      "context": "Transcript for this micro-example: “My membership number was 314, but the new one is 431.”",
+      "question": "Write ONE NUMBER: Current membership number: ___",
+      "answers": [
+        "431"
+      ],
+      "model": "",
+      "explanation": "“But the new one” corrects the earlier number. This transcript illustrates the type; use the audio drill below for listening practice.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening",
+    "hidden": false
+  },
+  {
+    "id": "listening-multiple-choice",
+    "title": "Multiple Choice",
+    "skill": "Listening",
+    "part": "Parts 1–4",
+    "description": "Select the answer or answers required by the question. Listen to the complete meaning, not just a repeated keyword.",
+    "descriptionBn": "শুধু একই শব্দ শুনে উত্তর দেবে না। পুরো কথার অর্থ মিলিয়ে সঠিক অপশন নাও।",
+    "steps": [
+      "Read the question and compare what makes each option different.",
+      "Follow changes of plan and reasons for rejecting an option.",
+      "Choose exactly the number of answers requested."
+    ],
+    "commonMistakes": [
+      "Selecting an option mentioned only to reject it."
+    ],
+    "sample": {
+      "mode": "objective",
+      "context": "Transcript: “We considered Friday, but the room was unavailable. Saturday is confirmed.”",
+      "question": "Which day is confirmed?",
+      "answers": [
+        "Saturday"
+      ],
+      "model": "",
+      "explanation": "Friday was considered, then rejected.",
+      "choices": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening",
+    "hidden": false
+  },
+  {
+    "id": "listening-matching",
+    "title": "Matching",
+    "skill": "Listening",
+    "part": "Parts 1–4",
+    "description": "Match people, places or items to the correct option in a list.",
+    "descriptionBn": "ব্যক্তি, জায়গা বা বিষয়কে সঠিক বর্ণনার সঙ্গে মেলাতে হবে।",
+    "steps": [
+      "Read the options and underline their differences.",
+      "Track who or what each statement refers to.",
+      "Check whether an option may be used more than once."
+    ],
+    "commonMistakes": [
+      "Mixing up the speaker with a person they mention."
+    ],
+    "sample": {
+      "mode": "objective",
+      "context": "Options: A = science, B = art, C = history. Transcript: “Mina studies the past, especially ancient cities.”",
+      "question": "Match Mina to A, B or C.",
+      "answers": [
+        "C"
+      ],
+      "model": "",
+      "explanation": "The past and ancient cities point to history.",
+      "choices": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening",
+    "hidden": false
+  },
+  {
+    "id": "listening-map-plan",
+    "title": "Map / Plan Labelling",
+    "skill": "Listening",
+    "part": "Parts 1–4",
+    "description": "Identify places on a map or plan from spoken directions.",
+    "descriptionBn": "অডিওর দিকনির্দেশনা শুনে ম্যাপের সঠিক জায়গা চিহ্নিত করতে হবে।",
+    "steps": [
+      "Find the entrance, compass direction and your starting point.",
+      "Trace the route as you listen.",
+      "Separate left/right from north/south; use the given viewpoint."
+    ],
+    "commonMistakes": [
+      "Changing viewpoint halfway through the route."
+    ],
+    "sample": {
+      "mode": "objective",
+      "context": "Plan: entrance at the south; café immediately left of the entrance; library immediately right. Transcript: “Enter from the south. The café is on your left.”",
+      "question": "Which place is left of the entrance?",
+      "answers": [
+        "café",
+        "cafe"
+      ],
+      "model": "",
+      "explanation": "Use the entrance as the stated reference point. Accept cafe without the accent.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening",
+    "hidden": false
+  },
+  {
+    "id": "listening-table",
+    "title": "Table Completion",
+    "skill": "Listening",
+    "part": "Parts 1–4",
+    "description": "Fill missing cells by relating headings, categories and spoken details.",
+    "descriptionBn": "টেবিলের কলাম ও সারির শিরোনাম মিলিয়ে তথ্য বসাতে হবে।",
+    "steps": [
+      "Read the row and column headings first.",
+      "Predict whether the missing cell is a price, time, place or other detail.",
+      "Check units and the required answer format."
+    ],
+    "commonMistakes": [
+      "Putting a correct detail into the wrong row."
+    ],
+    "sample": {
+      "mode": "objective",
+      "context": "Transcript: “The morning workshop costs twelve pounds. The afternoon session costs eighteen.”\nTable: Morning | £ ___ ; Afternoon | £18",
+      "question": "Write ONE NUMBER for the morning price.",
+      "answers": [
+        "12"
+      ],
+      "model": "",
+      "explanation": "The morning row needs the price twelve, not the afternoon price eighteen.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening",
+    "hidden": false
+  },
+  {
+    "id": "listening-sentence",
+    "title": "Sentence Completion",
+    "skill": "Listening",
+    "part": "Parts 1–4",
+    "description": "Complete sentences with the missing information from the recording.",
+    "descriptionBn": "অডিওর তথ্য দিয়ে অসম্পূর্ণ বাক্য পূরণ করতে হবে।",
+    "steps": [
+      "Predict the grammar and type of word needed.",
+      "Listen for equivalent wording rather than exact repetition.",
+      "Read the completed sentence and check the word limit."
+    ],
+    "commonMistakes": [
+      "Adding an unnecessary article or preposition."
+    ],
+    "sample": {
+      "mode": "objective",
+      "context": "Transcript: “All participants must bring a notebook.”",
+      "question": "Write ONE WORD: Participants should bring a ___.",
+      "answers": [
+        "notebook"
+      ],
+      "model": "",
+      "explanation": "The noun notebook completes the sentence and follows the one-word limit.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening",
+    "hidden": false
+  },
+  {
+    "id": "listening-flow-chart",
+    "title": "Flow-chart Completion",
+    "skill": "Listening",
+    "part": "Parts 1–4",
+    "description": "Complete missing stages in a sequence or process.",
+    "descriptionBn": "ধাপে ধাপে কাজের ক্রমে যে তথ্য বাদ আছে তা পূরণ করতে হবে।",
+    "steps": [
+      "Follow arrows and identify the current stage.",
+      "Listen for sequence markers such as next and finally.",
+      "Keep each answer within the stated word limit."
+    ],
+    "commonMistakes": [
+      "Skipping to a later stage after missing one answer."
+    ],
+    "sample": {
+      "mode": "objective",
+      "context": "Transcript: “First register online, then pay the fee, and finally collect your pass.”\nFlow: Register → ___ the fee → Collect pass",
+      "question": "Write ONE WORD for the missing action.",
+      "answers": [
+        "pay"
+      ],
+      "model": "",
+      "explanation": "Pay is the middle step in the sequence.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening",
+    "hidden": false
+  },
+  {
+    "id": "reading-true-false-not-given",
+    "title": "True / False / Not Given",
+    "skill": "Reading",
+    "part": "Passages 1–3",
+    "description": "Decide whether a statement agrees with facts in the text, contradicts them, or is not established.",
+    "descriptionBn": "তথ্য মিলে গেলে True, বিপরীত হলে False, প্রমাণ না থাকলে Not Given।",
+    "steps": [
+      "Underline the exact claim, including quantity and time.",
+      "Locate the relevant evidence and compare meaning.",
+      "Use only the passage; lack of evidence is not a contradiction."
+    ],
+    "commonMistakes": [
+      "Treating an unstated fact as False.",
+      "Answering from outside knowledge."
+    ],
+    "sample": {
+      "mode": "objective",
+      "context": "Passage: The museum opens at nine on weekdays.",
+      "question": "Statement: The museum opens at nine on Sundays.",
+      "answers": [
+        "Not Given"
+      ],
+      "model": "",
+      "explanation": "The text specifies weekdays but says nothing about Sunday.",
+      "choices": [
+        "True",
+        "False",
+        "Not Given"
+      ]
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading",
+    "hidden": false
+  },
+  {
+    "id": "reading-note-table-flow",
+    "title": "Note / Table / Flow-chart Completion",
+    "skill": "Reading",
+    "part": "Passages 1–3",
+    "description": "Complete structured information using words from the passage or a supplied word list, as instructed.",
+    "descriptionBn": "প্যাসেজ বা দেওয়া word list থেকে নোট, টেবিল কিংবা flow-chart-এর শূন্যস্থান পূরণ করতে হবে।",
+    "steps": [
+      "Read headings, arrows and the word-limit instruction.",
+      "Predict the grammatical form of the missing word.",
+      "Find the relevant passage section and check the completed structure."
+    ],
+    "commonMistakes": [
+      "Assuming all gaps must follow passage order.",
+      "Ignoring the supplied word list when one is required."
+    ],
+    "sample": {
+      "mode": "objective",
+      "context": "Passage: After collection, the bottles are washed before being melted.\nFlow: Collect → ___ → Melt",
+      "question": "Write ONE WORD from the passage.",
+      "answers": [
+        "washed"
+      ],
+      "model": "",
+      "explanation": "Washed is the stated stage before melting. In this exercise the gap takes the original passage word.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading",
+    "hidden": false
+  },
+  {
+    "id": "reading-matching-information",
+    "title": "Matching Information",
+    "skill": "Reading",
+    "part": "Passages 1–3",
+    "description": "Locate the paragraph containing a particular detail, example, reason or comparison.",
+    "descriptionBn": "নির্দিষ্ট তথ্য, উদাহরণ বা কারণ কোন paragraph-এ আছে তা খুঁজতে হবে।",
+    "steps": [
+      "Identify the kind of information requested.",
+      "Scan for related ideas and paraphrases.",
+      "Check paragraph reuse rules; main idea alone is not enough."
+    ],
+    "commonMistakes": [
+      "Confusing a detail match with matching a heading."
+    ],
+    "sample": {
+      "mode": "objective",
+      "context": "A: Solar panels turn sunlight into electricity.\nB: Installation is expensive, but operating costs are low.",
+      "question": "Which paragraph compares initial and ongoing costs?",
+      "answers": [
+        "B"
+      ],
+      "model": "",
+      "explanation": "Paragraph B contrasts installation cost with operating cost.",
+      "choices": [
+        "A",
+        "B"
+      ]
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading",
+    "hidden": false
+  },
+  {
+    "id": "reading-multiple-choice",
+    "title": "Multiple Choice",
+    "skill": "Reading",
+    "part": "Passages 1–3",
+    "description": "Choose the option supported by the passage. Questions may test detail, inference or a main point.",
+    "descriptionBn": "প্যাসেজের প্রমাণ অনুযায়ী সঠিক অপশন বেছে নিতে হবে।",
+    "steps": [
+      "Read the question stem before comparing options.",
+      "Find supporting text and eliminate contradictions.",
+      "Check qualifiers such as mainly, some and always."
+    ],
+    "commonMistakes": [
+      "Choosing a keyword match with a different meaning."
+    ],
+    "sample": {
+      "mode": "objective",
+      "context": "Passage: The team delayed the trip because heavy rain made the path unsafe.",
+      "question": "Why was the trip delayed?",
+      "answers": [
+        "Unsafe conditions"
+      ],
+      "model": "",
+      "explanation": "Heavy rain caused unsafe conditions on the path.",
+      "choices": [
+        "Lack of money",
+        "Unsafe conditions",
+        "Missing equipment"
+      ]
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading",
+    "hidden": false
+  },
+  {
+    "id": "reading-sentence",
+    "title": "Sentence Completion",
+    "skill": "Reading",
+    "part": "Passages 1–3",
+    "description": "Complete sentences with words from the passage within the stated limit.",
+    "descriptionBn": "প্যাসেজের শব্দ নিয়ে বাক্যের শূন্যস্থান পূরণ করতে হবে।",
+    "steps": [
+      "Predict the missing word class.",
+      "Find the relevant sentence; these answers follow passage order.",
+      "Copy the needed word accurately and obey the limit."
+    ],
+    "commonMistakes": [
+      "Using a synonym when words from the text are required."
+    ],
+    "sample": {
+      "mode": "objective",
+      "context": "Passage: The glass roof allows natural light to enter the building.",
+      "question": "Write ONE WORD: The roof is made of ___.",
+      "answers": [
+        "glass"
+      ],
+      "model": "",
+      "explanation": "Glass is the word used in the passage.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading",
+    "hidden": false
+  },
+  {
+    "id": "reading-yes-no-not-given",
+    "title": "Yes / No / Not Given",
+    "skill": "Reading",
+    "part": "Passages 1–3",
+    "description": "Compare statements with the writer’s views or claims, rather than simply checking factual details.",
+    "descriptionBn": "লেখকের মত বা দাবির সঙ্গে বক্তব্য মিলে কি না তা যাচাই করতে হবে।",
+    "steps": [
+      "Identify whose view is being tested.",
+      "Check the strength and scope of the claim.",
+      "Use Yes for agreement, No for contradiction, and Not Given for insufficient evidence."
+    ],
+    "commonMistakes": [
+      "Using True/False labels when Yes/No is required."
+    ],
+    "sample": {
+      "mode": "objective",
+      "context": "Passage: In my view, public parks deserve more funding than private sports clubs.",
+      "question": "Statement: The writer thinks private sports clubs should receive the larger share.",
+      "answers": [
+        "No"
+      ],
+      "model": "",
+      "explanation": "The statement reverses the writer’s stated preference.",
+      "choices": [
+        "Yes",
+        "No",
+        "Not Given"
+      ]
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading",
+    "hidden": false
+  },
+  {
+    "id": "reading-matching-headings",
+    "title": "Matching Headings",
+    "skill": "Reading",
+    "part": "Passages 1–3",
+    "description": "Match the main idea of each paragraph with a heading. There are usually unused headings.",
+    "descriptionBn": "প্রতিটি paragraph-এর মূল বক্তব্য অনুযায়ী heading বেছে নিতে হবে।",
+    "steps": [
+      "Summarise the paragraph in a short phrase.",
+      "Read the whole paragraph, not just one example.",
+      "Compare close headings by their overall scope."
+    ],
+    "commonMistakes": [
+      "Choosing a heading based on a single supporting detail."
+    ],
+    "sample": {
+      "mode": "objective",
+      "context": "Paragraph: Early buses were slow and uncomfortable. New engines and better seats gradually made journeys faster and more pleasant.\nHeadings: i. Improvements in bus travel; ii. The price of train tickets",
+      "question": "Choose the heading.",
+      "answers": [
+        "i"
+      ],
+      "model": "",
+      "explanation": "The whole paragraph describes improvements to buses.",
+      "choices": [
+        "i",
+        "ii"
+      ]
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading",
+    "hidden": false
+  },
+  {
+    "id": "reading-choose-two",
+    "title": "Choose TWO",
+    "skill": "Reading",
+    "part": "Passages 1–3",
+    "description": "Choose exactly two supported options. This is a multiple-choice instruction, not a separate official section.",
+    "descriptionBn": "নির্দেশনা অনুযায়ী ঠিক দুটি উত্তর নিতে হবে; এটি multiple-choice-এর একটি ধরন।",
+    "steps": [
+      "Check that TWO answers are required.",
+      "Find separate evidence for both choices.",
+      "Do not add a third answer even if it sounds plausible."
+    ],
+    "commonMistakes": [
+      "Selecting only one answer or adding an unsupported third."
+    ],
+    "sample": {
+      "mode": "objective",
+      "context": "Passage: The library offers free Wi-Fi and quiet rooms. Printing costs extra.\nA Free printing; B Free Wi-Fi; C Quiet rooms; D Free meals",
+      "question": "Choose TWO letters. Enter the letters separated by a comma.",
+      "answers": [
+        "B,C"
+      ],
+      "model": "",
+      "explanation": "B and C are supported; printing is not free. Order does not matter.",
+      "choices": [],
+      "unordered": true
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading",
+    "hidden": false
+  },
+  {
+    "id": "reading-summary",
+    "title": "Summary Completion",
+    "skill": "Reading",
+    "part": "Passages 1–3",
+    "description": "Complete a paragraph summarising part of the passage using passage words or a list.",
+    "descriptionBn": "প্যাসেজের একটি অংশের সারাংশের শূন্যস্থান পূরণ করতে হবে।",
+    "steps": [
+      "Read the summary to understand its overall meaning.",
+      "Locate the corresponding passage section.",
+      "Check word forms, word limit and whether a list is supplied."
+    ],
+    "commonMistakes": [
+      "Forcing an answer from a different passage section."
+    ],
+    "sample": {
+      "mode": "objective",
+      "context": "Passage: Bees transfer pollen between flowers and help many plants reproduce.",
+      "question": "Write ONE WORD from the passage: Bees help plants reproduce by transferring ___.",
+      "answers": [
+        "pollen"
+      ],
+      "model": "",
+      "explanation": "Pollen is the material transferred between flowers.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading",
+    "hidden": false
+  },
+  {
+    "id": "reading-matching-features",
+    "title": "Matching Features",
+    "skill": "Reading",
+    "part": "Passages 1–3",
+    "description": "Match statements to people, periods, places or other categories described in the passage.",
+    "descriptionBn": "বক্তব্যকে সংশ্লিষ্ট ব্যক্তি, সময়, স্থান বা category-এর সঙ্গে মেলাতে হবে।",
+    "steps": [
+      "Identify the feature list and reuse rules.",
+      "Track names and pronouns carefully.",
+      "Match the exact finding or view to the right feature."
+    ],
+    "commonMistakes": [
+      "Assigning a nearby sentence to the wrong researcher."
+    ],
+    "sample": {
+      "mode": "objective",
+      "context": "A — Dr Lee studied birds. B — Dr Khan studied river fish.",
+      "question": "Which researcher studied fish? Write A or B.",
+      "answers": [
+        "B"
+      ],
+      "model": "",
+      "explanation": "The fish study is attributed to Dr Khan.",
+      "choices": [
+        "A",
+        "B"
+      ]
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading",
+    "hidden": false
+  },
+  {
+    "id": "reading-diagram",
+    "title": "Diagram Label Completion",
+    "skill": "Reading",
+    "part": "Passages 1–3",
+    "description": "Use a passage description to complete labels on a diagram.",
+    "descriptionBn": "প্যাসেজের বর্ণনা থেকে diagram-এর label পূরণ করতে হবে।",
+    "steps": [
+      "Identify the part and the surrounding labels.",
+      "Find the matching spatial or process description.",
+      "Copy passage words within the specified limit."
+    ],
+    "commonMistakes": [
+      "Guessing from the diagram without reading the description."
+    ],
+    "sample": {
+      "mode": "objective",
+      "context": "Passage: Water enters the filter through the inlet and leaves through the outlet.\nDiagram: water → [ ___ ] → FILTER → [outlet] → water",
+      "question": "Write ONE WORD for the first label.",
+      "answers": [
+        "inlet"
+      ],
+      "model": "",
+      "explanation": "The passage names the entry point inlet.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading",
+    "hidden": false
+  },
+  {
+    "id": "reading-short-answer",
+    "title": "Short Answer",
+    "skill": "Reading",
+    "part": "Passages 1–3",
+    "description": "Answer factual questions using words or numbers from the passage.",
+    "descriptionBn": "প্যাসেজ থেকে শব্দ বা সংখ্যা নিয়ে সংক্ষিপ্ত উত্তর দিতে হবে।",
+    "steps": [
+      "Read the question word: who, where, when or how many.",
+      "Locate the factual detail.",
+      "Give only the required information within the word limit."
+    ],
+    "commonMistakes": [
+      "Writing a complete sentence when only a short answer is needed."
+    ],
+    "sample": {
+      "mode": "objective",
+      "context": "Passage: The research station opened in 1998 near a small lake.",
+      "question": "Write ONE NUMBER: In which year did the station open?",
+      "answers": [
+        "1998"
+      ],
+      "model": "",
+      "explanation": "1998 is the opening year stated in the passage.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading",
+    "hidden": false
+  },
+  {
+    "id": "reading-sentence-endings",
+    "title": "Matching Sentence Endings",
+    "skill": "Reading",
+    "part": "Passages 1–3",
+    "description": "Combine sentence beginnings with the endings supported by the passage.",
+    "descriptionBn": "বাক্যের শুরু অংশকে সঠিক শেষ অংশের সঙ্গে মেলাতে হবে।",
+    "steps": [
+      "Read each beginning and predict its meaning.",
+      "Locate evidence in passage order.",
+      "Check both meaning and grammar before choosing an ending."
+    ],
+    "commonMistakes": [
+      "Selecting a grammatical ending without textual support."
+    ],
+    "sample": {
+      "mode": "objective",
+      "context": "Passage: The new bridge reduced travel time between the villages.\nA increased journey length. B shortened journeys. C closed the road.",
+      "question": "Complete: The new bridge… Write A, B or C.",
+      "answers": [
+        "B"
+      ],
+      "model": "",
+      "explanation": "Reduced travel time means shortened journeys.",
+      "choices": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading",
+    "hidden": false
+  },
+  {
+    "id": "writing-line-graph",
+    "title": "Line Graph",
+    "skill": "Writing",
+    "part": "Task 1",
+    "description": "Describe changes over time, compare trends and select key figures.",
+    "descriptionBn": "সময় অনুযায়ী ওঠানামা ও প্রধান তুলনা দেখাতে হবে।",
+    "steps": [
+      "Read the task and identify exactly what must be described or answered.",
+      "Plan an introduction, clear overview and grouped details.",
+      "Use accurate comparisons and figures; do not invent causes.",
+      "Review grammar, spelling and task coverage."
+    ],
+    "commonMistakes": [
+      "Leaving out an overview.",
+      "Memorising a response that does not match the task."
+    ],
+    "sample": {
+      "mode": "manual",
+      "context": "Year | Bus users (thousands)\n2020 | 20\n2022 | 35\n2024 | 50",
+      "question": "Summarise the main trend and include a comparison.",
+      "answers": [],
+      "model": "Overall, bus use increased steadily, rising from 20,000 in 2020 to 50,000 in 2024.",
+      "explanation": "This is a short planning example, not a full-length answer or a band score. Full Task 1 responses require at least 150 words; Task 2 requires at least 250.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing",
+    "hidden": false
+  },
+  {
+    "id": "writing-mixed",
+    "title": "Mixed (Chart + Table)",
+    "skill": "Writing",
+    "part": "Task 1",
+    "description": "Combine the main features of two related visuals without describing them as unrelated lists.",
+    "descriptionBn": "চার্ট ও টেবিলের গুরুত্বপূর্ণ তথ্য একসঙ্গে তুলনা করতে হবে।",
+    "steps": [
+      "Read the task and identify exactly what must be described or answered.",
+      "Plan an introduction, clear overview and grouped details.",
+      "Use accurate comparisons and figures; do not invent causes.",
+      "Review grammar, spelling and task coverage."
+    ],
+    "commonMistakes": [
+      "Leaving out an overview.",
+      "Memorising a response that does not match the task."
+    ],
+    "sample": {
+      "mode": "manual",
+      "context": "Chart — travel share: Bus 60%, Train 40%.\nTable — average trip: Bus 25 minutes, Train 15 minutes.",
+      "question": "Compare the two modes using both sets of figures.",
+      "answers": [],
+      "model": "Bus travel accounted for the larger share, at 60%, although the average bus trip was ten minutes longer than the train journey.",
+      "explanation": "This is a short planning example, not a full-length answer or a band score. Full Task 1 responses require at least 150 words; Task 2 requires at least 250.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing",
+    "hidden": false
+  },
+  {
+    "id": "writing-process",
+    "title": "Process Diagram",
+    "skill": "Writing",
+    "part": "Task 1",
+    "description": "Describe stages in order, showing the start, finish and any cycle.",
+    "descriptionBn": "প্রক্রিয়ার শুরু, ধাপগুলোর ক্রম ও শেষ দেখাতে হবে।",
+    "steps": [
+      "Read the task and identify exactly what must be described or answered.",
+      "Plan an introduction, clear overview and grouped details.",
+      "Use accurate comparisons and figures; do not invent causes.",
+      "Review grammar, spelling and task coverage."
+    ],
+    "commonMistakes": [
+      "Leaving out an overview.",
+      "Memorising a response that does not match the task."
+    ],
+    "sample": {
+      "mode": "manual",
+      "context": "Paper recycling: Collect paper → Sort → Pulp with water → Press → Dry.",
+      "question": "Write an overview and describe the first two stages.",
+      "answers": [],
+      "model": "The process has five main stages, beginning with collection and ending with drying. Waste paper is first collected and then sorted.",
+      "explanation": "This is a short planning example, not a full-length answer or a band score. Full Task 1 responses require at least 150 words; Task 2 requires at least 250.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing",
+    "hidden": false
+  },
+  {
+    "id": "writing-map",
+    "title": "Map",
+    "skill": "Writing",
+    "part": "Task 1",
+    "description": "Compare locations, additions, removals and changes in land use.",
+    "descriptionBn": "জায়গার পরিবর্তন, নতুন স্থাপনা ও সরিয়ে ফেলা অংশ তুলনা করতে হবে।",
+    "steps": [
+      "Read the task and identify exactly what must be described or answered.",
+      "Plan an introduction, clear overview and grouped details.",
+      "Use accurate comparisons and figures; do not invent causes.",
+      "Review grammar, spelling and task coverage."
+    ],
+    "commonMistakes": [
+      "Leaving out an overview.",
+      "Memorising a response that does not match the task."
+    ],
+    "sample": {
+      "mode": "manual",
+      "context": "Town centre, 2000: park in the north, factory in the south.\nTown centre, 2025: park unchanged; factory replaced by housing.",
+      "question": "Describe the main change without inventing a reason.",
+      "answers": [],
+      "model": "The main change was the replacement of the southern factory with housing, while the park in the north remained unchanged.",
+      "explanation": "This is a short planning example, not a full-length answer or a band score. Full Task 1 responses require at least 150 words; Task 2 requires at least 250.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing",
+    "hidden": false
+  },
+  {
+    "id": "writing-bar",
+    "title": "Bar Chart",
+    "skill": "Writing",
+    "part": "Task 1",
+    "description": "Compare category values, group similar data and identify the highest and lowest figures.",
+    "descriptionBn": "বিভিন্ন category-এর মান তুলনা করে সর্বোচ্চ ও সর্বনিম্ন দেখাতে হবে।",
+    "steps": [
+      "Read the task and identify exactly what must be described or answered.",
+      "Plan an introduction, clear overview and grouped details.",
+      "Use accurate comparisons and figures; do not invent causes.",
+      "Review grammar, spelling and task coverage."
+    ],
+    "commonMistakes": [
+      "Leaving out an overview.",
+      "Memorising a response that does not match the task."
+    ],
+    "sample": {
+      "mode": "manual",
+      "context": "Books borrowed: Science 80; History 50; Art 30.",
+      "question": "Compare the categories in two sentences.",
+      "answers": [],
+      "model": "Science books were the most frequently borrowed, at 80, compared with 50 history books. Art had the lowest figure, at 30.",
+      "explanation": "This is a short planning example, not a full-length answer or a band score. Full Task 1 responses require at least 150 words; Task 2 requires at least 250.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing",
+    "hidden": false
+  },
+  {
+    "id": "writing-table",
+    "title": "Table",
+    "skill": "Writing",
+    "part": "Task 1",
+    "description": "Select patterns and meaningful comparisons from rows and columns.",
+    "descriptionBn": "সারি ও কলাম থেকে মূল pattern ও অর্থপূর্ণ তুলনা বেছে নিতে হবে।",
+    "steps": [
+      "Read the task and identify exactly what must be described or answered.",
+      "Plan an introduction, clear overview and grouped details.",
+      "Use accurate comparisons and figures; do not invent causes.",
+      "Review grammar, spelling and task coverage."
+    ],
+    "commonMistakes": [
+      "Leaving out an overview.",
+      "Memorising a response that does not match the task."
+    ],
+    "sample": {
+      "mode": "manual",
+      "context": "Course | 2020 | 2025\nDesign | 40 | 70\nBusiness | 60 | 65",
+      "question": "Identify the largest change and compare the courses.",
+      "answers": [],
+      "model": "Design enrolment rose by 30, whereas business increased by only five. By 2025, design had overtaken business.",
+      "explanation": "This is a short planning example, not a full-length answer or a band score. Full Task 1 responses require at least 150 words; Task 2 requires at least 250.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing",
+    "hidden": false
+  },
+  {
+    "id": "writing-pie",
+    "title": "Pie Chart",
+    "skill": "Writing",
+    "part": "Task 1",
+    "description": "Compare proportions and describe major shares accurately.",
+    "descriptionBn": "অনুপাত বা শতাংশের প্রধান অংশগুলো তুলনা করতে হবে।",
+    "steps": [
+      "Read the task and identify exactly what must be described or answered.",
+      "Plan an introduction, clear overview and grouped details.",
+      "Use accurate comparisons and figures; do not invent causes.",
+      "Review grammar, spelling and task coverage."
+    ],
+    "commonMistakes": [
+      "Leaving out an overview.",
+      "Memorising a response that does not match the task."
+    ],
+    "sample": {
+      "mode": "manual",
+      "context": "Household spending: Rent 50%; Food 30%; Transport 20%.",
+      "question": "Summarise the distribution without calculating unsupported figures.",
+      "answers": [],
+      "model": "Rent represented half of total spending, followed by food at 30%. Transport accounted for the remaining fifth.",
+      "explanation": "This is a short planning example, not a full-length answer or a band score. Full Task 1 responses require at least 150 words; Task 2 requires at least 250.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing",
+    "hidden": false
+  },
+  {
+    "id": "writing-opinion",
+    "title": "Opinion",
+    "skill": "Writing",
+    "part": "Task 2",
+    "description": "State a clear position and support it with developed reasons and relevant examples.",
+    "descriptionBn": "নিজের অবস্থান স্পষ্ট করে কারণ ও উদাহরণ দিয়ে সমর্থন করতে হবে।",
+    "steps": [
+      "Read the task and identify exactly what must be described or answered.",
+      "Plan a clear introduction, developed body paragraphs and a conclusion.",
+      "Answer every instruction and develop reasons with relevant examples.",
+      "Review grammar, spelling and task coverage."
+    ],
+    "commonMistakes": [
+      "Leaving one requested point unanswered.",
+      "Memorising a response that does not match the task."
+    ],
+    "sample": {
+      "mode": "manual",
+      "context": "Practice topic: Some people think cities should invest more in parks than in shopping centres.",
+      "question": "To what extent do you agree or disagree? Plan a position and two supporting reasons.",
+      "answers": [],
+      "model": "Position: agree. Reason 1: free spaces support physical activity. Reason 2: parks offer accessible places for communities to meet.",
+      "explanation": "This is a short planning example, not a full-length answer or a band score. Full Task 1 responses require at least 150 words; Task 2 requires at least 250.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing",
+    "hidden": false
+  },
+  {
+    "id": "writing-advantages",
+    "title": "Advantages / Disadvantages",
+    "skill": "Writing",
+    "part": "Task 2",
+    "description": "Discuss the requested benefits and drawbacks. If asked whether one outweighs the other, give and support that judgement.",
+    "descriptionBn": "সুবিধা ও অসুবিধা আলোচনা করো। Outweigh জিজ্ঞাসা করলে কোন দিক বেশি গুরুত্বপূর্ণ তা বলো।",
+    "steps": [
+      "Read the task and identify exactly what must be described or answered.",
+      "Plan a clear introduction, developed body paragraphs and a conclusion.",
+      "Answer every instruction and develop reasons with relevant examples.",
+      "Review grammar, spelling and task coverage."
+    ],
+    "commonMistakes": [
+      "Leaving one requested point unanswered.",
+      "Memorising a response that does not match the task."
+    ],
+    "sample": {
+      "mode": "manual",
+      "context": "Practice topic: More employees now work from home.",
+      "question": "What are the advantages and disadvantages? Outline one developed point for each side.",
+      "answers": [],
+      "model": "Advantage: less commuting can save time. Disadvantage: reduced face-to-face contact may make teamwork harder.",
+      "explanation": "This is a short planning example, not a full-length answer or a band score. Full Task 1 responses require at least 150 words; Task 2 requires at least 250.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing",
+    "hidden": false
+  },
+  {
+    "id": "writing-discussion",
+    "title": "Discussion (Both Views)",
+    "skill": "Writing",
+    "part": "Task 2",
+    "description": "Explain both stated views fairly and give your opinion when the prompt asks for it.",
+    "descriptionBn": "দুই পক্ষের মত ব্যাখ্যা করো; প্রশ্নে চাইলে নিজের মতও দাও।",
+    "steps": [
+      "Read the task and identify exactly what must be described or answered.",
+      "Plan a clear introduction, developed body paragraphs and a conclusion.",
+      "Answer every instruction and develop reasons with relevant examples.",
+      "Review grammar, spelling and task coverage."
+    ],
+    "commonMistakes": [
+      "Leaving one requested point unanswered.",
+      "Memorising a response that does not match the task."
+    ],
+    "sample": {
+      "mode": "manual",
+      "context": "Practice topic: Some people prefer online lessons; others prefer classroom lessons.",
+      "question": "Discuss both views and give your own opinion. Plan each side and your position.",
+      "answers": [],
+      "model": "Online lessons offer flexibility; classroom lessons allow immediate interaction. A blended approach may combine those strengths.",
+      "explanation": "This is a short planning example, not a full-length answer or a band score. Full Task 1 responses require at least 150 words; Task 2 requires at least 250.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing",
+    "hidden": false
+  },
+  {
+    "id": "writing-two-part",
+    "title": "Two-part Question",
+    "skill": "Writing",
+    "part": "Task 2",
+    "description": "Answer both direct questions with enough development; the questions may require different kinds of response.",
+    "descriptionBn": "প্রশ্নের দুটি অংশের উত্তরই যথেষ্ট ব্যাখ্যাসহ দিতে হবে।",
+    "steps": [
+      "Read the task and identify exactly what must be described or answered.",
+      "Plan a clear introduction, developed body paragraphs and a conclusion.",
+      "Answer every instruction and develop reasons with relevant examples.",
+      "Review grammar, spelling and task coverage."
+    ],
+    "commonMistakes": [
+      "Leaving one requested point unanswered.",
+      "Memorising a response that does not match the task."
+    ],
+    "sample": {
+      "mode": "manual",
+      "context": "Practice topic: Many adults are learning new skills online.",
+      "question": "Why is this happening? How can learners make online study more effective?",
+      "answers": [],
+      "model": "Reasons: flexible access and a wider choice of courses. Improvements: clear goals, a regular schedule and practice with feedback.",
+      "explanation": "This is a short planning example, not a full-length answer or a band score. Full Task 1 responses require at least 150 words; Task 2 requires at least 250.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing",
+    "hidden": false
+  },
+  {
+    "id": "speaking-part-1",
+    "title": "Part 1 — Introduction & Interview",
+    "skill": "Speaking",
+    "part": "Part 1",
+    "description": "Answer questions about familiar topics, such as work, home and everyday interests.",
+    "descriptionBn": "নিজের পরিচিত বিষয় নিয়ে ছোট কিন্তু ব্যাখ্যাসহ উত্তর দিতে হবে।",
+    "steps": [
+      "Give a direct answer.",
+      "Add a reason or a small detail.",
+      "Speak naturally; do not force memorised idioms."
+    ],
+    "commonMistakes": [
+      "Giving only yes/no answers.",
+      "Delivering a long memorised speech."
+    ],
+    "sample": {
+      "mode": "manual",
+      "context": "Topic: Work or studies.",
+      "question": "Do you work or study? Give a short answer with a reason.",
+      "answers": [],
+      "model": "I am a student. I enjoy learning new skills because they help me solve practical problems.",
+      "explanation": "Use your own truthful details. This is a possible structure, not an answer to memorise.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-speaking",
+    "hidden": false
+  },
+  {
+    "id": "speaking-part-2",
+    "title": "Part 2 — Individual Long Turn",
+    "skill": "Speaking",
+    "part": "Part 2",
+    "description": "Use one minute to prepare, then speak for one to two minutes about the cue-card topic.",
+    "descriptionBn": "এক মিনিট নোট নিয়ে cue card-এর বিষয় নিয়ে এক থেকে দুই মিনিট কথা বলতে হবে।",
+    "steps": [
+      "Use the preparation minute for keywords, not full sentences.",
+      "Cover the cue points in a logical sequence.",
+      "Add a specific example, experience and explanation."
+    ],
+    "commonMistakes": [
+      "Reading a written script.",
+      "Stopping after a few sentences."
+    ],
+    "sample": {
+      "mode": "manual",
+      "context": "Topic: Photography in everyday life.",
+      "question": "Describe a photograph you took. Say what it shows, when you took it, why you took it, and why it matters to you.",
+      "answers": [],
+      "model": "Plan: family celebration → last summer → wanted to keep the memory → the picture reminds me of a happy day.",
+      "explanation": "The cue card here is an original prompt based on the reference topic. A speaking assessment requires listening to your actual performance.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-speaking",
+    "hidden": false
+  },
+  {
+    "id": "speaking-part-3",
+    "title": "Part 3 — Discussion",
+    "skill": "Speaking",
+    "part": "Part 3",
+    "description": "Discuss broader ideas connected with Part 2, including causes, comparisons and possible changes.",
+    "descriptionBn": "Part 2-এর সঙ্গে সম্পর্কিত বড় বিষয় নিয়ে কারণ, তুলনা ও মতামত ব্যাখ্যা করতে হবে।",
+    "steps": [
+      "State your view and explain why.",
+      "Give an example or compare different situations.",
+      "Consider another perspective when it helps answer the question."
+    ],
+    "commonMistakes": [
+      "Only talking about yourself.",
+      "Making a claim without explaining it."
+    ],
+    "sample": {
+      "mode": "manual",
+      "context": "Topic: Sharing photos.",
+      "question": "How has technology changed the way people share photographs?",
+      "answers": [],
+      "model": "People can now share images immediately with a large audience. This is convenient, although it can also create privacy concerns.",
+      "explanation": "Develop your answer naturally. Fluency, vocabulary, grammar and pronunciation all matter.",
+      "choices": []
+    },
+    "sourceUrl": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-speaking",
+    "hidden": false
+  }
+]

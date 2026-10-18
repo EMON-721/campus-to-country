@@ -1,0 +1,11 @@
+import {z} from 'zod';
+export const ieltsSkills=['Listening','Reading','Writing','Speaking'] as const;
+const text=z.string().max(10000),short=z.string().trim().min(1).max(200);
+const common={id:short,hidden:z.boolean(),skill:z.enum(ieltsSkills)};
+const https=z.string().url().max(2048).refine(v=>v.startsWith('https://'),'Use an HTTPS source');
+export const questionTypeSchema=z.object({...common,title:short,part:short,description:text,descriptionBn:text,steps:z.array(text).min(1).max(20),commonMistakes:z.array(text).max(20),sourceUrl:https,sample:z.object({mode:z.enum(['objective','manual']),context:text,question:text,answers:z.array(z.string().max(1000)).max(20),model:text,explanation:text,choices:z.array(z.string().max(1000)).max(30),unordered:z.boolean().optional()}).strict()}).strict().superRefine((x,ctx)=>{if(x.sample.mode==='objective'&&!x.sample.answers.some(s=>s.trim()))ctx.addIssue({code:'custom',message:'Objective samples need an answer'});if(!x.sample.question.trim())ctx.addIssue({code:'custom',message:'Enter a sample question'})});
+export const referenceTestSchema=z.object({...common,title:short,collection:short,typeIds:z.array(short).min(1).max(30),referenceOnly:z.literal(true),partialTags:z.boolean(),parts:z.array(z.object({label:short,topics:z.array(short).max(20),typeIds:z.array(short).max(30),practiceUrl:z.string().max(2048).refine(v=>!v||v.startsWith('https://')&&URL.canParse(v)||/^\/ielts(?:\/[a-z0-9-]+)*(?:\?[a-zA-Z0-9_=&%.-]+)?$/.test(v),'Use an IELTS page or HTTPS practice link')}).strict()).min(1).max(4)}).strict().superRefine((x,ctx)=>{const n={Listening:4,Reading:3,Writing:2,Speaking:3}[x.skill];if(x.parts.length!==n)ctx.addIssue({code:'custom',message:x.skill+' needs '+n+' parts/tasks'})});
+export type QuestionTypeGuide=z.infer<typeof questionTypeSchema>;
+export type ReferenceTest=z.infer<typeof referenceTestSchema>;
+export function normalizeTypeAnswer(value:string,unordered=false){const v=value.normalize('NFKC').trim().toLowerCase().replace(/\s+/g,' ');return unordered?v.split(/[,;\s]+/).filter(Boolean).sort().join(','):v}
+export function checkTypeAnswer(guide:QuestionTypeGuide,value:string){return guide.sample.mode==='objective'&&guide.sample.answers.some(a=>normalizeTypeAnswer(a,guide.sample.unordered)===normalizeTypeAnswer(value,guide.sample.unordered))}

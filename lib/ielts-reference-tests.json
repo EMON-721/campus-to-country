@@ -1,0 +1,1618 @@
+[
+  {
+    "id": "listening-reference-1",
+    "title": "Listening Test 1",
+    "skill": "Listening",
+    "collection": "Reference collection",
+    "typeIds": [
+      "listening-form-note",
+      "listening-multiple-choice",
+      "listening-matching"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 4",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "listening-reference-2",
+    "title": "Listening Test 2",
+    "skill": "Listening",
+    "collection": "Reference collection",
+    "typeIds": [
+      "listening-form-note",
+      "listening-multiple-choice",
+      "listening-map-plan",
+      "listening-matching"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 4",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "listening-reference-3",
+    "title": "Listening Test 3",
+    "skill": "Listening",
+    "collection": "Reference collection",
+    "typeIds": [
+      "listening-form-note",
+      "listening-multiple-choice",
+      "listening-map-plan",
+      "listening-matching"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 4",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "listening-reference-4",
+    "title": "Listening Test 4",
+    "skill": "Listening",
+    "collection": "Reference collection",
+    "typeIds": [
+      "listening-table",
+      "listening-multiple-choice",
+      "listening-matching",
+      "listening-form-note"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 4",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "listening-reference-5",
+    "title": "Listening Test 5",
+    "skill": "Listening",
+    "collection": "Reference collection",
+    "typeIds": [
+      "listening-form-note",
+      "listening-table",
+      "listening-multiple-choice",
+      "listening-matching"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 4",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "listening-reference-6",
+    "title": "Listening Test 6",
+    "skill": "Listening",
+    "collection": "Reference collection",
+    "typeIds": [
+      "listening-form-note",
+      "listening-multiple-choice",
+      "listening-map-plan",
+      "listening-matching"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 4",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "listening-reference-7",
+    "title": "Listening Test 7",
+    "skill": "Listening",
+    "collection": "Reference collection",
+    "typeIds": [
+      "listening-form-note",
+      "listening-table",
+      "listening-multiple-choice",
+      "listening-matching",
+      "listening-sentence"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 4",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "listening-reference-8",
+    "title": "Listening Test 8",
+    "skill": "Listening",
+    "collection": "Reference collection",
+    "typeIds": [
+      "listening-form-note",
+      "listening-multiple-choice",
+      "listening-table"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 4",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "listening-reference-9",
+    "title": "Listening Test 9",
+    "skill": "Listening",
+    "collection": "Reference collection",
+    "typeIds": [
+      "listening-table",
+      "listening-form-note",
+      "listening-multiple-choice",
+      "listening-matching"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 4",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "listening-reference-10",
+    "title": "Listening Test 10",
+    "skill": "Listening",
+    "collection": "Reference collection",
+    "typeIds": [
+      "listening-form-note",
+      "listening-table",
+      "listening-multiple-choice",
+      "listening-map-plan",
+      "listening-matching"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 4",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "listening-reference-11",
+    "title": "Listening Test 4 — Paper B",
+    "skill": "Listening",
+    "collection": "Athar's Collection",
+    "typeIds": [
+      "listening-form-note",
+      "listening-table",
+      "listening-multiple-choice",
+      "listening-map-plan",
+      "listening-matching",
+      "listening-flow-chart"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 4",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "reading-reference-1",
+    "title": "Reading Test 1",
+    "skill": "Reading",
+    "collection": "Reference collection",
+    "typeIds": [
+      "reading-true-false-not-given",
+      "reading-note-table-flow",
+      "reading-matching-information",
+      "reading-multiple-choice",
+      "reading-sentence",
+      "reading-yes-no-not-given"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "reading-reference-2",
+    "title": "Reading Test 2",
+    "skill": "Reading",
+    "collection": "Reference collection",
+    "typeIds": [
+      "reading-true-false-not-given",
+      "reading-note-table-flow",
+      "reading-matching-headings",
+      "reading-matching-information",
+      "reading-choose-two",
+      "reading-yes-no-not-given"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": true,
+    "hidden": false
+  },
+  {
+    "id": "reading-reference-3",
+    "title": "Reading Test 3",
+    "skill": "Reading",
+    "collection": "Reference collection",
+    "typeIds": [
+      "reading-true-false-not-given",
+      "reading-summary",
+      "reading-matching-information",
+      "reading-matching-features",
+      "reading-note-table-flow",
+      "reading-multiple-choice"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "reading-reference-4",
+    "title": "Reading Test 4",
+    "skill": "Reading",
+    "collection": "Reference collection",
+    "typeIds": [
+      "reading-note-table-flow",
+      "reading-true-false-not-given",
+      "reading-matching-headings",
+      "reading-matching-information",
+      "reading-choose-two",
+      "reading-yes-no-not-given"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": true,
+    "hidden": false
+  },
+  {
+    "id": "reading-reference-5",
+    "title": "Reading Test 5",
+    "skill": "Reading",
+    "collection": "Reference collection",
+    "typeIds": [
+      "reading-true-false-not-given",
+      "reading-diagram",
+      "reading-short-answer",
+      "reading-matching-information",
+      "reading-summary",
+      "reading-choose-two",
+      "reading-multiple-choice"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "reading-reference-6",
+    "title": "Reading Test 6",
+    "skill": "Reading",
+    "collection": "Reference collection",
+    "typeIds": [
+      "reading-true-false-not-given",
+      "reading-note-table-flow",
+      "reading-short-answer",
+      "reading-matching-headings",
+      "reading-sentence",
+      "reading-multiple-choice",
+      "reading-yes-no-not-given"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": true,
+    "hidden": false
+  },
+  {
+    "id": "reading-reference-7",
+    "title": "Reading Test 7",
+    "skill": "Reading",
+    "collection": "Reference collection",
+    "typeIds": [
+      "reading-true-false-not-given",
+      "reading-note-table-flow",
+      "reading-matching-information",
+      "reading-matching-features",
+      "reading-summary",
+      "reading-multiple-choice"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "reading-reference-8",
+    "title": "Reading Test 8",
+    "skill": "Reading",
+    "collection": "Reference collection",
+    "typeIds": [
+      "reading-true-false-not-given",
+      "reading-summary",
+      "reading-matching-headings",
+      "reading-multiple-choice",
+      "reading-sentence",
+      "reading-yes-no-not-given",
+      "reading-sentence-endings"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": true,
+    "hidden": false
+  },
+  {
+    "id": "reading-reference-9",
+    "title": "Reading Test 9",
+    "skill": "Reading",
+    "collection": "Reference collection",
+    "typeIds": [
+      "reading-true-false-not-given",
+      "reading-note-table-flow",
+      "reading-matching-information",
+      "reading-sentence",
+      "reading-multiple-choice",
+      "reading-yes-no-not-given"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "reading-reference-10",
+    "title": "Reading Test 10",
+    "skill": "Reading",
+    "collection": "Reference collection",
+    "typeIds": [
+      "reading-true-false-not-given",
+      "reading-note-table-flow",
+      "reading-matching-information",
+      "reading-matching-features",
+      "reading-summary",
+      "reading-yes-no-not-given"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [],
+        "typeIds": [],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": true,
+    "hidden": false
+  },
+  {
+    "id": "writing-reference-1",
+    "title": "Writing Test 1",
+    "skill": "Writing",
+    "collection": "Reference collection",
+    "typeIds": [
+      "writing-line-graph",
+      "writing-opinion"
+    ],
+    "parts": [
+      {
+        "label": "Task 1",
+        "topics": [],
+        "typeIds": [
+          "writing-line-graph"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Task 2",
+        "topics": [],
+        "typeIds": [
+          "writing-opinion"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "writing-reference-2",
+    "title": "Writing Test 2",
+    "skill": "Writing",
+    "collection": "Reference collection",
+    "typeIds": [
+      "writing-mixed",
+      "writing-advantages"
+    ],
+    "parts": [
+      {
+        "label": "Task 1",
+        "topics": [],
+        "typeIds": [
+          "writing-mixed"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Task 2",
+        "topics": [],
+        "typeIds": [
+          "writing-advantages"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "writing-reference-3",
+    "title": "Writing Test 3",
+    "skill": "Writing",
+    "collection": "Reference collection",
+    "typeIds": [
+      "writing-process",
+      "writing-discussion"
+    ],
+    "parts": [
+      {
+        "label": "Task 1",
+        "topics": [],
+        "typeIds": [
+          "writing-process"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Task 2",
+        "topics": [],
+        "typeIds": [
+          "writing-discussion"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "writing-reference-4",
+    "title": "Writing Test 4",
+    "skill": "Writing",
+    "collection": "Reference collection",
+    "typeIds": [
+      "writing-map",
+      "writing-opinion"
+    ],
+    "parts": [
+      {
+        "label": "Task 1",
+        "topics": [],
+        "typeIds": [
+          "writing-map"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Task 2",
+        "topics": [],
+        "typeIds": [
+          "writing-opinion"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "writing-reference-5",
+    "title": "Writing Test 5",
+    "skill": "Writing",
+    "collection": "Reference collection",
+    "typeIds": [
+      "writing-bar",
+      "writing-two-part"
+    ],
+    "parts": [
+      {
+        "label": "Task 1",
+        "topics": [],
+        "typeIds": [
+          "writing-bar"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Task 2",
+        "topics": [],
+        "typeIds": [
+          "writing-two-part"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "writing-reference-6",
+    "title": "Writing Test 6",
+    "skill": "Writing",
+    "collection": "Reference collection",
+    "typeIds": [
+      "writing-table",
+      "writing-opinion"
+    ],
+    "parts": [
+      {
+        "label": "Task 1",
+        "topics": [],
+        "typeIds": [
+          "writing-table"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Task 2",
+        "topics": [],
+        "typeIds": [
+          "writing-opinion"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "writing-reference-7",
+    "title": "Writing Test 7",
+    "skill": "Writing",
+    "collection": "Reference collection",
+    "typeIds": [
+      "writing-process",
+      "writing-opinion"
+    ],
+    "parts": [
+      {
+        "label": "Task 1",
+        "topics": [],
+        "typeIds": [
+          "writing-process"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Task 2",
+        "topics": [],
+        "typeIds": [
+          "writing-opinion"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "writing-reference-8",
+    "title": "Writing Test 8",
+    "skill": "Writing",
+    "collection": "Reference collection",
+    "typeIds": [
+      "writing-map",
+      "writing-discussion"
+    ],
+    "parts": [
+      {
+        "label": "Task 1",
+        "topics": [],
+        "typeIds": [
+          "writing-map"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Task 2",
+        "topics": [],
+        "typeIds": [
+          "writing-discussion"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "writing-reference-9",
+    "title": "Writing Test 9",
+    "skill": "Writing",
+    "collection": "Reference collection",
+    "typeIds": [
+      "writing-pie",
+      "writing-two-part"
+    ],
+    "parts": [
+      {
+        "label": "Task 1",
+        "topics": [],
+        "typeIds": [
+          "writing-pie"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Task 2",
+        "topics": [],
+        "typeIds": [
+          "writing-two-part"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "writing-reference-10",
+    "title": "Writing Test 10",
+    "skill": "Writing",
+    "collection": "Reference collection",
+    "typeIds": [
+      "writing-mixed",
+      "writing-advantages"
+    ],
+    "parts": [
+      {
+        "label": "Task 1",
+        "topics": [],
+        "typeIds": [
+          "writing-mixed"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Task 2",
+        "topics": [],
+        "typeIds": [
+          "writing-advantages"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "speaking-reference-1",
+    "title": "Speaking Test 1",
+    "skill": "Speaking",
+    "collection": "Reference collection",
+    "typeIds": [
+      "speaking-part-1",
+      "speaking-part-2",
+      "speaking-part-3"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [
+          "Work or studies",
+          "Watch",
+          "Old buildings"
+        ],
+        "typeIds": [
+          "speaking-part-1"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [
+          "Photography in everyday life"
+        ],
+        "typeIds": [
+          "speaking-part-2"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [
+          "Sharing photos"
+        ],
+        "typeIds": [
+          "speaking-part-3"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "speaking-reference-2",
+    "title": "Speaking Test 2",
+    "skill": "Speaking",
+    "collection": "Reference collection",
+    "typeIds": [
+      "speaking-part-1",
+      "speaking-part-2",
+      "speaking-part-3"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [
+          "Home/accommodation",
+          "Social media",
+          "Films/cinemas"
+        ],
+        "typeIds": [
+          "speaking-part-1"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [
+          "First impressions"
+        ],
+        "typeIds": [
+          "speaking-part-2"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [
+          "Making friends"
+        ],
+        "typeIds": [
+          "speaking-part-3"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "speaking-reference-3",
+    "title": "Speaking Test 3",
+    "skill": "Speaking",
+    "collection": "Reference collection",
+    "typeIds": [
+      "speaking-part-1",
+      "speaking-part-2",
+      "speaking-part-3"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [
+          "Hometown",
+          "Rubbish and recycling",
+          "History"
+        ],
+        "typeIds": [
+          "speaking-part-1"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [
+          "Happiness in life"
+        ],
+        "typeIds": [
+          "speaking-part-2"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [
+          "Happiness at school"
+        ],
+        "typeIds": [
+          "speaking-part-3"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "speaking-reference-4",
+    "title": "Speaking Test 4",
+    "skill": "Speaking",
+    "collection": "Reference collection",
+    "typeIds": [
+      "speaking-part-1",
+      "speaking-part-2",
+      "speaking-part-3"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [
+          "The area you live in",
+          "Tidiness",
+          "Headphones"
+        ],
+        "typeIds": [
+          "speaking-part-1"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [
+          "Learning history"
+        ],
+        "typeIds": [
+          "speaking-part-2"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [
+          "The value of history"
+        ],
+        "typeIds": [
+          "speaking-part-3"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "speaking-reference-5",
+    "title": "Speaking Test 5",
+    "skill": "Speaking",
+    "collection": "Reference collection",
+    "typeIds": [
+      "speaking-part-1",
+      "speaking-part-2",
+      "speaking-part-3"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [
+          "The city you live in",
+          "Politeness",
+          "Jokes & comedies"
+        ],
+        "typeIds": [
+          "speaking-part-1"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [
+          "Older people today"
+        ],
+        "typeIds": [
+          "speaking-part-2"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [
+          "Generations"
+        ],
+        "typeIds": [
+          "speaking-part-3"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "speaking-reference-6",
+    "title": "Speaking Test 6",
+    "skill": "Speaking",
+    "collection": "Reference collection",
+    "typeIds": [
+      "speaking-part-1",
+      "speaking-part-2",
+      "speaking-part-3"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [
+          "Work or studies",
+          "Paper",
+          "Clothing"
+        ],
+        "typeIds": [
+          "speaking-part-1"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [
+          "Daily routines and decisions"
+        ],
+        "typeIds": [
+          "speaking-part-2"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [
+          "Pressure and balance"
+        ],
+        "typeIds": [
+          "speaking-part-3"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "speaking-reference-7",
+    "title": "Speaking Test 7",
+    "skill": "Speaking",
+    "collection": "Reference collection",
+    "typeIds": [
+      "speaking-part-1",
+      "speaking-part-2",
+      "speaking-part-3"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [
+          "Home/accommodation",
+          "Public gardens and parks",
+          "Singing"
+        ],
+        "typeIds": [
+          "speaking-part-1"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [
+          "Making plans"
+        ],
+        "typeIds": [
+          "speaking-part-2"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [
+          "Changing plans"
+        ],
+        "typeIds": [
+          "speaking-part-3"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "speaking-reference-8",
+    "title": "Speaking Test 8",
+    "skill": "Speaking",
+    "collection": "Reference collection",
+    "typeIds": [
+      "speaking-part-1",
+      "speaking-part-2",
+      "speaking-part-3"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [
+          "Hometown",
+          "Mirrors",
+          "Outer space and stars"
+        ],
+        "typeIds": [
+          "speaking-part-1"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [
+          "Nature in cities"
+        ],
+        "typeIds": [
+          "speaking-part-2"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [
+          "Nature and the economy"
+        ],
+        "typeIds": [
+          "speaking-part-3"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "speaking-reference-9",
+    "title": "Speaking Test 9",
+    "skill": "Speaking",
+    "collection": "Reference collection",
+    "typeIds": [
+      "speaking-part-1",
+      "speaking-part-2",
+      "speaking-part-3"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [
+          "The area you live in",
+          "Music",
+          "Cars"
+        ],
+        "typeIds": [
+          "speaking-part-1"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [
+          "Teamwork at school"
+        ],
+        "typeIds": [
+          "speaking-part-2"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [
+          "Working with others"
+        ],
+        "typeIds": [
+          "speaking-part-3"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  },
+  {
+    "id": "speaking-reference-10",
+    "title": "Speaking Test 10",
+    "skill": "Speaking",
+    "collection": "Reference collection",
+    "typeIds": [
+      "speaking-part-1",
+      "speaking-part-2",
+      "speaking-part-3"
+    ],
+    "parts": [
+      {
+        "label": "Part 1",
+        "topics": [
+          "The city you live in",
+          "Shoes",
+          "Websites"
+        ],
+        "typeIds": [
+          "speaking-part-1"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 2",
+        "topics": [
+          "Organisation at work and study"
+        ],
+        "typeIds": [
+          "speaking-part-2"
+        ],
+        "practiceUrl": ""
+      },
+      {
+        "label": "Part 3",
+        "topics": [
+          "Learning to be organised"
+        ],
+        "typeIds": [
+          "speaking-part-3"
+        ],
+        "practiceUrl": ""
+      }
+    ],
+    "referenceOnly": true,
+    "partialTags": false,
+    "hidden": false
+  }
+]

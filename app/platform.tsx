@@ -1,4 +1,5 @@
 "use client";
+import {IELTSQuestionTypes} from "./ielts-question-types";
 import {AccountIdentity} from "./account-identity";
 import {CustomPage,ExtraNavigation} from "./site-custom-pages";
 import {WorkspaceFiles} from './workspace-files';
@@ -142,13 +143,14 @@ function IELTS({path,store,content}:{path:string;store:Store;content:any[]}){
  if(section==="daily-routine")return <DailyRoutine store={store}/>;
  if(section==="study-history")return <History store={store}/>;
  if(section==="progress")return <ProgressDashboard store={store}/>;
- if(section==="reading")return <><Reading store={store}/><NotesLibrary skill="Reading" compact/><a className="button outline" href={"/ielts/lessons?skill="+section[0].toUpperCase()+section.slice(1)}>Open interactive strategy lessons</a></>;
- if(section==="listening")return <><Listening store={store}/><NotesLibrary skill="Listening" compact/><a className="button outline" href={"/ielts/lessons?skill="+section[0].toUpperCase()+section.slice(1)}>Open interactive strategy lessons</a></>;
+ if(section==="reading")return <><IELTSQuestionTypes skill="Reading" store={store}/><Reading store={store}/><NotesLibrary skill="Reading" compact/><a className="button outline" href={"/ielts/lessons?skill="+section[0].toUpperCase()+section.slice(1)}>Open interactive strategy lessons</a></>;
+ if(section==="listening")return <><IELTSQuestionTypes skill="Listening" store={store}/><Listening store={store}/><NotesLibrary skill="Listening" compact/><a className="button outline" href={"/ielts/lessons?skill="+section[0].toUpperCase()+section.slice(1)}>Open interactive strategy lessons</a></>;
  if(section==="typing")return <Typing store={store}/>;
- if(section==="writing")return <><Writing store={store}/><NotesLibrary skill="Writing" compact/><a className="button outline" href={"/ielts/lessons?skill="+section[0].toUpperCase()+section.slice(1)}>Open interactive strategy lessons</a></>;
- if(section==="speaking")return <><Speaking store={store}/><NotesLibrary skill="Speaking" compact/><a className="button outline" href={"/ielts/lessons?skill="+section[0].toUpperCase()+section.slice(1)}>Open interactive strategy lessons</a></>;
+ if(section==="writing")return <><IELTSQuestionTypes skill="Writing" store={store}/><Writing store={store}/><NotesLibrary skill="Writing" compact/><a className="button outline" href={"/ielts/lessons?skill="+section[0].toUpperCase()+section.slice(1)}>Open interactive strategy lessons</a></>;
+ if(section==="speaking")return <><IELTSQuestionTypes skill="Speaking" store={store}/><Speaking store={store}/><NotesLibrary skill="Speaking" compact/><a className="button outline" href={"/ielts/lessons?skill="+section[0].toUpperCase()+section.slice(1)}>Open interactive strategy lessons</a></>;
  if(section==="question-bank"||section==="practice-hub")return <QuestionBank store={store}/>;
  if(section==="pronunciation")return <Pronunciation store={store}/>;
+ if(section==="question-types")return <IELTSQuestionTypes store={store}/>;
  if(section==="guide")return <IELTSGuide/>;
  if(section==="lessons")return <LearningLessons store={store}/>;
  if(section==="resources")return <ResourceLibrary/>;
