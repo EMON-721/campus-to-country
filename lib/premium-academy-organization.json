@@ -1,0 +1,436 @@
+{
+  "sentence": [
+    {
+      "id": "foundation",
+      "title": "Foundation · complete statements",
+      "topics": [
+        "Subjects and verbs",
+        "Complete sentences",
+        "Sentence fragments",
+        "Simple statement construction"
+      ],
+      "lessonIds": [
+        "foundation-sentence"
+      ]
+    },
+    {
+      "id": "compound",
+      "title": "A2 · joining complete thoughts",
+      "topics": [
+        "Compound sentences",
+        "Coordinating conjunctions",
+        "Joining complete thoughts",
+        "Sentence combination"
+      ],
+      "lessonIds": [
+        "a2-compound-sentences"
+      ]
+    },
+    {
+      "id": "clauses",
+      "title": "B1 · clauses and correction",
+      "topics": [
+        "Independent clauses",
+        "Dependent clauses",
+        "Complex sentences",
+        "Subordination",
+        "Run-ons",
+        "Fused sentences",
+        "Comma splices",
+        "Misplaced modifiers",
+        "Dangling modifiers"
+      ],
+      "lessonIds": [
+        "repair-run-ons",
+        "modifier-position",
+        "dangling-subject",
+        "b1-clauses"
+      ]
+    },
+    {
+      "id": "advanced",
+      "title": "B2 · variety and clarity",
+      "topics": [
+        "Compound-complex sentences",
+        "Sentence transformation",
+        "Sentence variety",
+        "Cohesion and reference",
+        "Advanced editing",
+        "Clarity and concision"
+      ],
+      "lessonIds": [
+        "b2-complex",
+        "b2-cohesion",
+        "b2-error"
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "id": "capitals",
+      "title": "Capitalization",
+      "topics": [
+        "Sentence beginnings",
+        "Proper nouns",
+        "People and place names",
+        "Days and months",
+        "Organizations",
+        "Titles",
+        "Capitalization errors"
+      ],
+      "lessonIds": [
+        "capital-patterns",
+        "letters"
+      ]
+    },
+    {
+      "id": "numbers",
+      "title": "Numbers and abbreviations",
+      "topics": [
+        "Number formatting",
+        "Numerals and written numbers",
+        "Formal abbreviations",
+        "Abbreviation errors"
+      ],
+      "lessonIds": [
+        "number-style"
+      ]
+    },
+    {
+      "id": "apostrophes",
+      "title": "Apostrophes",
+      "topics": [
+        "Possession",
+        "Singular possessives",
+        "Plural possessives",
+        "Contractions",
+        "Apostrophe errors"
+      ],
+      "lessonIds": [
+        "apostrophe-patterns"
+      ]
+    },
+    {
+      "id": "quotations",
+      "title": "Quotation marks",
+      "topics": [
+        "Direct speech",
+        "Exact quotations",
+        "Quoted expressions",
+        "Short-work titles",
+        "Quotation punctuation"
+      ],
+      "lessonIds": [
+        "direct-speech"
+      ]
+    },
+    {
+      "id": "commas",
+      "title": "Commas",
+      "topics": [
+        "Series",
+        "Introductions",
+        "Interrupting information",
+        "Connected independent clauses",
+        "Direct quotations",
+        "Everyday writing"
+      ],
+      "lessonIds": [
+        "comma-six"
+      ]
+    },
+    {
+      "id": "advanced",
+      "title": "Advanced punctuation",
+      "topics": [
+        "Colon",
+        "Semicolon",
+        "Dash",
+        "Hyphen",
+        "Parentheses",
+        "Combined punctuation editing"
+      ],
+      "lessonIds": [
+        "punctuation-range"
+      ]
+    }
+  ],
+  "spelling": [
+    {
+      "id": "spelling",
+      "title": "Spelling improvement",
+      "topics": [
+        "Dictionary practice",
+        "Personal spelling notebook",
+        "Regular and irregular patterns",
+        "Personal error list",
+        "Subject-specific spelling",
+        "Revision",
+        "Electronic spelling assistance"
+      ],
+      "lessonIds": [
+        "spelling-routine"
+      ]
+    },
+    {
+      "id": "word-choice",
+      "title": "Commonly confused words",
+      "topics": [
+        "Homonyms",
+        "Similar sounds",
+        "Similar spellings",
+        "Context and meaning",
+        "Grammar-related confusion",
+        "Academic word confusion",
+        "Word selection"
+      ],
+      "lessonIds": [
+        "confused-1",
+        "confused-2",
+        "confused-3",
+        "confused-4",
+        "confused-5",
+        "confused-6",
+        "confused-7",
+        "confused-8",
+        "confused-9",
+        "confused-10",
+        "confused-11",
+        "confused-12"
+      ]
+    }
+  ],
+  "formal": [
+    {
+      "id": "tone",
+      "title": "Tone and professional communication",
+      "topics": [
+        "Formal and informal writing",
+        "Professional tone",
+        "Modern polite expressions",
+        "Professional emails"
+      ],
+      "lessonIds": [
+        "formal-request",
+        "formal-explanations"
+      ]
+    },
+    {
+      "id": "layout",
+      "title": "Full-block letter structure",
+      "topics": [
+        "Letter layout",
+        "Date formatting",
+        "Recipient details",
+        "Salutations",
+        "Subject lines",
+        "Spacing and margins",
+        "Capitalization"
+      ],
+      "lessonIds": [
+        "formal-request"
+      ]
+    },
+    {
+      "id": "paragraphs",
+      "title": "Developing the message",
+      "topics": [
+        "Opening paragraphs",
+        "Main-body organization",
+        "Polite requests",
+        "Closing statements",
+        "Complimentary closes",
+        "Signatures"
+      ],
+      "lessonIds": [
+        "formal-request",
+        "formal-explanations"
+      ]
+    },
+    {
+      "id": "assignments",
+      "title": "Official writing practice",
+      "topics": [
+        "Permission requests",
+        "Appointment requests",
+        "Absence explanations",
+        "Information requests",
+        "Academic emails",
+        "Official letters",
+        "Formal assessments"
+      ],
+      "lessonIds": [
+        "formal-request",
+        "formal-explanations"
+      ]
+    }
+  ],
+  "academic": [
+    {
+      "id": "foundation",
+      "title": "A · Academic writing foundation",
+      "topics": [
+        "Academic principles",
+        "Academic tone",
+        "Paragraph construction",
+        "Topic sentences",
+        "Supporting details",
+        "Logical organization",
+        "Clarity"
+      ],
+      "lessonIds": [
+        "essay-structure",
+        "b2-cohesion"
+      ]
+    },
+    {
+      "id": "thesis",
+      "title": "B · Thesis statements",
+      "topics": [
+        "Thesis statements",
+        "Opinions",
+        "Selecting a position",
+        "Strong and weak statements",
+        "Thesis revision"
+      ],
+      "lessonIds": [
+        "thesis-evidence"
+      ]
+    },
+    {
+      "id": "arguments",
+      "title": "C · Argument development",
+      "topics": [
+        "Claims",
+        "Reasons",
+        "Evidence",
+        "Logical reasoning",
+        "Persuasive language",
+        "Common ground",
+        "Opposing viewpoints"
+      ],
+      "lessonIds": [
+        "thesis-evidence",
+        "balanced-argument"
+      ]
+    },
+    {
+      "id": "counterarguments",
+      "title": "D · Counterarguments",
+      "topics": [
+        "Opposing views",
+        "Acknowledging disagreement",
+        "Counterargument structure",
+        "Refutation",
+        "Supporting a refutation"
+      ],
+      "lessonIds": [
+        "balanced-argument"
+      ]
+    },
+    {
+      "id": "structure",
+      "title": "E · Essay structure",
+      "topics": [
+        "Hook",
+        "Background",
+        "Thesis",
+        "Topic sentences",
+        "Body paragraphs",
+        "Evidence",
+        "Counterargument paragraph",
+        "Refutation",
+        "Conclusion",
+        "Thesis restatement"
+      ],
+      "lessonIds": [
+        "essay-structure"
+      ]
+    },
+    {
+      "id": "essays",
+      "title": "F · Argumentative essays",
+      "topics": [
+        "Topic selection",
+        "Brainstorming",
+        "Outlining",
+        "Introduction",
+        "Body development",
+        "Counterargument and response",
+        "Conclusion",
+        "Editing and proofreading",
+        "Complete essay practice"
+      ],
+      "lessonIds": [
+        "balanced-argument",
+        "essay-structure"
+      ]
+    },
+    {
+      "id": "critical",
+      "title": "G · Critical thinking",
+      "topics": [
+        "Evaluating evidence",
+        "Comparing viewpoints",
+        "Weak arguments",
+        "Strengthening reasoning",
+        "Independent opinions"
+      ],
+      "lessonIds": [
+        "thesis-evidence",
+        "balanced-argument"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "core",
+      "title": "A1 · core grammar",
+      "topics": [
+        "Parts of speech",
+        "Articles and reference",
+        "Prepositions",
+        "Subject–verb agreement",
+        "Regular verbs"
+      ],
+      "lessonIds": [
+        "a1-parts",
+        "a1-articles",
+        "a1-prepositions",
+        "a1-agreement",
+        "verb-forms"
+      ]
+    },
+    {
+      "id": "events",
+      "title": "A2 · events and obligations",
+      "topics": [
+        "Irregular verbs",
+        "Past events and experience",
+        "Advice",
+        "Modal verbs",
+        "Obligation"
+      ],
+      "lessonIds": [
+        "a2-tenses",
+        "a2-modals"
+      ]
+    },
+    {
+      "id": "clauses",
+      "title": "B1–B2 · structures and editing",
+      "topics": [
+        "Conditionals",
+        "Passive voice",
+        "Relative clauses",
+        "Grammatical error editing"
+      ],
+      "lessonIds": [
+        "b1-conditionals",
+        "b1-passive",
+        "b1-clauses",
+        "b2-error"
+      ]
+    }
+  ]
+}

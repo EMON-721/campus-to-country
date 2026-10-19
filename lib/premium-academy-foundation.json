@@ -1,0 +1,977 @@
+[
+  {
+    "id": "foundation-sentence",
+    "moduleId": "foundation",
+    "category": "sentence",
+    "examples": [
+      "A child smiles. The subject is a child and the verb is smiles.",
+      "The room feels warm. Feels links the subject to a description."
+    ],
+    "incorrect": "Near the window.",
+    "correct": "The learner sits near the window.",
+    "guided": [
+      {
+        "id": "guided-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Which word is the verb in The learners write notes?",
+        "options": [
+          "learners",
+          "write",
+          "notes"
+        ],
+        "answers": [
+          "write"
+        ],
+        "explanation": "Write states the action.",
+        "rubric": []
+      }
+    ],
+    "independent": [
+      {
+        "id": "independent-1",
+        "type": "sentence-ordering",
+        "caseSensitive": false,
+        "prompt": "Order the words, adding a full stop: read / We / books",
+        "options": [],
+        "answers": [
+          "We read books."
+        ],
+        "explanation": "Subject + verb + object makes a complete statement.",
+        "rubric": []
+      }
+    ],
+    "quiz": [
+      {
+        "id": "quiz-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Which is a complete statement?",
+        "options": [
+          "Before breakfast.",
+          "The lesson begins."
+        ],
+        "answers": [
+          "The lesson begins."
+        ],
+        "explanation": "It has a subject and a finite verb.",
+        "rubric": []
+      },
+      {
+        "id": "quiz-2",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Which is the subject in The dog sleeps?",
+        "options": [
+          "The dog",
+          "sleeps"
+        ],
+        "answers": [
+          "The dog"
+        ],
+        "explanation": "The dog is what the statement is about.",
+        "rubric": []
+      }
+    ]
+  },
+  {
+    "id": "a1-parts",
+    "moduleId": "legacy",
+    "category": "grammar",
+    "examples": [
+      "A careful reader checks slowly. Careful describes reader; slowly modifies checks.",
+      "Learning is useful. Here learning functions as a noun."
+    ],
+    "incorrect": "She writes careful.",
+    "correct": "She writes carefully.",
+    "guided": [
+      {
+        "id": "guided-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Which word is a noun in The student reads?",
+        "options": [
+          "student",
+          "reads"
+        ],
+        "answers": [
+          "student"
+        ],
+        "explanation": "Student names a person.",
+        "rubric": []
+      }
+    ],
+    "independent": [
+      {
+        "id": "independent-1",
+        "type": "fill-blank",
+        "caseSensitive": false,
+        "prompt": "Choose the adverb: She works ___. (careful / carefully)",
+        "options": [],
+        "answers": [
+          "carefully"
+        ],
+        "explanation": "Carefully describes how she works.",
+        "rubric": []
+      }
+    ],
+    "quiz": [
+      {
+        "id": "quiz-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Which word describes a noun?",
+        "options": [
+          "Adjective",
+          "Preposition"
+        ],
+        "answers": [
+          "Adjective"
+        ],
+        "explanation": "Adjectives modify nouns.",
+        "rubric": []
+      },
+      {
+        "id": "quiz-2",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "In The bright light shines, which word is the adjective?",
+        "options": [
+          "bright",
+          "shines"
+        ],
+        "answers": [
+          "bright"
+        ],
+        "explanation": "Bright describes light.",
+        "rubric": []
+      }
+    ]
+  },
+  {
+    "id": "a1-agreement",
+    "moduleId": "agreement",
+    "category": "grammar",
+    "examples": [
+      "The desk holds two books. Desks hold books.",
+      "Everyone has a role. Each learner studies."
+    ],
+    "incorrect": "My friend study daily.",
+    "correct": "My friend studies daily.",
+    "guided": [
+      {
+        "id": "guided-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "The box of pens ___ here.",
+        "options": [
+          "is",
+          "are"
+        ],
+        "answers": [
+          "is"
+        ],
+        "explanation": "Box is the singular subject.",
+        "rubric": []
+      }
+    ],
+    "independent": [
+      {
+        "id": "independent-1",
+        "type": "fill-blank",
+        "caseSensitive": false,
+        "prompt": "Each learner ___ a notebook. (has / have)",
+        "options": [],
+        "answers": [
+          "has"
+        ],
+        "explanation": "Each learner is singular.",
+        "rubric": []
+      }
+    ],
+    "quiz": [
+      {
+        "id": "quiz-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "My friends ___ together.",
+        "options": [
+          "study",
+          "studies"
+        ],
+        "answers": [
+          "study"
+        ],
+        "explanation": "Friends is plural.",
+        "rubric": []
+      },
+      {
+        "id": "quiz-2",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "There ___ two chairs.",
+        "options": [
+          "is",
+          "are"
+        ],
+        "answers": [
+          "are"
+        ],
+        "explanation": "Two chairs is the plural subject.",
+        "rubric": []
+      }
+    ]
+  },
+  {
+    "id": "a1-articles",
+    "moduleId": "legacy",
+    "category": "grammar",
+    "examples": [
+      "An umbrella is useful. Use an before a vowel sound.",
+      "I saw a bird. The bird landed nearby. The second mention identifies the bird."
+    ],
+    "incorrect": "She waited for a hour.",
+    "correct": "She waited for an hour.",
+    "guided": [
+      {
+        "id": "guided-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Choose the article: ___ university.",
+        "options": [
+          "a",
+          "an"
+        ],
+        "answers": [
+          "a"
+        ],
+        "explanation": "University begins with a consonant sound, like you.",
+        "rubric": []
+      }
+    ],
+    "independent": [
+      {
+        "id": "independent-1",
+        "type": "fill-blank",
+        "caseSensitive": false,
+        "prompt": "Complete: I bought a notebook. ___ notebook is blue.",
+        "options": [],
+        "answers": [
+          "The"
+        ],
+        "explanation": "The notebook is identifiable from the previous sentence.",
+        "rubric": []
+      }
+    ],
+    "quiz": [
+      {
+        "id": "quiz-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Choose: ___ apple.",
+        "options": [
+          "a",
+          "an"
+        ],
+        "answers": [
+          "an"
+        ],
+        "explanation": "Apple begins with a vowel sound.",
+        "rubric": []
+      },
+      {
+        "id": "quiz-2",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Choose: ___ useful tool.",
+        "options": [
+          "a",
+          "an"
+        ],
+        "answers": [
+          "a"
+        ],
+        "explanation": "Useful begins with a consonant sound.",
+        "rubric": []
+      }
+    ]
+  },
+  {
+    "id": "a1-prepositions",
+    "moduleId": "legacy",
+    "category": "grammar",
+    "examples": [
+      "The class starts at nine on Tuesday.",
+      "We travel in July. The meeting is on 14 July."
+    ],
+    "incorrect": "The session is in Monday.",
+    "correct": "The session is on Monday.",
+    "guided": [
+      {
+        "id": "guided-1",
+        "type": "fill-blank",
+        "caseSensitive": false,
+        "prompt": "Meet me ___ six o’clock.",
+        "options": [],
+        "answers": [
+          "at"
+        ],
+        "explanation": "Use at for a clock time.",
+        "rubric": []
+      }
+    ],
+    "independent": [
+      {
+        "id": "independent-1",
+        "type": "fill-blank",
+        "caseSensitive": false,
+        "prompt": "The course begins ___ January.",
+        "options": [],
+        "answers": [
+          "in"
+        ],
+        "explanation": "Use in for a month.",
+        "rubric": []
+      }
+    ],
+    "quiz": [
+      {
+        "id": "quiz-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "The meeting is ___ Friday.",
+        "options": [
+          "at",
+          "on",
+          "in"
+        ],
+        "answers": [
+          "on"
+        ],
+        "explanation": "Use on for a named day.",
+        "rubric": []
+      },
+      {
+        "id": "quiz-2",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "The event happened ___ 2025.",
+        "options": [
+          "in",
+          "on"
+        ],
+        "answers": [
+          "in"
+        ],
+        "explanation": "Use in for a year.",
+        "rubric": []
+      }
+    ]
+  },
+  {
+    "id": "a2-tenses",
+    "moduleId": "verbs",
+    "category": "grammar",
+    "examples": [
+      "I finished the form yesterday. Yesterday is a finished past time.",
+      "I have finished the form, so I can send it now. The completion matters now."
+    ],
+    "incorrect": "Yesterday, I have visited the museum.",
+    "correct": "Yesterday, I visited the museum.",
+    "guided": [
+      {
+        "id": "guided-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Last week, we ___ a new route.",
+        "options": [
+          "tried",
+          "have tried"
+        ],
+        "answers": [
+          "tried"
+        ],
+        "explanation": "Last week is a finished past time.",
+        "rubric": []
+      }
+    ],
+    "independent": [
+      {
+        "id": "independent-1",
+        "type": "fill-blank",
+        "caseSensitive": false,
+        "prompt": "Write the past participle: She has ___ the letter. (write)",
+        "options": [],
+        "answers": [
+          "written"
+        ],
+        "explanation": "Have/has takes the past participle.",
+        "rubric": []
+      }
+    ],
+    "quiz": [
+      {
+        "id": "quiz-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Choose the past form of go.",
+        "options": [
+          "went",
+          "gone"
+        ],
+        "answers": [
+          "went"
+        ],
+        "explanation": "Went is simple past; gone is the participle.",
+        "rubric": []
+      },
+      {
+        "id": "quiz-2",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Choose the natural finished-time statement.",
+        "options": [
+          "I saw it yesterday.",
+          "I have seen it yesterday."
+        ],
+        "answers": [
+          "I saw it yesterday."
+        ],
+        "explanation": "Yesterday calls for past simple here.",
+        "rubric": []
+      }
+    ]
+  },
+  {
+    "id": "a2-modals",
+    "moduleId": "legacy",
+    "category": "grammar",
+    "examples": [
+      "You should check your draft. This is advice.",
+      "Visitors must show identification. This is a requirement.",
+      "You must not enter. This forbids entry; you do not have to enter means entry is optional."
+    ],
+    "incorrect": "You should to revise.",
+    "correct": "You should revise.",
+    "guided": [
+      {
+        "id": "guided-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Choose advice.",
+        "options": [
+          "You should take a break.",
+          "You must provide identification."
+        ],
+        "answers": [
+          "You should take a break."
+        ],
+        "explanation": "Should commonly expresses advice.",
+        "rubric": []
+      }
+    ],
+    "independent": [
+      {
+        "id": "independent-1",
+        "type": "sentence-transformation",
+        "caseSensitive": false,
+        "prompt": "Rewrite this as advice using should: It is a good idea to check the date.",
+        "options": [],
+        "answers": [],
+        "explanation": "Use accurate grammar while retaining the intended meaning.",
+        "rubric": [
+          "Meaning is preserved",
+          "The requested structure is used accurately",
+          "Capitalization and punctuation support clarity"
+        ]
+      }
+    ],
+    "quiz": [
+      {
+        "id": "quiz-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Choose the correct form.",
+        "options": [
+          "She can writes.",
+          "She can write."
+        ],
+        "answers": [
+          "She can write."
+        ],
+        "explanation": "A modal takes the base verb.",
+        "rubric": []
+      },
+      {
+        "id": "quiz-2",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Which means an action is optional?",
+        "options": [
+          "You must not go.",
+          "You do not have to go."
+        ],
+        "answers": [
+          "You do not have to go."
+        ],
+        "explanation": "There is no obligation; the action is not forbidden.",
+        "rubric": []
+      }
+    ]
+  },
+  {
+    "id": "b1-conditionals",
+    "moduleId": "legacy",
+    "category": "grammar",
+    "examples": [
+      "If the train arrives soon, we will reach the meeting. A realistic future condition.",
+      "If I lived closer, I would walk. A hypothetical present situation."
+    ],
+    "incorrect": "If she will study, she will improve.",
+    "correct": "If she studies, she will improve.",
+    "guided": [
+      {
+        "id": "guided-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "If it rains, we ___ stay indoors.",
+        "options": [
+          "will",
+          "would"
+        ],
+        "answers": [
+          "will"
+        ],
+        "explanation": "Present in the if-clause describes a real future possibility.",
+        "rubric": []
+      }
+    ],
+    "independent": [
+      {
+        "id": "independent-1",
+        "type": "sentence-transformation",
+        "caseSensitive": false,
+        "prompt": "Combine the ideas using a hypothetical condition: I do not have a bicycle. I cannot cycle to class.",
+        "options": [],
+        "answers": [],
+        "explanation": "Use accurate grammar while retaining the intended meaning.",
+        "rubric": [
+          "Meaning is preserved",
+          "The requested structure is used accurately",
+          "Capitalization and punctuation support clarity"
+        ]
+      }
+    ],
+    "quiz": [
+      {
+        "id": "quiz-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "If I had more time, I ___ read more.",
+        "options": [
+          "will",
+          "would"
+        ],
+        "answers": [
+          "would"
+        ],
+        "explanation": "Had with would expresses a hypothetical situation.",
+        "rubric": []
+      },
+      {
+        "id": "quiz-2",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Choose a first conditional.",
+        "options": [
+          "If I finish, I will call.",
+          "If I finished, I would call."
+        ],
+        "answers": [
+          "If I finish, I will call."
+        ],
+        "explanation": "Present plus will describes a real future possibility.",
+        "rubric": []
+      }
+    ]
+  },
+  {
+    "id": "b1-passive",
+    "moduleId": "legacy",
+    "category": "grammar",
+    "examples": [
+      "The team checked the forms. The forms were checked by the team.",
+      "Staff send confirmations daily. Confirmations are sent daily."
+    ],
+    "incorrect": "The forms was checked.",
+    "correct": "The forms were checked.",
+    "guided": [
+      {
+        "id": "guided-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Choose the past passive.",
+        "options": [
+          "The door was locked.",
+          "The door is lock."
+        ],
+        "answers": [
+          "The door was locked."
+        ],
+        "explanation": "Was plus past participle forms a past passive.",
+        "rubric": []
+      }
+    ],
+    "independent": [
+      {
+        "id": "independent-1",
+        "type": "sentence-transformation",
+        "caseSensitive": false,
+        "prompt": "Change to passive without changing the time: The team prepared the report yesterday.",
+        "options": [],
+        "answers": [],
+        "explanation": "Use accurate grammar while retaining the intended meaning.",
+        "rubric": [
+          "Meaning is preserved",
+          "The requested structure is used accurately",
+          "Capitalization and punctuation support clarity"
+        ]
+      }
+    ],
+    "quiz": [
+      {
+        "id": "quiz-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "The emails ___ sent yesterday.",
+        "options": [
+          "was",
+          "were"
+        ],
+        "answers": [
+          "were"
+        ],
+        "explanation": "Emails is plural.",
+        "rubric": []
+      },
+      {
+        "id": "quiz-2",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "A passive verb uses be plus…",
+        "options": [
+          "a past participle",
+          "an adjective only"
+        ],
+        "answers": [
+          "a past participle"
+        ],
+        "explanation": "Be carries tense; the participle expresses the action.",
+        "rubric": []
+      }
+    ]
+  },
+  {
+    "id": "b1-clauses",
+    "moduleId": "legacy",
+    "category": "grammar",
+    "examples": [
+      "The book that I borrowed is helpful. The clause identifies which book.",
+      "The tutor who leads the session is here. Who refers to a person."
+    ],
+    "incorrect": "The teacher which helped me is here.",
+    "correct": "The teacher who helped me is here.",
+    "guided": [
+      {
+        "id": "guided-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Choose a relative word for a person.",
+        "options": [
+          "who",
+          "which"
+        ],
+        "answers": [
+          "who"
+        ],
+        "explanation": "Who commonly refers to a person.",
+        "rubric": []
+      }
+    ],
+    "independent": [
+      {
+        "id": "independent-1",
+        "type": "sentence-transformation",
+        "caseSensitive": false,
+        "prompt": "Combine using a defining relative clause: I read a report. The report explained the findings.",
+        "options": [],
+        "answers": [],
+        "explanation": "Use accurate grammar while retaining the intended meaning.",
+        "rubric": [
+          "Meaning is preserved",
+          "The requested structure is used accurately",
+          "Capitalization and punctuation support clarity"
+        ]
+      }
+    ],
+    "quiz": [
+      {
+        "id": "quiz-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "The device ___ I use is reliable.",
+        "options": [
+          "which",
+          "who"
+        ],
+        "answers": [
+          "which"
+        ],
+        "explanation": "Which refers to the device.",
+        "rubric": []
+      },
+      {
+        "id": "quiz-2",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "What does a defining relative clause do?",
+        "options": [
+          "Identifies the intended noun",
+          "Always adds an unrelated comment"
+        ],
+        "answers": [
+          "Identifies the intended noun"
+        ],
+        "explanation": "It specifies who or what is meant.",
+        "rubric": []
+      }
+    ]
+  },
+  {
+    "id": "b2-complex",
+    "moduleId": "sentences",
+    "category": "sentence",
+    "examples": [
+      "Although the room was small, we worked comfortably. Contrast links dependent and main clauses.",
+      "When the room opened, we entered, and the tutor followed. Two main clauses plus a dependent clause."
+    ],
+    "incorrect": "Although we were tired.",
+    "correct": "Although we were tired, we finished the draft.",
+    "guided": [
+      {
+        "id": "guided-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Which clause is dependent?",
+        "options": [
+          "Because the train stopped",
+          "The train stopped"
+        ],
+        "answers": [
+          "Because the train stopped"
+        ],
+        "explanation": "Because makes this clause depend on a main clause.",
+        "rubric": []
+      }
+    ],
+    "independent": [
+      {
+        "id": "independent-1",
+        "type": "sentence-transformation",
+        "caseSensitive": false,
+        "prompt": "Combine these ideas into a compound-complex sentence: The library closed. We went home. We continued reading. Use when and and.",
+        "options": [],
+        "answers": [],
+        "explanation": "Use accurate grammar while retaining the intended meaning.",
+        "rubric": [
+          "Meaning is preserved",
+          "The requested structure is used accurately",
+          "Capitalization and punctuation support clarity"
+        ]
+      }
+    ],
+    "quiz": [
+      {
+        "id": "quiz-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "When the bell rang, we left, and the tutor followed. This is…",
+        "options": [
+          "Simple",
+          "Compound-complex"
+        ],
+        "answers": [
+          "Compound-complex"
+        ],
+        "explanation": "Two independent clauses are joined and a dependent clause introduces time.",
+        "rubric": []
+      },
+      {
+        "id": "quiz-2",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Choose a contrast linker.",
+        "options": [
+          "Although",
+          "Because"
+        ],
+        "answers": [
+          "Although"
+        ],
+        "explanation": "Although introduces a contrast.",
+        "rubric": []
+      }
+    ]
+  },
+  {
+    "id": "b2-cohesion",
+    "moduleId": "legacy",
+    "category": "sentence",
+    "examples": [
+      "The room is quiet. This setting helps us focus. This setting clearly refers back.",
+      "The method is efficient. However, it needs careful checking. However signals a limitation."
+    ],
+    "incorrect": "The team met the guests after they arrived. (The intended referent is unclear.)",
+    "correct": "After the guests arrived, the team met them.",
+    "guided": [
+      {
+        "id": "guided-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Choose the contrast transition.",
+        "options": [
+          "However",
+          "Therefore"
+        ],
+        "answers": [
+          "However"
+        ],
+        "explanation": "However introduces contrast; therefore introduces a result.",
+        "rubric": []
+      }
+    ],
+    "independent": [
+      {
+        "id": "independent-1",
+        "type": "sentence-transformation",
+        "caseSensitive": false,
+        "prompt": "Rewrite to make the reference clear: The tutor gave the student her notebook. Assume the notebook belongs to the tutor.",
+        "options": [],
+        "answers": [],
+        "explanation": "Use accurate grammar while retaining the intended meaning.",
+        "rubric": [
+          "Meaning is preserved",
+          "The requested structure is used accurately",
+          "Capitalization and punctuation support clarity"
+        ]
+      }
+    ],
+    "quiz": [
+      {
+        "id": "quiz-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "The road was closed. ___, we took another route.",
+        "options": [
+          "Therefore",
+          "However"
+        ],
+        "answers": [
+          "Therefore"
+        ],
+        "explanation": "The second clause is a result.",
+        "rubric": []
+      },
+      {
+        "id": "quiz-2",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "What strengthens cohesion?",
+        "options": [
+          "Accurate links and clear references",
+          "Adding however to every sentence"
+        ],
+        "answers": [
+          "Accurate links and clear references"
+        ],
+        "explanation": "Logical relationships and identifiable referents connect ideas.",
+        "rubric": []
+      }
+    ]
+  },
+  {
+    "id": "b2-error",
+    "moduleId": "legacy",
+    "category": "grammar",
+    "examples": [
+      "The advice is useful. Advice is uncountable here.",
+      "Several pieces of advice are useful. Pieces is plural."
+    ],
+    "incorrect": "These information are useful.",
+    "correct": "This information is useful.",
+    "guided": [
+      {
+        "id": "guided-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Choose the accurate statement.",
+        "options": [
+          "Many students attends.",
+          "Many students attend."
+        ],
+        "answers": [
+          "Many students attend."
+        ],
+        "explanation": "Students is plural.",
+        "rubric": []
+      }
+    ],
+    "independent": [
+      {
+        "id": "independent-1",
+        "type": "sentence-transformation",
+        "caseSensitive": false,
+        "prompt": "Edit for countability and agreement: These advices are useful.",
+        "options": [],
+        "answers": [],
+        "explanation": "Use accurate grammar while retaining the intended meaning.",
+        "rubric": [
+          "Meaning is preserved",
+          "The requested structure is used accurately",
+          "Capitalization and punctuation support clarity"
+        ]
+      }
+    ],
+    "quiz": [
+      {
+        "id": "quiz-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Choose the correct form.",
+        "options": [
+          "This evidence supports the claim.",
+          "These evidence support the claim."
+        ],
+        "answers": [
+          "This evidence supports the claim."
+        ],
+        "explanation": "Evidence is uncountable in this use.",
+        "rubric": []
+      },
+      {
+        "id": "quiz-2",
+        "type": "sentence-transformation",
+        "caseSensitive": false,
+        "prompt": "Edit the paragraph for grammar and completeness: The student study daily. Because the exam is near. She have a plan.",
+        "options": [],
+        "answers": [],
+        "explanation": "Use accurate grammar while retaining the intended meaning.",
+        "rubric": [
+          "Meaning is preserved",
+          "The requested structure is used accurately",
+          "Capitalization and punctuation support clarity"
+        ]
+      }
+    ]
+  }
+]

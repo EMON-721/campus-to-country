@@ -1,0 +1,752 @@
+[
+  {
+    "id": "a2-compound-sentences",
+    "title": "Join complete thoughts with coordinating conjunctions",
+    "description": "A compound sentence joins at least two independent clauses. Each clause can stand alone as a statement. And adds a related thought, but or yet shows contrast, so shows a result, or",
+    "level": "A2",
+    "moduleId": "sentences",
+    "category": "sentence",
+    "status": "published",
+    "objectives": [
+      "Apply the key patterns reviewed in this activity.",
+      "Explain a correction using evidence from the sentence."
+    ],
+    "explanation": "A compound sentence joins at least two independent clauses. Each clause can stand alone as a statement. And adds a related thought, but or yet shows contrast, so shows a result, or offers an alternative, for gives a reason in a more formal style, and nor continues a negative idea. Normally put a comma before a conjunction joining two full clauses. When two verbs share one subject, the structure may remain a simple sentence instead. Choose the conjunction for meaning, not merely to make a longer sentence.",
+    "explanationBn": "",
+    "examples": [
+      "The room was quiet, so we could concentrate. A result joins two complete thoughts.",
+      "I wrote the draft, and my partner checked it. And adds another action with its own subject.",
+      "I wrote and checked the draft. The verbs share a subject; this is one independent clause."
+    ],
+    "incorrect": "I was tired, I rested.",
+    "correct": "I was tired, so I rested.",
+    "media": [],
+    "guided": [
+      {
+        "id": "guided-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "We missed the bus, ___ we walked. Choose the result linker.",
+        "options": [
+          "so",
+          "but",
+          "or"
+        ],
+        "answers": [
+          "so"
+        ],
+        "explanation": "So introduces the result.",
+        "rubric": []
+      }
+    ],
+    "independent": [
+      {
+        "id": "independent-1",
+        "type": "fill-blank",
+        "caseSensitive": false,
+        "prompt": "Complete with a contrast linker: The bag was small, ___ it was heavy.",
+        "options": [],
+        "answers": [
+          "but"
+        ],
+        "explanation": "But shows a contrast between size and weight.",
+        "rubric": []
+      }
+    ],
+    "quiz": [
+      {
+        "id": "quiz-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Which has two independent clauses?",
+        "options": [
+          "I called and waited.",
+          "I called, but nobody answered."
+        ],
+        "answers": [
+          "I called, but nobody answered."
+        ],
+        "explanation": "Both sides can stand alone.",
+        "rubric": []
+      },
+      {
+        "id": "quiz-2",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Choose the addition linker: I made notes, ___ I reviewed them.",
+        "options": [
+          "and",
+          "yet",
+          "or"
+        ],
+        "answers": [
+          "and"
+        ],
+        "explanation": "And adds a related thought.",
+        "rubric": []
+      }
+    ],
+    "passingScore": 75,
+    "attemptLimit": 0,
+    "questionLimit": 0,
+    "assessmentKind": "lesson",
+    "prerequisites": [],
+    "aliases": [],
+    "topics": [],
+    "difficulty": "A2",
+    "estimatedMinutes": 0,
+    "legacyId": "",
+    "legacyAnswer": "",
+    "accessMode": "course"
+  },
+  {
+    "id": "review-pre-a1",
+    "title": "Stage review · Pre-A1",
+    "description": "This review samples patterns from the Pre-A1 teaching stage. Read each whole sentence, identify its main grammatical or logical relationship, and then select the answer that preser",
+    "level": "Pre-A1",
+    "moduleId": "level-reviews",
+    "category": "sentence",
+    "status": "published",
+    "objectives": [
+      "Apply the key patterns reviewed in this activity.",
+      "Explain a correction using evidence from the sentence."
+    ],
+    "explanation": "This review samples patterns from the Pre-A1 teaching stage. Read each whole sentence, identify its main grammatical or logical relationship, and then select the answer that preserves that meaning. After submitting, use the explanation of each error to choose a lesson to revisit. This short course review is not a comprehensive language proficiency test and does not verify an official CEFR level.",
+    "explanationBn": "",
+    "examples": [
+      "Check the full clause before choosing a verb. The subject determines agreement.",
+      "Check the relationship between ideas before choosing a linker. Contrast and result need different links."
+    ],
+    "incorrect": "I chose a word without checking the sentence.",
+    "correct": "I checked the subject, context and intended relationship before choosing.",
+    "media": [],
+    "guided": [
+      {
+        "id": "guided-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Choose a useful way to review an incorrect answer.",
+        "options": [
+          "Read the explanation and practise the relevant pattern.",
+          "Ignore the explanation."
+        ],
+        "answers": [
+          "Read the explanation and practise the relevant pattern."
+        ],
+        "explanation": "Explanations connect a correction to its rule.",
+        "rubric": []
+      }
+    ],
+    "independent": [
+      {
+        "id": "independent-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "True or false: Completing this review proves an official CEFR qualification.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answers": [
+          "False"
+        ],
+        "explanation": "It records course practice, not certified proficiency.",
+        "rubric": []
+      }
+    ],
+    "quiz": [
+      {
+        "id": "quiz-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Which is a complete statement?",
+        "options": [
+          "At the door.",
+          "The bus stops."
+        ],
+        "answers": [
+          "The bus stops."
+        ],
+        "explanation": "It contains a subject and a finite verb.",
+        "rubric": []
+      },
+      {
+        "id": "quiz-2",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Choose the correctly capitalized start.",
+        "options": [
+          "we read.",
+          "We read."
+        ],
+        "answers": [
+          "We read."
+        ],
+        "explanation": "The statement begins with a capital.",
+        "rubric": []
+      },
+      {
+        "id": "quiz-3",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "In Birds fly, the verb is…",
+        "options": [
+          "Birds",
+          "fly"
+        ],
+        "answers": [
+          "fly"
+        ],
+        "explanation": "Fly expresses the action.",
+        "rubric": []
+      },
+      {
+        "id": "quiz-4",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Which mark ends an ordinary statement?",
+        "options": [
+          "Full stop",
+          "Apostrophe"
+        ],
+        "answers": [
+          "Full stop"
+        ],
+        "explanation": "A full stop marks the end of a statement.",
+        "rubric": []
+      }
+    ],
+    "passingScore": 75,
+    "attemptLimit": 0,
+    "questionLimit": 0,
+    "assessmentKind": "level-review",
+    "prerequisites": [],
+    "aliases": [],
+    "topics": [],
+    "difficulty": "Pre-A1",
+    "estimatedMinutes": 0,
+    "legacyId": "",
+    "legacyAnswer": "",
+    "accessMode": "course"
+  },
+  {
+    "id": "review-a1",
+    "title": "Stage review · A1",
+    "description": "This review samples patterns from the A1 teaching stage. Read each whole sentence, identify its main grammatical or logical relationship, and then select the answer that preserves ",
+    "level": "A1",
+    "moduleId": "level-reviews",
+    "category": "grammar",
+    "status": "published",
+    "objectives": [
+      "Apply the key patterns reviewed in this activity.",
+      "Explain a correction using evidence from the sentence."
+    ],
+    "explanation": "This review samples patterns from the A1 teaching stage. Read each whole sentence, identify its main grammatical or logical relationship, and then select the answer that preserves that meaning. After submitting, use the explanation of each error to choose a lesson to revisit. This short course review is not a comprehensive language proficiency test and does not verify an official CEFR level.",
+    "explanationBn": "",
+    "examples": [
+      "Check the full clause before choosing a verb. The subject determines agreement.",
+      "Check the relationship between ideas before choosing a linker. Contrast and result need different links."
+    ],
+    "incorrect": "I chose a word without checking the sentence.",
+    "correct": "I checked the subject, context and intended relationship before choosing.",
+    "media": [],
+    "guided": [
+      {
+        "id": "guided-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Choose a useful way to review an incorrect answer.",
+        "options": [
+          "Read the explanation and practise the relevant pattern.",
+          "Ignore the explanation."
+        ],
+        "answers": [
+          "Read the explanation and practise the relevant pattern."
+        ],
+        "explanation": "Explanations connect a correction to its rule.",
+        "rubric": []
+      }
+    ],
+    "independent": [
+      {
+        "id": "independent-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "True or false: Completing this review proves an official CEFR qualification.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answers": [
+          "False"
+        ],
+        "explanation": "It records course practice, not certified proficiency.",
+        "rubric": []
+      }
+    ],
+    "quiz": [
+      {
+        "id": "quiz-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Choose an article: ___ hour.",
+        "options": [
+          "a",
+          "an"
+        ],
+        "answers": [
+          "an"
+        ],
+        "explanation": "Hour begins with a vowel sound.",
+        "rubric": []
+      },
+      {
+        "id": "quiz-2",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "The class is ___ Monday.",
+        "options": [
+          "on",
+          "in"
+        ],
+        "answers": [
+          "on"
+        ],
+        "explanation": "Use on for a named day.",
+        "rubric": []
+      },
+      {
+        "id": "quiz-3",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "She ___ every day.",
+        "options": [
+          "reads",
+          "read"
+        ],
+        "answers": [
+          "reads"
+        ],
+        "explanation": "Third-person singular takes reads.",
+        "rubric": []
+      },
+      {
+        "id": "quiz-4",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Which word describes a noun?",
+        "options": [
+          "Adjective",
+          "Preposition"
+        ],
+        "answers": [
+          "Adjective"
+        ],
+        "explanation": "An adjective modifies a noun.",
+        "rubric": []
+      }
+    ],
+    "passingScore": 75,
+    "attemptLimit": 0,
+    "questionLimit": 0,
+    "assessmentKind": "level-review",
+    "prerequisites": [],
+    "aliases": [],
+    "topics": [],
+    "difficulty": "A1",
+    "estimatedMinutes": 0,
+    "legacyId": "",
+    "legacyAnswer": "",
+    "accessMode": "course"
+  },
+  {
+    "id": "review-a2",
+    "title": "Stage review · A2",
+    "description": "This review samples patterns from the A2 teaching stage. Read each whole sentence, identify its main grammatical or logical relationship, and then select the answer that preserves ",
+    "level": "A2",
+    "moduleId": "level-reviews",
+    "category": "grammar",
+    "status": "published",
+    "objectives": [
+      "Apply the key patterns reviewed in this activity.",
+      "Explain a correction using evidence from the sentence."
+    ],
+    "explanation": "This review samples patterns from the A2 teaching stage. Read each whole sentence, identify its main grammatical or logical relationship, and then select the answer that preserves that meaning. After submitting, use the explanation of each error to choose a lesson to revisit. This short course review is not a comprehensive language proficiency test and does not verify an official CEFR level.",
+    "explanationBn": "",
+    "examples": [
+      "Check the full clause before choosing a verb. The subject determines agreement.",
+      "Check the relationship between ideas before choosing a linker. Contrast and result need different links."
+    ],
+    "incorrect": "I chose a word without checking the sentence.",
+    "correct": "I checked the subject, context and intended relationship before choosing.",
+    "media": [],
+    "guided": [
+      {
+        "id": "guided-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Choose a useful way to review an incorrect answer.",
+        "options": [
+          "Read the explanation and practise the relevant pattern.",
+          "Ignore the explanation."
+        ],
+        "answers": [
+          "Read the explanation and practise the relevant pattern."
+        ],
+        "explanation": "Explanations connect a correction to its rule.",
+        "rubric": []
+      }
+    ],
+    "independent": [
+      {
+        "id": "independent-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "True or false: Completing this review proves an official CEFR qualification.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answers": [
+          "False"
+        ],
+        "explanation": "It records course practice, not certified proficiency.",
+        "rubric": []
+      }
+    ],
+    "quiz": [
+      {
+        "id": "quiz-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Yesterday, we ___ the room.",
+        "options": [
+          "cleaned",
+          "have cleaned"
+        ],
+        "answers": [
+          "cleaned"
+        ],
+        "explanation": "Yesterday is a finished past time.",
+        "rubric": []
+      },
+      {
+        "id": "quiz-2",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Choose the accurate modal structure.",
+        "options": [
+          "You must to check.",
+          "You must check."
+        ],
+        "answers": [
+          "You must check."
+        ],
+        "explanation": "A modal takes the base verb.",
+        "rubric": []
+      },
+      {
+        "id": "quiz-3",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "The book belongs to one learner: the ___ book.",
+        "options": [
+          "learner's",
+          "learners"
+        ],
+        "answers": [
+          "learner's"
+        ],
+        "explanation": "A singular possessive takes apostrophe + s.",
+        "rubric": []
+      },
+      {
+        "id": "quiz-4",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Which word means you are?",
+        "options": [
+          "your",
+          "you're"
+        ],
+        "answers": [
+          "you're"
+        ],
+        "explanation": "The apostrophe marks omitted letters in the contraction.",
+        "rubric": []
+      }
+    ],
+    "passingScore": 75,
+    "attemptLimit": 0,
+    "questionLimit": 0,
+    "assessmentKind": "level-review",
+    "prerequisites": [],
+    "aliases": [],
+    "topics": [],
+    "difficulty": "A2",
+    "estimatedMinutes": 0,
+    "legacyId": "",
+    "legacyAnswer": "",
+    "accessMode": "course"
+  },
+  {
+    "id": "review-b1",
+    "title": "Stage review · B1",
+    "description": "This review samples patterns from the B1 teaching stage. Read each whole sentence, identify its main grammatical or logical relationship, and then select the answer that preserves ",
+    "level": "B1",
+    "moduleId": "level-reviews",
+    "category": "sentence",
+    "status": "published",
+    "objectives": [
+      "Apply the key patterns reviewed in this activity.",
+      "Explain a correction using evidence from the sentence."
+    ],
+    "explanation": "This review samples patterns from the B1 teaching stage. Read each whole sentence, identify its main grammatical or logical relationship, and then select the answer that preserves that meaning. After submitting, use the explanation of each error to choose a lesson to revisit. This short course review is not a comprehensive language proficiency test and does not verify an official CEFR level.",
+    "explanationBn": "",
+    "examples": [
+      "Check the full clause before choosing a verb. The subject determines agreement.",
+      "Check the relationship between ideas before choosing a linker. Contrast and result need different links."
+    ],
+    "incorrect": "I chose a word without checking the sentence.",
+    "correct": "I checked the subject, context and intended relationship before choosing.",
+    "media": [],
+    "guided": [
+      {
+        "id": "guided-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Choose a useful way to review an incorrect answer.",
+        "options": [
+          "Read the explanation and practise the relevant pattern.",
+          "Ignore the explanation."
+        ],
+        "answers": [
+          "Read the explanation and practise the relevant pattern."
+        ],
+        "explanation": "Explanations connect a correction to its rule.",
+        "rubric": []
+      }
+    ],
+    "independent": [
+      {
+        "id": "independent-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "True or false: Completing this review proves an official CEFR qualification.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answers": [
+          "False"
+        ],
+        "explanation": "It records course practice, not certified proficiency.",
+        "rubric": []
+      }
+    ],
+    "quiz": [
+      {
+        "id": "quiz-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "If I had a bicycle, I ___ cycle.",
+        "options": [
+          "will",
+          "would"
+        ],
+        "answers": [
+          "would"
+        ],
+        "explanation": "This is a hypothetical condition.",
+        "rubric": []
+      },
+      {
+        "id": "quiz-2",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Choose the past passive.",
+        "options": [
+          "The notes were checked.",
+          "The notes was check."
+        ],
+        "answers": [
+          "The notes were checked."
+        ],
+        "explanation": "Plural notes takes were plus the participle.",
+        "rubric": []
+      },
+      {
+        "id": "quiz-3",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Choose the complete boundary.",
+        "options": [
+          "We left, it rained.",
+          "We left; it rained."
+        ],
+        "answers": [
+          "We left; it rained."
+        ],
+        "explanation": "A semicolon can join independent clauses.",
+        "rubric": []
+      },
+      {
+        "id": "quiz-4",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Which phrase begins a polite request?",
+        "options": [
+          "Give it now.",
+          "Could you please…"
+        ],
+        "answers": [
+          "Could you please…"
+        ],
+        "explanation": "The phrase makes the request polite.",
+        "rubric": []
+      }
+    ],
+    "passingScore": 75,
+    "attemptLimit": 0,
+    "questionLimit": 0,
+    "assessmentKind": "level-review",
+    "prerequisites": [],
+    "aliases": [],
+    "topics": [],
+    "difficulty": "B1",
+    "estimatedMinutes": 0,
+    "legacyId": "",
+    "legacyAnswer": "",
+    "accessMode": "course"
+  },
+  {
+    "id": "review-b2",
+    "title": "Stage review · B2",
+    "description": "This review samples patterns from the B2 teaching stage. Read each whole sentence, identify its main grammatical or logical relationship, and then select the answer that preserves ",
+    "level": "B2",
+    "moduleId": "level-reviews",
+    "category": "academic",
+    "status": "published",
+    "objectives": [
+      "Apply the key patterns reviewed in this activity.",
+      "Explain a correction using evidence from the sentence."
+    ],
+    "explanation": "This review samples patterns from the B2 teaching stage. Read each whole sentence, identify its main grammatical or logical relationship, and then select the answer that preserves that meaning. After submitting, use the explanation of each error to choose a lesson to revisit. This short course review is not a comprehensive language proficiency test and does not verify an official CEFR level.",
+    "explanationBn": "",
+    "examples": [
+      "Check the full clause before choosing a verb. The subject determines agreement.",
+      "Check the relationship between ideas before choosing a linker. Contrast and result need different links."
+    ],
+    "incorrect": "I chose a word without checking the sentence.",
+    "correct": "I checked the subject, context and intended relationship before choosing.",
+    "media": [],
+    "guided": [
+      {
+        "id": "guided-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Choose a useful way to review an incorrect answer.",
+        "options": [
+          "Read the explanation and practise the relevant pattern.",
+          "Ignore the explanation."
+        ],
+        "answers": [
+          "Read the explanation and practise the relevant pattern."
+        ],
+        "explanation": "Explanations connect a correction to its rule.",
+        "rubric": []
+      }
+    ],
+    "independent": [
+      {
+        "id": "independent-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "True or false: Completing this review proves an official CEFR qualification.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answers": [
+          "False"
+        ],
+        "explanation": "It records course practice, not certified proficiency.",
+        "rubric": []
+      }
+    ],
+    "quiz": [
+      {
+        "id": "quiz-1",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Which thesis takes a clear position?",
+        "options": [
+          "This essay discusses buses.",
+          "The city should improve bus reliability before adding parking."
+        ],
+        "answers": [
+          "The city should improve bus reliability before adding parking."
+        ],
+        "explanation": "It states a specific, defensible position.",
+        "rubric": []
+      },
+      {
+        "id": "quiz-2",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "A fair counterargument should…",
+        "options": [
+          "represent a reasonable opposing view",
+          "insult opponents"
+        ],
+        "answers": [
+          "represent a reasonable opposing view"
+        ],
+        "explanation": "Reasoned discussion responds to the strongest relevant objection.",
+        "rubric": []
+      },
+      {
+        "id": "quiz-3",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "Choose the result transition.",
+        "options": [
+          "Therefore",
+          "However"
+        ],
+        "answers": [
+          "Therefore"
+        ],
+        "explanation": "Therefore signals a consequence.",
+        "rubric": []
+      },
+      {
+        "id": "quiz-4",
+        "type": "multiple-choice",
+        "caseSensitive": false,
+        "prompt": "What should a conclusion normally do?",
+        "options": [
+          "Synthesize existing reasoning",
+          "Introduce an unrelated major claim"
+        ],
+        "answers": [
+          "Synthesize existing reasoning"
+        ],
+        "explanation": "A conclusion brings the argument together.",
+        "rubric": []
+      }
+    ],
+    "passingScore": 75,
+    "attemptLimit": 0,
+    "questionLimit": 0,
+    "assessmentKind": "level-review",
+    "prerequisites": [],
+    "aliases": [],
+    "topics": [],
+    "difficulty": "B2",
+    "estimatedMinutes": 0,
+    "legacyId": "",
+    "legacyAnswer": "",
+    "accessMode": "course"
+  }
+]
