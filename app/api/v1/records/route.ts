@@ -1,3 +1,4 @@
+import {validateWorkspaceLinks} from '@/lib/workspace-record-links';
 import {identity,provider,sameOrigin,failure,APIError} from "@/lib/backend";
 import {env} from 'cloudflare:workers';
 import {validate} from "@/lib/domain";
@@ -5,7 +6,7 @@ export const dynamic="force-dynamic";
 const uuid=/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 export async function GET(){try{const {user,token}=await identity();const rows=await provider("/rest/v1/ctc_records?owner_id=eq."+user.id+"&order=created_at.desc&limit=2000","GET",undefined,token);return Response.json({rows,truncated:rows.length===2000},{headers:{"Cache-Control":"no-store"}})}catch(e){return failure(e)}}
 export async function POST(req:Request){try{sameOrigin(req);if(Number(req.headers.get("content-length")||0)>64000)throw new APIError(413,"Record is too large");const {user,token}=await identity();const b:any=await req.json();if(!uuid.test(b.id))throw new APIError(400,"Invalid record ID");const payload:any=validate(b.kind,b.payload);if(JSON.stringify(payload).length>30000)throw new APIError(413,"Record is too large");
- if(b.kind==="attempt"&&payload.attachments?.length){if(!env.DB)throw new APIError(503,"Private upload storage unavailable");for(const f of payload.attachments){const file=await env.DB.prepare("SELECT id FROM workspace_documents WHERE id=? AND owner=? AND scope='ielts'").bind(f.id,user.id).first();if(!file)throw new APIError(400,"Choose one of your uploaded IELTS files")}}
+ await validateWorkspaceLinks(user.id,token,b.kind,payload,b.id);
  if(b.kind==="transaction"){const accounts=await provider("/rest/v1/ctc_records?id=eq."+payload.account+"&owner_id=eq."+user.id+"&kind=eq.account","GET",undefined,token);if(!accounts.length)throw new APIError(400,"Choose one of your accounts")}
  const existing=await provider("/rest/v1/ctc_records?id=eq."+b.id+"&owner_id=eq."+user.id,"GET",undefined,token);
  if(b.kind==="account"&&existing.length&&existing[0].payload.currency!==payload.currency){const related=await provider("/rest/v1/ctc_records?owner_id=eq."+user.id+"&kind=eq.transaction&payload->>account=eq."+b.id,"GET",undefined,token);if(related.length)throw new APIError(409,"Create a new account for a different currency; existing transactions retain their original currency")}
