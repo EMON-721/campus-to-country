@@ -1,0 +1,13 @@
+'use client';
+import Link from 'next/link';
+import {useEffect,useState} from 'react';
+import type {Store} from './platform';
+type CourseSummary={id:string;title:string;membership?:{effectiveStatus:string};progress:{started:string[];completed:string[];total:number;attempts:number;accuracy:number|null}};
+type AcademySummary={courses:CourseSummary[];error?:string};
+export function WorkspaceLearningSummary({store}:{store:Store}){
+ const [academy,setAcademy]=useState<AcademySummary|null>(null),[error,setError]=useState('');
+ useEffect(()=>{let live=true;fetch('/api/v1/premium',{cache:'no-store'}).then(async r=>{const d=await r.json() as AcademySummary;if(!r.ok)throw Error(d.error||'Academy progress is unavailable');if(live)setAcademy(d)}).catch(e=>{if(live)setError(e.message)});return()=>{live=false}},[]);
+ const attempts=store.rows.filter(r=>r.kind==='attempt'),studies=store.rows.filter(r=>r.kind==='study'),minutes=Math.round(studies.reduce((n,r)=>n+Number(r.payload.focusedMs||0),0)/60000),latest=[...attempts].sort((a,b)=>(b.payload.date||b.created_at||'').localeCompare(a.payload.date||a.created_at||'')).slice(0,4);
+ const courses=academy?.courses?.filter((c:CourseSummary)=>c.membership||c.progress.started.length||c.progress.attempts)||[];
+ return <section className="card" data-private-record><h2>IELTS & Premium Academy</h2><p>{attempts.length} saved practice records · {minutes} focused study minutes in your loaded Workspace history.</p>{latest.length?latest.map(r=><p key={r.id}>{r.payload.skill} · {r.payload.title} · {r.payload.date||r.created_at?.slice(0,10)||'Date not recorded'}{r.payload.band!==undefined?' · self-reported band '+r.payload.band:''}</p>):<p>No saved IELTS practice yet.</p>}<Link className="text-link" href="/applicant/ielts-progress">Open IELTS history →</Link>{error&&<p role="status">Academy summary unavailable: {error}</p>}{!academy&&!error&&<p role="status">Loading Academy progress…</p>}{academy&&!courses.length&&<p>No Academy enrollments or recorded course activity yet.</p>}{courses.map((c:CourseSummary)=><article key={c.id}><h3>{c.title}</h3><p>{c.progress.completed.length} of {c.progress.total} published lessons completed · {c.progress.attempts} attempts{c.membership?' · membership '+c.membership.effectiveStatus:''}</p>{c.progress.accuracy!==null&&<p>Objective practice accuracy: {c.progress.accuracy}%</p>}<Link className="text-link" href={'/ielts/premium?course='+encodeURIComponent(c.id)}>Continue course →</Link></article>)}<p className="small muted">Saved bands are self-reported. Academy practice results are not examiner-certified IELTS scores.</p><Link className="text-link" href="/ielts/premium">Open Premium Academy →</Link></section>
+}

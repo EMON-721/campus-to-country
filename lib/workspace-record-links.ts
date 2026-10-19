@@ -16,7 +16,14 @@ export async function validateWorkspaceLinks(owner:string,token:string,kind:stri
   if(!p.sourceId)throw new APIError(400,'Choose your own mentorship booking');
   const booking=env.DB?await env.DB.prepare('SELECT b.id,b.status,s.title,s.start,s.end,s.timezone FROM mentorship_bookings b JOIN mentorship_slots s ON s.id=b.slot_id WHERE b.id=? AND b.owner=?').bind(p.sourceId,owner).first<any>():null;
   if(!booking)throw new APIError(400,'Choose your own mentorship booking');
-  Object.assign(p,{title:booking.title,start:booking.start,end:booking.end,timezone:booking.timezone,category:'Counseling',status:booking.status==='Completed'?'Completed':['Canceled','Rejected'].includes(booking.status)?'Canceled':'Planned',notes:'Mentorship service status: '+booking.status+(booking.status==='Pending'?' — provisional, awaiting approval.':'.'),link:'/counseling/my-bookings',recurrence:'none'});
+  Object.assign(p,{title:booking.title,start:booking.start,end:booking.end,timezone:booking.timezone,category:'Counseling',status:booking.status==='Completed'?'Completed':['Canceled','Rejected'].includes(booking.status)?'Canceled':'Planned',notes:'Mentorship service status: '+booking.status+(booking.status==='Pending'?' — provisional, awaiting approval.':'.'),link:'/counseling/my-bookings',recurrence:'none',overrides:[],excludedDates:[]});
  }
  if(p.sourceKind&&!p.sourceId)throw new APIError(400,'Choose a related record');
+}
+
+// Do not leave dangling relations when either the applicant or a support admin removes a record.
+export async function validateRecordDeletion(owner:string,token:string,id:string,adminScope=false){
+ const rows=await ownerRecords(owner,token,adminScope);
+ if(!rows.some(r=>r.id===id))throw new APIError(404,'Record not found');
+ if(rows.some(r=>r.id!==id&&(r.payload.applicationId===id||r.payload.shortlistId===id||(r.payload.scholarshipIds||[]).includes(id)||r.payload.sourceId===id&&r.payload.sourceKind||r.payload.eventId===id||r.payload.account===id)))throw new APIError(409,'Remove related record links before deleting this record. You can archive a saved programme instead.');
 }

@@ -1,0 +1,102 @@
+[
+  {
+    "file": "tests-bank-finance.ts",
+    "command": [
+      "node",
+      "--experimental-strip-types",
+      "tests-bank-finance.ts"
+    ],
+    "exitCode": 0,
+    "output": "Financial engine: 21 assertions passed."
+  },
+  {
+    "file": "tests-domain.ts",
+    "command": [
+      "node",
+      "--experimental-strip-types",
+      "tests-domain.ts"
+    ],
+    "exitCode": 0,
+    "output": "15 domain assertions passed: dates, DST, midnight, deduplication, input validation, recurrence and typing.\n6 recurrence assertions passed: local DST, gap skip, legacy UTC, excluded dates and reminder preferences.\n5 single-occurrence assertions passed: moved views, stable series identity, exclusions, unique keys and valid intervals."
+  },
+  {
+    "file": "tests-finance.ts",
+    "command": [
+      "node",
+      "--experimental-strip-types",
+      "tests-finance.ts"
+    ],
+    "exitCode": 0,
+    "output": "Financial engine: 21 assertions passed."
+  },
+  {
+    "file": "tests-ielts-engine.ts",
+    "command": [
+      "node",
+      "--experimental-strip-types",
+      "tests-ielts-engine.ts"
+    ],
+    "exitCode": 0,
+    "output": "IELTS checks passed: answer variants/limits, clocks, draft namespace isolation, 360-minute routine and all 240 original answer keys."
+  },
+  {
+    "file": "tests-ielts-workspace.ts",
+    "command": [
+      "node",
+      "--experimental-strip-types",
+      "tests-ielts-workspace.ts"
+    ],
+    "exitCode": 0,
+    "output": "IELTS progress schema: 8 assertions passed."
+  },
+  {
+    "file": "tests-inactivity.ts",
+    "command": [
+      "node",
+      "--experimental-strip-types",
+      "tests-inactivity.ts"
+    ],
+    "exitCode": 0,
+    "output": "15 inactivity checks passed: 25/29/30 boundaries, five-day grace, active/protected/reactivated accounts, delivery/deletion gates and deletion manifest."
+  },
+  {
+    "file": "tests-integration-encryption.ts",
+    "command": [
+      "node",
+      "--experimental-strip-types",
+      "tests-integration-encryption.ts"
+    ],
+    "exitCode": 0,
+    "output": "6 secret encryption checks passed; fresh IVs, roundtrip, tamper and wrong/missing-key rejection"
+  },
+  {
+    "file": "tests-oauth.ts",
+    "command": [
+      "node",
+      "--experimental-strip-types",
+      "tests-oauth.ts"
+    ],
+    "exitCode": 0,
+    "output": "8 OAuth checks passed: RFC PKCE vector, random verifier and fixed safe callback; no provider tokens in browser URLs"
+  },
+  {
+    "file": "tests-payment.ts",
+    "command": [
+      "node",
+      "--experimental-strip-types",
+      "tests-payment.ts"
+    ],
+    "exitCode": 0,
+    "output": "Payment checks passed: forged/tampered/expired/mismatched/risky payments rejected; sandbox session and validation exercised with mocked gateway, no external calls."
+  },
+  {
+    "file": "tests-service-adapters.ts",
+    "command": [
+      "node",
+      "--experimental-transform-types",
+      "tests-service-adapters.ts"
+    ],
+    "exitCode": 0,
+    "output": "9 adapter safety checks passed; no provider calls or payments\n(node:90) ExperimentalWarning: Transform Types is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "version": "7.7.7",
+  "baselineGitHub": "7ca7820c6cfc1183e08f46dcf01dbaa2af0632f0",
+  "mjs": {
+    "tests": 194,
+    "pass": 194,
+    "fail": 0,
+    "scope": "isolated API/database/storage fixtures and SSR; not live browser/provider E2E"
+  },
+  "mts": {
+    "pass": 2,
+    "fail": 0
+  },
+  "typescriptScripts": {
+    "pass": 10,
+    "fail": 0
+  },
+  "typecheck": "Pass: tsc --noEmit exit 0",
+  "build": {
+    "result": "Pass",
+    "logSha256": "1b7f4df51c2425df3cf909e1caa213a79623f3746b03d1a03e855ef4434555cb"
+  },
+  "scopedLint": "Pass: five new standalone source files",
+  "repositoryLint": {
+    "result": "Fail",
+    "errors": 892,
+    "warnings": 409,
+    "rulesSuppressed": false
+  },
+  "browserQA": {
+    "result": "Blocked",
+    "reason": "Supported managed browser capability unavailable; no ad hoc preview/browser used"
+  },
+  "productionDeployment": "Not performed; review-only save",
+  "livePaymentActivation": "Not performed",
+  "databaseMigrations": "None",
+  "productionDataFixtures": "None"
+}

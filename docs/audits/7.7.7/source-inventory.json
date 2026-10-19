@@ -1,0 +1,319 @@
+[
+  {
+    "path": "app/platform.tsx",
+    "exists": true,
+    "sha256": "581c87d4d016c04510f98e2f77b60ae6edab94b7c4805ea2ebbe95431957d1a4",
+    "lines": 228,
+    "exportedHandlers": [],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "lib/module-navigation.ts",
+    "exists": true,
+    "sha256": "4528de3feed64e5a68a98e43fb5fc812eb604be8d289f972017a49417df4d89e",
+    "lines": 5,
+    "exportedHandlers": [],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "lib/brand.ts",
+    "exists": true,
+    "sha256": "8912c4cead9f37c828b9a2751e466e6afc07638b00da7790be2faaf91c74d2d0",
+    "lines": 10,
+    "exportedHandlers": [],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "app/globals.css",
+    "exists": true,
+    "sha256": "f9dc2ac56bf56e25240f0980778ff49570b00475c2c653238db807c96d6c7730",
+    "lines": 386,
+    "exportedHandlers": [],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "app/catalogue.tsx",
+    "exists": true,
+    "sha256": "4aedd9b08b0a6f106920ba6965e494efa9a9402beee0a38401c95666d50e41a4",
+    "lines": 68,
+    "exportedHandlers": [],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "app/country-guide.tsx",
+    "exists": true,
+    "sha256": "37cd11c94d8be5b1a29195129375068bda5ea8d7b648c2b83a532c0604ada6fb",
+    "lines": 21,
+    "exportedHandlers": [],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "app/country-programme-utility.tsx",
+    "exists": true,
+    "sha256": "a9e45d8087f7f9a4cd06bddf34341df0e3389acaed4cf59376520fbe97c6ad71",
+    "lines": 6,
+    "exportedHandlers": [],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "app/italy-programme-utility.tsx",
+    "exists": true,
+    "sha256": "54067685e20fb4e42d20184be3ede8695feec75a41395ac4e4dea699ad9ae2be",
+    "lines": 6,
+    "exportedHandlers": [],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "lib/institution-directory.ts",
+    "exists": true,
+    "sha256": "b2e8448f59155c5a19ca70907223b5335c27c32c0a2c3250fe5988cc7018c5f5",
+    "lines": 5,
+    "exportedHandlers": [],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "lib/country-programme-reference.ts",
+    "exists": true,
+    "sha256": "1fa9ea9d3b0d3072f9986fdc32725fadca250a202f7be646486c2b86677313b6",
+    "lines": 31,
+    "exportedHandlers": [],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "lib/academic.ts",
+    "exists": true,
+    "sha256": "90a856c18a2441b25f378fe21399b2b7c9fc0c7d405c1fe575cbd41c51fdd5ac",
+    "lines": 12,
+    "exportedHandlers": [],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "app/api/v1/catalogue/route.ts",
+    "exists": true,
+    "sha256": "a4269426143dc9e6b34064f80552ad8d76bec71fab24c6e246de6af7a397a008",
+    "lines": 22,
+    "exportedHandlers": [
+      "GET",
+      "POST"
+    ],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "app/visa-directory.tsx",
+    "exists": true,
+    "sha256": "bed6c99decd1a946d44cfe624db652167ceb46646ac95a15ef0619bfd3962e1e",
+    "lines": 15,
+    "exportedHandlers": [],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "app/visa-admin-overview.tsx",
+    "exists": true,
+    "sha256": "8e6b0e3784973d7c8256d028da5f687b1016c3f4f22fcbdafe158634defb831c",
+    "lines": 3,
+    "exportedHandlers": [],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "app/visa-guide-admin.tsx",
+    "exists": true,
+    "sha256": "3587b84b2c45e76049d0f897c22fbacaf8cf55586534428706149fe91536e4d7",
+    "lines": 16,
+    "exportedHandlers": [],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "app/visa-links-admin.tsx",
+    "exists": true,
+    "sha256": "55e0ca06b7c58e39b141e066df57667e1c5dc7d8bbb2cf89e27999c48309e7df",
+    "lines": 3,
+    "exportedHandlers": [],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "lib/visa-sources.ts",
+    "exists": true,
+    "sha256": "fd0b92e0c22d7343c808004aa99394eedb35f45105edfc6e9a1736ac7b6c3f11",
+    "lines": 25,
+    "exportedHandlers": [],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "lib/country-guides.ts",
+    "exists": true,
+    "sha256": "53f2c21fd5593f716c55a277366da5d806e79e1b30380c620f9b321e9a8cf0e3",
+    "lines": 14,
+    "exportedHandlers": [],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "app/api/v1/country-guides/route.ts",
+    "exists": true,
+    "sha256": "86a8236075d1fb68f15ce7a71c0edd3dee75f8d9610b6cba6534d2427d3cf9df",
+    "lines": 6,
+    "exportedHandlers": [
+      "GET",
+      "POST"
+    ],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "app/workspace-files.tsx",
+    "exists": true,
+    "sha256": "05f4fc489140bddab4411ae5901a2faf65031e9eb6847578fd7b4c5d3bf0e849",
+    "lines": 23,
+    "exportedHandlers": [],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "app/applicant-admin.tsx",
+    "exists": true,
+    "sha256": "3012409ff7d434d1986ed76f6e5649edc9ec1ee647b9127fdc7231f523f7aa4c",
+    "lines": 11,
+    "exportedHandlers": [],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "app/ielts-workspace.tsx",
+    "exists": true,
+    "sha256": "810129db8089d0169363c7e66238de67d47ee9d069c03f750125d62adbd6e442",
+    "lines": 22,
+    "exportedHandlers": [],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "lib/domain.ts",
+    "exists": true,
+    "sha256": "72c467e80e3d62727c4ef0a818e05f842a80969369e27d60c52d93ad7d99e1a3",
+    "lines": 56,
+    "exportedHandlers": [],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "lib/workspace-admin-controls.ts",
+    "exists": true,
+    "sha256": "a77d739734e8a591fa0fd26f793fd1abe100dce26d9cffbb8df414b2c9531223",
+    "lines": 10,
+    "exportedHandlers": [],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "app/api/v1/workspace/documents/route.ts",
+    "exists": true,
+    "sha256": "a7b59af3115f4a91f6dc13e5e0cf1ffd5304fe21c297c890af4f9761ad2e58b4",
+    "lines": 26,
+    "exportedHandlers": [
+      "GET",
+      "PATCH",
+      "POST",
+      "DELETE"
+    ],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "app/api/v1/admin/workspace/route.ts",
+    "exists": true,
+    "sha256": "e5f915662de3a1a6bc2915ec9c111eb8347750f6fd766807890b613cdd7d16b7",
+    "lines": 10,
+    "exportedHandlers": [
+      "GET",
+      "POST"
+    ],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "db/schema.ts",
+    "exists": true,
+    "sha256": "8453f662331770b697b010f5afa9a41dd326bdbc2044ed5c7ff319abb1d15230",
+    "lines": 40,
+    "exportedHandlers": [],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "lib/backend.ts",
+    "exists": true,
+    "sha256": "b9e227f0d8604c0207b0d5c47c1e37a0e2672e630ed6b8423b918eefcab4aa91",
+    "lines": 12,
+    "exportedHandlers": [],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "lib/workspace-record-links.ts",
+    "exists": true,
+    "sha256": "5c5413704fef6523c327a89dd2957ac1ecb2f1ab29974e3398b454d791d0fe70",
+    "lines": 29,
+    "exportedHandlers": [],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "lib/workspace-calendar-projection.ts",
+    "exists": true,
+    "sha256": "2c4702a503285cde9f657417cea6e4c6fd22dce625083fbdb2f472efe6ebe90b",
+    "lines": 24,
+    "exportedHandlers": [],
+    "review": "Current source audit; functional evidence remains in tests and traceability rows."
+  },
+  {
+    "path": "app/workspace-learning-summary.tsx",
+    "review": "Current release implementation and local tests; browser acceptance separate.",
+    "exists": true,
+    "sha256": "4f93d16ef55c9fb31a5885bf96b3413a32f57a1fee1563b536ba578e024aabc8",
+    "lines": 13
+  },
+  {
+    "path": "lib/workspace-document-meta.ts",
+    "review": "Current release implementation and local tests; browser acceptance separate.",
+    "exists": true,
+    "sha256": "e7812edb72e0920338c961d6c3525328bc85fa8ab01f9e58b21abb0807b7a10f",
+    "lines": 18
+  },
+  {
+    "path": "lib/vault-categories.ts",
+    "review": "Current release implementation and local tests; browser acceptance separate.",
+    "exists": true,
+    "sha256": "4106a354e73cd5105eb8bdeca1803176d92014f4a4cec626be0cee5896c4aa96",
+    "lines": 1
+  },
+  {
+    "path": "app/document-admin.tsx",
+    "review": "Current release implementation and local tests; browser acceptance separate.",
+    "exists": true,
+    "sha256": "403dcd092e5327e25dc9a5964d30d7675788f87a8eae8fc69fdf6784de336a05",
+    "lines": 5
+  },
+  {
+    "path": "app/mentorship-admin.tsx",
+    "review": "Current release implementation and local tests; browser acceptance separate.",
+    "exists": true,
+    "sha256": "8b0036c6e8faf0cf4b69a8978d56fe58f1d141cebeea6fee77c1a03f8588e0d3",
+    "lines": 49
+  },
+  {
+    "path": "app/mentorship.tsx",
+    "review": "Current release implementation and local tests; browser acceptance separate.",
+    "exists": true,
+    "sha256": "7e1eec03b9b9b573bfaf53e2808b11bb7a5d2afd791e854fd8d75029d111a0d5",
+    "lines": 40
+  },
+  {
+    "path": "app/api/v1/mentorship/route.ts",
+    "review": "Current release implementation and local tests; browser acceptance separate.",
+    "exists": true,
+    "sha256": "25671f5fa940dcee4c8d05ada7788ddfee3464e6597520c15b3ef4f4bed3c1d9",
+    "lines": 27
+  },
+  {
+    "path": "lib/admin-user-deletion.ts",
+    "review": "Current release implementation and local tests; browser acceptance separate.",
+    "exists": true,
+    "sha256": "350962cd5a3c5deba1e57ac2f88e0adc543881b531d5ef5e04f86214ee44a001",
+    "lines": 22
+  },
+  {
+    "path": "app/api/v1/admin/documents/route.ts",
+    "review": "Current release implementation and local tests; browser acceptance separate.",
+    "exists": true,
+    "sha256": "ff67c9bc74529badbfa78de4afd113ecf06b01630dcf175d30b71f72f5923a12",
+    "lines": 10
+  }
+]

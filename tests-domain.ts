@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import {validate,monthEnd,focusedTotal,occurrences,typingResult} from "./lib/domain.ts";
+import {schemas,validate,monthEnd,focusedTotal,occurrences,typingResult} from "./lib/domain.ts";
 import {wallToISO} from "./lib/time.ts";
 assert.equal(monthEnd("2028-01-31",1),"2028-02-29");
 assert.equal(monthEnd("2027-01-31",1),"2027-02-28");
@@ -19,3 +19,17 @@ assert.deepEqual(occurrences(event,Date.parse("2026-01-01Z"),Date.parse("2026-04
 assert.deepEqual(typingResult("abcde","abcXe",60000),{wpm:1,accuracy:80,errors:1});
 assert.equal(typingResult("abc","",0).wpm,0);
 console.log("15 domain assertions passed: dates, DST, midnight, deduplication, input validation, recurrence and typing.");
+
+const dstEvent={id:'dst',kind:'event' as const,payload:{title:'Local daily',start:'2027-03-13T14:00:00Z',end:'2027-03-13T15:00:00Z',timezone:'America/New_York',category:'Personal',status:'Planned',recurrence:'daily',recurrenceClock:'Local',until:'2027-03-15'}};
+const localOccurrences=occurrences(dstEvent,Date.parse('2027-03-13T00:00:00Z'),Date.parse('2027-03-16T00:00:00Z'));assert.deepEqual(localOccurrences.map(r=>r.payload.start),['2027-03-13T14:00:00.000Z','2027-03-14T13:00:00.000Z','2027-03-15T13:00:00.000Z']);
+assert.equal(occurrences({...dstEvent,payload:{...dstEvent.payload,excludedDates:['2027-03-14']}},Date.parse('2027-03-13'),Date.parse('2027-03-16')).length,2);
+const legacyOccurrences=occurrences({...dstEvent,payload:{...dstEvent.payload,recurrenceClock:'UTC'}},Date.parse('2027-03-13'),Date.parse('2027-03-16'));assert.equal(legacyOccurrences[1].payload.start,'2027-03-14T14:00:00.000Z');
+const gap=occurrences({...dstEvent,payload:{...dstEvent.payload,start:'2027-03-13T07:30:00Z',end:'2027-03-13T08:30:00Z'}},Date.parse('2027-03-13'),Date.parse('2027-03-16'));assert.equal(gap.length,2);assert.equal(gap[1].payload.start,'2027-03-15T06:30:00.000Z');
+assert.throws(()=>validate('event',{...dstEvent.payload,excludedDates:['2027-02-30']}));assert.equal(schemas.event.parse({...dstEvent.payload,reminderMinutes:15}).reminderMinutes,15);
+console.log('6 recurrence assertions passed: local DST, gap skip, legacy UTC, excluded dates and reminder preferences.');
+const overridden={...dstEvent,payload:{...dstEvent.payload,overrides:[{date:'2027-03-14',title:'Rescheduled occurrence',start:'2027-04-01T16:00:00Z',end:'2027-04-01T17:00:00Z',status:'Planned'}]}};
+const originalWindow=occurrences(overridden,Date.parse('2027-03-13'),Date.parse('2027-03-16'));assert.equal(originalWindow.length,2);assert.ok(!originalWindow.some(r=>r.payload.occurrenceDate==='2027-03-14'));
+const movedWindow=occurrences(overridden,Date.parse('2027-04-01'),Date.parse('2027-04-02'));assert.equal(movedWindow.length,1);assert.equal(movedWindow[0].id,dstEvent.id);assert.equal(movedWindow[0].payload.title,'Rescheduled occurrence');assert.equal(movedWindow[0].payload.occurrenceDate,'2027-03-14');
+assert.equal(occurrences({...overridden,payload:{...overridden.payload,excludedDates:['2027-03-14']}},Date.parse('2027-04-01'),Date.parse('2027-04-02')).length,0);
+assert.throws(()=>schemas.event.parse({...dstEvent.payload,overrides:[overridden.payload.overrides[0],overridden.payload.overrides[0]]}));assert.throws(()=>schemas.event.parse({...dstEvent.payload,overrides:[{...overridden.payload.overrides[0],end:'2027-04-01T15:00:00Z'}]}));
+console.log('5 single-occurrence assertions passed: moved views, stable series identity, exclusions, unique keys and valid intervals.');

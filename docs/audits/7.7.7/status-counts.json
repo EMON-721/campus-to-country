@@ -1,0 +1,15 @@
+{
+  "version": "7.7.7",
+  "baseline": "7ca7820c6cfc1183e08f46dcf01dbaa2af0632f0",
+  "requirements": 1875,
+  "originalSections": 41,
+  "statuses": {
+    "Implemented but Not Tested": 1812,
+    "Fully Implemented and Verified": 45,
+    "Blocked by External Dependency": 12,
+    "Partially Implemented": 3,
+    "Broken": 1,
+    "Security Improvement Required": 2
+  },
+  "interpretation": "Source traceability inventory includes directives and repeated references, not distinct feature counts or an acceptance percentage."
+}

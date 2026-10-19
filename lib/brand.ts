@@ -1,3 +1,4 @@
+export const releaseVersion = "7.7.7";
 export const brand = { name: "Campus to Country", email: "emonhossain5081@gmail.com", copyright: "Campus to Country" };
 export const modules = [
  {href:"/countries",name:"Universities",label:"Find your country and campus",text:"Choose a country and explore its universities, campuses and programmes.",icon:"globe"},

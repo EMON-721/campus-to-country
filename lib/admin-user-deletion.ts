@@ -12,11 +12,11 @@ export async function deleteApplicant({database,bucket,actor,token,target,reason
  await clearFiles();
  const tables=['transactions','accounts','records','documents','workspace_documents','audit','bank_legacy_imports','mentorship_access','mentorship_bookings','mentorship_interests','auth_identities'];
  await database.prepare("DELETE FROM platform_content WHERE kind='mentorship-reply' AND title IN (SELECT id FROM mentorship_interests WHERE owner=?)").bind(target).run();
- await database.prepare("DELETE FROM platform_content WHERE kind IN ('contact-message','mentorship-comment','mentorship-enrollment','mentorship-grant') AND json_extract(body,'$.owner')=?").bind(target).run();
+ await database.prepare("DELETE FROM platform_content WHERE kind IN ('contact-message','mentorship-comment','mentorship-enrollment','mentorship-grant','workspace-document-meta') AND json_extract(body,'$.owner')=?").bind(target).run();
  await database.batch(tables.map(table=>database.prepare('DELETE FROM '+table+' WHERE owner=?').bind(target)));
  await provider('/rest/v1/rpc/ctc_admin_delete_user','POST',{p_body:{...body,operation:'finish'}},token);
  await clearFiles();
- await database.prepare("DELETE FROM platform_content WHERE kind IN ('contact-message','mentorship-comment','mentorship-enrollment','mentorship-grant') AND json_extract(body,'$.owner')=?").bind(target).run();
+ await database.prepare("DELETE FROM platform_content WHERE kind IN ('contact-message','mentorship-comment','mentorship-enrollment','mentorship-grant','workspace-document-meta') AND json_extract(body,'$.owner')=?").bind(target).run();
  await database.batch([...tables.map(table=>database.prepare('DELETE FROM '+table+' WHERE owner=?').bind(target)),database.prepare("DELETE FROM limits WHERE id LIKE ?").bind(target+':%'),database.prepare("UPDATE platform_users SET name='Deleted user',email='',status='deleted',preferences='{}' WHERE id=?").bind(target),database.prepare("UPDATE platform_deletion_jobs SET status='completed' WHERE id=?").bind(job),database.prepare('INSERT INTO platform_audit(id,actor,target,action,reason,created) VALUES(?,?,?,?,?,?)').bind(crypto.randomUUID(),actor,target,'user.delete',reason,new Date().toISOString())]);
  return {ok:true,status:'deleted'};
 }
