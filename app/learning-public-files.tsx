@@ -1,0 +1,1 @@
+export function LearningPublicFiles({files}:{files?:{label:string;url:string}[]}){return files?.length?<section className="learning-public-files"><h4>Attached files</h4><ul>{files.map((file,i)=><li key={file.url+i}><a href={file.url} target="_blank" rel="noopener noreferrer" referrerPolicy="no-referrer">{file.label} ↗</a></li>)}</ul></section>:null}
