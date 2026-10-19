@@ -24,6 +24,7 @@ import {AccountActivity,AccountStatus,InactivityAdmin} from "./account-managemen
 import {planWeeks,answerMatches} from '../lib/ielts-engine';
 import {LocalRecordings} from './ielts-recordings';
 import {MockCentre} from './ielts-mocks';
+import {PremiumEnglish} from './premium-english';
 import {DailyRoutine,CustomQuestionEditor,LearningLessons,ResourceLibrary,PremiumCatalogue,QuestionBank,LearningSettings,Pronunciation,IELTSGuide,ProgressDashboard,useIELTSPreferences} from './ielts-tools';
 import {SiteEditor,EditingCentre,AdminVerification} from "./site-editor";
 import {VisaDirectory} from "./visa-directory";
@@ -157,7 +158,7 @@ function IELTS({path,store,content}:{path:string;store:Store;content:any[]}){
  if(section==="custom-questions")return <><CustomQuestionEditor store={store}/><CustomPractice store={store}/></>;
  if(section==="milestones")return <Milestones store={store}/>;
  if(section==="resources"||section==="guide")return <><Heading eyebrow="IELTS" title={section==="guide"?"Understand the IELTS Academic test.":"Your resource library."}/>{section==="guide"&&<Card><h2>Four skills. One Academic test.</h2><div className="facts-grid">{[["Listening","4 parts · 40 questions"],["Reading","3 sections · 40 questions · 60 minutes"],["Writing","2 tasks · 60 minutes"],["Speaking","3 parts · approximately 11–14 minutes"]].map(([a,b])=><div key={a}><strong>{a}</strong><p>{b}</p></div>)}</div><p>Academic Writing Task 1 requires at least 150 words and Task 2 at least 250. Task 2 contributes twice as much as Task 1. Check delivery-specific timing and current rules with the official provider.</p><p>Writing and Speaking require assessment against official criteria. This learning area does not issue official IELTS band scores.</p><small>Format source: IELTS.org · checked 11 October 2026.</small></Card>}<div className="resource-grid">{resources.map(r=><Card key={r.url}><BookOpen size={22}/><h2>{r.name}</h2><p>{r.text}</p><External url={r.url}>Visit resource</External><small>External source · access terms may vary</small></Card>)}</div></>;
- if(section==="premium")return <PremiumCatalogue/>;
+ if(section==="premium")return <PremiumEnglish/>;
  if(section==="mock-tests")return <MockCentre store={store} recordingPractice={(mock,activePart,submitted)=><Speaking store={store} mock={mock} activePart={activePart} stopRecording={submitted}/>}/>;
  if(section==="vocabulary")return <Vocabulary store={store}/>;
  if(section==="notes")return <NotesLibrary/>;

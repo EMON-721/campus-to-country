@@ -1,0 +1,3267 @@
+{
+  "enabled": true,
+  "accessRule": "membership",
+  "priceMinor": null,
+  "currency": "BDT",
+  "durationDays": 30,
+  "certificatesEnabled": false,
+  "courses": [
+    {
+      "id": "english-path",
+      "title": "Premium English · Foundation to Academic Writing",
+      "description": "Original guided lessons in sentence skills, grammar, punctuation, spelling and formal and academic writing. Levels are instructional groupings, not CEFR certification. Introductory lessons are published; further workshops remain drafts.",
+      "status": "published",
+      "access": "premium",
+      "completionRule": "all-activities",
+      "levels": [
+        {
+          "id": "Pre-A1",
+          "title": "Pre-A1 · Foundation preparation",
+          "description": "Letters, familiar words, subjects, verbs and complete statements."
+        },
+        {
+          "id": "A1",
+          "title": "A1 · Beginner sentence skills",
+          "description": "Simple statements, agreement, verb forms, capitals and spelling."
+        },
+        {
+          "id": "A2",
+          "title": "A2 · Elementary writing skills",
+          "description": "Compound sentences, possession, numbers and clear communication."
+        },
+        {
+          "id": "B1",
+          "title": "B1 · Intermediate writing",
+          "description": "Clauses, correction, modifiers, formal letters and paragraphs."
+        },
+        {
+          "id": "B2",
+          "title": "B2 · Academic writing",
+          "description": "Sentence variety, evidence, thesis statements and balanced arguments."
+        }
+      ],
+      "modules": [
+        {
+          "id": "sentences",
+          "title": "01 · English sentence types",
+          "description": "Subjects and verbs, Simple and compound sentences, Coordinating conjunctions, Complex and compound-complex sentences, Independent and dependent clauses, Identification and construction, Transformation and combination, Sentence variety.",
+          "topics": [
+            "Subjects and verbs",
+            "Simple and compound sentences",
+            "Coordinating conjunctions",
+            "Complex and compound-complex sentences",
+            "Independent and dependent clauses",
+            "Identification and construction",
+            "Transformation and combination",
+            "Sentence variety"
+          ]
+        },
+        {
+          "id": "run-ons",
+          "title": "02 · Run-ons and sentence correction",
+          "description": "Comma splices and fused sentences, Independent clauses, Periods and coordinating conjunctions, Semicolons and subordination, Transitions, Paragraph correction.",
+          "topics": [
+            "Comma splices and fused sentences",
+            "Independent clauses",
+            "Periods and coordinating conjunctions",
+            "Semicolons and subordination",
+            "Transitions",
+            "Paragraph correction"
+          ]
+        },
+        {
+          "id": "verbs",
+          "title": "03 · Regular and irregular verbs",
+          "description": "Base forms, Past forms and past participles, Regular spelling patterns, Irregular forms, Verb selection and correction.",
+          "topics": [
+            "Base forms",
+            "Past forms and past participles",
+            "Regular spelling patterns",
+            "Irregular forms",
+            "Verb selection and correction"
+          ]
+        },
+        {
+          "id": "agreement",
+          "title": "04 · Subject–verb agreement",
+          "description": "Singular and plural subjects, Intervening words, Inverted subjects, Compound subjects, Indefinite pronouns, Error correction.",
+          "topics": [
+            "Singular and plural subjects",
+            "Intervening words",
+            "Inverted subjects",
+            "Compound subjects",
+            "Indefinite pronouns",
+            "Error correction"
+          ]
+        },
+        {
+          "id": "misplaced",
+          "title": "05 · Misplaced modifiers",
+          "description": "Modifier placement, Unintended meanings, Position and clarity, Sentence rewriting.",
+          "topics": [
+            "Modifier placement",
+            "Unintended meanings",
+            "Position and clarity",
+            "Sentence rewriting"
+          ]
+        },
+        {
+          "id": "dangling",
+          "title": "06 · Dangling modifiers",
+          "description": "Introductory phrases, Missing subjects, Unclear relationships, Sentence rewriting.",
+          "topics": [
+            "Introductory phrases",
+            "Missing subjects",
+            "Unclear relationships",
+            "Sentence rewriting"
+          ]
+        },
+        {
+          "id": "capitals",
+          "title": "07 · Capital letters",
+          "description": "Sentence beginnings, People and places, Days, months and holidays, Organizations and products, Titles, Nationalities, Letters and capitalization errors.",
+          "topics": [
+            "Sentence beginnings",
+            "People and places",
+            "Days, months and holidays",
+            "Organizations and products",
+            "Titles",
+            "Nationalities",
+            "Letters and capitalization errors"
+          ]
+        },
+        {
+          "id": "numbers",
+          "title": "08 · Numbers and abbreviations",
+          "description": "Words and numerals, Formal number formatting, Common abbreviations, Formal and informal abbreviations, Number correction.",
+          "topics": [
+            "Words and numerals",
+            "Formal number formatting",
+            "Common abbreviations",
+            "Formal and informal abbreviations",
+            "Number correction"
+          ]
+        },
+        {
+          "id": "apostrophes",
+          "title": "09 · Apostrophe mastery",
+          "description": "Contractions, Singular possession, Plural possession, Plural nouns ending in s, Possessive pronouns, Ordinary plurals, Error correction.",
+          "topics": [
+            "Contractions",
+            "Singular possession",
+            "Plural possession",
+            "Plural nouns ending in s",
+            "Possessive pronouns",
+            "Ordinary plurals",
+            "Error correction"
+          ]
+        },
+        {
+          "id": "quotations",
+          "title": "10 · Quotation marks",
+          "description": "Direct speech, Speaker identification, Embedded quotations, Quotation punctuation, Short-work titles, Common errors.",
+          "topics": [
+            "Direct speech",
+            "Speaker identification",
+            "Embedded quotations",
+            "Quotation punctuation",
+            "Short-work titles",
+            "Common errors"
+          ]
+        },
+        {
+          "id": "commas",
+          "title": "11 · Comma mastery",
+          "description": "Series, Introductory material, Interrupting information, Complete clauses with conjunctions, Direct quotations, Everyday writing, Insert and remove commas, Paragraph editing.",
+          "topics": [
+            "Series",
+            "Introductory material",
+            "Interrupting information",
+            "Complete clauses with conjunctions",
+            "Direct quotations",
+            "Everyday writing",
+            "Insert and remove commas",
+            "Paragraph editing"
+          ]
+        },
+        {
+          "id": "punctuation",
+          "title": "12 · Other punctuation marks",
+          "description": "Colon, Dash, Hyphen, Parentheses, Semicolon, Lists and connections, Explanations, Mixed punctuation.",
+          "topics": [
+            "Colon",
+            "Dash",
+            "Hyphen",
+            "Parentheses",
+            "Semicolon",
+            "Lists and connections",
+            "Explanations",
+            "Mixed punctuation"
+          ]
+        },
+        {
+          "id": "spelling",
+          "title": "13 · Spelling improvement",
+          "description": "Dictionary use, Personal spelling list, Confused words, Subject vocabulary, Basic word lists, Electronic spelling aids, Revision and sentence practice.",
+          "topics": [
+            "Dictionary use",
+            "Personal spelling list",
+            "Confused words",
+            "Subject vocabulary",
+            "Basic word lists",
+            "Electronic spelling aids",
+            "Revision and sentence practice"
+          ]
+        },
+        {
+          "id": "confused",
+          "title": "14 · Commonly confused words",
+          "description": "Your / You're, Their / There / They're, Its / It's, To / Too, Affect / Effect, Advice / Advise, Accept / Except, Loose / Lose, Right / Write, Brake / Break, Already / All ready, Course / Coarse.",
+          "topics": [
+            "Your / You're",
+            "Their / There / They're",
+            "Its / It's",
+            "To / Too",
+            "Affect / Effect",
+            "Advice / Advise",
+            "Accept / Except",
+            "Loose / Lose",
+            "Right / Write",
+            "Brake / Break",
+            "Already / All ready",
+            "Course / Coarse"
+          ]
+        },
+        {
+          "id": "foundation",
+          "title": "Foundation preparation",
+          "description": "Alphabet and recognition, Capital and lower-case letters, Subjects and verbs, Complete statements, Basic punctuation.",
+          "topics": [
+            "Alphabet and recognition",
+            "Capital and lower-case letters",
+            "Subjects and verbs",
+            "Complete statements",
+            "Basic punctuation"
+          ]
+        },
+        {
+          "id": "formal",
+          "title": "Formal and official writing",
+          "description": "Formal and informal tone, Full-block layout, Date and receiver details, Titles and salutations, Subject lines, Opening and main message, Requests and explanations, Closing and signature, Capitalization and spacing, Modern polite wording, Permission, appointment and absence, Information requests, Academic email and professional letter.",
+          "topics": [
+            "Formal and informal tone",
+            "Full-block layout",
+            "Date and receiver details",
+            "Titles and salutations",
+            "Subject lines",
+            "Opening and main message",
+            "Requests and explanations",
+            "Closing and signature",
+            "Capitalization and spacing",
+            "Modern polite wording",
+            "Permission, appointment and absence",
+            "Information requests",
+            "Academic email and professional letter"
+          ]
+        },
+        {
+          "id": "academic",
+          "title": "Academic essay writing",
+          "description": "Arguments and viewpoints, Opinion and evidence, Logical reasoning, Common ground and courtesy, Evaluating evidence, Thesis topic and position, Weak and strong thesis statements, Hooks and background, Topic sentences, Examples and explanations, Conclusions and restatement.",
+          "topics": [
+            "Arguments and viewpoints",
+            "Opinion and evidence",
+            "Logical reasoning",
+            "Common ground and courtesy",
+            "Evaluating evidence",
+            "Thesis topic and position",
+            "Weak and strong thesis statements",
+            "Hooks and background",
+            "Topic sentences",
+            "Examples and explanations",
+            "Conclusions and restatement"
+          ]
+        },
+        {
+          "id": "argument",
+          "title": "Argumentative writing",
+          "description": "Topic selection, Brainstorming and planning, Outlining, Paragraph organization, Evidence and support, Counterarguments and refutations, Revision and proofreading, Structural weaknesses.",
+          "topics": [
+            "Topic selection",
+            "Brainstorming and planning",
+            "Outlining",
+            "Paragraph organization",
+            "Evidence and support",
+            "Counterarguments and refutations",
+            "Revision and proofreading",
+            "Structural weaknesses"
+          ]
+        },
+        {
+          "id": "legacy",
+          "title": "Existing foundation library",
+          "description": "Articles, Prepositions, Modals, Tenses, Conditionals, Passive voice, Relative clauses, Cohesion, Editing.",
+          "topics": [
+            "Articles",
+            "Prepositions",
+            "Modals",
+            "Tenses",
+            "Conditionals",
+            "Passive voice",
+            "Relative clauses",
+            "Cohesion",
+            "Editing"
+          ]
+        }
+      ],
+      "categories": [
+        {
+          "id": "grammar",
+          "title": "Grammar and Sentence Skills"
+        },
+        {
+          "id": "sentence",
+          "title": "Sentence Construction"
+        },
+        {
+          "id": "punctuation",
+          "title": "Punctuation Mastery"
+        },
+        {
+          "id": "spelling",
+          "title": "Spelling Improvement"
+        },
+        {
+          "id": "confused",
+          "title": "Commonly Confused Words"
+        },
+        {
+          "id": "formal",
+          "title": "Formal Writing"
+        },
+        {
+          "id": "academic",
+          "title": "Academic Essay Writing"
+        },
+        {
+          "id": "argument",
+          "title": "Argumentative Writing"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "letters",
+          "title": "Letters, words and capitals",
+          "level": "Pre-A1",
+          "moduleId": "foundation",
+          "category": "sentence",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in letters, words and capitals.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "English uses 26 letters. Each letter has an upper-case and lower-case form. A letter is a written symbol; several letters can form a word. Begin a statement with a capital and finish it with a full stop. A person’s name also starts with a capital. A capital changes the written form, not the word’s meaning.",
+          "explanationBn": "বাক্যের শুরুতে বড় হাতের অক্ষর এবং শেষে পূর্ণচ্ছেদ ব্যবহার করো।",
+          "examples": [
+            "a → A; m → M; t → T. These pairs show the same letters.",
+            "A book. The word book has four letters.",
+            "We read. W begins the statement with a capital."
+          ],
+          "incorrect": "we read",
+          "correct": "We read.",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "fill-blank",
+              "prompt": "Write the capital form of m.",
+              "options": [],
+              "answers": [
+                "M"
+              ],
+              "explanation": "M is the upper-case form of m.",
+              "rubric": [],
+              "caseSensitive": true
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "spelling",
+              "prompt": "Put these letters in order to spell a familiar object: b o o k.",
+              "options": [],
+              "answers": [
+                "book"
+              ],
+              "explanation": "Book is spelt b-o-o-k.",
+              "rubric": [],
+              "caseSensitive": true
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "multiple-choice",
+              "prompt": "Which statement begins correctly?",
+              "options": [
+                "we learn.",
+                "We learn."
+              ],
+              "answers": [
+                "We learn."
+              ],
+              "explanation": "A sentence starts with a capital.",
+              "rubric": [],
+              "caseSensitive": true
+            },
+            {
+              "id": "quiz-2",
+              "type": "true-false",
+              "prompt": "B and b represent the same letter.",
+              "options": [
+                "True",
+                "False"
+              ],
+              "answers": [
+                "True"
+              ],
+              "explanation": "Upper and lower case are two written forms.",
+              "rubric": [],
+              "caseSensitive": true
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "complete-statement",
+          "title": "Who does what?",
+          "level": "Pre-A1",
+          "moduleId": "foundation",
+          "category": "sentence",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in who does what?.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "A basic statement usually names a subject and gives it a finite verb. The subject tells us who or what the statement is about. The verb gives an action or a state. Some verbs need an object or complement. A group such as near the door names a place but does not make a complete statement.",
+          "explanationBn": "Subject হলো কার বা কিসের কথা বলা হচ্ছে; verb দিয়ে কাজ বা অবস্থা বোঝানো হয়।",
+          "examples": [
+            "Birds sing. Birds is the subject; sing is the verb.",
+            "The room is quiet. Is links the room to a description.",
+            "I read a message. A message is the object of read."
+          ],
+          "incorrect": "In the garden.",
+          "correct": "The children play in the garden.",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "multiple-choice",
+              "prompt": "Which word gives the action in Students write notes?",
+              "options": [
+                "Students",
+                "write",
+                "notes"
+              ],
+              "answers": [
+                "write"
+              ],
+              "explanation": "Write tells us what the students do.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "sentence-ordering",
+              "prompt": "Order these words; include a full stop: books / read / We",
+              "options": [],
+              "answers": [
+                "We read books."
+              ],
+              "explanation": "A common statement order is subject + verb + object.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "multiple-choice",
+              "prompt": "Which is a complete statement?",
+              "options": [
+                "After lunch.",
+                "The lesson starts."
+              ],
+              "answers": [
+                "The lesson starts."
+              ],
+              "explanation": "The lesson is a subject and starts is a finite verb.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "fill-blank",
+              "prompt": "The ___ is blue. Choose: sky / walks",
+              "options": [],
+              "answers": [
+                "sky"
+              ],
+              "explanation": "Sky names the thing being described.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "verb-forms",
+          "title": "Base, past and participle forms",
+          "level": "A1",
+          "moduleId": "verbs",
+          "category": "grammar",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in base, past and participle forms.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "Regular past forms and past participles usually end in -ed. A final e normally takes -d; consonant + y normally becomes -ied. Irregular verbs have forms that must be learned in context. A past participle combines with have in perfect constructions and be in passive constructions. Do not assume that every past form is also the participle. Use a dictionary’s verb table when unsure.",
+          "explanationBn": "",
+          "examples": [
+            "walk → walked → walked; live → lived → lived.",
+            "study → studied → studied; consonant + y changes to i.",
+            "go → went → gone; write → wrote → written.",
+            "Yesterday I wrote a note. I have written three notes."
+          ],
+          "incorrect": "She has went home.",
+          "correct": "She has gone home.",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "fill-blank",
+              "prompt": "Yesterday, I ___ a new word. (learn)",
+              "options": [],
+              "answers": [
+                "learned",
+                "learnt"
+              ],
+              "explanation": "Learned is a regular past form.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "fill-blank",
+              "prompt": "She has ___ the email. (write)",
+              "options": [],
+              "answers": [
+                "written"
+              ],
+              "explanation": "Have/has takes the past participle written.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "spelling",
+              "prompt": "Write the past form of study.",
+              "options": [],
+              "answers": [
+                "studied"
+              ],
+              "explanation": "Consonant + y changes to i before -ed.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "multiple-choice",
+              "prompt": "Choose the past form of go.",
+              "options": [
+                "goed",
+                "went",
+                "gone"
+              ],
+              "answers": [
+                "went"
+              ],
+              "explanation": "Went is the simple past; gone is the participle.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "capital-patterns",
+          "title": "Capitals for names and sentence beginnings",
+          "level": "A1",
+          "moduleId": "capitals",
+          "category": "punctuation",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in capitals for names and sentence beginnings.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "Capitalize the first word of a sentence and the pronoun I. Proper names identify a particular person, place, organization or product; common nouns usually stay lower case. Days, months, named holidays, languages and nationalities take capitals. Seasons usually do not. Titles of works follow a chosen style; do not capitalize every ordinary noun in a paragraph. In letters, capitalize the beginning of the salutation and the first word of the closing.",
+          "explanationBn": "",
+          "examples": [
+            "We study English on Monday. Language and day take capitals.",
+            "The meeting is in November, during autumn. Month is capitalized; season is not.",
+            "I visited Dhaka. The pronoun and city name take capitals."
+          ],
+          "incorrect": "we study english on monday.",
+          "correct": "We study English on Monday.",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "multiple-choice",
+              "prompt": "Choose the correct month.",
+              "options": [
+                "october",
+                "October"
+              ],
+              "answers": [
+                "October"
+              ],
+              "explanation": "Names of months take capitals.",
+              "rubric": [],
+              "caseSensitive": true
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "fill-blank",
+              "prompt": "Write the pronoun i correctly.",
+              "options": [],
+              "answers": [
+                "I"
+              ],
+              "explanation": "The pronoun I is always capitalized.",
+              "rubric": [],
+              "caseSensitive": true
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "multiple-choice",
+              "prompt": "Choose the corrected sentence.",
+              "options": [
+                "She speaks bangla.",
+                "She speaks Bangla."
+              ],
+              "answers": [
+                "She speaks Bangla."
+              ],
+              "explanation": "Language names are proper names.",
+              "rubric": [],
+              "caseSensitive": true
+            },
+            {
+              "id": "quiz-2",
+              "type": "true-false",
+              "prompt": "All common nouns need capital letters.",
+              "options": [
+                "True",
+                "False"
+              ],
+              "answers": [
+                "False"
+              ],
+              "explanation": "Ordinary common nouns usually stay lower case.",
+              "rubric": [],
+              "caseSensitive": true
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "spelling-routine",
+          "title": "Build a personal spelling routine",
+          "level": "A1",
+          "moduleId": "spelling",
+          "category": "spelling",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in build a personal spelling routine.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "Check an unfamiliar word in a reliable dictionary and notice its spelling, meaning and pronunciation. Keep a personal list of your own errors rather than copying thousands of words without review. Group related subject words and confused pairs. Practise a short basic list, cover the answer, write from memory, then check. Use each corrected word in a fresh sentence. Electronic tools can suggest corrections, but a correctly spelt wrong word can escape them. Revisit difficult words across several sessions.",
+          "explanationBn": "",
+          "examples": [
+            "necessary: one c and two s letters. I packed the necessary forms.",
+            "separate: notice a after the first r. Keep a separate notebook.",
+            "receive: notice ei after c in this word. I receive updates by email."
+          ],
+          "incorrect": "I recieve the message.",
+          "correct": "I receive the message.",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "spelling",
+              "prompt": "Correct the spelling: seperate",
+              "options": [],
+              "answers": [
+                "separate"
+              ],
+              "explanation": "Separate has a after the first r.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "spelling",
+              "prompt": "Correct the spelling: neccessary",
+              "options": [],
+              "answers": [
+                "necessary"
+              ],
+              "explanation": "Necessary has one c and two s letters.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "spelling",
+              "prompt": "Correct: recieve",
+              "options": [],
+              "answers": [
+                "receive"
+              ],
+              "explanation": "Receive uses ei after c.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "true-false",
+              "prompt": "A spelling checker always notices a correctly spelt word used with the wrong meaning.",
+              "options": [
+                "True",
+                "False"
+              ],
+              "answers": [
+                "False"
+              ],
+              "explanation": "Context can require a different word even when spelling is valid.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "agreement-core",
+          "title": "Find the subject before choosing a verb",
+          "level": "A2",
+          "moduleId": "agreement",
+          "category": "grammar",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in find the subject before choosing a verb.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "In the present simple, a third-person singular subject generally takes an -s or -es verb. A plural subject generally takes the base form. Intervening phrases do not change the subject: the box of pencils is singular. Subjects joined by and are usually plural. Everyone and each normally take singular verbs. In sentences beginning with there, find the subject after the verb. With or/nor, match the nearer subject when number differs; rephrasing can improve clarity.",
+          "explanationBn": "",
+          "examples": [
+            "The list of topics is useful. List is the subject.",
+            "The learners and the tutor meet weekly. And joins two subjects.",
+            "Everyone has a notebook. Everyone is singular.",
+            "There are two chairs by the door. Chairs is plural."
+          ],
+          "incorrect": "The group of students are ready.",
+          "correct": "The group of students is ready. (The group is treated as one unit.)",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "multiple-choice",
+              "prompt": "The basket of apples ___ heavy.",
+              "options": [
+                "is",
+                "are"
+              ],
+              "answers": [
+                "is"
+              ],
+              "explanation": "Basket, rather than apples, controls the verb.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "fill-blank",
+              "prompt": "Each learner ___ a pen. (has/have)",
+              "options": [],
+              "answers": [
+                "has"
+              ],
+              "explanation": "Each learner is singular.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "multiple-choice",
+              "prompt": "There ___ three tasks today.",
+              "options": [
+                "is",
+                "are"
+              ],
+              "answers": [
+                "are"
+              ],
+              "explanation": "Three tasks is the plural subject.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "multiple-choice",
+              "prompt": "My friends and I ___ together.",
+              "options": [
+                "study",
+                "studies"
+              ],
+              "answers": [
+                "study"
+              ],
+              "explanation": "A compound subject including I takes study.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "number-style",
+          "title": "Numbers, dates and clear abbreviations",
+          "level": "A2",
+          "moduleId": "numbers",
+          "category": "grammar",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in numbers, dates and clear abbreviations.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "Number style depends on the writing context. Use a consistent house style: small nontechnical numbers are often written as words, while measurements, statistics and dates commonly use numerals. Rewrite a sentence to avoid starting it with a long numeral. A date written as 12 May 2026 avoids numeric date-order ambiguity. Spell out an unfamiliar abbreviation at first mention and place its short form in parentheses. Avoid informal text-message abbreviations in formal requests.",
+          "explanationBn": "",
+          "examples": [
+            "We need three volunteers. A small nontechnical number is written out.",
+            "The sample weighed 12 kg. A measurement uses a numeral and unit.",
+            "Please reply by 12 May 2026. The month name avoids date ambiguity.",
+            "The quality review team (QRT) meets today. QRT appears after its full form."
+          ],
+          "incorrect": "Plz send 2 files asap.",
+          "correct": "Please send the two files as soon as possible.",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "multiple-choice",
+              "prompt": "Which date is least ambiguous internationally?",
+              "options": [
+                "05/06/26",
+                "6 May 2026"
+              ],
+              "answers": [
+                "6 May 2026"
+              ],
+              "explanation": "The named month makes the intended date clear.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "sentence-transformation",
+              "prompt": "Rewrite for a formal email: Plz send 3 copies asap.",
+              "options": [],
+              "answers": [],
+              "explanation": "Review the structure, accuracy and meaning rather than matching a fixed model.",
+              "rubric": [
+                "Task fulfilled with a clear meaning",
+                "Accurate grammar and punctuation for the level",
+                "Logical organization and appropriate vocabulary"
+              ],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "true-false",
+              "prompt": "Every number in every kind of formal writing must be spelt out.",
+              "options": [
+                "True",
+                "False"
+              ],
+              "answers": [
+                "False"
+              ],
+              "explanation": "Measurements and statistics often use numerals; follow the relevant style.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "multiple-choice",
+              "prompt": "How should an unfamiliar abbreviation first appear?",
+              "options": [
+                "Short form only",
+                "Full expression followed by the short form"
+              ],
+              "answers": [
+                "Full expression followed by the short form"
+              ],
+              "explanation": "Define unfamiliar abbreviations for readers.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "apostrophe-patterns",
+          "title": "Possession, contractions and ordinary plurals",
+          "level": "A2",
+          "moduleId": "apostrophes",
+          "category": "punctuation",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in possession, contractions and ordinary plurals.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "A contraction uses an apostrophe for omitted letters: do not becomes don't. A singular noun normally forms possession with apostrophe + s. A regular plural already ending in s adds only an apostrophe; an irregular plural such as children adds apostrophe + s. Ordinary plurals take no apostrophe. Possessive pronouns such as hers, ours and its do not take apostrophes. It's means it is or it has. Style guides differ over some singular names ending in s; follow a consistent style.",
+          "explanationBn": "",
+          "examples": [
+            "The learner's desk: one learner owns or uses it.",
+            "The learners' desks: several learners.",
+            "The children's books: irregular plural possession.",
+            "The cat moved its tail. It's restless: it is restless."
+          ],
+          "incorrect": "The students book's are on the table.",
+          "correct": "The students' books are on the table. (Books belonging to several students.)",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "fill-blank",
+              "prompt": "Write the contraction of do not.",
+              "options": [],
+              "answers": [
+                "don't"
+              ],
+              "explanation": "The apostrophe replaces the missing o.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "fill-blank",
+              "prompt": "Complete for books belonging to several girls: the ___ books.",
+              "options": [],
+              "answers": [
+                "girls'"
+              ],
+              "explanation": "A regular plural ending in s adds an apostrophe.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "multiple-choice",
+              "prompt": "Which means it is?",
+              "options": [
+                "its",
+                "it's"
+              ],
+              "answers": [
+                "it's"
+              ],
+              "explanation": "It's is a contraction; its shows possession.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "multiple-choice",
+              "prompt": "Choose the ordinary plural.",
+              "options": [
+                "three apple’s",
+                "three apples"
+              ],
+              "answers": [
+                "three apples"
+              ],
+              "explanation": "A regular plural takes s without an apostrophe.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "direct-speech",
+          "title": "Quoting speech accurately",
+          "level": "A2",
+          "moduleId": "quotations",
+          "category": "punctuation",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in quoting speech accurately.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "Quotation marks show words presented as direct speech. Put a speaker tag before or after the quoted speech. In the convention used here, a comma introduces the speech after a tag, and a comma replaces its final full stop when a following tag continues the sentence. A question mark belongs inside the quotation if the quoted words form a question. Single and double quotation conventions vary by style and region; be consistent. Short-work titles can take quotation marks; do not use them merely for emphasis.",
+          "explanationBn": "",
+          "examples": [
+            "She said, “The room is open.” A tag introduces the quoted statement.",
+            "“The room is open,” she said. A comma links speech to the following tag.",
+            "“Is the room open?” she asked. The question mark belongs to the spoken question."
+          ],
+          "incorrect": "She said The room is open.",
+          "correct": "She said, “The room is open.”",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "multiple-choice",
+              "prompt": "What do quotation marks identify here?",
+              "options": [
+                "Words presented as direct speech",
+                "All important words"
+              ],
+              "answers": [
+                "Words presented as direct speech"
+              ],
+              "explanation": "They mark the quoted words, not general emphasis.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "sentence-correction",
+              "prompt": "Punctuate this direct speech with a consistent quotation style: Is the bus here she asked",
+              "options": [],
+              "answers": [],
+              "explanation": "Review the structure, accuracy and meaning rather than matching a fixed model.",
+              "rubric": [
+                "Task fulfilled with a clear meaning",
+                "Accurate grammar and punctuation for the level",
+                "Logical organization and appropriate vocabulary"
+              ],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "multiple-choice",
+              "prompt": "Choose the properly tagged statement.",
+              "options": [
+                "“We can begin,” she said.",
+                "“We can begin” she said."
+              ],
+              "answers": [
+                "“We can begin,” she said."
+              ],
+              "explanation": "A comma separates the quoted statement from the following speaker tag.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "true-false",
+              "prompt": "A question mark for quoted speech goes inside its quotation marks.",
+              "options": [
+                "True",
+                "False"
+              ],
+              "answers": [
+                "True"
+              ],
+              "explanation": "It punctuates the quoted question.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "confused-1",
+          "title": "your / you're",
+          "level": "A2",
+          "moduleId": "confused",
+          "category": "confused",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in your / you're.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "your means belonging to you. you're means you are. Select the word by its job and intended meaning in the sentence; sound alone may not distinguish the pair. Read the whole sentence before choosing. A common mistake is using you're when the meaning requires your.",
+          "explanationBn": "",
+          "examples": [
+            "Your folder is here.",
+            "You're ready to begin."
+          ],
+          "incorrect": "Wrong meaning: You're folder is here.",
+          "correct": "Correct usage: Your folder is here.",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "multiple-choice",
+              "prompt": "___ folder is here.",
+              "options": [
+                "your",
+                "you're"
+              ],
+              "answers": [
+                "your"
+              ],
+              "explanation": "The intended meaning requires your.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "word-matching",
+              "prompt": "Match the meaning “you are” to the correct word. Write the word.",
+              "options": [],
+              "answers": [
+                "you're"
+              ],
+              "explanation": "you're means you are.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "multiple-choice",
+              "prompt": "Choose the word meaning “belonging to you”.",
+              "options": [
+                "your",
+                "you're"
+              ],
+              "answers": [
+                "your"
+              ],
+              "explanation": "your means belonging to you.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "short-answer",
+              "prompt": "Write two short sentences: one using your and one using you're. Explain their different meanings.",
+              "options": [],
+              "answers": [],
+              "explanation": "Review the structure, accuracy and meaning rather than matching a fixed model.",
+              "rubric": [
+                "Task fulfilled with a clear meaning",
+                "Accurate grammar and punctuation for the level",
+                "Logical organization and appropriate vocabulary"
+              ],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "confused-2",
+          "title": "their / there / they’re",
+          "level": "A2",
+          "moduleId": "confused",
+          "category": "confused",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in their / there / they’re.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "their means belonging to them. there means in or at that place. Select the word by its job and intended meaning in the sentence; sound alone may not distinguish the pair. Read the whole sentence before choosing. A common mistake is using there when the meaning requires their. They're means they are: They're waiting outside. Their shows possession; there points to a place or introduces existence.",
+          "explanationBn": "",
+          "examples": [
+            "Their seats are near the door.",
+            "Leave the bag there.",
+            "They're waiting outside."
+          ],
+          "incorrect": "Wrong meaning: There seats are near the door.",
+          "correct": "Correct usage: Their seats are near the door.",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "multiple-choice",
+              "prompt": "___ seats are near the door.",
+              "options": [
+                "their",
+                "there"
+              ],
+              "answers": [
+                "their"
+              ],
+              "explanation": "The intended meaning requires their.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "word-matching",
+              "prompt": "Match the meaning “in or at that place” to the correct word. Write the word.",
+              "options": [],
+              "answers": [
+                "there"
+              ],
+              "explanation": "there means in or at that place.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "multiple-choice",
+              "prompt": "Choose the word meaning “belonging to them”.",
+              "options": [
+                "their",
+                "there"
+              ],
+              "answers": [
+                "their"
+              ],
+              "explanation": "their means belonging to them.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "short-answer",
+              "prompt": "Write two short sentences: one using their and one using there. Explain their different meanings.",
+              "options": [],
+              "answers": [],
+              "explanation": "Review the structure, accuracy and meaning rather than matching a fixed model.",
+              "rubric": [
+                "Task fulfilled with a clear meaning",
+                "Accurate grammar and punctuation for the level",
+                "Logical organization and appropriate vocabulary"
+              ],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "confused-3",
+          "title": "its / it's",
+          "level": "A2",
+          "moduleId": "confused",
+          "category": "confused",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in its / it's.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "its means belonging to it. it's means it is or it has. Select the word by its job and intended meaning in the sentence; sound alone may not distinguish the pair. Read the whole sentence before choosing. A common mistake is using it's when the meaning requires its.",
+          "explanationBn": "",
+          "examples": [
+            "The bird spread its wings.",
+            "It's getting dark."
+          ],
+          "incorrect": "Wrong meaning: The bird spread it's wings.",
+          "correct": "Correct usage: The bird spread its wings.",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "multiple-choice",
+              "prompt": "The bird spread ___ wings.",
+              "options": [
+                "its",
+                "it's"
+              ],
+              "answers": [
+                "its"
+              ],
+              "explanation": "The intended meaning requires its.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "word-matching",
+              "prompt": "Match the meaning “it is or it has” to the correct word. Write the word.",
+              "options": [],
+              "answers": [
+                "it's"
+              ],
+              "explanation": "it's means it is or it has.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "multiple-choice",
+              "prompt": "Choose the word meaning “belonging to it”.",
+              "options": [
+                "its",
+                "it's"
+              ],
+              "answers": [
+                "its"
+              ],
+              "explanation": "its means belonging to it.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "short-answer",
+              "prompt": "Write two short sentences: one using its and one using it's. Explain their different meanings.",
+              "options": [],
+              "answers": [],
+              "explanation": "Review the structure, accuracy and meaning rather than matching a fixed model.",
+              "rubric": [
+                "Task fulfilled with a clear meaning",
+                "Accurate grammar and punctuation for the level",
+                "Logical organization and appropriate vocabulary"
+              ],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "confused-4",
+          "title": "to / too",
+          "level": "A2",
+          "moduleId": "confused",
+          "category": "confused",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in to / too.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "to means towards a destination or before a base verb. too means also or excessively. Select the word by its job and intended meaning in the sentence; sound alone may not distinguish the pair. Read the whole sentence before choosing. A common mistake is using too when the meaning requires to.",
+          "explanationBn": "",
+          "examples": [
+            "We walked to the station.",
+            "The bag is too heavy."
+          ],
+          "incorrect": "Wrong meaning: We walked too the station.",
+          "correct": "Correct usage: We walked to the station.",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "multiple-choice",
+              "prompt": "The bag is ___ heavy.",
+              "options": [
+                "to",
+                "too"
+              ],
+              "answers": [
+                "too"
+              ],
+              "explanation": "The intended meaning requires too.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "word-matching",
+              "prompt": "Match the meaning “also or excessively” to the correct word. Write the word.",
+              "options": [],
+              "answers": [
+                "too"
+              ],
+              "explanation": "too means also or excessively.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "multiple-choice",
+              "prompt": "Choose the word meaning “towards a destination or before a base verb”.",
+              "options": [
+                "to",
+                "too"
+              ],
+              "answers": [
+                "to"
+              ],
+              "explanation": "to means towards a destination or before a base verb.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "short-answer",
+              "prompt": "Write two short sentences: one using to and one using too. Explain their different meanings.",
+              "options": [],
+              "answers": [],
+              "explanation": "Review the structure, accuracy and meaning rather than matching a fixed model.",
+              "rubric": [
+                "Task fulfilled with a clear meaning",
+                "Accurate grammar and punctuation for the level",
+                "Logical organization and appropriate vocabulary"
+              ],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "confused-5",
+          "title": "affect / effect",
+          "level": "A2",
+          "moduleId": "confused",
+          "category": "confused",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in affect / effect.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "affect means usually a verb meaning influence. effect means usually a noun meaning a result. Select the word by its job and intended meaning in the sentence; sound alone may not distinguish the pair. Read the whole sentence before choosing. A common mistake is using effect when the meaning requires affect.",
+          "explanationBn": "",
+          "examples": [
+            "Noise can affect sleep.",
+            "The change had a positive effect."
+          ],
+          "incorrect": "Wrong meaning: Noise can effect sleep.",
+          "correct": "Correct usage: Noise can affect sleep.",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "multiple-choice",
+              "prompt": "Noise can ___ sleep.",
+              "options": [
+                "affect",
+                "effect"
+              ],
+              "answers": [
+                "affect"
+              ],
+              "explanation": "The intended meaning requires affect.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "word-matching",
+              "prompt": "Match the meaning “usually a noun meaning a result” to the correct word. Write the word.",
+              "options": [],
+              "answers": [
+                "effect"
+              ],
+              "explanation": "effect means usually a noun meaning a result.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "multiple-choice",
+              "prompt": "Choose the word meaning “usually a verb meaning influence”.",
+              "options": [
+                "affect",
+                "effect"
+              ],
+              "answers": [
+                "affect"
+              ],
+              "explanation": "affect means usually a verb meaning influence.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "short-answer",
+              "prompt": "Write two short sentences: one using affect and one using effect. Explain their different meanings.",
+              "options": [],
+              "answers": [],
+              "explanation": "Review the structure, accuracy and meaning rather than matching a fixed model.",
+              "rubric": [
+                "Task fulfilled with a clear meaning",
+                "Accurate grammar and punctuation for the level",
+                "Logical organization and appropriate vocabulary"
+              ],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "confused-6",
+          "title": "advice / advise",
+          "level": "A2",
+          "moduleId": "confused",
+          "category": "confused",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in advice / advise.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "advice means a noun meaning a recommendation. advise means a verb meaning recommend. Select the word by its job and intended meaning in the sentence; sound alone may not distinguish the pair. Read the whole sentence before choosing. A common mistake is using advise when the meaning requires advice.",
+          "explanationBn": "",
+          "examples": [
+            "Your advice helped me.",
+            "I advise you to check."
+          ],
+          "incorrect": "Wrong meaning: Your advise helped me.",
+          "correct": "Correct usage: Your advice helped me.",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "multiple-choice",
+              "prompt": "I ___ you to check.",
+              "options": [
+                "advice",
+                "advise"
+              ],
+              "answers": [
+                "advise"
+              ],
+              "explanation": "The intended meaning requires advise.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "word-matching",
+              "prompt": "Match the meaning “a verb meaning recommend” to the correct word. Write the word.",
+              "options": [],
+              "answers": [
+                "advise"
+              ],
+              "explanation": "advise means a verb meaning recommend.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "multiple-choice",
+              "prompt": "Choose the word meaning “a noun meaning a recommendation”.",
+              "options": [
+                "advice",
+                "advise"
+              ],
+              "answers": [
+                "advice"
+              ],
+              "explanation": "advice means a noun meaning a recommendation.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "short-answer",
+              "prompt": "Write two short sentences: one using advice and one using advise. Explain their different meanings.",
+              "options": [],
+              "answers": [],
+              "explanation": "Review the structure, accuracy and meaning rather than matching a fixed model.",
+              "rubric": [
+                "Task fulfilled with a clear meaning",
+                "Accurate grammar and punctuation for the level",
+                "Logical organization and appropriate vocabulary"
+              ],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "confused-7",
+          "title": "accept / except",
+          "level": "A2",
+          "moduleId": "confused",
+          "category": "confused",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in accept / except.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "accept means receive or agree to something. except means excluding. Select the word by its job and intended meaning in the sentence; sound alone may not distinguish the pair. Read the whole sentence before choosing. A common mistake is using except when the meaning requires accept.",
+          "explanationBn": "",
+          "examples": [
+            "We accept the offer.",
+            "Everyone came except me."
+          ],
+          "incorrect": "Wrong meaning: We except the offer.",
+          "correct": "Correct usage: We accept the offer.",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "multiple-choice",
+              "prompt": "Everyone came ___ me.",
+              "options": [
+                "accept",
+                "except"
+              ],
+              "answers": [
+                "except"
+              ],
+              "explanation": "The intended meaning requires except.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "word-matching",
+              "prompt": "Match the meaning “excluding” to the correct word. Write the word.",
+              "options": [],
+              "answers": [
+                "except"
+              ],
+              "explanation": "except means excluding.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "multiple-choice",
+              "prompt": "Choose the word meaning “receive or agree to something”.",
+              "options": [
+                "accept",
+                "except"
+              ],
+              "answers": [
+                "accept"
+              ],
+              "explanation": "accept means receive or agree to something.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "short-answer",
+              "prompt": "Write two short sentences: one using accept and one using except. Explain their different meanings.",
+              "options": [],
+              "answers": [],
+              "explanation": "Review the structure, accuracy and meaning rather than matching a fixed model.",
+              "rubric": [
+                "Task fulfilled with a clear meaning",
+                "Accurate grammar and punctuation for the level",
+                "Logical organization and appropriate vocabulary"
+              ],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "confused-8",
+          "title": "loose / lose",
+          "level": "A2",
+          "moduleId": "confused",
+          "category": "confused",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in loose / lose.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "loose means not tight or firmly fixed. lose means fail to keep or find something. Select the word by its job and intended meaning in the sentence; sound alone may not distinguish the pair. Read the whole sentence before choosing. A common mistake is using lose when the meaning requires loose.",
+          "explanationBn": "",
+          "examples": [
+            "The handle is loose.",
+            "Do not lose your ticket."
+          ],
+          "incorrect": "Wrong meaning: The handle is loose.",
+          "correct": "Correct usage: The handle is loose.",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "multiple-choice",
+              "prompt": "Do not ___ your ticket.",
+              "options": [
+                "loose",
+                "lose"
+              ],
+              "answers": [
+                "lose"
+              ],
+              "explanation": "The intended meaning requires lose.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "word-matching",
+              "prompt": "Match the meaning “fail to keep or find something” to the correct word. Write the word.",
+              "options": [],
+              "answers": [
+                "lose"
+              ],
+              "explanation": "lose means fail to keep or find something.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "multiple-choice",
+              "prompt": "Choose the word meaning “not tight or firmly fixed”.",
+              "options": [
+                "loose",
+                "lose"
+              ],
+              "answers": [
+                "loose"
+              ],
+              "explanation": "loose means not tight or firmly fixed.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "short-answer",
+              "prompt": "Write two short sentences: one using loose and one using lose. Explain their different meanings.",
+              "options": [],
+              "answers": [],
+              "explanation": "Review the structure, accuracy and meaning rather than matching a fixed model.",
+              "rubric": [
+                "Task fulfilled with a clear meaning",
+                "Accurate grammar and punctuation for the level",
+                "Logical organization and appropriate vocabulary"
+              ],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "confused-9",
+          "title": "right / write",
+          "level": "A2",
+          "moduleId": "confused",
+          "category": "confused",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in right / write.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "right means correct, or a direction. write means put words into written form. Select the word by its job and intended meaning in the sentence; sound alone may not distinguish the pair. Read the whole sentence before choosing. A common mistake is using write when the meaning requires right.",
+          "explanationBn": "",
+          "examples": [
+            "Your answer is right.",
+            "Write a short note."
+          ],
+          "incorrect": "Wrong meaning: Your answer is right.",
+          "correct": "Correct usage: Your answer is right.",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "multiple-choice",
+              "prompt": "___ a short note.",
+              "options": [
+                "right",
+                "write"
+              ],
+              "answers": [
+                "write"
+              ],
+              "explanation": "The intended meaning requires write.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "word-matching",
+              "prompt": "Match the meaning “put words into written form” to the correct word. Write the word.",
+              "options": [],
+              "answers": [
+                "write"
+              ],
+              "explanation": "write means put words into written form.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "multiple-choice",
+              "prompt": "Choose the word meaning “correct, or a direction”.",
+              "options": [
+                "right",
+                "write"
+              ],
+              "answers": [
+                "right"
+              ],
+              "explanation": "right means correct, or a direction.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "short-answer",
+              "prompt": "Write two short sentences: one using right and one using write. Explain their different meanings.",
+              "options": [],
+              "answers": [],
+              "explanation": "Review the structure, accuracy and meaning rather than matching a fixed model.",
+              "rubric": [
+                "Task fulfilled with a clear meaning",
+                "Accurate grammar and punctuation for the level",
+                "Logical organization and appropriate vocabulary"
+              ],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "confused-10",
+          "title": "brake / break",
+          "level": "A2",
+          "moduleId": "confused",
+          "category": "confused",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in brake / break.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "brake means a device or action that slows movement. break means damage or interrupt something. Select the word by its job and intended meaning in the sentence; sound alone may not distinguish the pair. Read the whole sentence before choosing. A common mistake is using break when the meaning requires brake.",
+          "explanationBn": "",
+          "examples": [
+            "Press the brake gently.",
+            "Please do not break the cup."
+          ],
+          "incorrect": "Wrong meaning: Press the break gently.",
+          "correct": "Correct usage: Press the brake gently.",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "multiple-choice",
+              "prompt": "Press the ___ gently.",
+              "options": [
+                "brake",
+                "break"
+              ],
+              "answers": [
+                "brake"
+              ],
+              "explanation": "The intended meaning requires brake.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "word-matching",
+              "prompt": "Match the meaning “damage or interrupt something” to the correct word. Write the word.",
+              "options": [],
+              "answers": [
+                "break"
+              ],
+              "explanation": "break means damage or interrupt something.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "multiple-choice",
+              "prompt": "Choose the word meaning “a device or action that slows movement”.",
+              "options": [
+                "brake",
+                "break"
+              ],
+              "answers": [
+                "brake"
+              ],
+              "explanation": "brake means a device or action that slows movement.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "short-answer",
+              "prompt": "Write two short sentences: one using brake and one using break. Explain their different meanings.",
+              "options": [],
+              "answers": [],
+              "explanation": "Review the structure, accuracy and meaning rather than matching a fixed model.",
+              "rubric": [
+                "Task fulfilled with a clear meaning",
+                "Accurate grammar and punctuation for the level",
+                "Logical organization and appropriate vocabulary"
+              ],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "confused-11",
+          "title": "already / all ready",
+          "level": "A2",
+          "moduleId": "confused",
+          "category": "confused",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in already / all ready.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "already means before now or the time mentioned. all ready means everyone or everything is prepared. Select the word by its job and intended meaning in the sentence; sound alone may not distinguish the pair. Read the whole sentence before choosing. A common mistake is using all ready when the meaning requires already.",
+          "explanationBn": "",
+          "examples": [
+            "We have already eaten.",
+            "The team is all ready."
+          ],
+          "incorrect": "Wrong meaning: We have all ready eaten.",
+          "correct": "Correct usage: We have already eaten.",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "multiple-choice",
+              "prompt": "We have ___ eaten.",
+              "options": [
+                "already",
+                "all ready"
+              ],
+              "answers": [
+                "already"
+              ],
+              "explanation": "The intended meaning requires already.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "word-matching",
+              "prompt": "Match the meaning “everyone or everything is prepared” to the correct word. Write the word.",
+              "options": [],
+              "answers": [
+                "all ready"
+              ],
+              "explanation": "all ready means everyone or everything is prepared.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "multiple-choice",
+              "prompt": "Choose the word meaning “before now or the time mentioned”.",
+              "options": [
+                "already",
+                "all ready"
+              ],
+              "answers": [
+                "already"
+              ],
+              "explanation": "already means before now or the time mentioned.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "short-answer",
+              "prompt": "Write two short sentences: one using already and one using all ready. Explain their different meanings.",
+              "options": [],
+              "answers": [],
+              "explanation": "Review the structure, accuracy and meaning rather than matching a fixed model.",
+              "rubric": [
+                "Task fulfilled with a clear meaning",
+                "Accurate grammar and punctuation for the level",
+                "Logical organization and appropriate vocabulary"
+              ],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "confused-12",
+          "title": "course / coarse",
+          "level": "A2",
+          "moduleId": "confused",
+          "category": "confused",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in course / coarse.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "course means a learning programme or direction. coarse means rough in texture. Select the word by its job and intended meaning in the sentence; sound alone may not distinguish the pair. Read the whole sentence before choosing. A common mistake is using coarse when the meaning requires course.",
+          "explanationBn": "",
+          "examples": [
+            "I joined a writing course.",
+            "The cloth feels coarse."
+          ],
+          "incorrect": "Wrong meaning: I joined a writing course.",
+          "correct": "Correct usage: I joined a writing course.",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "multiple-choice",
+              "prompt": "I joined a writing ___.",
+              "options": [
+                "course",
+                "coarse"
+              ],
+              "answers": [
+                "course"
+              ],
+              "explanation": "The intended meaning requires course.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "word-matching",
+              "prompt": "Match the meaning “rough in texture” to the correct word. Write the word.",
+              "options": [],
+              "answers": [
+                "coarse"
+              ],
+              "explanation": "coarse means rough in texture.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "multiple-choice",
+              "prompt": "Choose the word meaning “a learning programme or direction”.",
+              "options": [
+                "course",
+                "coarse"
+              ],
+              "answers": [
+                "course"
+              ],
+              "explanation": "course means a learning programme or direction.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "short-answer",
+              "prompt": "Write two short sentences: one using course and one using coarse. Explain their different meanings.",
+              "options": [],
+              "answers": [],
+              "explanation": "Review the structure, accuracy and meaning rather than matching a fixed model.",
+              "rubric": [
+                "Task fulfilled with a clear meaning",
+                "Accurate grammar and punctuation for the level",
+                "Logical organization and appropriate vocabulary"
+              ],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "sentence-patterns",
+          "title": "Simple, compound, complex and compound-complex",
+          "level": "B1",
+          "moduleId": "sentences",
+          "category": "sentence",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in simple, compound, complex and compound-complex.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "A simple sentence has one independent clause. A compound sentence connects at least two independent clauses, often with a comma and a coordinating conjunction (for, and, nor, but, or, yet, so). A complex sentence contains an independent clause and at least one dependent clause. A compound-complex sentence has at least two independent clauses and a dependent clause. A dependent clause introduced by because, although or when cannot stand alone here. Vary sentence length to make the relationship between ideas clear.",
+          "explanationBn": "",
+          "examples": [
+            "The rain stopped. One independent clause: simple.",
+            "The rain stopped, so we left. Two independent clauses: compound.",
+            "When the rain stopped, we left. A dependent clause plus a main clause: complex.",
+            "When the rain stopped, we left, and the guide followed. Two main clauses plus a dependent clause: compound-complex."
+          ],
+          "incorrect": "Because the library closed.",
+          "correct": "Because the library closed, we studied at home.",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "multiple-choice",
+              "prompt": "Identify: The room was small, but it was comfortable.",
+              "options": [
+                "Simple",
+                "Compound",
+                "Complex"
+              ],
+              "answers": [
+                "Compound"
+              ],
+              "explanation": "Both sides can stand alone; but joins them.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "sentence-transformation",
+              "prompt": "Combine The bus was late and We walked using because.",
+              "options": [],
+              "answers": [],
+              "explanation": "Put the cause in a dependent clause.",
+              "rubric": [
+                "One independent clause and a because clause",
+                "Original cause and result retained",
+                "Correct capitalization and punctuation"
+              ],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "multiple-choice",
+              "prompt": "Which is a dependent clause?",
+              "options": [
+                "The lesson ended",
+                "Although the lesson ended"
+              ],
+              "answers": [
+                "Although the lesson ended"
+              ],
+              "explanation": "Although leaves this clause dependent on a main clause.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "multiple-choice",
+              "prompt": "Identify: Although it rained, we walked, and we arrived on time.",
+              "options": [
+                "Simple",
+                "Complex",
+                "Compound-complex"
+              ],
+              "answers": [
+                "Compound-complex"
+              ],
+              "explanation": "It has two independent clauses and an although clause.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "repair-run-ons",
+          "title": "Repairing run-ons without losing meaning",
+          "level": "B1",
+          "moduleId": "run-ons",
+          "category": "sentence",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in repairing run-ons without losing meaning.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "Two independent clauses need a legitimate boundary. A comma alone creates a comma splice; no boundary creates a fused sentence. You can use a full stop, a semicolon, or a comma with an appropriate coordinating conjunction. Subordination can show why or when something happened. However is a transition, not a coordinating conjunction: use a full stop or semicolon before it when it joins two main clauses. Choose a repair that preserves the writer’s intended relationship.",
+          "explanationBn": "",
+          "examples": [
+            "The gate closed. We waited outside. Two statements.",
+            "The gate closed; we waited outside. Closely related clauses.",
+            "The gate closed, so we waited outside. A result.",
+            "Because the gate closed, we waited outside. A reason."
+          ],
+          "incorrect": "I finished the form, I sent it.",
+          "correct": "I finished the form, and I sent it.",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "multiple-choice",
+              "prompt": "Choose the sound boundary.",
+              "options": [
+                "We revised, we improved.",
+                "We revised; we improved."
+              ],
+              "answers": [
+                "We revised; we improved."
+              ],
+              "explanation": "A semicolon can join related independent clauses.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "paragraph-editing",
+              "prompt": "Repair this paragraph while keeping its meaning: The train was late we waited on the platform, the rain grew heavier.",
+              "options": [],
+              "answers": [],
+              "explanation": "Review the structure, accuracy and meaning rather than matching a fixed model.",
+              "rubric": [
+                "Task fulfilled with a clear meaning",
+                "Accurate grammar and punctuation for the level",
+                "Logical organization and appropriate vocabulary"
+              ],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "true-false",
+              "prompt": "A comma alone can always join two complete statements.",
+              "options": [
+                "True",
+                "False"
+              ],
+              "answers": [
+                "False"
+              ],
+              "explanation": "A comma alone makes a comma splice.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "multiple-choice",
+              "prompt": "Choose the correctly punctuated transition.",
+              "options": [
+                "It was costly, however it was useful.",
+                "It was costly; however, it was useful."
+              ],
+              "answers": [
+                "It was costly; however, it was useful."
+              ],
+              "explanation": "However does not itself join independent clauses with a comma.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "modifier-position",
+          "title": "Put a modifier beside its meaning",
+          "level": "B1",
+          "moduleId": "misplaced",
+          "category": "sentence",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in put a modifier beside its meaning.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "A modifier adds detail to another word or phrase. Its position tells readers what it describes. Put only near the word it limits. Put descriptive phrases beside the intended noun. An awkwardly placed phrase can accidentally describe a different person or object. Test a rewrite by asking who has the described quality. Several rewrites may be correct when they clearly preserve the intended meaning.",
+          "explanationBn": "",
+          "examples": [
+            "We served soup to the guests in blue bowls. This wrongly suggests guests in bowls.",
+            "We served soup in blue bowls to the guests. The bowls contain soup.",
+            "Only I reviewed the draft. Nobody else reviewed it.",
+            "I reviewed only the draft. I reviewed no other document."
+          ],
+          "incorrect": "She almost drove the children to school every day.",
+          "correct": "She drove the children to school almost every day. (The frequency is nearly every day.)",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "multiple-choice",
+              "prompt": "Which clearly describes the bag?",
+              "options": [
+                "I found a bag with a red strap.",
+                "With a red strap, I found a bag."
+              ],
+              "answers": [
+                "I found a bag with a red strap."
+              ],
+              "explanation": "The description sits beside bag.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "sentence-correction",
+              "prompt": "Rewrite to show that the cyclist, not the tree, has a helmet: We saw a cyclist beside a tree wearing a helmet.",
+              "options": [],
+              "answers": [],
+              "explanation": "Review the structure, accuracy and meaning rather than matching a fixed model.",
+              "rubric": [
+                "Task fulfilled with a clear meaning",
+                "Accurate grammar and punctuation for the level",
+                "Logical organization and appropriate vocabulary"
+              ],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "true-false",
+              "prompt": "Moving only can change the meaning of a statement.",
+              "options": [
+                "True",
+                "False"
+              ],
+              "answers": [
+                "True"
+              ],
+              "explanation": "Its position changes which element it limits.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "multiple-choice",
+              "prompt": "Choose the intended meaning of Only the editor changed the title.",
+              "options": [
+                "Nobody except the editor changed it.",
+                "The editor changed nothing except the title."
+              ],
+              "answers": [
+                "Nobody except the editor changed it."
+              ],
+              "explanation": "Only limits the subject the editor.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "dangling-subject",
+          "title": "Give introductory actions a clear subject",
+          "level": "B1",
+          "moduleId": "dangling",
+          "category": "sentence",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in give introductory actions a clear subject.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "An introductory modifying phrase usually describes the subject of the following main clause. If the subject cannot do the opening action, the phrase dangles. Name the actual doer immediately after the phrase, or rewrite the introduction as a full clause with its own subject. Check both grammar and logic. The purpose of a correction is to show who did what, rather than merely moving punctuation.",
+          "explanationBn": "",
+          "examples": [
+            "After checking the figures, the analyst sent the report. The analyst checked.",
+            "While walking home, I noticed a new café. I was walking.",
+            "After I checked the figures, the report was sent. The full opening clause names its doer."
+          ],
+          "incorrect": "Walking to class, the rain soaked my coat.",
+          "correct": "Walking to class, I got my coat wet in the rain.",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "multiple-choice",
+              "prompt": "Which opening has a logical subject?",
+              "options": [
+                "Reading the message, the phone rang.",
+                "Reading the message, I heard the phone ring."
+              ],
+              "answers": [
+                "Reading the message, I heard the phone ring."
+              ],
+              "explanation": "I can read the message; the phone cannot.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "sentence-correction",
+              "prompt": "Repair: After finishing the homework, the television was switched on. Name the person responsible.",
+              "options": [],
+              "answers": [],
+              "explanation": "Review the structure, accuracy and meaning rather than matching a fixed model.",
+              "rubric": [
+                "Task fulfilled with a clear meaning",
+                "Accurate grammar and punctuation for the level",
+                "Logical organization and appropriate vocabulary"
+              ],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "true-false",
+              "prompt": "Adding a comma alone always repairs a dangling modifier.",
+              "options": [
+                "True",
+                "False"
+              ],
+              "answers": [
+                "False"
+              ],
+              "explanation": "The relationship between phrase and subject needs repair.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "multiple-choice",
+              "prompt": "In After running, the athlete rested, who ran?",
+              "options": [
+                "The athlete",
+                "The rest"
+              ],
+              "answers": [
+                "The athlete"
+              ],
+              "explanation": "The opening phrase refers to the following subject.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "comma-six",
+          "title": "Six useful jobs for commas",
+          "level": "B1",
+          "moduleId": "commas",
+          "category": "punctuation",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in six useful jobs for commas.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "Commas separate items in a series; the final serial comma depends on style. They often follow introductory clauses or longer phrases. A pair encloses nonessential interrupting information. A comma normally precedes a coordinating conjunction joining two independent clauses. Speaker tags use commas with quoted statements. Everyday dates, addresses and greetings can also need commas, depending on layout and convention. Do not place a comma between a simple subject and its verb or use one alone to join two main clauses.",
+          "explanationBn": "",
+          "examples": [
+            "We packed pens, paper, and a notebook. A series.",
+            "After the meeting ended, we left. An introductory clause.",
+            "My bike, which is quite old, still works. A nonessential interruption.",
+            "I called, but nobody answered. Two complete clauses.",
+            "“I agree,” she said. A speech tag.",
+            "Dear Admissions Team, introduces a formal greeting in one common convention."
+          ],
+          "incorrect": "The student, writes daily.",
+          "correct": "The student writes daily.",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "multiple-choice",
+              "prompt": "Where does the comma belong?",
+              "options": [
+                "After we ate, we left.",
+                "After, we ate we left."
+              ],
+              "answers": [
+                "After we ate, we left."
+              ],
+              "explanation": "The comma follows the complete introductory clause.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "sentence-correction",
+              "prompt": "Add or remove commas as needed: The class which meets on Tuesdays is small. Assume there is only one class in this context and the timing is extra information.",
+              "options": [],
+              "answers": [],
+              "explanation": "Review the structure, accuracy and meaning rather than matching a fixed model.",
+              "rubric": [
+                "Task fulfilled with a clear meaning",
+                "Accurate grammar and punctuation for the level",
+                "Logical organization and appropriate vocabulary"
+              ],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "true-false",
+              "prompt": "A simple subject and its verb should normally be separated with a comma.",
+              "options": [
+                "True",
+                "False"
+              ],
+              "answers": [
+                "False"
+              ],
+              "explanation": "Do not split that basic grammatical connection.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "multiple-choice",
+              "prompt": "Choose the correctly joined clauses.",
+              "options": [
+                "I checked the form, and I signed it.",
+                "I checked the form, I signed it."
+              ],
+              "answers": [
+                "I checked the form, and I signed it."
+              ],
+              "explanation": "A comma plus and joins two independent clauses.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "formal-request",
+          "title": "A clear formal email or full-block letter",
+          "level": "B1",
+          "moduleId": "formal",
+          "category": "formal",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in a clear formal email or full-block letter.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "Choose a polite, direct tone and a useful subject line. A full-block letter aligns its parts to the left: date, receiver details, salutation, subject if used, opening, body, closing and signature. Separate paragraphs with space and keep normal margins. An email uses receiver and subject fields rather than duplicating the postal layout. Identify your purpose early, give relevant details and make a specific request. Use appropriate titles when known; a role-based greeting is suitable when a name is unknown. Prefer clear modern expressions to elaborate outdated formulas.",
+          "explanationBn": "",
+          "examples": [
+            "Subject: Request for a project meeting. Dear Project Coordinator, I am writing to request a meeting about my draft.",
+            "Could we meet on Tuesday afternoon? I can also attend at a time that suits you.",
+            "Thank you for considering my request. Kind regards, [Your name]. Brackets here mark a field you must replace."
+          ],
+          "incorrect": "Hey, send me the details now.",
+          "correct": "Dear Programme Team, Could you please send the application details?",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "multiple-choice",
+              "prompt": "Which opening states a clear formal purpose?",
+              "options": [
+                "I am writing to request an appointment.",
+                "Hey, got a minute?"
+              ],
+              "answers": [
+                "I am writing to request an appointment."
+              ],
+              "explanation": "It is polite and directly states the purpose.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "guided-writing",
+              "prompt": "Write a formal email requesting an appointment. Include a subject, greeting, purpose, two possible times, polite closing and your signature.",
+              "options": [],
+              "answers": [],
+              "explanation": "Review the structure, accuracy and meaning rather than matching a fixed model.",
+              "rubric": [
+                "Task fulfilled with a clear meaning",
+                "Accurate grammar and punctuation for the level",
+                "Logical organization and appropriate vocabulary"
+              ],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "multiple-choice",
+              "prompt": "In full-block letter format, paragraphs are generally aligned…",
+              "options": [
+                "to the left",
+                "alternately left and right"
+              ],
+              "answers": [
+                "to the left"
+              ],
+              "explanation": "Full-block format aligns letter elements to the left.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "guided-writing",
+              "prompt": "Write a professional letter requesting information about a training programme. Give a clear reason and two specific questions.",
+              "options": [],
+              "answers": [],
+              "explanation": "Review the structure, accuracy and meaning rather than matching a fixed model.",
+              "rubric": [
+                "Task fulfilled with a clear meaning",
+                "Accurate grammar and punctuation for the level",
+                "Logical organization and appropriate vocabulary"
+              ],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "formal-explanations",
+          "title": "Permission, absence and academic requests",
+          "level": "B1",
+          "moduleId": "formal",
+          "category": "formal",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in permission, absence and academic requests.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "A request should identify the action you want, explain why it is reasonable and supply enough information for a decision. For an absence, state the relevant date and give a concise explanation without unnecessary private detail. Acknowledge missed work and propose a practical next step. For permission, specify what, when and for how long. In an academic email, use a meaningful subject line and avoid text-message abbreviations or demands. Check dates, attachments and tone before sending.",
+          "explanationBn": "",
+          "examples": [
+            "Subject: Permission to use the meeting room. I would like to reserve the room from 2 pm to 3 pm on Thursday for a group discussion.",
+            "I was unable to attend the session on Monday because I was unwell. Could you advise me how to catch up on the work?",
+            "I have attached my outline. Could you please confirm whether the proposed topic is suitable?"
+          ],
+          "incorrect": "I missed it. Tell me everything.",
+          "correct": "I missed Monday’s session. Could you please tell me which tasks I should complete?",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "multiple-choice",
+              "prompt": "What helps a permission request?",
+              "options": [
+                "A precise activity and time",
+                "A demand without context"
+              ],
+              "answers": [
+                "A precise activity and time"
+              ],
+              "explanation": "Specific information allows the recipient to decide.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "guided-writing",
+              "prompt": "Write an academic email explaining an absence and proposing a plan to catch up.",
+              "options": [],
+              "answers": [],
+              "explanation": "Review the structure, accuracy and meaning rather than matching a fixed model.",
+              "rubric": [
+                "Task fulfilled with a clear meaning",
+                "Accurate grammar and punctuation for the level",
+                "Logical organization and appropriate vocabulary"
+              ],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "multiple-choice",
+              "prompt": "Which sentence is professional?",
+              "options": [
+                "Plz approve asap.",
+                "Could you please consider my request by Friday?"
+              ],
+              "answers": [
+                "Could you please consider my request by Friday?"
+              ],
+              "explanation": "The wording is polite and gives a clear date.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "guided-writing",
+              "prompt": "Request permission to run a short study group. Explain its purpose, proposed place and time, and one responsibility you will accept.",
+              "options": [],
+              "answers": [],
+              "explanation": "Review the structure, accuracy and meaning rather than matching a fixed model.",
+              "rubric": [
+                "Task fulfilled with a clear meaning",
+                "Accurate grammar and punctuation for the level",
+                "Logical organization and appropriate vocabulary"
+              ],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "inversion-agreement",
+          "title": "Agreement with inversion and either/or",
+          "level": "B1",
+          "moduleId": "agreement",
+          "category": "grammar",
+          "status": "draft",
+          "objectives": [],
+          "explanation": "",
+          "explanationBn": "",
+          "examples": [],
+          "incorrect": "",
+          "correct": "",
+          "media": [],
+          "guided": [],
+          "independent": [],
+          "quiz": [],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "quotation-titles",
+          "title": "Short-work titles and embedded quotations",
+          "level": "B1",
+          "moduleId": "quotations",
+          "category": "punctuation",
+          "status": "draft",
+          "objectives": [],
+          "explanation": "",
+          "explanationBn": "",
+          "examples": [],
+          "incorrect": "",
+          "correct": "",
+          "media": [],
+          "guided": [],
+          "independent": [],
+          "quiz": [],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "punctuation-range",
+          "title": "Colons, semicolons, dashes and brackets",
+          "level": "B2",
+          "moduleId": "punctuation",
+          "category": "punctuation",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in colons, semicolons, dashes and brackets.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "A colon can introduce a list or explanation after a complete clause. A semicolon can join closely related independent clauses, and can separate complex list items containing commas. A dash can mark a strong interruption or explanation; parentheses enclose less central information. A hyphen joins elements within some compound words and compound modifiers, especially before a noun. Do not treat a hyphen as a sentence-level dash. Select punctuation for the relationship you intend, and avoid adding marks without a grammatical purpose.",
+          "explanationBn": "",
+          "examples": [
+            "We need three items: a pen, a ruler, and paper. The colon follows a complete clause.",
+            "The first plan failed; the second worked. Related independent clauses.",
+            "The report (attached below) explains the change. Extra information.",
+            "A well-planned route saves time. The hyphen joins a modifier before a noun."
+          ],
+          "incorrect": "The items include: pens and paper.",
+          "correct": "The items include pens and paper.",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "multiple-choice",
+              "prompt": "Choose a mark connecting two related independent clauses.",
+              "options": [
+                "Hyphen",
+                "Semicolon"
+              ],
+              "answers": [
+                "Semicolon"
+              ],
+              "explanation": "A semicolon can make this connection without a conjunction.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "sentence-construction",
+              "prompt": "Use a colon to introduce a list after a complete clause. Write your own sentence.",
+              "options": [],
+              "answers": [],
+              "explanation": "Review the structure, accuracy and meaning rather than matching a fixed model.",
+              "rubric": [
+                "Task fulfilled with a clear meaning",
+                "Accurate grammar and punctuation for the level",
+                "Logical organization and appropriate vocabulary"
+              ],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "multiple-choice",
+              "prompt": "Choose the compound modifier before a noun.",
+              "options": [
+                "a well planned route",
+                "a well-planned route"
+              ],
+              "answers": [
+                "a well-planned route"
+              ],
+              "explanation": "A hyphen helps group the modifier.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "true-false",
+              "prompt": "A hyphen and a dash always do the same job.",
+              "options": [
+                "True",
+                "False"
+              ],
+              "answers": [
+                "False"
+              ],
+              "explanation": "A hyphen works within words or word groups; a dash works at sentence level.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "thesis-evidence",
+          "title": "A position supported by reasons",
+          "level": "B2",
+          "moduleId": "academic",
+          "category": "academic",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in a position supported by reasons.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "An academic argument links a claim to reasons and relevant evidence. A thesis states the essay’s controlling position, rather than merely announcing a topic. A useful thesis is specific enough to discuss and defensible with reasons. Distinguish opinion from evidence and ask whether a source, comparison or example really supports the claim. Avoid inventing statistics. Acknowledge uncertainty when evidence is limited and express disagreement courteously. Shared goals can establish common ground before viewpoints diverge.",
+          "explanationBn": "",
+          "examples": [
+            "Topic only: Public libraries. Position: Public libraries should extend weekend hours to support working learners.",
+            "Reason: Some learners cannot attend on weekdays. Possible evidence to seek: actual opening hours and a survey of local users.",
+            "Weak: This essay discusses transport. Stronger: The city should prioritize reliable buses before expanding central parking."
+          ],
+          "incorrect": "Everyone knows longer opening hours always improve results.",
+          "correct": "Longer opening hours may improve access for learners who work on weekdays; local demand should be investigated.",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "multiple-choice",
+              "prompt": "Which is a defensible thesis?",
+              "options": [
+                "Education is a topic.",
+                "Schools should provide quiet study rooms because some learners lack space at home."
+              ],
+              "answers": [
+                "Schools should provide quiet study rooms because some learners lack space at home."
+              ],
+              "explanation": "It takes a position and gives a reason.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "short-answer",
+              "prompt": "Choose a local education issue. Write a thesis, one reason and the kind of evidence you would seek. Do not invent a study.",
+              "options": [],
+              "answers": [],
+              "explanation": "Review the structure, accuracy and meaning rather than matching a fixed model.",
+              "rubric": [
+                "Task fulfilled with a clear meaning",
+                "Accurate grammar and punctuation for the level",
+                "Logical organization and appropriate vocabulary"
+              ],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "multiple-choice",
+              "prompt": "What should evidence do?",
+              "options": [
+                "Support the specific claim",
+                "Simply make a paragraph longer"
+              ],
+              "answers": [
+                "Support the specific claim"
+              ],
+              "explanation": "Relevance matters more than length.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "sentence-transformation",
+              "prompt": "Improve this weak thesis: This essay is about online learning. State a clear, limited position.",
+              "options": [],
+              "answers": [],
+              "explanation": "Review the structure, accuracy and meaning rather than matching a fixed model.",
+              "rubric": [
+                "Task fulfilled with a clear meaning",
+                "Accurate grammar and punctuation for the level",
+                "Logical organization and appropriate vocabulary"
+              ],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "essay-structure",
+          "title": "From introduction to conclusion",
+          "level": "B2",
+          "moduleId": "academic",
+          "category": "academic",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in from introduction to conclusion.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "An introduction uses a relevant opening, gives enough background and states the thesis. Each body paragraph develops a focused point, often signalled by a topic sentence, then supports it with explanation and appropriate examples or evidence. A counterargument represents a reasonable opposing view fairly. A response or refutation explains why your position still holds, perhaps with a qualification. The conclusion brings the reasoning together, restates the thesis in fresh language and may offer a justified suggestion. It should not introduce an unrelated major argument.",
+          "explanationBn": "",
+          "examples": [
+            "Opening: Many commuters depend on buses each day. Background: Services on the outer routes are infrequent. Thesis: Improving reliability should be the first transport priority.",
+            "Topic sentence: Reliable buses help workers plan their journeys. Explanation: Predictable arrivals reduce uncertainty. Evidence to collect: measured waiting times.",
+            "Conclusion idea: Prioritizing reliability would make existing services more useful; a small trial could test the proposal."
+          ],
+          "incorrect": "Public transport matters. Another unrelated fact is that oceans are deep.",
+          "correct": "Public transport matters because reliable services connect residents to daily work and study.",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "multiple-choice",
+              "prompt": "What belongs at the centre of a body paragraph?",
+              "options": [
+                "One developed main point",
+                "Several unrelated announcements"
+              ],
+              "answers": [
+                "One developed main point"
+              ],
+              "explanation": "A clear focus helps the argument develop.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "sentence-ordering",
+              "prompt": "Write the letters in a logical paragraph order, separated by spaces: A = relevant support; B = topic sentence; C = explanation of support.",
+              "options": [],
+              "answers": [
+                "B A C"
+              ],
+              "explanation": "State the point, supply support, then explain its relevance.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "multiple-choice",
+              "prompt": "A conclusion should normally…",
+              "options": [
+                "synthesize the reasoning",
+                "introduce a major unrelated claim"
+              ],
+              "answers": [
+                "synthesize the reasoning"
+              ],
+              "explanation": "It closes the existing argument.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "guided-writing",
+              "prompt": "Outline an essay about improving a shared study space: introduction, two body points, a counterargument and a conclusion.",
+              "options": [],
+              "answers": [],
+              "explanation": "Review the structure, accuracy and meaning rather than matching a fixed model.",
+              "rubric": [
+                "Task fulfilled with a clear meaning",
+                "Accurate grammar and punctuation for the level",
+                "Logical organization and appropriate vocabulary"
+              ],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "balanced-argument",
+          "title": "Counterarguments, refutation and revision",
+          "level": "B2",
+          "moduleId": "argument",
+          "category": "argument",
+          "status": "published",
+          "objectives": [
+            "Recognize the main patterns in counterarguments, refutation and revision.",
+            "Apply these patterns to a fresh example and explain a correction."
+          ],
+          "explanation": "Plan an argumentative essay by selecting a focused topic, brainstorming reasons and objections, and grouping related ideas. Represent a serious opposing view fairly. A refutation responds with reasoning or evidence instead of insulting its supporters. Sometimes qualifying your original position is more convincing than rejecting every objection. Revise first for structure, missing evidence and paragraph order; then edit grammar, vocabulary, spelling and punctuation. A finished argument should make clear what you claim, why, what an informed reader might object to and how you respond.",
+          "explanationBn": "",
+          "examples": [
+            "Claim: A shared study room should remain open later. Reason: Evening learners need a quiet place.",
+            "Objection: Longer hours may raise staffing costs. Fair response: Begin with two evenings and evaluate actual demand and cost.",
+            "Revision question: Does each paragraph advance the thesis, and is each factual claim supported?"
+          ],
+          "incorrect": "Anyone who disagrees is foolish.",
+          "correct": "Some readers may worry about cost; a limited trial could establish whether the benefit justifies it.",
+          "media": [],
+          "guided": [
+            {
+              "id": "guided-1",
+              "type": "multiple-choice",
+              "prompt": "Which response engages with the opposing view?",
+              "options": [
+                "Dismiss its supporters.",
+                "Address its strongest relevant reason."
+              ],
+              "answers": [
+                "Address its strongest relevant reason."
+              ],
+              "explanation": "A respectful response tests the actual argument.",
+              "rubric": [],
+              "caseSensitive": false
+            }
+          ],
+          "independent": [
+            {
+              "id": "independent-1",
+              "type": "short-answer",
+              "prompt": "Write a short argument for a change in your community. Include a reason, a fair objection and a reasoned response.",
+              "options": [],
+              "answers": [],
+              "explanation": "Review the structure, accuracy and meaning rather than matching a fixed model.",
+              "rubric": [
+                "Task fulfilled with a clear meaning",
+                "Accurate grammar and punctuation for the level",
+                "Logical organization and appropriate vocabulary"
+              ],
+              "caseSensitive": false
+            }
+          ],
+          "quiz": [
+            {
+              "id": "quiz-1",
+              "type": "multiple-choice",
+              "prompt": "What should you revise before proofreading commas?",
+              "options": [
+                "The logic and paragraph structure",
+                "Only the font"
+              ],
+              "answers": [
+                "The logic and paragraph structure"
+              ],
+              "explanation": "Structural revision comes before small surface edits.",
+              "rubric": [],
+              "caseSensitive": false
+            },
+            {
+              "id": "quiz-2",
+              "type": "essay",
+              "prompt": "Write an original argumentative essay on whether shared study spaces should open later. Include a clear thesis, developed reasons, relevant examples, a counterargument, a response and a conclusion. Do not invent research findings.",
+              "options": [],
+              "answers": [],
+              "explanation": "Review the structure, accuracy and meaning rather than matching a fixed model.",
+              "rubric": [
+                "Task fulfilled with a clear meaning",
+                "Accurate grammar and punctuation for the level",
+                "Logical organization and appropriate vocabulary"
+              ],
+              "caseSensitive": false
+            }
+          ],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "sentence-variety",
+          "title": "Advanced sentence combination workshop",
+          "level": "B2",
+          "moduleId": "sentences",
+          "category": "sentence",
+          "status": "draft",
+          "objectives": [],
+          "explanation": "",
+          "explanationBn": "",
+          "examples": [],
+          "incorrect": "",
+          "correct": "",
+          "media": [],
+          "guided": [],
+          "independent": [],
+          "quiz": [],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "comma-editing",
+          "title": "Extended paragraph comma editing",
+          "level": "B2",
+          "moduleId": "commas",
+          "category": "punctuation",
+          "status": "draft",
+          "objectives": [],
+          "explanation": "",
+          "explanationBn": "",
+          "examples": [],
+          "incorrect": "",
+          "correct": "",
+          "media": [],
+          "guided": [],
+          "independent": [],
+          "quiz": [],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        },
+        {
+          "id": "academic-evidence",
+          "title": "Evaluating source reliability in depth",
+          "level": "B2",
+          "moduleId": "academic",
+          "category": "academic",
+          "status": "draft",
+          "objectives": [],
+          "explanation": "",
+          "explanationBn": "",
+          "examples": [],
+          "incorrect": "",
+          "correct": "",
+          "media": [],
+          "guided": [],
+          "independent": [],
+          "quiz": [],
+          "passingScore": 75,
+          "attemptLimit": 0,
+          "questionLimit": 0
+        }
+      ]
+    }
+  ]
+}
