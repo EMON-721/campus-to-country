@@ -32,7 +32,7 @@ The documented Next.js build-cache switch is disabled because repeated builds re
 
 Do not add `output: 'export'`: account cookies, private documents, admin writes, payments and other API routes need a server. Do not set `distDir`, an asset prefix, a custom Vite loader or a fake routes manifest. `next build` produces `.next/routes-manifest.json` naturally. Current assets use ordinary image tags/local public assets; no remote image host configuration is needed. If adopting `next/image` for a new remote host later, add a narrow `images.remotePatterns` entry.
 
-`vercel.json` selects the `nextjs` framework only. `proxy.ts` replaces Next.js's deprecated `middleware.ts` convention while preserving its action/module checks. Proxy authorization passes the incoming Request explicitly to `admin(request)`; normal route handlers continue using Next.js cookies in their request scope. `tsconfig.json` drops Cloudflare ambient types and excludes archived deployment/reference sources from application compilation.
+`vercel.json` selects the `nextjs` framework and pins `outputDirectory` to `.next`, overriding any stale dashboard value such as `dist/client`. This is the real standard Next.js build directory; no manifest or static export is fabricated. `proxy.ts` replaces Next.js's deprecated `middleware.ts` convention while preserving its action/module checks. Proxy authorization passes the incoming Request explicitly to `admin(request)`; normal route handlers continue using Next.js cookies in their request scope. `tsconfig.json` drops Cloudflare ambient types and excludes archived deployment/reference sources from application compilation.
 
 ## 2. Database: preserve SQLite semantics
 
@@ -106,7 +106,7 @@ Import `EMON-721/campus-to-country` into a personal Vercel Hobby project:
 - Root Directory: repository root (`.`).
 - Build Command: default (`npm run build`).
 - Install Command: default, or `npm ci` with the committed npm lockfile.
-- Output Directory: **leave the override OFF**; never set `dist`, `dist/server`, `out` or `.vercel/output`.
+- Output Directory in the dashboard: **leave the override OFF**. The repository now explicitly sets `.next` to override the legacy `dist/client` value. Never use `dist`, `dist/client`, `dist/server`, `out` or `.vercel/output` for this standard Next.js app.
 - Node.js: **22.x**.
 - Add environment variables above.
 - Redeploy with the old build cache disabled once after changing frameworks.
@@ -134,3 +134,9 @@ Local adapter tests do not prove a live provider integration or transfer existin
 - The npm lockfile passed `npm ci --dry-run`. No Cloudflare packages or runtime bindings are needed by the active application.
 - `npm start` smoke check: `/` and `/admin` returned 200 with the existing brand; private Workspace files returned 401 without login. An unconfigured catalogue API returned a controlled 503 requiring Supabase environment variables, without attempting Cloudflare provisioning.
 - No production data migration or Vercel release has been initiated.
+
+### Fix for deployment email: output directory `dist/client` not found
+
+The deployment reached the Next.js output check but inherited the previous Vite/Vinext output path from Vercel Project Settings. The root `vercel.json` now contains `"framework": "nextjs"` and `"outputDirectory": ".next"`, which takes precedence over the dashboard output directory. Deploy the new commit rather than redeploying the old `2483a64` snapshot. If automatic deployment is disabled, choose the latest `main` commit in Vercel and redeploy. Turning off the dashboard's old Output Directory override is also recommended.
+
+The connected Vercel account returned 403 for the `emon-grad-track` team during diagnosis, so live deployment status could not be verified from this connection. Repository configuration was corrected without changing account access, credentials, runtime data or the existing application build.
