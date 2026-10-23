@@ -1,5 +1,7 @@
+import type {SqlDatabase,SqlStatement} from '@/lib/sql-database';
+import type {ObjectStorage} from '@/lib/object-storage';
 import {APIError,provider} from './backend';
-export async function deleteApplicant({database,bucket,actor,token,target,reason,confirmation}:{database:D1Database;bucket:R2Bucket;actor:string;token:string;target:string;reason:string;confirmation:string}){
+export async function deleteApplicant({database,bucket,actor,token,target,reason,confirmation}:{database:SqlDatabase;bucket:ObjectStorage;actor:string;token:string;target:string;reason:string;confirmation:string}){
  if(!/^[a-f0-9-]{36}$/i.test(target)||reason.trim().length<3||reason.length>1000||confirmation!=='DELETE '+target)throw new APIError(400,'Type DELETE followed by the exact account ID');
  if(actor===target)throw new APIError(409,'Choose an applicant account');
  const body={user_id:target,reason,confirmation};

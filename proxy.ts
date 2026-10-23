@@ -1,0 +1,8 @@
+import {blockedAction} from '@/lib/site-customization';
+import {demoBlocksRequest} from '@/lib/site-notice';
+import {NextResponse} from 'next/server';
+import {readSiteSettings} from '@/lib/site-settings-server';
+import {disabledPage} from '@/lib/site-settings';
+import {admin} from '@/lib/backend';
+export async function proxy(req:Request){const path=new URL(req.url).pathname;if(!path.startsWith('/api/v1/'))return NextResponse.next();const demo=await readSiteSettings();const rule=blockedAction(demo.settings.customization.actionRules,path,req.method);if(rule){try{await admin(req)}catch{return Response.json({error:rule.message||'This action is paused by the administrator.'},{status:423,headers:{'Cache-Control':'no-store'}})}}if(demo.settings.notice.demoOnly&&(demoBlocksRequest(path,req.method))){try{await admin(req)}catch{return Response.json({error:'Demo preview only. Account creation and user actions are temporarily unavailable.'},{status:423,headers:{'Cache-Control':'no-store'}})}}if(/\/admin(?:\/|$)/.test(path)||path.startsWith('/api/v1/auth')||path.startsWith('/api/v1/account')||path.includes('/payments/callback'))return NextResponse.next();const module=path.startsWith('/api/v1/bank/')?'/visafund':path.startsWith('/api/v1/mentorship')?'/counseling':path.startsWith('/api/v1/library')||path.startsWith('/api/v1/timer')?'/ielts':path.startsWith('/api/v1/workspace')||path.startsWith('/api/v1/records')?'/applicant/dashboard':null;if(module){const {settings}=await readSiteSettings();const message=disabledPage(settings,module);if(message){try{await admin(req)}catch{return Response.json({error:message},{status:423,headers:{'Cache-Control':'no-store'}})}}}return NextResponse.next()}
+export const config={matcher:'/api/v1/:path*'};

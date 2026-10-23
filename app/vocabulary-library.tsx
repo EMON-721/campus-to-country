@@ -1,5 +1,5 @@
-import {EnglishMeaning,EnglishVocabularyQuiz,resolveEnglishMeaning} from './english-meaning';
 'use client';
+import {EnglishMeaning,EnglishVocabularyQuiz,resolveEnglishMeaning} from './english-meaning';
 import {LearningPublicFiles} from './learning-public-files';
 import {useEffect,useState,useRef} from 'react';
 import type {Store} from './platform';

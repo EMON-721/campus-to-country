@@ -1,4 +1,5 @@
 'use client';
+import {uploadFetch} from '@/lib/upload-client';
 import {useSiteSettings} from './site-settings-context';
 import {useEffect,useState,type ReactNode} from 'react';
 import type {Store} from './platform';

@@ -1,7 +1,7 @@
-import {env} from 'cloudflare:workers';
+import {database as datastore} from '@/lib/server-runtime';
 import {APIError} from './backend';
 import {vaultCategories} from './vault-categories';
-function database(){if(!env.DB)throw new APIError(503,'Private document storage unavailable');return env.DB}
+function database(){if(!datastore)throw new APIError(503,'Private document storage unavailable');return datastore}
 export type DocumentMeta={owner:string;category:string;archived:boolean;previousVersion?:string};
 export async function documentMeta(owner:string,id:string):Promise<DocumentMeta>{
  const row=await database().prepare("SELECT body FROM platform_content WHERE id=? AND kind='workspace-document-meta'").bind('vault:'+id).first<{body:string}>();

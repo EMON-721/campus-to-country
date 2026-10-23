@@ -1,4 +1,5 @@
 'use client';
+import {uploadFetch} from '@/lib/upload-client';
 import {vaultCategories} from '@/lib/vault-categories';
 import {adminFetch} from '@/lib/admin-client';
 import {useEffect,useState} from 'react';

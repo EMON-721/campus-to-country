@@ -1,4 +1,4 @@
-import {env} from 'cloudflare:workers';
+import {database,objects} from '@/lib/server-runtime';
 import {provider,APIError} from './backend';
 import {duplicateApplication} from './student-journey';
 import type {RecordRow} from './domain';
@@ -8,13 +8,13 @@ export async function ownerRecords(owner:string,token:string,adminScope=false){
 }
 export async function validateWorkspaceLinks(owner:string,token:string,kind:string,p:any,id:string,adminScope=false){
  const documents=[...new Set([...(p.documentIds||[]),...(p.attachments||[]).map((f:any)=>f.id)])];
- for(const file of documents){if(!env.DB)throw new APIError(503,'Private document storage unavailable');if(!await env.DB.prepare("SELECT id FROM workspace_documents WHERE id=? AND owner=? AND scope='ielts'").bind(file,owner).first())throw new APIError(400,'Linked documents must belong to this applicant')}
+ for(const file of documents){if(!database)throw new APIError(503,'Private document storage unavailable');if(!await database.prepare("SELECT id FROM workspace_documents WHERE id=? AND owner=? AND scope='ielts'").bind(file,owner).first())throw new APIError(400,'Linked documents must belong to this applicant')}
  const needed=Boolean(p.applicationId||p.shortlistId||p.scholarshipIds?.length||p.sourceKind&&p.sourceKind!=='mentorship'||kind==='application');
  if(needed){const rows=await ownerRecords(owner,token,adminScope);const check=(ref:string|undefined,expected:string)=>{if(ref&&!rows.some(r=>r.id===ref&&r.kind===expected))throw new APIError(400,'Choose a related record belonging to this applicant')};check(p.applicationId,'application');check(p.shortlistId,'shortlist');for(const ref of p.scholarshipIds||[])if(!rows.some(r=>r.id===ref&&r.kind==='shortlist'&&r.payload.recordType==='scholarship'))throw new APIError(400,'Choose a saved scholarship belonging to this applicant');if(p.sourceKind&&p.sourceKind!=='mentorship')check(p.sourceId,p.sourceKind);if(kind==='application'&&duplicateApplication(rows,p,id)&&!p.duplicateAcknowledged)throw new APIError(409,'An application for this programme and intake already exists. Confirm an intentional duplicate.');}
  // A calendar event may refer only to its owner's actual mentorship booking.
  if(p.sourceKind==='mentorship'){
   if(!p.sourceId)throw new APIError(400,'Choose your own mentorship booking');
-  const booking=env.DB?await env.DB.prepare('SELECT b.id,b.status,s.title,s.start,s.end,s.timezone FROM mentorship_bookings b JOIN mentorship_slots s ON s.id=b.slot_id WHERE b.id=? AND b.owner=?').bind(p.sourceId,owner).first<any>():null;
+  const booking=database?await database.prepare('SELECT b.id,b.status,s.title,s.start,s.end,s.timezone FROM mentorship_bookings b JOIN mentorship_slots s ON s.id=b.slot_id WHERE b.id=? AND b.owner=?').bind(p.sourceId,owner).first<any>():null;
   if(!booking)throw new APIError(400,'Choose your own mentorship booking');
   Object.assign(p,{title:booking.title,start:booking.start,end:booking.end,timezone:booking.timezone,category:'Counseling',status:booking.status==='Completed'?'Completed':['Canceled','Rejected'].includes(booking.status)?'Canceled':'Planned',notes:'Mentorship service status: '+booking.status+(booking.status==='Pending'?' — provisional, awaiting approval.':'.'),link:'/counseling/my-bookings',recurrence:'none',overrides:[],excludedDates:[]});
  }

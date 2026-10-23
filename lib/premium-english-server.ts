@@ -1,11 +1,11 @@
 // Imported only by server routes. Lesson bodies and answer keys never enter the client bundle.
-import {env} from 'cloudflare:workers';
+import {database,objects} from '@/lib/server-runtime';
 import {APIError,admin,identity,provider} from './backend';
 import seed from './premium-english-content.json';
 import {readSiteSettings} from './site-settings-server';
 import {upgradeAcademyConfig,overlayLegacy} from './premium-academy-compat';
 import {premiumConfigSchema,membershipAllows,gradeQuestion,publicLesson,publishedLessons,matchesLesson,type PremiumConfig,type PremiumCourse,type PremiumLesson} from './premium-english';
-export const premiumDB=()=>{if(!env.DB)throw new APIError(503,'Premium learning storage is unavailable');return env.DB};
+export const premiumDB=()=>{if(!database)throw new APIError(503,'Premium learning storage is unavailable');return database};
 export async function legacyOverrides(token?:string){const local=(await premiumDB().prepare("SELECT title,body,updated FROM platform_content WHERE kind='learning-entry' AND status='published' AND title LIKE 'premium/%' ORDER BY updated DESC").all<{title:string;body:string;updated:string}>()).results;const remote=token?await provider('/rest/v1/ctc_content?section=eq.%40library%2Fpremium&published=eq.true','GET',undefined,token):[];const seen=new Set<string>(),items:any[]=[];for(const r of [...local,...remote]){try{const item=JSON.parse(r.body),id=r.title.startsWith('premium/')?r.title.slice(8):r.title;if(item.id!==id||seen.has(id))continue;seen.add(id);items.push(item);}catch{}}return items;}
 export async function readPremium(token?:string){const row=await premiumDB().prepare("SELECT body,updated FROM platform_content WHERE id='premium-english-config' AND kind='premium-config'").first<{body:string;updated:string}>();const stored=row?JSON.parse(row.body):null;const config=premiumConfigSchema.parse(upgradeAcademyConfig(stored?.config||stored||structuredClone(seed))),overrides=await legacyOverrides(token);overlayLegacy(config,overrides);const sourceRevision=stored?.revision||row?.updated||'seed',digest=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(JSON.stringify([...overrides].sort((a,b)=>a.id.localeCompare(b.id))))),hash=Array.from(new Uint8Array(digest)).map(x=>x.toString(16).padStart(2,'0')).join('');return {config:premiumConfigSchema.parse(config),sourceRevision,revision:sourceRevision+'~'+hash};}
 export async function legacyPolicy(){return (await readSiteSettings()).settings.customization.learning.premiumAccess;}

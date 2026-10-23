@@ -1,8 +1,8 @@
-import {env} from 'cloudflare:workers';
+import {database,objects} from '@/lib/server-runtime';
 import {identity,admin,sameOrigin,failure,APIError} from '@/lib/backend';
 import {z} from 'zod';
 export const dynamic='force-dynamic';
-function db(){if(!env.DB)throw new APIError(503,'Message storage unavailable');return env.DB}
+function db(){if(!database)throw new APIError(503,'Message storage unavailable');return database}
 const json=(data:unknown)=>Response.json(data,{headers:{'Cache-Control':'no-store'}});
 async function hash(value:string){return Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(value)))).map(v=>v.toString(16).padStart(2,'0')).join('')}
 async function viewer(req:Request){if(/(?:^|;\s*)ctc_access=/.test(req.headers.get('cookie')||''))return (await identity()).user;return null}
