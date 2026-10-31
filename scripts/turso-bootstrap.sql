@@ -1,6 +1,7 @@
 -- Campus to Country: bootstrap for the new empty Turso database.
 -- Creates schema only; does not import previous records or grant admin access.
-BEGIN TRANSACTION;
+-- Dashboard consoles may execute each statement on a separate connection.
+-- Do not add BEGIN/COMMIT wrappers; each statement is safe to rerun.
 CREATE TABLE IF NOT EXISTS ctc_schema_migrations(name TEXT PRIMARY KEY, applied TEXT NOT NULL);
 
 -- 0000_purple_blizzard.sql
@@ -260,4 +261,3 @@ CREATE UNIQUE INDEX IF NOT EXISTS `premium_membership_owner_course` ON `records`
 CREATE UNIQUE INDEX IF NOT EXISTS `premium_enrollment_owner_course` ON `records` (`owner`,json_extract("data", '$.courseId')) WHERE "kind" = 'premium-enrollment';
 
 INSERT OR IGNORE INTO ctc_schema_migrations(name,applied) VALUES ('0004_nasty_shotgun.sql',strftime('%Y-%m-%dT%H:%M:%fZ','now'));
-COMMIT;
