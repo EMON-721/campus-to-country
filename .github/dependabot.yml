@@ -15,6 +15,9 @@ updates:
           - "tailwindcss"
           - "@tailwindcss/*"
     ignore:
+      # Next lint plugins do not yet support ESLint 10.
+      - dependency-name: eslint
+        update-types: ["version-update:semver-major"]
       # Compiler API migration requires a dedicated upgrade of the test harness.
       - dependency-name: typescript
         update-types: ["version-update:semver-major"]
