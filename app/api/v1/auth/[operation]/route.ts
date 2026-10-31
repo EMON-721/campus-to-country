@@ -1,9 +1,10 @@
+import {readAuthInput,limitAuthAttempt,accessCookieOptions,refreshCookieOptions} from '@/lib/auth-security';
 import {readSiteSettings} from '@/lib/site-settings-server';
 import {cookies} from "next/headers";
 import {provider,identity,sameOrigin,failure,APIError} from "@/lib/backend";
 export const dynamic="force-dynamic";
 export async function GET(){try{const {user}=await identity(true);return Response.json({user:{id:user.id,email:user.email}},{headers:{"Cache-Control":"no-store"}})}catch(e){return failure(e)}}
-export async function POST(req:Request,{params}:{params:Promise<{operation:string}>}){try{sameOrigin(req);const {operation}=await params;const body:any=await req.json(),jar=await cookies();const put=(data:any)=>{if(data?.access_token){jar.set("ctc_access",data.access_token,{httpOnly:true,secure:true,sameSite:"lax",path:"/",maxAge:Math.min(data.expires_in||3600,3600)});jar.set("ctc_refresh",data.refresh_token,{httpOnly:true,secure:true,sameSite:"strict",path:"/api/v1/auth",maxAge:604800})}};
+export async function POST(req:Request,{params}:{params:Promise<{operation:string}>}){try{sameOrigin(req);const {operation}=await params;const body:any=await readAuthInput(req);await limitAuthAttempt(req,operation,body);const jar=await cookies();const put=(data:any)=>{if(data?.access_token){jar.set("ctc_access",data.access_token,accessCookieOptions(data.expires_in));jar.set("ctc_refresh",data.refresh_token,refreshCookieOptions)}};
  if(operation==="mfa-info"||operation==="mfa-verify"||operation==="mfa-enroll"){
  const {user,token}=await identity();const roles=await provider("/rest/v1/ctc_admins?user_id=eq."+encodeURIComponent(user.id),"GET",undefined,token);if(!roles?.length)throw new APIError(403,"Administrator role required");const factors=(user.factors||[]).filter((f:any)=>f.status==="verified"&&f.factor_type==="totp");
  if(operation==="mfa-info")return Response.json({factors:factors.map((f:any)=>({id:f.id,name:f.friendly_name||"Authenticator"}))},{headers:{"Cache-Control":"no-store"}});
@@ -22,7 +23,7 @@ export async function POST(req:Request,{params}:{params:Promise<{operation:strin
  const claims=JSON.parse(atob(token.split('.')[1].replace(/-/g,'+').replace(/_/g,'/')));if((user.factors||[]).some((f:any)=>f.status==='verified')&&claims.aal!=='aal2')throw new APIError(403,"Complete your enrolled MFA verification before setting the password");
  await provider('/auth/v1/user','PUT',{password:body.password},token);return Response.json({ok:true});
  }
- if(operation==="logout"){const token=jar.get("ctc_access")?.value;if(token)await provider("/auth/v1/logout","POST",{},token);jar.delete("ctc_access");jar.delete("ctc_refresh");return Response.json({ok:true})}
+ if(operation==="logout"){const token=jar.get("ctc_access")?.value;try{if(token)await provider("/auth/v1/logout","POST",{},token)}finally{jar.set("ctc_access","",{...accessCookieOptions(1),maxAge:0});jar.set("ctc_refresh","",{...refreshCookieOptions,maxAge:0})}return Response.json({ok:true})}
  if(operation==="refresh"){const token=jar.get("ctc_refresh")?.value;if(!token)throw new APIError(401,"Please sign in again");const data=await provider("/auth/v1/token?grant_type=refresh_token","POST",{refresh_token:token});put(data);return Response.json({ok:true})}
  if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(body.email||""))throw new APIError(400,"Enter a valid email address");
  if(operation==="recover"){await provider("/auth/v1/recover","POST",{email:body.email});return Response.json({message:"If the address is registered, the account provider will send recovery instructions."})}
