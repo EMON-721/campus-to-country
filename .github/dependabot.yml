@@ -4,30 +4,18 @@ updates:
     directory: /
     schedule:
       interval: weekly
-    open-pull-requests-limit: 3
+    # Keep automated security fixes; routine version bumps are reviewed manually.
+    open-pull-requests-limit: 0
     groups:
-      react-types:
-        patterns:
-          - "@types/react"
-          - "@types/react-dom"
-      tailwind:
-        patterns:
-          - "tailwindcss"
-          - "@tailwindcss/*"
-    ignore:
-      # Next lint plugins do not yet support ESLint 10.
-      - dependency-name: eslint
-        update-types: ["version-update:semver-major"]
-      # Compiler API migration requires a dedicated upgrade of the test harness.
-      - dependency-name: typescript
-        update-types: ["version-update:semver-major"]
-      # Keep declarations aligned with the supported Node runtime.
-      - dependency-name: "@types/node"
-        update-types: ["version-update:semver-major"]
+      security:
+        applies-to: security-updates
+        patterns: ["*"]
   - package-ecosystem: github-actions
     directory: /
     schedule:
       interval: weekly
+    open-pull-requests-limit: 0
     groups:
-      github-actions:
+      security-actions:
+        applies-to: security-updates
         patterns: ["*"]
