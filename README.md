@@ -9,3 +9,12 @@ Use Node 22.x, install with `npm ci`, run `npm run dev`, and build with `npm run
 Runtime server configuration: `CTC_SUPABASE_URL` and `CTC_SUPABASE_KEY` (publishable key). Do not add a service-role key to browser code. The additive SQL migrations are in database/. Existing legacy users are not migrated. Production provider redirects, email confirmation/recovery and MFA provisioning require validation.
 
 The original logo is at public/campus-to-country-logo.png. Original listening text is media-source/campus-workshop.txt; the bundled MP3 was generated using ffmpeg's flite `slt` voice for an original practice exercise. Synthetic narration is not an official IELTS exam recording. Follow the installed ffmpeg/flite voice licensing when redistributing narration or replacing the synthesis provider.
+
+<!-- DEPLOYMENT LINKS: maintained for GitHub repository navigation -->
+## Website & repository links
+
+- **Source repository:** https://github.com/EMON-721/campus-to-country
+- **Published website URL:** https://campus-to-country.vercel.app
+- **Availability:** Deployment URL recorded; live HTTP reachability could not be independently verified on 1 November 2026.
+
+<!-- END DEPLOYMENT LINKS -->
