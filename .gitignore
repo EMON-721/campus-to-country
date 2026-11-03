@@ -15,6 +15,9 @@
 
 # next.js
 /.next/
+/.open-next/
+/.dev.vars*
+/cloudflare-env.d.ts
 /.vinext/
 /out/
 

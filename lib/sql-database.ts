@@ -1,4 +1,4 @@
-import {createClient,type Client,type InValue,type ResultSet} from '@libsql/client';
+import {createClient,type Client,type InValue,type ResultSet} from '@libsql/client/web';
 let client:Client|undefined;
 export function sqlClient(){
  if(!client){const url=process.env.TURSO_DATABASE_URL;if(!url)throw new Error('Set TURSO_DATABASE_URL and TURSO_AUTH_TOKEN in the server environment');if(process.env.VERCEL&&url.startsWith('file:'))throw new Error('Vercel requires a remote database; local files are not persistent');client=createClient({url,authToken:process.env.TURSO_AUTH_TOKEN,intMode:'number'})}

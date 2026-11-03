@@ -18,3 +18,7 @@ The original logo is at public/campus-to-country-logo.png. Original listening te
 - **Availability:** Deployment URL recorded; live HTTP reachability could not be independently verified on 1 November 2026.
 
 <!-- END DEPLOYMENT LINKS -->
+
+## Optional Cloudflare Workers (not deployed)
+
+This repository retains the existing standard Vercel deployment. A separate Cloudflare Workers/OpenNext build path, staging precautions, and manual setup steps are documented in [Cloudflare Workers readiness](docs/CLOUDFLARE-WORKERS.md). The Cloudflare setup does not deploy or change the Vercel production website.
