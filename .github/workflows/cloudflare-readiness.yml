@@ -1,4 +1,4 @@
-name: Cloudflare readiness (build only)
+name: Cloudflare readiness (safe preflight)
 on:
   workflow_dispatch:
   push:
@@ -6,7 +6,7 @@ on:
 permissions:
   contents: read
 jobs:
-  build-check:
+  preflight:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -22,5 +22,26 @@ jobs:
       - run: npm run test:runtime
       - run: npm run build
       - run: npm run cloudflare:prepare
+      - run: npm run cloudflare:check
+      - name: Report scope
+        run: |
+          echo "Preflight validated Vercel Next.js build, source checks and Cloudflare dependencies."
+          echo "A runnable Cloudflare Worker build is NOT certified by this workflow."
+          echo "The optional manual worker-build job checks that separately."
+  worker-build:
+    # Opt-in only: upstream OpenNext currently cannot bundle this project's Node proxy + libSQL exports.
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm run cloudflare:prepare
       - run: npm run cloudflare:build
-      # No deploy, production credentials, database migration or account access.
+      # No deployment credentials, no Worker deploy, no production migrations.
