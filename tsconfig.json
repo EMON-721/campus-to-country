@@ -45,6 +45,7 @@
     "examples",
     "legacy",
     "build",
-    "deployment"
+    "deployment",
+    "open-next.config.ts"
   ]
 }
