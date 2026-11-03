@@ -1,3 +1,6 @@
-// Optional Cloudflare Workers target; Vercel continues using next.config.ts.
+// Cloudflare-only adapter. Keep Vercel's standard next build untouched.
+// Webpack traces conditional workerd exports missing from Turbopack's Node middleware trace.
 import {defineCloudflareConfig} from '@opennextjs/cloudflare';
-export default defineCloudflareConfig();
+export default defineCloudflareConfig({
+  buildCommand: 'npx next build --webpack',
+});
