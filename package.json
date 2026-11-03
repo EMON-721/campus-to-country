@@ -15,7 +15,12 @@
     "test:runtime": "node --test tests-vercel-runtime.mjs",
     "security:secrets": "node scripts/check-secrets.mjs",
     "security:audit": "npm audit --omit=dev --audit-level=high",
-    "check:deployment": "node --experimental-strip-types --env-file-if-exists=.env.local scripts/check-deployment.mts"
+    "check:deployment": "node --experimental-strip-types --env-file-if-exists=.env.local scripts/check-deployment.mts",
+    "cloudflare:prepare": "npm install --no-save --package-lock=false @opennextjs/cloudflare@1.20.15 wrangler@4.68.0",
+    "cloudflare:check": "node scripts/cloudflare-preflight.mjs",
+    "cloudflare:build": "npm run cloudflare:check && opennextjs-cloudflare build",
+    "cloudflare:preview": "npm run cloudflare:build && opennextjs-cloudflare preview",
+    "cloudflare:deploy": "npm run cloudflare:build && opennextjs-cloudflare deploy"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",
