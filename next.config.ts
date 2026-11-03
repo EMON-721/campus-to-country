@@ -3,8 +3,6 @@ import {securityHeaders,privateHeaders} from './lib/security-headers';
 // Default serverless output: API routes, cookies and private data require a server.
 const nextConfig:NextConfig={
  reactStrictMode:true,poweredByHeader:false,
- // Preserve the workerd-specific libSQL WebSocket export during OpenNext bundling.
- serverExternalPackages:['@libsql/isomorphic-ws'],
  experimental:{turbopackFileSystemCacheForBuild:false},
  async headers(){return [
   {source:'/:path*',headers:securityHeaders},
