@@ -57,3 +57,13 @@ No D1/R2 data migration is performed or required by this optional deployment pat
 Cloudflare Workers deployment does **not** automatically replace or disable the Vercel website.
 
 Official references: https://developers.cloudflare.com/workers/framework-guides/web-apps/opennext/ and https://developers.cloudflare.com/workers/framework-guides/web-apps/nextjs/ .
+
+## Current verified build limitation (3 November 2026)
+
+The initial GitHub Actions failures included an npm peer dependency mismatch: `@opennextjs/cloudflare@1.20.15` requires `wrangler ^4.148.0`. The optional installer now pins compatible `wrangler@4.156.0`, and GitHub verified that installation succeeded.
+
+The next actual Worker build still fails **after a successful Next.js production build** while bundling `proxy.ts` with a Turso/libSQL dependency: `Could not resolve "@libsql/isomorphic-ws"` because `.open-next/middleware/node_modules/@libsql/isomorphic-ws/web.mjs` is absent. Trying `serverExternalPackages` and a Cloudflare-only webpack build did **not** fix it. Those unsuccessful experimental edits were reverted. The underlying Node middleware bundler remains experimental in OpenNext; do not bypass `proxy.ts` security controls or replace Turso with an unsafe mock merely to make CI green.
+
+The **automatic** Cloudflare readiness workflow now performs only source tests, runtime tests, the existing Next.js build and the adapter dependency installation. It explicitly **does not certify a Cloudflare Worker**. The `worker-build` job is separate and **only runs on manual workflow dispatch**. It remains a meaningful compatibility gate and may fail until the bundling issue is resolved. This avoids emailing automatic deployment-readiness failures on every branch update, without hiding an unsupported production build.
+
+For future completion, prefer evaluating Cloudflare's currently recommended [vinext migration](https://developers.cloudflare.com/workers/framework-guides/web-apps/nextjs/) on a separate feature branch. Vinext has a non-destructive migration path and supports `proxy.ts`; the application's Turso/Supabase/auth/upload features still require full Worker staging validation. Do not merge a future vinext or OpenNext approach into `main` until deployment and end-to-end authorization tests pass.
