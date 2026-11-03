@@ -1,0 +1,26 @@
+name: Cloudflare readiness (build only)
+on:
+  workflow_dispatch:
+  push:
+    branches: [cloudflare-workers-readiness-2026]
+permissions:
+  contents: read
+jobs:
+  build-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: node --test tests-cloudflare-source.mjs
+      - run: npm run test:runtime
+      - run: npm run build
+      - run: npm run cloudflare:prepare
+      - run: npm run cloudflare:build
+      # No deploy, production credentials, database migration or account access.
