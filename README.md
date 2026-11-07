@@ -1,10 +1,5 @@
 # Campus to Country
 
-## Platform and administration
-
-Campus to Country brings country and university research, applications, documents, finance preparation and related planning into one workspace. Its administration modules cover managed programme and source data, editorial content and account-level operations. Privileged actions must be authorized by the backend; configuration and production integrations are described in [the development checkpoint](docs/CHECKPOINT.md). The repository also retains the documented migration path for the existing Vercel deployment.
-
-
 Private integrated study-abroad platform checkpoint. The latest owner specification is [docs/MASTER_PROMPT_v4.0.txt](docs/MASTER_PROMPT_v4.0.txt). Read [docs/CHECKPOINT.md](docs/CHECKPOINT.md) for tested behavior, source preservation and incomplete requirements before treating this as production ready.
 
 ## Development
