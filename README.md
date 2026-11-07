@@ -1,5 +1,10 @@
 # Campus to Country
 
+## Platform and administration
+
+Campus to Country brings country and university research, applications, documents, finance preparation and related planning into one workspace. Its administration modules cover managed programme and source data, editorial content and account-level operations. Privileged actions must be authorized by the backend; configuration and production integrations are described in [the development checkpoint](docs/CHECKPOINT.md). The repository also retains the documented migration path for the existing Vercel deployment.
+
+
 Private integrated study-abroad platform checkpoint. The latest owner specification is [docs/MASTER_PROMPT_v4.0.txt](docs/MASTER_PROMPT_v4.0.txt). Read [docs/CHECKPOINT.md](docs/CHECKPOINT.md) for tested behavior, source preservation and incomplete requirements before treating this as production ready.
 
 ## Development
@@ -10,11 +15,8 @@ Runtime server configuration: `CTC_SUPABASE_URL` and `CTC_SUPABASE_KEY` (publish
 
 The original logo is at public/campus-to-country-logo.png. Original listening text is media-source/campus-workshop.txt; the bundled MP3 was generated using ffmpeg's flite `slt` voice for an original practice exercise. Synthetic narration is not an official IELTS exam recording. Follow the installed ffmpeg/flite voice licensing when redistributing narration or replacing the synthesis provider.
 
-<!-- DEPLOYMENT LINKS: maintained for GitHub repository navigation -->
 ## Website & repository links
 
-- **Source repository:** https://github.com/EMON-721/campus-to-country
+- **Source repository:** https://github.com/emonhossain24/campus-to-country
 - **Published website URL:** https://campus-to-country.vercel.app
-- **Availability:** Deployment URL recorded; live HTTP reachability could not be independently verified on 1 November 2026.
 
-<!-- END DEPLOYMENT LINKS -->
